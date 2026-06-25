@@ -39,6 +39,29 @@ export function groupResultsByTime(items) {
   }));
 }
 
+export function groupResultsByDate(items) {
+  const groups = new Map();
+
+  for (const item of sortBySchedule(items)) {
+    const key = item.date || "date-tbd";
+
+    if (!groups.has(key)) {
+      groups.set(key, {
+        key,
+        label: item.date ? formatDayLabel(item.date) : "Date TBD",
+        items: []
+      });
+    }
+
+    groups.get(key).items.push(item);
+  }
+
+  return [...groups.values()].map((group) => ({
+    ...group,
+    items: group.items.sort(compareWithinDateGroup)
+  }));
+}
+
 function sortBySchedule(items) {
   return [...items].sort(
     (a, b) =>
@@ -51,6 +74,16 @@ function sortBySchedule(items) {
 
 function compareWithinTimeGroup(a, b) {
   return (
+    (a.room || "").localeCompare(b.room || "") ||
+    (a.track || "").localeCompare(b.track || "") ||
+    (a.title || "").localeCompare(b.title || "")
+  );
+}
+
+function compareWithinDateGroup(a, b) {
+  return (
+    (a.startTime || "").localeCompare(b.startTime || "") ||
+    (a.endTime || "").localeCompare(b.endTime || "") ||
     (a.room || "").localeCompare(b.room || "") ||
     (a.track || "").localeCompare(b.track || "") ||
     (a.title || "").localeCompare(b.title || "")

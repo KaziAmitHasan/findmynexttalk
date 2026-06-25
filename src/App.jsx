@@ -4,7 +4,7 @@ import { parseQuery } from "./search/queryParser.js";
 import { expandQueryWithSynonyms } from "./search/synonymMap.js";
 import { searchProgram } from "./search/localSearch.js";
 import { buildLiveSchedule } from "./utils/liveSchedule.js";
-import { groupResultsByTime, isScheduleLikeQuery } from "./utils/resultGrouping.js";
+import { groupResultsByDate } from "./utils/resultGrouping.js";
 import { conferenceDataPath, conferenceRoute, getConferenceSlug } from "./utils/conferenceRouting.js";
 
 const SAMPLE_PROMPTS = [
@@ -110,7 +110,6 @@ export default function App() {
     return applyUiFilters(
       searchProgram(program, expanded, parsedQuery, {
         hidePastEvents,
-        hasExplicitDateFilter: Boolean(filters.day),
         conferenceDates,
         timeZone: metadata?.timezone,
         now: currentTime
@@ -130,10 +129,9 @@ export default function App() {
   );
 
   const filterOptions = useMemo(() => buildFilterOptions(program), [program]);
-  const showScheduleGroups = useMemo(() => isScheduleLikeQuery(parsedQuery), [parsedQuery]);
   const resultGroups = useMemo(
-    () => (showScheduleGroups ? groupResultsByTime(results) : []),
-    [results, showScheduleGroups]
+    () => groupResultsByDate(results),
+    [results]
   );
   const noResultSuggestions = useMemo(
     () => buildNoResultSuggestions(parsedQuery, filterOptions),
@@ -343,8 +341,8 @@ export default function App() {
           </details>
         ) : null}
 
-        {hasSubmittedSearch && showScheduleGroups ? (
-          <section className="schedule-results" aria-label="Search results grouped by time">
+        {hasSubmittedSearch && results.length ? (
+          <section className="schedule-results" aria-label="Search results grouped by date">
             {resultGroups.map((group) => (
               <section className="time-group" key={group.key}>
                 <div className="time-group-header">
@@ -356,10 +354,6 @@ export default function App() {
                 </div>
               </section>
             ))}
-          </section>
-        ) : hasSubmittedSearch ? (
-          <section className="results-grid" aria-label="Search results">
-            {results.map((item) => renderTalkCard(item))}
           </section>
         ) : null}
 

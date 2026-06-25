@@ -201,11 +201,23 @@ test("hide past events removes ended events during the conference", () => {
   assert.ok(results.some((item) => item.id === "future-room-talk"));
 });
 
-test("hide past events is bypassed for explicit date queries", () => {
+test("hide past events also applies to explicit past date queries", () => {
   const query = "what is in MB 3.210 on Monday";
   const parsed = parseQuery(query);
   const results = searchProgram(program, query, parsed, {
     hidePastEvents: true,
+    now: "2026-07-07T10:00:00-04:00",
+    timeZone: "America/Toronto"
+  });
+
+  assert.deepEqual(results, []);
+});
+
+test("past explicit date queries are available when hide past events is disabled", () => {
+  const query = "what is in MB 3.210 on Monday";
+  const parsed = parseQuery(query);
+  const results = searchProgram(program, query, parsed, {
+    hidePastEvents: false,
     now: "2026-07-07T10:00:00-04:00",
     timeZone: "America/Toronto"
   });

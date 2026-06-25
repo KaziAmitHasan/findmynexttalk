@@ -75,7 +75,7 @@ export function searchProgram(program, expandedQuery, parsedQuery, options = {})
 }
 
 export function buildTimeAwareness(program, parsedQuery, options = {}) {
-  if (!options.hidePastEvents || parsedQuery.hasExplicitDate || options.hasExplicitDateFilter) {
+  if (!options.hidePastEvents) {
     return { enabled: false };
   }
 

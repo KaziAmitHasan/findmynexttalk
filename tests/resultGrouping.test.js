@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { groupResultsByTime, isScheduleLikeQuery } from "../src/utils/resultGrouping.js";
+import { groupResultsByDate, groupResultsByTime, isScheduleLikeQuery } from "../src/utils/resultGrouping.js";
 
 test("detects schedule-like queries from structured time and room filters", () => {
   assert.equal(
@@ -77,5 +77,43 @@ test("groups results by date, start time, and end time", () => {
   assert.deepEqual(
     groups.map((group) => group.items.map((item) => item.id).join(",")),
     ["a,b", "c"]
+  );
+});
+
+test("groups results by date and sorts items within each day by time", () => {
+  const groups = groupResultsByDate([
+    {
+      id: "c",
+      date: "2026-07-07",
+      startTime: "09:00",
+      endTime: "09:20",
+      room: "MB 1.210",
+      title: "Tuesday"
+    },
+    {
+      id: "b",
+      date: "2026-07-06",
+      startTime: "14:00",
+      endTime: "14:20",
+      room: "MB 3.210",
+      title: "Afternoon"
+    },
+    {
+      id: "a",
+      date: "2026-07-06",
+      startTime: "09:00",
+      endTime: "09:20",
+      room: "MB 1.210",
+      title: "Morning"
+    }
+  ]);
+
+  assert.deepEqual(
+    groups.map((group) => group.label),
+    ["Mon, Jul 6", "Tue, Jul 7"]
+  );
+  assert.deepEqual(
+    groups[0].items.map((item) => item.id),
+    ["a", "b"]
   );
 });

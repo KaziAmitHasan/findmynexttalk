@@ -139,12 +139,26 @@ test("real data live conference search hides past generic results", () => {
   assert.ok(!results.some((item) => item.date < "2026-07-07"));
 });
 
-test("real data live conference search respects explicit past dates", () => {
+test("real data live conference search hides explicit past dates by default", () => {
   const results = runSearch(
     "Find talks about GitHub pull requests on Monday",
     {},
     {
       hidePastEvents: true,
+      now: "2026-07-07T10:00:00-04:00",
+      timeZone: "America/Toronto"
+    }
+  );
+
+  assert.deepEqual(results, []);
+});
+
+test("real data live conference search can show explicit past dates when hide past events is disabled", () => {
+  const results = runSearch(
+    "Find talks about GitHub pull requests on Monday",
+    {},
+    {
+      hidePastEvents: false,
       now: "2026-07-07T10:00:00-04:00",
       timeZone: "America/Toronto"
     }
