@@ -33,6 +33,7 @@ export default function App() {
   const [filters, setFilters] = useState({ day: "", track: "", room: "" });
   const [hidePastEvents, setHidePastEvents] = useState(true);
   const [currentTime, setCurrentTime] = useState(() => new Date());
+  const [expandedResultIds, setExpandedResultIds] = useState(() => new Set());
   const [loadError, setLoadError] = useState("");
 
   useEffect(() => {
@@ -86,6 +87,10 @@ export default function App() {
     const timer = window.setInterval(() => setCurrentTime(new Date()), 60_000);
     return () => window.clearInterval(timer);
   }, []);
+
+  useEffect(() => {
+    setExpandedResultIds(new Set());
+  }, [submittedQuery, filters, hidePastEvents]);
 
   const conferenceDates = useMemo(
     () => [...new Set(program.map((item) => item.date).filter(Boolean))].sort(),
@@ -151,6 +156,26 @@ export default function App() {
   function showLiveSchedule() {
     setQuery("");
     setSubmittedQuery("");
+  }
+
+  function expandAllResults() {
+    setExpandedResultIds(new Set(results.map((item) => item.id)));
+  }
+
+  function collapseAllResults() {
+    setExpandedResultIds(new Set());
+  }
+
+  function toggleResultDetails(id, isOpen) {
+    setExpandedResultIds((current) => {
+      const next = new Set(current);
+      if (isOpen) {
+        next.add(id);
+      } else {
+        next.delete(id);
+      }
+      return next;
+    });
   }
 
   if (!conferenceSlug) {
@@ -342,15 +367,37 @@ export default function App() {
         ) : null}
 
         {hasSubmittedSearch && results.length ? (
+          <section className="result-toolbar" aria-label="Search result controls">
+            <nav className="date-jump" aria-label="Jump to result date">
+              {resultGroups.map((group) => (
+                <a href={`#results-${group.key}`} key={group.key}>
+                  {group.label}
+                  <span>{group.items.length}</span>
+                </a>
+              ))}
+            </nav>
+            <div className="detail-controls">
+              <button type="button" onClick={expandAllResults}>Expand all</button>
+              <button type="button" onClick={collapseAllResults}>Collapse all</button>
+            </div>
+          </section>
+        ) : null}
+
+        {hasSubmittedSearch && results.length ? (
           <section className="schedule-results" aria-label="Search results grouped by date">
             {resultGroups.map((group) => (
-              <section className="time-group" key={group.key}>
+              <section className="time-group" id={`results-${group.key}`} key={group.key}>
                 <div className="time-group-header">
                   <h2>{group.label}</h2>
                   <span>{group.items.length} item{group.items.length === 1 ? "" : "s"}</span>
                 </div>
                 <div className="results-grid">
-                  {group.items.map((item) => renderTalkCard(item))}
+                  {group.items.map((item) =>
+                    renderTalkCard(item, {
+                      expanded: expandedResultIds.has(item.id),
+                      onToggle: (isOpen) => toggleResultDetails(item.id, isOpen)
+                    })
+                  )}
                 </div>
               </section>
             ))}
@@ -407,17 +454,28 @@ function LiveScheduleView({ liveSchedule }) {
   );
 }
 
-function renderTalkCard(item) {
+function renderTalkCard(item, options = {}) {
   return (
-    <article className="talk-card" key={item.id}>
+    <article
+      className="talk-card"
+      key={item.id}
+      style={{ "--track-color": trackColor(item.track) }}
+    >
       <div className="result-brief">
         <div>
-          <p className="result-time">{formatDateTime(item)}</p>
+          <div className="result-meta-row">
+            <span className="result-time">{formatDateTime(item)}</span>
+            <span className="badge room-badge">{item.room || "Location TBD"}</span>
+            {item.track ? <span className="badge track-badge">{item.track}</span> : null}
+          </div>
           <h3>{item.title}</h3>
         </div>
-        <p className="room-line">{item.room || "Location not assigned"}</p>
       </div>
-      <details className="card-details">
+      <details
+        className="card-details"
+        open={options.expanded}
+        onToggle={(event) => options.onToggle?.(event.currentTarget.open)}
+      >
         <summary>More details</summary>
         <div className="speaker-list">{formatAuthors(item)}</div>
         <dl>
@@ -584,4 +642,25 @@ function truncateText(value, maxLength) {
   }
 
   return `${value.slice(0, maxLength).trim()}...`;
+}
+
+function trackColor(track) {
+  const palette = [
+    "#0b5d6b",
+    "#7a4e00",
+    "#3f6b2a",
+    "#7b2e4a",
+    "#3559a6",
+    "#6b4aa0",
+    "#8a4b16",
+    "#2f6670"
+  ];
+  const value = String(track || "default");
+  let hash = 0;
+
+  for (let index = 0; index < value.length; index += 1) {
+    hash = (hash * 31 + value.charCodeAt(index)) % palette.length;
+  }
+
+  return palette[hash];
 }

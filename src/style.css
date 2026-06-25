@@ -388,6 +388,66 @@ h1 {
   color: #b42318;
 }
 
+.result-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.date-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.date-jump a {
+  display: inline-flex;
+  min-height: 28px;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 9px;
+  border: 1px solid #c6d3d8;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #34464e;
+  font-size: 0.75rem;
+  font-weight: 850;
+  text-decoration: none;
+}
+
+.date-jump span {
+  display: inline-flex;
+  min-width: 18px;
+  min-height: 18px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: #edf3f5;
+  color: #405159;
+  font-size: 0.68rem;
+}
+
+.detail-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: flex-end;
+}
+
+.detail-controls button {
+  min-height: 28px;
+  padding: 4px 9px;
+  border: 1px solid #c6d3d8;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #0b5d6b;
+  cursor: pointer;
+  font-size: 0.75rem;
+  font-weight: 850;
+}
+
 .live-schedule {
   display: grid;
   gap: 16px;
@@ -431,26 +491,31 @@ h1 {
 
 .results-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 330px), 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 310px), 1fr));
+  gap: 9px;
 }
 
 .schedule-results {
   display: grid;
-  gap: 18px;
+  gap: 16px;
 }
 
 .time-group {
   display: grid;
   gap: 9px;
+  scroll-margin-top: 12px;
 }
 
 .time-group-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  padding: 0 1px;
+  padding: 6px 1px;
+  background: #f4f6f8;
 }
 
 .time-group-header h2 {
@@ -466,70 +531,86 @@ h1 {
 }
 
 .talk-card {
+  --track-color: #0b5d6b;
   display: flex;
   flex-direction: column;
-  gap: 11px;
-  padding: 13px;
+  gap: 8px;
+  padding: 10px 11px 10px 13px;
   border: 1px solid #d8e1e4;
+  border-left: 4px solid var(--track-color);
   border-radius: 8px;
   background: #ffffff;
-  box-shadow: 0 8px 20px rgb(20 34 42 / 7%);
+  box-shadow: 0 4px 12px rgb(20 34 42 / 6%);
 }
 
 .result-brief {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 14px;
-  align-items: start;
+  min-width: 0;
 }
 
 .result-time {
-  margin-bottom: 4px;
   color: #4c5f67;
   font-size: 0.78rem;
   font-weight: 850;
 }
 
-.talk-card h3 {
-  margin: 0;
-  font-size: 1rem;
-  line-height: 1.28;
+.result-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
 }
 
-.room-line,
+.badge {
+  display: inline-flex;
+  min-height: 21px;
+  max-width: 100%;
+  align-items: center;
+  padding: 2px 7px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 850;
+  line-height: 1.2;
+}
+
+.room-badge {
+  background: #edf3f5;
+  color: #2f424a;
+}
+
+.track-badge {
+  border: 1px solid color-mix(in srgb, var(--track-color) 35%, #ffffff);
+  background: color-mix(in srgb, var(--track-color) 10%, #ffffff);
+  color: #263940;
+}
+
+.talk-card h3 {
+  margin: 0;
+  font-size: 0.94rem;
+  line-height: 1.25;
+}
+
 .why-match,
 .abstract {
   margin-bottom: 0;
 }
 
-.room-line {
-  min-width: 92px;
-  padding: 3px 8px;
-  border-radius: 999px;
-  background: #edf3f5;
-  color: #2f424a;
-  font-size: 0.82rem;
-  font-weight: 850;
-  text-align: center;
-  white-space: nowrap;
-}
-
 .card-details {
   border-top: 1px solid #edf2f4;
-  padding-top: 8px;
+  padding-top: 6px;
 }
 
 .card-details summary {
   display: inline-flex;
-  min-height: 25px;
+  min-height: 23px;
   align-items: center;
-  padding: 3px 8px;
+  padding: 2px 7px;
   border: 1px solid #c7d5da;
   border-radius: 999px;
   background: #ffffff;
   color: #0b5d6b;
   cursor: pointer;
-  font-size: 0.74rem;
+  font-size: 0.72rem;
   font-weight: 850;
   list-style-position: inside;
 }
@@ -580,13 +661,13 @@ h1 {
 }
 
 .abstract {
-  margin-top: 10px;
+  margin-top: 8px;
   color: #33464e;
   font-size: 0.88rem;
 }
 
 .why-match {
-  margin-top: 10px;
+  margin-top: 8px;
   color: #4a5d65;
   font-size: 0.84rem;
 }
@@ -637,6 +718,15 @@ footer {
     width: 100%;
   }
 
+  .result-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .detail-controls {
+    justify-content: flex-start;
+  }
+
   .live-header {
     align-items: start;
     flex-direction: column;
@@ -655,15 +745,6 @@ footer {
   .search-form,
   .talk-card {
     padding: 12px;
-  }
-
-  .result-brief {
-    grid-template-columns: 1fr;
-    gap: 8px;
-  }
-
-  .room-line {
-    width: fit-content;
   }
 
   .card-details dl {
