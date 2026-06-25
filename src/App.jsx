@@ -235,7 +235,7 @@ export default function App() {
         <div className="control-disclosures">
           {hasSubmittedSearch ? (
             <button className="live-button" type="button" onClick={showLiveSchedule}>
-              Now / Next
+              Homepage
             </button>
           ) : null}
 
@@ -385,7 +385,7 @@ function LiveScheduleView({ liveSchedule }) {
     <section className="live-schedule" aria-label="Live schedule">
       <div className="live-header">
         <div>
-          <p className="eyebrow">Now / Next</p>
+          <p className="eyebrow">Homepage</p>
           <h2>{liveSchedule.status === "during" ? "Happening now" : "Upcoming schedule"}</h2>
         </div>
         <span>{statusText}</span>
