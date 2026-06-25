@@ -58,6 +58,21 @@ test("real data institution search handles apostrophes in university names", () 
   assert.ok(results.every((item) => /queen.?s university/i.test(affiliations(item))));
 });
 
+test("real data institution search handles missing apostrophes in university names", () => {
+  const queries = [
+    "papers from Queen's University",
+    "papers from Queens University",
+    "papers from Queen’s University"
+  ];
+
+  for (const query of queries) {
+    const results = runSearch(query);
+
+    assert.ok(results.length >= 5);
+    assert.ok(results.every((item) => /queen.?s university/i.test(affiliations(item))));
+  }
+});
+
 test("real data keynote query returns only keynote events", () => {
   const results = runSearch("keynotes");
 

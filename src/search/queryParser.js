@@ -142,6 +142,7 @@ export function parseQuery(query, options = {}) {
 export function normalizeText(value) {
   return String(value ?? "")
     .toLowerCase()
+    .replace(/([a-z0-9])['’]([a-z0-9])/g, "$1$2")
     .replace(/[^\w\s./:-]/g, " ")
     .replace(/\s+/g, " ")
     .trim();
@@ -260,9 +261,9 @@ export function detectRoom(query) {
 
 export function detectSpeaker(query) {
   const value = String(query ?? "").trim();
-  const byMatch = value.match(/\b(?:talks?|papers?|presentations?|sessions?)\s+(?:by|from|of)\s+([A-Za-z][A-Za-z .'-]{1,80})/i);
-  const directByMatch = value.match(/\b(?:by|from)\s+([A-Za-z][A-Za-z .'-]{1,80})/i);
-  const presentingMatch = value.match(/\b(?:when is|when does|is)\s+([A-Za-z][A-Za-z .'-]{1,80}?)\s+(?:presenting|speaking|talking)\b/i);
+  const byMatch = value.match(/\b(?:talks?|papers?|presentations?|sessions?)\s+(?:by|from|of)\s+([A-Za-z][A-Za-z .'\-’]{1,80})/i);
+  const directByMatch = value.match(/\b(?:by|from)\s+([A-Za-z][A-Za-z .'\-’]{1,80})/i);
+  const presentingMatch = value.match(/\b(?:when is|when does|is)\s+([A-Za-z][A-Za-z .'\-’]{1,80}?)\s+(?:presenting|speaking|talking)\b/i);
 
   const rawSpeaker = byMatch?.[1] || directByMatch?.[1] || presentingMatch?.[1] || "";
   return rawSpeaker.replace(/[?.,!]+$/g, "").trim();

@@ -35,6 +35,12 @@ test("detects speaker from talks of query", () => {
   assert.equal(parsed.speaker, "David Loo");
 });
 
+test("detects institution names with straight or curly apostrophes", () => {
+  assert.equal(parseQuery("papers from Queen's University").speaker, "Queen's University");
+  assert.equal(parseQuery("papers from Queen’s University").speaker, "Queen’s University");
+  assert.equal(parseQuery("papers from Queens University").speaker, "Queens University");
+});
+
 test("detects keynote as an event type instead of a topic", () => {
   const parsed = parseQuery("AIware keynotes");
 

@@ -105,6 +105,22 @@ const program = [
     sourceUrl: "https://conf.researchr.org/program/fse-2026/program-fse-2026/",
     keywords: ["coding agents"],
     searchText: "Configuring Agentic AI Coding Tools Christoph Treude Singapore Management University"
+  },
+  {
+    id: "queens-talk",
+    title: "Pull Request Security",
+    abstract: "",
+    authors: [{ name: "Kazi Amit Hasan", affiliation: "Queen's University" }],
+    speakerNames: ["Kazi Amit Hasan"],
+    track: "Doctoral Symposium",
+    session: "Software Evolution",
+    date: "2026-07-06",
+    startTime: "14:45",
+    endTime: "15:00",
+    room: "MB 3.210",
+    sourceUrl: "https://conf.researchr.org/program/fse-2026/program-fse-2026/",
+    keywords: ["pull request"],
+    searchText: "Pull Request Security Kazi Amit Hasan Queen's University Doctoral Symposium"
   }
 ];
 
@@ -147,9 +163,11 @@ test("speaker query filters out unrelated stopword matches", () => {
 
   const results = searchProgram(program, query, parsed);
 
-  assert.equal(results.length, 2);
-  assert.equal(results[0].id, "pull-request-talk");
-  assert.equal(results[1].id, "pull-request-full-talk");
+  assert.equal(results.length, 3);
+  assert.deepEqual(
+    new Set(results.map((item) => item.id)),
+    new Set(["pull-request-talk", "pull-request-full-talk", "queens-talk"])
+  );
   assert.match(results[0].whyMatched, /speaker is Kazi/);
 });
 
@@ -240,4 +258,15 @@ test("bare institution query is inferred as affiliation intent", () => {
     results.map((item) => item.id),
     ["smu-talk", "david-lo-talk"]
   );
+});
+
+test("institution query ignores apostrophes in affiliation names", () => {
+  const queries = ["Queen's University", "Queens University", "Queen’s University"];
+
+  for (const query of queries) {
+    const parsed = parseQuery(query);
+    const results = searchProgram(program, query, parsed);
+
+    assert.deepEqual(results.map((item) => item.id), ["queens-talk"]);
+  }
 });
