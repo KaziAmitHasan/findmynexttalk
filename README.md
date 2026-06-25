@@ -7,7 +7,7 @@ A static, GitHub Pages-friendly search tool for the FSE 2026 conference program.
 The app is deployed at:
 
 ```text
-https://kaziamithasan89.github.io/findmynexttalk/
+https://KaziAmitHasan.github.io/findmynexttalk/
 ```
 
 ## Current Status
