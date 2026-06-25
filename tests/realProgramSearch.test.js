@@ -111,6 +111,18 @@ test("real data combined track and topic query requires both constraints", () =>
   );
 });
 
+test("real data GitHub pull request query keeps broad relevant results", () => {
+  const results = runSearch("Find talks about GitHub pull requests");
+
+  assert.equal(results.length, 12);
+  assert.ok(
+    results.some((item) => item.title === "Towards Efficient and Secure Pull-Request-Based Software Development")
+  );
+  assert.ok(
+    results.some((item) => item.title === "When Code Authors Are Agents: A Large-Scale Study of Human–Agent Collaboration in Pull Requests")
+  );
+});
+
 test("real data calendar date and exact topic phrase query returns matching day talks", () => {
   const results = runSearch("find talks about code translation on 6th July");
 

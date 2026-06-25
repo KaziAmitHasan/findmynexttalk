@@ -68,7 +68,7 @@ export function searchProgram(program, expandedQuery, parsedQuery) {
     ? scoredItems.filter((item) => item._hasPhraseMatch)
     : [];
 
-  return (phraseMatchedItems.length ? phraseMatchedItems : scoredItems)
+  return (phraseMatchedItems.length >= 2 ? phraseMatchedItems : scoredItems)
     .sort((a, b) => b._score - a._score || compareSchedule(a, b))
     .slice(0, 12);
 }
@@ -133,7 +133,22 @@ function buildSearchTerms(expandedQuery, parsedQuery) {
         .split(/\s+/)
         .filter((term) => term.length > 1);
 
-  return [...new Set(rawTerms.map(normalizeText).filter(Boolean))];
+  const normalizedTerms = rawTerms.map(normalizeText).filter(Boolean);
+  const expandedTerms = normalizedTerms.flatMap((term) => [term, singularizeTerm(term)].filter(Boolean));
+
+  return [...new Set(expandedTerms)];
+}
+
+function singularizeTerm(term) {
+  if (term.length <= 3 || !term.endsWith("s") || term.endsWith("ss")) {
+    return "";
+  }
+
+  if (term.endsWith("ies") && term.length > 4) {
+    return `${term.slice(0, -3)}y`;
+  }
+
+  return term.slice(0, -1);
 }
 
 function inferPeopleOrAffiliationIntent(program, parsedQuery, terms) {
@@ -160,11 +175,15 @@ function inferPeopleOrAffiliationIntent(program, parsedQuery, terms) {
     return parsedQuery;
   }
 
-  if (terms.length < 2 || terms.length > 4) {
+  const candidateTerms = Array.isArray(parsedQuery.topicTerms) && parsedQuery.topicTerms.length
+    ? parsedQuery.topicTerms.map(normalizeText).filter(Boolean)
+    : terms;
+
+  if (candidateTerms.length < 2 || candidateTerms.length > 4) {
     return parsedQuery;
   }
 
-  const candidateName = terms.join(" ");
+  const candidateName = candidateTerms.join(" ");
   const matchingAuthorItems = program.filter((item) => personNameMatches(item, candidateName));
 
   if (!matchingAuthorItems.length) {
