@@ -9,9 +9,9 @@ import { expandQueryWithSynonyms } from "../src/search/synonymMap.js";
 const program = JSON.parse(fs.readFileSync("public/data/fse2026/program.json", "utf8"));
 const synonyms = JSON.parse(fs.readFileSync("public/data/fse2026/synonyms.json", "utf8"));
 
-function runSearch(query, options = {}) {
+function runSearch(query, options = {}, searchOptions = {}) {
   const parsed = parseQuery(query, options);
-  return searchProgram(program, expandQueryWithSynonyms(query, synonyms), parsed);
+  return searchProgram(program, expandQueryWithSynonyms(query, synonyms), parsed, searchOptions);
 }
 
 function authorNames(item) {
@@ -121,6 +121,37 @@ test("real data GitHub pull request query keeps broad relevant results", () => {
   assert.ok(
     results.some((item) => item.title === "When Code Authors Are Agents: A Large-Scale Study of Human–Agent Collaboration in Pull Requests")
   );
+});
+
+test("real data live conference search hides past generic results", () => {
+  const results = runSearch(
+    "Find talks about GitHub pull requests",
+    {},
+    {
+      hidePastEvents: true,
+      now: "2026-07-07T10:00:00-04:00",
+      timeZone: "America/Toronto"
+    }
+  );
+
+  assert.ok(results.length >= 1);
+  assert.ok(results.every((item) => item.date > "2026-07-07" || item.endTime >= "10:00"));
+  assert.ok(!results.some((item) => item.date < "2026-07-07"));
+});
+
+test("real data live conference search respects explicit past dates", () => {
+  const results = runSearch(
+    "Find talks about GitHub pull requests on Monday",
+    {},
+    {
+      hidePastEvents: true,
+      now: "2026-07-07T10:00:00-04:00",
+      timeZone: "America/Toronto"
+    }
+  );
+
+  assert.ok(results.length >= 2);
+  assert.ok(results.every((item) => item.date === "2026-07-06"));
 });
 
 test("real data calendar date and exact topic phrase query returns matching day talks", () => {

@@ -121,6 +121,22 @@ const program = [
     sourceUrl: "https://conf.researchr.org/program/fse-2026/program-fse-2026/",
     keywords: ["pull request"],
     searchText: "Pull Request Security Kazi Amit Hasan Queen's University Doctoral Symposium"
+  },
+  {
+    id: "future-room-talk",
+    title: "Future Pull Request Testing",
+    abstract: "",
+    authors: [{ name: "Ada Future" }],
+    speakerNames: ["Ada Future"],
+    track: "Research Papers",
+    session: "Software Testing",
+    date: "2026-07-07",
+    startTime: "13:00",
+    endTime: "13:20",
+    room: "MB 3.210",
+    sourceUrl: "https://conf.researchr.org/program/fse-2026/program-fse-2026/",
+    keywords: ["pull request", "testing"],
+    searchText: "Future Pull Request Testing Ada Future Research Papers Software Testing MB 3.210"
   }
 ];
 
@@ -155,6 +171,60 @@ test("structured date and time-band search returns matching day events", () => {
   assert.ok(results.length >= 1);
   assert.ok(results.every((item) => item.date === "2026-07-06"));
   assert.ok(results.every((item) => item.startTime < "12:00"));
+});
+
+test("hide past events keeps ongoing and future events during the conference", () => {
+  const query = "what is in MB 3.210";
+  const parsed = parseQuery(query);
+  const results = searchProgram(program, query, parsed, {
+    hidePastEvents: true,
+    now: "2026-07-06T09:34:00-04:00",
+    timeZone: "America/Toronto"
+  });
+
+  assert.ok(results.some((item) => item.id === "pull-request-talk"));
+  assert.ok(results.some((item) => item.id === "pull-request-full-talk"));
+  assert.ok(results.some((item) => item.id === "future-room-talk"));
+});
+
+test("hide past events removes ended events during the conference", () => {
+  const query = "what is in MB 3.210";
+  const parsed = parseQuery(query);
+  const results = searchProgram(program, query, parsed, {
+    hidePastEvents: true,
+    now: "2026-07-06T09:37:00-04:00",
+    timeZone: "America/Toronto"
+  });
+
+  assert.ok(!results.some((item) => item.id === "pull-request-talk"));
+  assert.ok(results.some((item) => item.id === "pull-request-full-talk"));
+  assert.ok(results.some((item) => item.id === "future-room-talk"));
+});
+
+test("hide past events is bypassed for explicit date queries", () => {
+  const query = "what is in MB 3.210 on Monday";
+  const parsed = parseQuery(query);
+  const results = searchProgram(program, query, parsed, {
+    hidePastEvents: true,
+    now: "2026-07-07T10:00:00-04:00",
+    timeZone: "America/Toronto"
+  });
+
+  assert.ok(results.some((item) => item.id === "pull-request-talk"));
+  assert.ok(results.every((item) => item.date === "2026-07-06"));
+});
+
+test("hide past events has no effect before the conference starts", () => {
+  const query = "what is in MB 3.210";
+  const parsed = parseQuery(query);
+  const results = searchProgram(program, query, parsed, {
+    hidePastEvents: true,
+    now: "2026-06-25T12:00:00-04:00",
+    timeZone: "America/Toronto"
+  });
+
+  assert.ok(results.some((item) => item.id === "pull-request-talk"));
+  assert.ok(results.some((item) => item.id === "future-room-talk"));
 });
 
 test("speaker query filters out unrelated stopword matches", () => {

@@ -30,6 +30,8 @@ export default function App() {
   const [query, setQuery] = useState("Find talks about GitHub pull requests");
   const [submittedQuery, setSubmittedQuery] = useState("Find talks about GitHub pull requests");
   const [filters, setFilters] = useState({ day: "", track: "", room: "" });
+  const [hidePastEvents, setHidePastEvents] = useState(true);
+  const [currentTime, setCurrentTime] = useState(() => new Date());
   const [loadError, setLoadError] = useState("");
 
   useEffect(() => {
@@ -79,6 +81,11 @@ export default function App() {
     loadData();
   }, [conferenceSlug]);
 
+  useEffect(() => {
+    const timer = window.setInterval(() => setCurrentTime(new Date()), 60_000);
+    return () => window.clearInterval(timer);
+  }, []);
+
   const conferenceDates = useMemo(
     () => [...new Set(program.map((item) => item.date).filter(Boolean))].sort(),
     [program]
@@ -94,8 +101,17 @@ export default function App() {
 
   const results = useMemo(() => {
     const expanded = expandQueryWithSynonyms(submittedQuery, synonyms);
-    return applyUiFilters(searchProgram(program, expanded, parsedQuery), filters);
-  }, [program, submittedQuery, synonyms, parsedQuery, filters]);
+    return applyUiFilters(
+      searchProgram(program, expanded, parsedQuery, {
+        hidePastEvents,
+        hasExplicitDateFilter: Boolean(filters.day),
+        conferenceDates,
+        timeZone: metadata?.timezone,
+        now: currentTime
+      }),
+      filters
+    );
+  }, [program, submittedQuery, synonyms, parsedQuery, filters, hidePastEvents, conferenceDates, metadata, currentTime]);
 
   const filterOptions = useMemo(() => buildFilterOptions(program), [program]);
   const showScheduleGroups = useMemo(() => isScheduleLikeQuery(parsedQuery), [parsedQuery]);
@@ -257,6 +273,14 @@ export default function App() {
                     </option>
                   ))}
                 </select>
+              </label>
+              <label className="checkbox-filter">
+                <input
+                  type="checkbox"
+                  checked={hidePastEvents}
+                  onChange={(event) => setHidePastEvents(event.target.checked)}
+                />
+                Hide past events
               </label>
               <button type="button" onClick={() => setFilters({ day: "", track: "", room: "" })}>
                 Clear

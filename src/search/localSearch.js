@@ -1,7 +1,7 @@
 import { extractTopicTerms, normalizeText } from "./queryParser.js";
 import MiniSearch from "minisearch";
 
-export function searchProgram(program, expandedQuery, parsedQuery) {
+export function searchProgram(program, expandedQuery, parsedQuery, options = {}) {
   if (!Array.isArray(program) || program.length === 0) {
     return [];
   }
@@ -42,6 +42,7 @@ export function searchProgram(program, expandedQuery, parsedQuery) {
       effectiveParsedQuery.track ||
       effectiveParsedQuery.eventType
   );
+  const timeAwareness = buildTimeAwareness(program, parsedQuery, options);
   const candidateIds = hasStructuredFilter || !terms.length
     ? new Set(program.map((item) => item.id))
     : indexedResults.length
@@ -50,6 +51,7 @@ export function searchProgram(program, expandedQuery, parsedQuery) {
 
   const scoredItems = program
     .filter((item) => candidateIds.has(item.id))
+    .filter((item) => isVisibleByTime(item, timeAwareness))
     .filter((item) => matchesStructuredFilters(item, effectiveParsedQuery))
     .map((item) => {
       const scored = scoreItem(item, terms, phrase, effectiveParsedQuery);
@@ -71,6 +73,48 @@ export function searchProgram(program, expandedQuery, parsedQuery) {
   return (phraseMatchedItems.length >= 2 ? phraseMatchedItems : scoredItems)
     .sort((a, b) => b._score - a._score || compareSchedule(a, b))
     .slice(0, 12);
+}
+
+export function buildTimeAwareness(program, parsedQuery, options = {}) {
+  if (!options.hidePastEvents || parsedQuery.hasExplicitDate || options.hasExplicitDateFilter) {
+    return { enabled: false };
+  }
+
+  const dates = (options.conferenceDates?.length ? options.conferenceDates : unique(program.map((item) => item.date).filter(Boolean))).sort();
+  if (!dates.length) {
+    return { enabled: false };
+  }
+
+  const current = currentConferenceDateTime(options.now || new Date(), options.timeZone || "America/Toronto");
+  const firstDate = dates[0];
+  const lastDate = dates[dates.length - 1];
+
+  if (current.date < firstDate || current.date > lastDate) {
+    return { enabled: false };
+  }
+
+  return {
+    enabled: true,
+    date: current.date,
+    time: current.time
+  };
+}
+
+function isVisibleByTime(item, timeAwareness) {
+  if (!timeAwareness.enabled || !item.date) {
+    return true;
+  }
+
+  if (item.date > timeAwareness.date) {
+    return true;
+  }
+
+  if (item.date < timeAwareness.date) {
+    return false;
+  }
+
+  const itemEndTime = item.endTime || item.startTime || "23:59";
+  return itemEndTime >= timeAwareness.time;
 }
 
 export function buildSearchIndex(program) {
@@ -491,6 +535,29 @@ function levenshteinDistance(a, b) {
 
 function uniqueReasons(reasons) {
   return [...new Set(reasons)];
+}
+
+function unique(values) {
+  return [...new Set(values)];
+}
+
+function currentConferenceDateTime(now, timeZone) {
+  const date = now instanceof Date ? now : new Date(now);
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false
+  }).formatToParts(date);
+  const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+
+  return {
+    date: `${values.year}-${values.month}-${values.day}`,
+    time: `${values.hour}:${values.minute}`
+  };
 }
 
 function compareSchedule(a, b) {

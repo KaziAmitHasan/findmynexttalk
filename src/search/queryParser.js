@@ -153,6 +153,7 @@ export function parseQuery(query, options = {}) {
     cleanedQuery: topicTerms.join(" "),
     date,
     dateLabel: date ? labelDate(date) : "",
+    hasExplicitDate: Boolean(detectedDate),
     timeBand,
     timePoint,
     room,

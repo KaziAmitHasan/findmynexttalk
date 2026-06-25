@@ -308,7 +308,7 @@ h1 {
 
 .filter-bar {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr)) auto;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) minmax(150px, auto) auto;
   gap: 10px;
   margin: 8px 0 0;
   padding: 10px;
@@ -324,6 +324,21 @@ h1 {
   color: #41525a;
   font-size: 0.78rem;
   font-weight: 850;
+}
+
+.filter-bar .checkbox-filter {
+  display: inline-flex;
+  min-height: 36px;
+  align-items: center;
+  gap: 8px;
+  align-self: end;
+  color: #34464e;
+}
+
+.checkbox-filter input {
+  width: 16px;
+  height: 16px;
+  accent-color: #0b5d6b;
 }
 
 .filter-bar select {
