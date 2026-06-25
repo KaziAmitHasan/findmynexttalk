@@ -465,8 +465,16 @@ function renderTalkCard(item, options = {}) {
         <div>
           <div className="result-meta-row">
             <span className="result-time">{formatDateTime(item)}</span>
-            <span className="badge room-badge">{item.room || "Location TBD"}</span>
-            {item.track ? <span className="badge track-badge">{item.track}</span> : null}
+            <span className="badge room-badge">
+              <span className="badge-label">Room</span>
+              {item.room || "TBD"}
+            </span>
+            {item.track ? (
+              <span className="badge track-badge">
+                <span className="badge-label">Track</span>
+                {item.track}
+              </span>
+            ) : null}
           </div>
           <h3>{item.title}</h3>
         </div>

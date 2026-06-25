@@ -566,22 +566,31 @@ h1 {
   min-height: 21px;
   max-width: 100%;
   align-items: center;
-  padding: 2px 7px;
+  gap: 5px;
+  padding: 3px 8px;
   border-radius: 999px;
   font-size: 0.72rem;
   font-weight: 850;
   line-height: 1.2;
 }
 
+.badge-label {
+  color: #607078;
+  font-size: 0.64rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
 .room-badge {
-  background: #edf3f5;
+  border: 1px solid #b8cbd1;
+  background: #e7f0f3;
   color: #2f424a;
 }
 
 .track-badge {
-  border: 1px solid color-mix(in srgb, var(--track-color) 35%, #ffffff);
-  background: color-mix(in srgb, var(--track-color) 10%, #ffffff);
-  color: #263940;
+  border: 1px solid var(--track-color);
+  background: color-mix(in srgb, var(--track-color) 14%, #ffffff);
+  color: #172026;
 }
 
 .talk-card h3 {
