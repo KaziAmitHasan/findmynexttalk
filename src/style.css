@@ -391,42 +391,9 @@ h1 {
 .result-toolbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 10px;
   margin-bottom: 12px;
-}
-
-.date-jump {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
-.date-jump a {
-  display: inline-flex;
-  min-height: 28px;
-  align-items: center;
-  gap: 6px;
-  padding: 4px 9px;
-  border: 1px solid #c6d3d8;
-  border-radius: 999px;
-  background: #ffffff;
-  color: #34464e;
-  font-size: 0.75rem;
-  font-weight: 850;
-  text-decoration: none;
-}
-
-.date-jump span {
-  display: inline-flex;
-  min-width: 18px;
-  min-height: 18px;
-  align-items: center;
-  justify-content: center;
-  border-radius: 999px;
-  background: #edf3f5;
-  color: #405159;
-  font-size: 0.68rem;
 }
 
 .detail-controls {
@@ -566,19 +533,11 @@ h1 {
   min-height: 21px;
   max-width: 100%;
   align-items: center;
-  gap: 5px;
   padding: 3px 8px;
   border-radius: 999px;
   font-size: 0.72rem;
   font-weight: 850;
   line-height: 1.2;
-}
-
-.badge-label {
-  color: #607078;
-  font-size: 0.64rem;
-  font-weight: 900;
-  text-transform: uppercase;
 }
 
 .room-badge {

@@ -368,14 +368,6 @@ export default function App() {
 
         {hasSubmittedSearch && results.length ? (
           <section className="result-toolbar" aria-label="Search result controls">
-            <nav className="date-jump" aria-label="Jump to result date">
-              {resultGroups.map((group) => (
-                <a href={`#results-${group.key}`} key={group.key}>
-                  {group.label}
-                  <span>{group.items.length}</span>
-                </a>
-              ))}
-            </nav>
             <div className="detail-controls">
               <button type="button" onClick={expandAllResults}>Expand all</button>
               <button type="button" onClick={collapseAllResults}>Collapse all</button>
@@ -465,16 +457,8 @@ function renderTalkCard(item, options = {}) {
         <div>
           <div className="result-meta-row">
             <span className="result-time">{formatDateTime(item)}</span>
-            <span className="badge room-badge">
-              <span className="badge-label">Room</span>
-              {item.room || "TBD"}
-            </span>
-            {item.track ? (
-              <span className="badge track-badge">
-                <span className="badge-label">Track</span>
-                {item.track}
-              </span>
-            ) : null}
+            <span className="badge room-badge">{item.room || "Location TBD"}</span>
+            {item.track ? <span className="badge track-badge">{item.track}</span> : null}
           </div>
           <h3>{item.title}</h3>
         </div>
