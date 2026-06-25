@@ -223,7 +223,7 @@ export default function App() {
 
         <footer>
           <span>{metadata?.statusNote ?? "Program data loading."}</span>
-          {metadata?.lastUpdated ? <span>Last updated: {metadata.lastUpdated}</span> : null}
+          <span>Developed by Kazi Amit Hasan</span>
         </footer>
       </section>
     </main>
