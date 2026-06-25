@@ -1,0 +1,12 @@
+{
+  "pr": ["pull request", "pull requests"],
+  "pull request": ["PR", "code review", "merge request"],
+  "github actions": ["GHA", "CI", "CI/CD", "workflow"],
+  "llm": ["large language model", "genai", "generative ai"],
+  "ai": ["artificial intelligence", "machine learning", "ML"],
+  "bug": ["defect", "fault", "issue"],
+  "security": ["vulnerability", "secure", "privacy", "attack"],
+  "testing": ["test", "fuzzing", "debugging", "verification"],
+  "repo": ["repository", "repositories"],
+  "oss": ["open source", "open-source"]
+}
