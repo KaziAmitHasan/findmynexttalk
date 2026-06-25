@@ -5,14 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node scripts/copy_spa_fallback.mjs",
     "preview": "vite preview",
     "test": "node --test tests/*.test.js",
     "test:python": "python3 -m unittest discover -s tests -p '*_test.py'",
-    "test:data": "python3 scripts/validate_data.py public/data/program.json public/data/metadata.json",
-    "audit:data": "python3 scripts/audit_data.py --program public/data/program.json --ical event-calendar.ics",
+    "test:data": "python3 scripts/validate_data.py public/data/fse2026/program.json public/data/fse2026/metadata.json",
+    "audit:data": "python3 scripts/audit_data.py --program public/data/fse2026/program.json --ical conferences/fse2026/event-calendar.ics",
     "check": "npm run test && npm run test:python && npm run test:data && npm run audit:data",
-    "check:local": "python3 -m unittest discover -s tests -p '*_test.py' && python3 scripts/validate_data.py public/data/program.json public/data/metadata.json && python3 scripts/audit_data.py --program public/data/program.json --ical event-calendar.ics"
+    "check:local": "python3 -m unittest discover -s tests -p '*_test.py' && python3 scripts/validate_data.py public/data/fse2026/program.json public/data/fse2026/metadata.json && python3 scripts/audit_data.py --program public/data/fse2026/program.json --ical conferences/fse2026/event-calendar.ics"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.4",

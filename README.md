@@ -10,12 +10,18 @@ The app is deployed at:
 https://KaziAmitHasan.github.io/findmynexttalk/
 ```
 
+FSE 2026 is served at:
+
+```text
+https://KaziAmitHasan.github.io/findmynexttalk/fse2026
+```
+
 ## Current Status
 
 This repository currently includes:
 
 - React + Vite scaffold
-- mined FSE 2026 `program.json`, `metadata.json`, and `synonyms.json`
+- mined FSE 2026 data under `public/data/fse2026/`
 - deterministic query parsing for topics, authors, affiliations, rooms, tracks, event types, dates, time bands, exact clock times, now, and next
 - browser-side MiniSearch candidate discovery plus deterministic ranking/filtering
 - local data validation script
@@ -36,13 +42,13 @@ npm run build
 Data validation can run without installing Node dependencies:
 
 ```bash
-python3 scripts/validate_data.py public/data/program.json public/data/metadata.json
+python3 scripts/validate_data.py public/data/fse2026/program.json public/data/fse2026/metadata.json
 ```
 
 Audit mined data against the Researchr event calendar:
 
 ```bash
-python3 scripts/audit_data.py --program public/data/program.json --ical event-calendar.ics
+python3 scripts/audit_data.py --program public/data/fse2026/program.json --ical conferences/fse2026/event-calendar.ics
 ```
 
 Node unit tests can run without Vite dependencies:
@@ -74,6 +80,46 @@ After pushing to GitHub:
 
 It refreshes the Researchr program data, validates `program.json`, audits the iCal coverage, runs Python tests, and commits changed data files back to the repository.
 It also builds and deploys the refreshed static site to GitHub Pages.
+
+## Adding Another Researchr Conference
+
+Researchr program pages under `https://conf.researchr.org/program/` generally share the same HTML structure.
+
+For a new conference:
+
+1. Add a new entry to `public/data/conferences.json`.
+2. Create a folder for the manually downloaded detailed event calendar:
+
+```text
+conferences/<conference-slug>/event-calendar.ics
+```
+
+3. Run the scraper with that slug and Researchr program URL:
+
+```bash
+python3 scripts/scrape_program.py \
+  --conference <conference-slug> \
+  --conference-name "Conference Name" \
+  --location "City, Country" \
+  --dates "Date range" \
+  --timezone "America/Toronto" \
+  --url "https://conf.researchr.org/program/<conference>/<program-page>/"
+```
+
+This writes:
+
+```text
+public/data/<conference-slug>/program.json
+public/data/<conference-slug>/metadata.json
+```
+
+Copy or create `public/data/<conference-slug>/synonyms.json` as well.
+
+The app route will be:
+
+```text
+https://KaziAmitHasan.github.io/findmynexttalk/<conference-slug>
+```
 
 ## Data Source
 

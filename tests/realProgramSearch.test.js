@@ -6,8 +6,8 @@ import { searchProgram } from "../src/search/localSearch.js";
 import { parseQuery } from "../src/search/queryParser.js";
 import { expandQueryWithSynonyms } from "../src/search/synonymMap.js";
 
-const program = JSON.parse(fs.readFileSync("public/data/program.json", "utf8"));
-const synonyms = JSON.parse(fs.readFileSync("public/data/synonyms.json", "utf8"));
+const program = JSON.parse(fs.readFileSync("public/data/fse2026/program.json", "utf8"));
+const synonyms = JSON.parse(fs.readFileSync("public/data/fse2026/synonyms.json", "utf8"));
 
 function runSearch(query, options = {}) {
   const parsed = parseQuery(query, options);

@@ -55,12 +55,12 @@ class ValidateDataTest(unittest.TestCase):
 
         self.assertTrue(any("duplicate id" in error for error in errors))
 
-    def test_rejects_out_of_range_dates(self):
+    def test_rejects_invalid_iso_dates(self):
         errors = []
 
-        validate_data.validate_date("bad-date", "2026-07-10", errors)
+        validate_data.validate_date("bad-date", "not-a-date", errors)
 
-        self.assertTrue(any("outside FSE 2026 program range" in error for error in errors))
+        self.assertTrue(any("invalid ISO date" in error for error in errors))
 
     def test_rejects_invalid_time_format(self):
         errors = []

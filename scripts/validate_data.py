@@ -6,19 +6,16 @@ from __future__ import annotations
 import json
 import re
 import sys
-from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
 
 
-MIN_DATE = date.fromisoformat("2026-07-05")
-MAX_DATE = date.fromisoformat("2026-07-09")
 TIME_RE = re.compile(r"^[0-2][0-9]:[0-5][0-9]$")
 
 
 def main() -> int:
-    program_path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("public/data/program.json")
-    metadata_path = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("public/data/metadata.json")
+    program_path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("public/data/fse2026/program.json")
+    metadata_path = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("public/data/fse2026/metadata.json")
 
     errors: list[str] = []
     program = load_json(program_path, errors)
@@ -103,13 +100,11 @@ def validate_date(label: str, value: str | None, errors: list[str]) -> None:
         return
 
     try:
-        parsed = date.fromisoformat(value)
+        from datetime import date
+
+        date.fromisoformat(value)
     except ValueError:
         errors.append(f"{label}: invalid ISO date '{value}'")
-        return
-
-    if parsed < MIN_DATE or parsed > MAX_DATE:
-        errors.append(f"{label}: date '{value}' is outside FSE 2026 program range")
 
 
 def validate_time(label: str, field: str, value: str | None, errors: list[str], required: bool = True) -> None:

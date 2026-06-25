@@ -4,6 +4,7 @@ import { parseQuery } from "./search/queryParser.js";
 import { expandQueryWithSynonyms } from "./search/synonymMap.js";
 import { searchProgram } from "./search/localSearch.js";
 import { groupResultsByTime, isScheduleLikeQuery } from "./utils/resultGrouping.js";
+import { conferenceDataPath, getConferenceSlug } from "./utils/conferenceRouting.js";
 
 const SAMPLE_PROMPTS = [
   "Find talks about GitHub pull requests",
@@ -18,6 +19,10 @@ const SAMPLE_PROMPTS = [
 ];
 
 export default function App() {
+  const conferenceSlug = useMemo(
+    () => getConferenceSlug(window.location.pathname, import.meta.env.BASE_URL),
+    []
+  );
   const [program, setProgram] = useState([]);
   const [metadata, setMetadata] = useState(null);
   const [synonyms, setSynonyms] = useState({});
@@ -29,10 +34,27 @@ export default function App() {
   useEffect(() => {
     async function loadData() {
       try {
+        setLoadError("");
+        setProgram([]);
+        setMetadata(null);
+        setSynonyms({});
+
+        const conferencesResponse = await fetch(`${import.meta.env.BASE_URL}data/conferences.json`);
+        if (!conferencesResponse.ok) {
+          throw new Error("Could not load conference list.");
+        }
+
+        const conferences = await conferencesResponse.json();
+        const conference = conferences.find((item) => item.slug === conferenceSlug);
+        if (!conference) {
+          throw new Error(`Conference "${conferenceSlug}" is not configured.`);
+        }
+
+        const dataPath = conference.dataPath || conferenceDataPath(conferenceSlug);
         const [programResponse, metadataResponse, synonymsResponse] = await Promise.all([
-          fetch(`${import.meta.env.BASE_URL}data/program.json`),
-          fetch(`${import.meta.env.BASE_URL}data/metadata.json`),
-          fetch(`${import.meta.env.BASE_URL}data/synonyms.json`)
+          fetch(`${import.meta.env.BASE_URL}${dataPath}/program.json`),
+          fetch(`${import.meta.env.BASE_URL}${dataPath}/metadata.json`),
+          fetch(`${import.meta.env.BASE_URL}${dataPath}/synonyms.json`)
         ]);
 
         if (!programResponse.ok || !metadataResponse.ok || !synonymsResponse.ok) {
@@ -48,9 +70,20 @@ export default function App() {
     }
 
     loadData();
-  }, []);
+  }, [conferenceSlug]);
 
-  const parsedQuery = useMemo(() => parseQuery(submittedQuery), [submittedQuery]);
+  const conferenceDates = useMemo(
+    () => [...new Set(program.map((item) => item.date).filter(Boolean))].sort(),
+    [program]
+  );
+  const parsedQuery = useMemo(
+    () =>
+      parseQuery(submittedQuery, {
+        conferenceDates: conferenceDates.length ? conferenceDates : undefined,
+        timeZone: metadata?.timezone
+      }),
+    [submittedQuery, conferenceDates, metadata]
+  );
 
   const results = useMemo(() => {
     const expanded = expandQueryWithSynonyms(submittedQuery, synonyms);
@@ -83,7 +116,7 @@ export default function App() {
       <section className="assistant-panel">
         <div className="app-header">
           <div>
-            <p className="eyebrow">FSE 2026</p>
+            <p className="eyebrow">{metadata?.conference ?? conferenceSlug.toUpperCase()}</p>
             <h1>Find My Next Talk</h1>
           </div>
           <div className="header-meta">

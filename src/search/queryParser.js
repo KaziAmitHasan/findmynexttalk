@@ -108,10 +108,12 @@ const STOP_WORDS = new Set([
 export function parseQuery(query, options = {}) {
   const original = String(query ?? "").trim();
   const normalized = normalizeText(original);
-  const relativeTimePoint = detectRelativeTimePoint(normalized, options);
+  const conferenceDates = options.conferenceDates || CONFERENCE_DATES;
+  const dateByWeekday = options.dateByWeekday || buildDateByWeekday(conferenceDates);
+  const relativeTimePoint = detectRelativeTimePoint(normalized, { ...options, conferenceDates });
   const clockTimePoint = relativeTimePoint ? null : detectClockTimePoint(original);
   const timePoint = relativeTimePoint || clockTimePoint;
-  const detectedDate = detectDate(normalized);
+  const detectedDate = detectDate(normalized, dateByWeekday);
   const date = detectedDate || timePoint?.date || "";
   const timeBand = detectTimeBand(normalized);
   const room = detectRoom(original);
@@ -145,8 +147,8 @@ export function normalizeText(value) {
     .trim();
 }
 
-export function detectDate(normalizedQuery) {
-  for (const [token, date] of Object.entries(DATE_BY_WEEKDAY)) {
+export function detectDate(normalizedQuery, dateByWeekday = DATE_BY_WEEKDAY) {
+  for (const [token, date] of Object.entries(dateByWeekday)) {
     if (new RegExp(`\\b${escapeRegExp(token)}\\b`).test(normalizedQuery)) {
       return date;
     }
@@ -212,18 +214,19 @@ export function detectRelativeTimePoint(normalizedQuery, options = {}) {
   }
 
   const current = currentConferenceDateTime(options.now || new Date(), options.timeZone || CONFERENCE_TIMEZONE);
+  const conferenceDates = options.conferenceDates || CONFERENCE_DATES;
 
-  if (asksNext && current.date < CONFERENCE_DATES[0]) {
+  if (asksNext && current.date < conferenceDates[0]) {
     return {
       key: "next",
       mode: "next",
-      date: CONFERENCE_DATES[0],
+      date: conferenceDates[0],
       time: "00:00",
       label: "next scheduled item"
     };
   }
 
-  if (!CONFERENCE_DATES.includes(current.date)) {
+  if (!conferenceDates.includes(current.date)) {
     return {
       key: asksNext ? "next" : "now",
       mode: asksNext ? "next" : "overlap",
@@ -288,6 +291,20 @@ export function extractTopicTerms(normalizedQuery, detected = {}) {
     .split(/\s+/)
     .filter((term) => term.length > 1 && !STOP_WORDS.has(term) && !DATE_BY_WEEKDAY[term])
     .filter((term) => !/^[0-9:.]+$/.test(term));
+}
+
+export function buildDateByWeekday(conferenceDates = CONFERENCE_DATES) {
+  const dateByWeekday = {};
+
+  for (const date of conferenceDates) {
+    const parsed = new Date(`${date}T00:00:00`);
+    const long = parsed.toLocaleDateString("en-US", { weekday: "long", timeZone: "UTC" }).toLowerCase();
+    const short = parsed.toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" }).toLowerCase();
+    dateByWeekday[long] = date;
+    dateByWeekday[short] = date;
+  }
+
+  return dateByWeekday;
 }
 
 function labelDate(date) {

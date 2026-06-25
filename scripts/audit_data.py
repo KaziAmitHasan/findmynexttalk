@@ -12,9 +12,9 @@ from parse_ical import parse_ical_file
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Audit mined FSE program data completeness.")
-    parser.add_argument("--program", type=Path, default=Path("public/data/program.json"))
-    parser.add_argument("--ical", type=Path, default=Path("event-calendar.ics"))
+    parser = argparse.ArgumentParser(description="Audit mined program data completeness.")
+    parser.add_argument("--program", type=Path, default=Path("public/data/fse2026/program.json"))
+    parser.add_argument("--ical", type=Path, default=Path("conferences/fse2026/event-calendar.ics"))
     args = parser.parse_args()
 
     program = json.loads(args.program.read_text(encoding="utf-8"))

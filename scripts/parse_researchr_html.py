@@ -239,13 +239,13 @@ class ResearchrProgramParser(HTMLParser):
                 self.current.publication_links[-1]["label"] = normalize_whitespace(f"{previous} {value}")
 
 
-def parse_program_html(html_text: str, base_url: str = PROGRAM_URL) -> list[dict]:
+def parse_program_html(html_text: str, base_url: str = PROGRAM_URL, conference_slug: str = "fse2026") -> list[dict]:
     parser = ResearchrProgramParser(base_url=base_url)
     parser.feed(html_text)
-    return [row_to_program_item(row, base_url) for row in parser.rows]
+    return [row_to_program_item(row, base_url, conference_slug) for row in parser.rows]
 
 
-def row_to_program_item(row: ScheduleRow, base_url: str = PROGRAM_URL) -> dict:
+def row_to_program_item(row: ScheduleRow, base_url: str = PROGRAM_URL, conference_slug: str = "fse2026") -> dict:
     title = row.text_for("title")
     track = row.text_for("track")
     room = row.text_for("room")
@@ -260,7 +260,7 @@ def row_to_program_item(row: ScheduleRow, base_url: str = PROGRAM_URL) -> dict:
         end_time = row.session_end_time
         duration_minutes = diff_minutes(start_time, end_time)
     source_url = row.source_url or base_url
-    item_id = stable_id(row.date, title, row.slot_id or row.event_id)
+    item_id = stable_id(conference_slug, row.date, title, row.slot_id or row.event_id)
     keywords = infer_keywords(title, track, event_type)
     urls = classify_publication_links(row.publication_links)
     search_text = normalize_whitespace(
@@ -367,10 +367,10 @@ def clean_track(value: str) -> str:
     return re.sub(r"^FSE\s+", "", value)
 
 
-def stable_id(date_value: str, title: str, fallback: str) -> str:
+def stable_id(conference_slug: str, date_value: str, title: str, fallback: str) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")[:64]
     digest = hashlib.sha1(f"{date_value}|{title}|{fallback}".encode("utf-8")).hexdigest()[:8]
-    return f"fse2026-{date_value or 'undated'}-{slug or 'event'}-{digest}"
+    return f"{conference_slug}-{date_value or 'undated'}-{slug or 'event'}-{digest}"
 
 
 def unique_strings(values: Iterable[str]) -> list[str]:
@@ -456,12 +456,20 @@ def infer_keywords(*values: str) -> list[str]:
     return keywords
 
 
-def build_metadata(source_url: str = PROGRAM_URL) -> dict:
+def build_metadata(
+    source_url: str = PROGRAM_URL,
+    conference_slug: str = "fse2026",
+    conference_name: str = "FSE 2026",
+    location: str = "Montreal, Canada",
+    dates: str = "Sun 5 - Thu 9 July 2026",
+    timezone: str = "America/Toronto",
+) -> dict:
     return {
-        "conference": "FSE 2026",
-        "location": "Montreal, Canada",
-        "dates": "Sun 5 - Thu 9 July 2026",
-        "timezone": "America/Toronto",
+        "slug": conference_slug,
+        "conference": conference_name,
+        "location": location,
+        "dates": dates,
+        "timezone": timezone,
         "source": source_url,
         "lastUpdated": datetime.now().astimezone().isoformat(timespec="seconds"),
         "statusNote": "The official Researchr program is tentative and subject to change.",
