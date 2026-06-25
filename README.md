@@ -2,6 +2,14 @@
 
 A static, GitHub Pages-friendly search tool for the FSE 2026 conference program.
 
+## Live App
+
+The app is deployed at:
+
+```text
+https://kaziamithasan89.github.io/findmynexttalk/
+```
+
 ## Current Status
 
 This repository currently includes:
