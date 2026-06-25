@@ -63,6 +63,11 @@ p {
   margin: 0 auto;
 }
 
+.conference-landing {
+  display: grid;
+  gap: 18px;
+}
+
 .app-header {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
@@ -103,6 +108,68 @@ h1 {
   font-size: 0.78rem;
   font-weight: 800;
   box-shadow: 0 1px 2px rgb(20 34 42 / 6%);
+}
+
+.conference-picker {
+  display: grid;
+  gap: 14px;
+  padding: 18px;
+  border: 1px solid #d8e1e4;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 10px 26px rgb(20 34 42 / 8%);
+}
+
+.picker-copy {
+  display: grid;
+  gap: 5px;
+}
+
+.picker-copy h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.picker-copy p {
+  margin: 0;
+  color: #4c5f67;
+  font-size: 0.94rem;
+}
+
+.conference-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: 10px;
+}
+
+.conference-card {
+  display: grid;
+  gap: 7px;
+  min-height: 92px;
+  align-content: center;
+  padding: 14px;
+  border: 1px solid #c9d6da;
+  border-radius: 8px;
+  background: #fbfcfd;
+  color: #172026;
+  text-decoration: none;
+  box-shadow: 0 5px 14px rgb(20 34 42 / 6%);
+}
+
+.conference-card:hover {
+  border-color: #0b5d6b;
+  background: #f3fafb;
+}
+
+.conference-card span {
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.conference-card strong {
+  color: #0b5d6b;
+  font-size: 0.82rem;
 }
 
 .search-form {

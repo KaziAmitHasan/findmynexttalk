@@ -1,19 +1,19 @@
 # Find My Next Talk
 
-A static, GitHub Pages-friendly search tool for the FSE 2026 conference program.
+A static, GitHub Pages-friendly search tool for Researchr conference programs.
 
 ## Live App
 
 The app is deployed at:
 
 ```text
-https://KaziAmitHasan.github.io/findmynexttalk/
+https://kaziamithasan.github.io/findmynexttalk/
 ```
 
-FSE 2026 is served at:
+The root page lists available conferences. FSE 2026 is served at:
 
 ```text
-https://KaziAmitHasan.github.io/findmynexttalk/fse2026
+https://kaziamithasan.github.io/findmynexttalk/fse2026
 ```
 
 ## Current Status
@@ -118,7 +118,7 @@ Copy or create `public/data/<conference-slug>/synonyms.json` as well.
 The app route will be:
 
 ```text
-https://KaziAmitHasan.github.io/findmynexttalk/<conference-slug>
+https://kaziamithasan.github.io/findmynexttalk/<conference-slug>
 ```
 
 ## Data Source

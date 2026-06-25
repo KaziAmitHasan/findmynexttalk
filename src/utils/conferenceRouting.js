@@ -8,11 +8,16 @@ export function getConferenceSlug(pathname, basePath = "/findmynexttalk/") {
     : normalizedPath.replace(/^\/+/, "");
   const slug = relativePath.split("/").filter(Boolean)[0];
 
-  return slug || DEFAULT_CONFERENCE_SLUG;
+  return slug || "";
 }
 
 export function conferenceDataPath(slug) {
   return `data/${slug || DEFAULT_CONFERENCE_SLUG}`;
+}
+
+export function conferenceRoute(slug, basePath = "/findmynexttalk/") {
+  const normalizedBase = normalizePath(basePath);
+  return `${normalizedBase}${slug}`;
 }
 
 function normalizePath(value) {

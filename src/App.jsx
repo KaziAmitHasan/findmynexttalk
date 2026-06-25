@@ -4,7 +4,7 @@ import { parseQuery } from "./search/queryParser.js";
 import { expandQueryWithSynonyms } from "./search/synonymMap.js";
 import { searchProgram } from "./search/localSearch.js";
 import { groupResultsByTime, isScheduleLikeQuery } from "./utils/resultGrouping.js";
-import { conferenceDataPath, getConferenceSlug } from "./utils/conferenceRouting.js";
+import { conferenceDataPath, conferenceRoute, getConferenceSlug } from "./utils/conferenceRouting.js";
 
 const SAMPLE_PROMPTS = [
   "Find talks about GitHub pull requests",
@@ -23,6 +23,7 @@ export default function App() {
     () => getConferenceSlug(window.location.pathname, import.meta.env.BASE_URL),
     []
   );
+  const [conferences, setConferences] = useState([]);
   const [program, setProgram] = useState([]);
   const [metadata, setMetadata] = useState(null);
   const [synonyms, setSynonyms] = useState({});
@@ -44,8 +45,14 @@ export default function App() {
           throw new Error("Could not load conference list.");
         }
 
-        const conferences = await conferencesResponse.json();
-        const conference = conferences.find((item) => item.slug === conferenceSlug);
+        const conferenceList = await conferencesResponse.json();
+        setConferences(conferenceList);
+
+        if (!conferenceSlug) {
+          return;
+        }
+
+        const conference = conferenceList.find((item) => item.slug === conferenceSlug);
         if (!conference) {
           throw new Error(`Conference "${conferenceSlug}" is not configured.`);
         }
@@ -109,6 +116,53 @@ export default function App() {
   function runPrompt(prompt) {
     setQuery(prompt);
     setSubmittedQuery(prompt);
+  }
+
+  if (!conferenceSlug) {
+    return (
+      <main className="app-shell">
+        <section className="assistant-panel">
+          <div className="conference-landing">
+            <div className="app-header">
+              <div>
+                <p className="eyebrow">Conference Search</p>
+                <h1>Find My Next Talk</h1>
+              </div>
+              <div className="header-meta">
+                <span>{conferences.length || loadError ? `${conferences.length} conference${conferences.length === 1 ? "" : "s"}` : "Loading"}</span>
+              </div>
+            </div>
+
+            <section className="conference-picker" aria-label="Available conferences">
+              <div className="picker-copy">
+                <h2>Choose a conference</h2>
+                <p>Search conference programs by title, author, affiliation, topic, room, track, and time.</p>
+              </div>
+
+              {loadError ? <p className="result-summary error">{loadError}</p> : null}
+
+              <div className="conference-grid">
+                {conferences.map((conference) => (
+                  <a
+                    className="conference-card"
+                    href={conferenceRoute(conference.slug, import.meta.env.BASE_URL)}
+                    key={conference.slug}
+                  >
+                    <span>{conference.label}</span>
+                    <strong>Open search tool</strong>
+                  </a>
+                ))}
+              </div>
+            </section>
+          </div>
+
+          <footer>
+            <span>Static search tools for Researchr conference programs.</span>
+            <span>Developed by Kazi Amit Hasan</span>
+          </footer>
+        </section>
+      </main>
+    );
   }
 
   return (
