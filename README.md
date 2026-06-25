@@ -16,13 +16,6 @@ The root page lists available conferences. FSE 2026 is served at:
 https://kaziamithasan.github.io/findmynexttalk/fse2026
 ```
 
-## Developer and Contact
-
-Created and developed by Kazi Amit Hasan.
-
-- GitHub: [KaziAmitHasan](https://github.com/KaziAmitHasan)
-- Contact / issues: [findmynexttalk issues](https://github.com/KaziAmitHasan/findmynexttalk/issues)
-
 ## Current Status
 
 This repository currently includes:
@@ -118,3 +111,10 @@ Canonical program source:
 ```text
 https://conf.researchr.org/program/fse-2026/program-fse-2026/
 ```
+
+## Developer and Contact
+
+Created and developed by Kazi Amit Hasan.
+
+- GitHub: [KaziAmitHasan](https://github.com/KaziAmitHasan)
+- Contact / issues: [findmynexttalk issues](https://github.com/KaziAmitHasan/findmynexttalk/issues)
