@@ -385,7 +385,7 @@ function LiveScheduleView({ liveSchedule }) {
       <div className="live-header">
         <div>
           <p className="eyebrow">Homepage</p>
-          <h2>{liveSchedule.status === "during" ? "Happening now" : "Upcoming schedule"}</h2>
+          <h2>Happening now</h2>
         </div>
         <span>{statusText}</span>
       </div>
@@ -405,19 +405,9 @@ function LiveScheduleView({ liveSchedule }) {
           </div>
         </section>
       ) : liveSchedule.status === "during" ? (
-        <p className="live-empty">No item is currently in progress. The next scheduled items are below.</p>
-      ) : null}
-
-      {liveSchedule.upcoming.length ? (
-        <section className="live-section">
-          <div className="time-group-header">
-            <h2>{liveSchedule.status === "before" ? "First scheduled items" : "Up next"}</h2>
-            <span>{liveSchedule.upcoming.length} item{liveSchedule.upcoming.length === 1 ? "" : "s"}</span>
-          </div>
-          <div className="results-grid">
-            {liveSchedule.upcoming.map((item) => renderTalkCard(item))}
-          </div>
-        </section>
+        <p className="live-empty">No item is currently in progress.</p>
+      ) : liveSchedule.status === "before" ? (
+        <p className="live-empty">No item is currently in progress. The conference has not started yet.</p>
       ) : null}
     </section>
   );
