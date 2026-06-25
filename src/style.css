@@ -231,6 +231,20 @@ h1 {
   margin: 9px 0 10px;
 }
 
+.live-button {
+  display: inline-flex;
+  min-height: 28px;
+  align-items: center;
+  padding: 4px 10px;
+  border: 1px solid #0b5d6b;
+  border-radius: 999px;
+  background: #0b5d6b;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.76rem;
+  font-weight: 850;
+}
+
 .control-disclosures details,
 .inline-disclosure {
   position: relative;
@@ -372,6 +386,47 @@ h1 {
 
 .result-summary.error {
   color: #b42318;
+}
+
+.live-schedule {
+  display: grid;
+  gap: 16px;
+}
+
+.live-header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 13px;
+  border: 1px solid #d8e1e4;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgb(20 34 42 / 6%);
+}
+
+.live-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.live-header span {
+  color: #405159;
+  font-size: 0.82rem;
+  font-weight: 850;
+}
+
+.live-section {
+  display: grid;
+  gap: 9px;
+}
+
+.live-empty {
+  margin: 0;
+  color: #4c5f67;
+  font-size: 0.92rem;
+  font-weight: 800;
 }
 
 .results-grid {
@@ -580,6 +635,11 @@ footer {
 
   .filter-bar button {
     width: 100%;
+  }
+
+  .live-header {
+    align-items: start;
+    flex-direction: column;
   }
 }
 

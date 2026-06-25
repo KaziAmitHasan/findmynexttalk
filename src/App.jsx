@@ -3,6 +3,7 @@ import { Search, SlidersHorizontal, Sparkles } from "lucide-react";
 import { parseQuery } from "./search/queryParser.js";
 import { expandQueryWithSynonyms } from "./search/synonymMap.js";
 import { searchProgram } from "./search/localSearch.js";
+import { buildLiveSchedule } from "./utils/liveSchedule.js";
 import { groupResultsByTime, isScheduleLikeQuery } from "./utils/resultGrouping.js";
 import { conferenceDataPath, conferenceRoute, getConferenceSlug } from "./utils/conferenceRouting.js";
 
@@ -27,8 +28,8 @@ export default function App() {
   const [program, setProgram] = useState([]);
   const [metadata, setMetadata] = useState(null);
   const [synonyms, setSynonyms] = useState({});
-  const [query, setQuery] = useState("Find talks about GitHub pull requests");
-  const [submittedQuery, setSubmittedQuery] = useState("Find talks about GitHub pull requests");
+  const [query, setQuery] = useState("");
+  const [submittedQuery, setSubmittedQuery] = useState("");
   const [filters, setFilters] = useState({ day: "", track: "", room: "" });
   const [hidePastEvents, setHidePastEvents] = useState(true);
   const [currentTime, setCurrentTime] = useState(() => new Date());
@@ -98,8 +99,13 @@ export default function App() {
       }),
     [submittedQuery, conferenceDates, metadata]
   );
+  const hasSubmittedSearch = Boolean(submittedQuery.trim());
 
   const results = useMemo(() => {
+    if (!hasSubmittedSearch) {
+      return [];
+    }
+
     const expanded = expandQueryWithSynonyms(submittedQuery, synonyms);
     return applyUiFilters(
       searchProgram(program, expanded, parsedQuery, {
@@ -111,7 +117,18 @@ export default function App() {
       }),
       filters
     );
-  }, [program, submittedQuery, synonyms, parsedQuery, filters, hidePastEvents, conferenceDates, metadata, currentTime]);
+  }, [program, submittedQuery, synonyms, parsedQuery, filters, hidePastEvents, conferenceDates, metadata, currentTime, hasSubmittedSearch]);
+
+  const liveSchedule = useMemo(
+    () =>
+      buildLiveSchedule(program, {
+        conferenceDates,
+        timeZone: metadata?.timezone,
+        now: currentTime,
+        limit: 12
+      }),
+    [program, conferenceDates, metadata, currentTime]
+  );
 
   const filterOptions = useMemo(() => buildFilterOptions(program), [program]);
   const showScheduleGroups = useMemo(() => isScheduleLikeQuery(parsedQuery), [parsedQuery]);
@@ -132,6 +149,11 @@ export default function App() {
   function runPrompt(prompt) {
     setQuery(prompt);
     setSubmittedQuery(prompt);
+  }
+
+  function showLiveSchedule() {
+    setQuery("");
+    setSubmittedQuery("");
   }
 
   if (!conferenceSlug) {
@@ -201,7 +223,7 @@ export default function App() {
               id="query"
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="Find talks about GitHub pull requests"
+              placeholder='Type "Find talks about GitHub PRs"'
             />
             <button type="submit" aria-label="Search">
               <Search size={18} aria-hidden="true" />
@@ -211,6 +233,12 @@ export default function App() {
         </form>
 
         <div className="control-disclosures">
+          {hasSubmittedSearch ? (
+            <button className="live-button" type="button" onClick={showLiveSchedule}>
+              Now / Next
+            </button>
+          ) : null}
+
           <details>
             <summary>
               <Sparkles size={14} aria-hidden="true" />
@@ -291,7 +319,11 @@ export default function App() {
 
         {loadError ? <p className="result-summary error">{loadError}</p> : null}
 
-        {!loadError ? (
+        {!hasSubmittedSearch && !loadError ? (
+          <LiveScheduleView liveSchedule={liveSchedule} />
+        ) : null}
+
+        {hasSubmittedSearch && !loadError ? (
           <p className="result-summary">
             {results.length > 0
               ? `${results.length} ${results.length === 1 ? "item" : "items"} found`
@@ -299,7 +331,7 @@ export default function App() {
           </p>
         ) : null}
 
-        {!results.length && !loadError ? (
+        {hasSubmittedSearch && !results.length && !loadError ? (
           <details className="inline-disclosure">
             <summary>Show suggestions</summary>
             <div className="prompt-list compact" aria-label="Suggested searches">
@@ -312,7 +344,7 @@ export default function App() {
           </details>
         ) : null}
 
-        {showScheduleGroups ? (
+        {hasSubmittedSearch && showScheduleGroups ? (
           <section className="schedule-results" aria-label="Search results grouped by time">
             {resultGroups.map((group) => (
               <section className="time-group" key={group.key}>
@@ -326,11 +358,11 @@ export default function App() {
               </section>
             ))}
           </section>
-        ) : (
+        ) : hasSubmittedSearch ? (
           <section className="results-grid" aria-label="Search results">
             {results.map((item) => renderTalkCard(item))}
           </section>
-        )}
+        ) : null}
 
         <footer>
           <span>{metadata?.statusNote ?? "Program data loading."}</span>
@@ -338,6 +370,57 @@ export default function App() {
         </footer>
       </section>
     </main>
+  );
+}
+
+function LiveScheduleView({ liveSchedule }) {
+  const statusText = {
+    before: "Conference has not started yet",
+    during: `Conference time: ${liveSchedule.current.date} ${liveSchedule.current.time}`,
+    after: "Conference has ended",
+    empty: "Program data loading"
+  }[liveSchedule.status];
+
+  return (
+    <section className="live-schedule" aria-label="Live schedule">
+      <div className="live-header">
+        <div>
+          <p className="eyebrow">Now / Next</p>
+          <h2>{liveSchedule.status === "during" ? "Happening now" : "Upcoming schedule"}</h2>
+        </div>
+        <span>{statusText}</span>
+      </div>
+
+      {liveSchedule.status === "after" ? (
+        <p className="live-empty">The conference schedule is still searchable above.</p>
+      ) : null}
+
+      {liveSchedule.ongoing.length ? (
+        <section className="live-section">
+          <div className="time-group-header">
+            <h2>Happening now</h2>
+            <span>{liveSchedule.ongoing.length} item{liveSchedule.ongoing.length === 1 ? "" : "s"}</span>
+          </div>
+          <div className="results-grid">
+            {liveSchedule.ongoing.map((item) => renderTalkCard(item))}
+          </div>
+        </section>
+      ) : liveSchedule.status === "during" ? (
+        <p className="live-empty">No item is currently in progress. The next scheduled items are below.</p>
+      ) : null}
+
+      {liveSchedule.upcoming.length ? (
+        <section className="live-section">
+          <div className="time-group-header">
+            <h2>{liveSchedule.status === "before" ? "First scheduled items" : "Up next"}</h2>
+            <span>{liveSchedule.upcoming.length} item{liveSchedule.upcoming.length === 1 ? "" : "s"}</span>
+          </div>
+          <div className="results-grid">
+            {liveSchedule.upcoming.map((item) => renderTalkCard(item))}
+          </div>
+        </section>
+      ) : null}
+    </section>
   );
 }
 
@@ -373,7 +456,7 @@ function renderTalkCard(item) {
           </div>
         </dl>
         {item.abstract ? <p className="abstract">{truncateText(item.abstract, 360)}</p> : null}
-        <p className="why-match">{item.whyMatched}</p>
+        {item.whyMatched ? <p className="why-match">{item.whyMatched}</p> : null}
         <div className="card-actions">
           <a href={item.sourceUrl} target="_blank" rel="noreferrer">
             Official page
