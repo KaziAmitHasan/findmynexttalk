@@ -111,6 +111,18 @@ test("real data combined track and topic query requires both constraints", () =>
   );
 });
 
+test("real data calendar date and exact topic phrase query returns matching day talks", () => {
+  const results = runSearch("find talks about code translation on 6th July");
+
+  assert.deepEqual(
+    new Set(results.map((item) => `${item.date} ${item.startTime} ${item.title}`)),
+    new Set([
+      "2026-07-06 09:15 Execution Control Matters: Deterministic and Agentic Tool Orchestration for LLM-Based Code Translation",
+      "2026-07-06 14:20 Beyond Translation Accuracy: Addressing False Failures in LLM-Based Code Translation"
+    ])
+  );
+});
+
 test("real data room schedule query returns only that room", () => {
   const results = runSearch("what is in MB 3.210");
 

@@ -74,15 +74,36 @@ const STOP_WORDS = new Set([
   "happening",
   "in",
   "is",
+  "apr",
+  "april",
+  "aug",
+  "august",
+  "dec",
+  "december",
+  "feb",
+  "february",
+  "jan",
+  "january",
+  "jul",
+  "july",
+  "jun",
+  "june",
   "keynote",
   "keynotes",
+  "mar",
+  "march",
+  "may",
   "me",
   "morning",
   "near",
   "next",
   "now",
+  "nov",
+  "november",
   "on",
   "of",
+  "oct",
+  "october",
   "paper",
   "papers",
   "pm",
@@ -91,6 +112,9 @@ const STOP_WORDS = new Set([
   "presentations",
   "related",
   "schedule",
+  "sep",
+  "sept",
+  "september",
   "show",
   "currently",
   "current",
@@ -113,7 +137,7 @@ export function parseQuery(query, options = {}) {
   const relativeTimePoint = detectRelativeTimePoint(normalized, { ...options, conferenceDates });
   const clockTimePoint = relativeTimePoint ? null : detectClockTimePoint(original);
   const timePoint = relativeTimePoint || clockTimePoint;
-  const detectedDate = detectDate(normalized, dateByWeekday);
+  const detectedDate = detectDate(normalized, dateByWeekday, conferenceDates);
   const date = detectedDate || timePoint?.date || "";
   const timeBand = detectTimeBand(normalized);
   const room = detectRoom(original);
@@ -148,8 +172,14 @@ export function normalizeText(value) {
     .trim();
 }
 
-export function detectDate(normalizedQuery, dateByWeekday = DATE_BY_WEEKDAY) {
+export function detectDate(normalizedQuery, dateByWeekday = DATE_BY_WEEKDAY, conferenceDates = CONFERENCE_DATES) {
   for (const [token, date] of Object.entries(dateByWeekday)) {
+    if (new RegExp(`\\b${escapeRegExp(token)}\\b`).test(normalizedQuery)) {
+      return date;
+    }
+  }
+
+  for (const [token, date] of Object.entries(buildCalendarDateAliases(conferenceDates))) {
     if (new RegExp(`\\b${escapeRegExp(token)}\\b`).test(normalizedQuery)) {
       return date;
     }
@@ -291,6 +321,7 @@ export function extractTopicTerms(normalizedQuery, detected = {}) {
   return text
     .split(/\s+/)
     .filter((term) => term.length > 1 && !STOP_WORDS.has(term) && !DATE_BY_WEEKDAY[term])
+    .filter((term) => !/^[0-9]{1,2}(st|nd|rd|th)$/.test(term))
     .filter((term) => !/^[0-9:.]+$/.test(term));
 }
 
@@ -318,6 +349,38 @@ function labelDate(date) {
   };
 
   return labels[date] || date;
+}
+
+function buildCalendarDateAliases(conferenceDates = CONFERENCE_DATES) {
+  const aliases = {};
+
+  for (const date of conferenceDates) {
+    const parsed = new Date(`${date}T00:00:00Z`);
+    const month = parsed.toLocaleDateString("en-US", { month: "long", timeZone: "UTC" }).toLowerCase();
+    const shortMonth = parsed.toLocaleDateString("en-US", { month: "short", timeZone: "UTC" }).toLowerCase();
+    const day = parsed.getUTCDate();
+    const ordinal = ordinalDay(day);
+
+    aliases[`${month} ${day}`] = date;
+    aliases[`${month} ${ordinal}`] = date;
+    aliases[`${shortMonth} ${day}`] = date;
+    aliases[`${shortMonth} ${ordinal}`] = date;
+    aliases[`${day} ${month}`] = date;
+    aliases[`${ordinal} ${month}`] = date;
+    aliases[`${day} ${shortMonth}`] = date;
+    aliases[`${ordinal} ${shortMonth}`] = date;
+  }
+
+  return aliases;
+}
+
+function ordinalDay(day) {
+  if (day % 100 >= 11 && day % 100 <= 13) {
+    return `${day}th`;
+  }
+
+  const suffix = { 1: "st", 2: "nd", 3: "rd" }[day % 10] || "th";
+  return `${day}${suffix}`;
 }
 
 function currentConferenceDateTime(now, timeZone) {

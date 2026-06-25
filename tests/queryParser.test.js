@@ -11,6 +11,13 @@ test("detects Monday morning queries", () => {
   assert.equal(parsed.timeBand.key, "morning");
 });
 
+test("detects calendar date queries", () => {
+  assert.equal(parseQuery("find talks about code translation on 6th July").date, "2026-07-06");
+  assert.equal(parseQuery("find talks about code translation on July 6").date, "2026-07-06");
+  assert.equal(parseQuery("find talks about code translation on Jul 6").date, "2026-07-06");
+  assert.deepEqual(parseQuery("find talks about code translation on 6th July").topicTerms, ["code", "translation"]);
+});
+
 test("detects Researchr-style room names", () => {
   const parsed = parseQuery("show talks in MB 3.210");
 

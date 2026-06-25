@@ -48,7 +48,7 @@ export function searchProgram(program, expandedQuery, parsedQuery) {
       ? new Set(indexedResults.map((result) => result.id))
       : new Set();
 
-  return program
+  const scoredItems = program
     .filter((item) => candidateIds.has(item.id))
     .filter((item) => matchesStructuredFilters(item, effectiveParsedQuery))
     .map((item) => {
@@ -56,12 +56,19 @@ export function searchProgram(program, expandedQuery, parsedQuery) {
       return {
         ...item,
         _score: scored.score,
+        _hasPhraseMatch: scored.hasPhraseMatch,
         _hasTopicMatch: scored.hasTopicMatch,
         whyMatched: explainMatch(scored.reasons)
       };
     })
     .filter((item) => item._score > 0 || hasStructuredFilter)
-    .filter((item) => !terms.length || item._hasTopicMatch)
+    .filter((item) => !terms.length || item._hasTopicMatch);
+
+  const phraseMatchedItems = phrase && terms.length > 1
+    ? scoredItems.filter((item) => item._hasPhraseMatch)
+    : [];
+
+  return (phraseMatchedItems.length ? phraseMatchedItems : scoredItems)
     .sort((a, b) => b._score - a._score || compareSchedule(a, b))
     .slice(0, 12);
 }
@@ -182,6 +189,7 @@ function inferPeopleOrAffiliationIntent(program, parsedQuery, terms) {
 function scoreItem(item, terms, phrase, parsedQuery) {
   let score = 0;
   let topicScore = 0;
+  let phraseScore = 0;
   const reasons = [];
   const text = normalizeText(item.searchText || "");
   const title = normalizeText(item.title || "");
@@ -196,13 +204,29 @@ function scoreItem(item, terms, phrase, parsedQuery) {
   if (phrase && title.includes(phrase)) {
     score += 100;
     topicScore += 100;
+    phraseScore += 100;
     reasons.push(`title contains "${phrase}"`);
   }
 
   if (phrase && keywords.includes(phrase)) {
     score += 60;
     topicScore += 60;
+    phraseScore += 60;
     reasons.push(`keywords contain "${phrase}"`);
+  }
+
+  if (phrase && abstract.includes(phrase)) {
+    score += 40;
+    topicScore += 40;
+    phraseScore += 40;
+    reasons.push(`abstract contains "${phrase}"`);
+  }
+
+  if (phrase && session.includes(phrase)) {
+    score += 20;
+    topicScore += 20;
+    phraseScore += 20;
+    reasons.push(`session contains "${phrase}"`);
   }
 
   for (const term of terms) {
@@ -293,7 +317,7 @@ function scoreItem(item, terms, phrase, parsedQuery) {
     reasons.push(`type is ${parsedQuery.eventType}`);
   }
 
-  return { score, hasTopicMatch: topicScore > 0, reasons: uniqueReasons(reasons) };
+  return { score, hasPhraseMatch: phraseScore > 0, hasTopicMatch: topicScore > 0, reasons: uniqueReasons(reasons) };
 }
 
 function matchesStructuredFilters(item, parsedQuery) {
