@@ -71,8 +71,7 @@ export function searchProgram(program, expandedQuery, parsedQuery, options = {})
     : [];
 
   return (phraseMatchedItems.length >= 2 ? phraseMatchedItems : scoredItems)
-    .sort((a, b) => b._score - a._score || compareSchedule(a, b))
-    .slice(0, 12);
+    .sort((a, b) => b._score - a._score || compareSchedule(a, b));
 }
 
 export function buildTimeAwareness(program, parsedQuery, options = {}) {

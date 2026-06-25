@@ -13,7 +13,7 @@ export function buildLiveSchedule(program, options = {}) {
   const sorted = [...program].sort(compareSchedule);
 
   if (!dates.length) {
-    return { status: "empty", current, ongoing: [], upcoming: sorted.slice(0, options.limit || 12) };
+    return { status: "empty", current, ongoing: [], upcoming: sorted };
   }
 
   if (current.date < dates[0]) {
@@ -21,7 +21,7 @@ export function buildLiveSchedule(program, options = {}) {
       status: "before",
       current,
       ongoing: [],
-      upcoming: sorted.slice(0, options.limit || 12)
+      upcoming: sorted
     };
   }
 
@@ -35,7 +35,7 @@ export function buildLiveSchedule(program, options = {}) {
   }
 
   const ongoing = sorted.filter((item) => isOngoing(item, current));
-  const upcoming = sorted.filter((item) => isUpcoming(item, current)).slice(0, options.limit || 12);
+  const upcoming = sorted.filter((item) => isUpcoming(item, current));
 
   return {
     status: "during",

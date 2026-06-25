@@ -124,8 +124,7 @@ export default function App() {
       buildLiveSchedule(program, {
         conferenceDates,
         timeZone: metadata?.timezone,
-        now: currentTime,
-        limit: 12
+        now: currentTime
       }),
     [program, conferenceDates, metadata, currentTime]
   );
