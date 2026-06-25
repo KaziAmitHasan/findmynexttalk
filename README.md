@@ -16,6 +16,10 @@ The root page lists available conferences. FSE 2026 is served at:
 https://kaziamithasan.github.io/findmynexttalk/fse2026
 ```
 
+## Created By
+
+Created and developed by Kazi Amit Hasan.
+
 ## Current Status
 
 This repository currently includes:
@@ -56,23 +60,6 @@ Node unit tests can run without Vite dependencies:
 ```bash
 node --test tests/*.test.js
 ```
-
-## GitHub Pages Deployment
-
-The Vite base path is configured for:
-
-```text
-https://<username>.github.io/findmynexttalk/
-```
-
-Deployment is handled by `.github/workflows/deploy.yml`.
-
-After pushing to GitHub:
-
-1. Open the repository settings.
-2. Go to `Pages`.
-3. Set `Source` to `GitHub Actions`.
-4. Run the `Deploy to GitHub Pages` workflow or push to `main`.
 
 ## Data Updates
 
