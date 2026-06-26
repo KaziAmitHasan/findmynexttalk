@@ -436,8 +436,6 @@ function LiveScheduleView({ liveSchedule }) {
         </section>
       ) : liveSchedule.status === "during" ? (
         <p className="live-empty">No item is currently in progress.</p>
-      ) : liveSchedule.status === "before" ? (
-        <p className="live-empty">No item is currently in progress. The conference has not started yet.</p>
       ) : null}
     </section>
   );
