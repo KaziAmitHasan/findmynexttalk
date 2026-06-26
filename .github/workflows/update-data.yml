@@ -35,7 +35,7 @@ jobs:
       - name: Validate data
         run: python3 scripts/validate_data.py public/data/fse2026/program.json public/data/fse2026/metadata.json
 
-      - name: Audit iCal coverage
+      - name: Compare iCal coverage
         run: python3 scripts/audit_data.py --program public/data/fse2026/program.json --ical conferences/fse2026/event-calendar.ics
 
       - name: Run Python tests

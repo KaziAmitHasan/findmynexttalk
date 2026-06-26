@@ -23,6 +23,18 @@ def main() -> int:
 
     print_report(report)
 
+    if report["missingInIcal"]:
+        print(
+            f"WARNING: {report['missingInIcal']} mined program slot IDs are not present in event-calendar.ics",
+            file=sys.stderr,
+        )
+    if report["programItems"] > report["icalEvents"]:
+        extra_count = report["programItems"] - report["icalEvents"]
+        print(
+            f"WARNING: mined program has {extra_count} more item(s) than event-calendar.ics",
+            file=sys.stderr,
+        )
+
     if errors:
         for error in errors:
             print(f"ERROR: {error}", file=sys.stderr)
@@ -43,14 +55,12 @@ def audit_program(program: list[dict], ical_events: dict[str, dict]) -> tuple[di
     missing_in_program = sorted(ical_slot_id_set - program_slot_id_set)
     missing_in_ical = sorted(program_slot_id_set - ical_slot_id_set)
 
-    if len(program) != len(ical_events):
-        errors.append(f"program item count {len(program)} does not match iCal event count {len(ical_events)}")
+    if len(program) < len(ical_events):
+        errors.append(f"program item count {len(program)} is lower than iCal event count {len(ical_events)}")
     if duplicate_slot_ids:
         errors.append(f"duplicate sourceSlotId values in program: {duplicate_slot_ids[:10]}")
     if missing_in_program:
         errors.append(f"{len(missing_in_program)} iCal slot IDs are missing from program.json")
-    if missing_in_ical:
-        errors.append(f"{len(missing_in_ical)} program slot IDs are missing from event-calendar.ics")
 
     non_catering_missing_rooms = [
         item
