@@ -292,47 +292,52 @@ function scoreItem(item, terms, phrase, parsedQuery) {
   }
 
   for (const term of terms) {
-    if (title.includes(term)) {
+    if (containsSearchTerm(title, term)) {
       score += 30;
       topicScore += 30;
       reasons.push(`title contains "${term}"`);
     }
-    if (keywords.includes(term)) {
+    if (containsSearchTerm(keywords, term)) {
       score += 25;
       topicScore += 25;
       reasons.push(`keyword contains "${term}"`);
     }
-    if (speakers.includes(term)) {
+    if (containsSearchTerm(speakers, term)) {
       score += 20;
       topicScore += 20;
       reasons.push(`speaker contains "${term}"`);
     }
-    if (abstract.includes(term)) {
+    if (containsSearchTerm(abstract, term)) {
       score += 10;
       topicScore += 10;
       reasons.push(`abstract contains "${term}"`);
     }
-    if (track.includes(term)) {
+    if (containsSearchTerm(track, term)) {
       score += 8;
       topicScore += 8;
       reasons.push(`track contains "${term}"`);
     }
-    if (session.includes(term)) {
+    if (containsSearchTerm(session, term)) {
       score += 8;
       topicScore += 8;
       reasons.push(`session contains "${term}"`);
     }
-    if (eventType.includes(term)) {
+    if (containsSearchTerm(eventType, term)) {
       score += 8;
       topicScore += 8;
       reasons.push(`type contains "${term}"`);
     }
-    if (room.includes(term)) {
+    if (containsSearchTerm(room, term)) {
       score += 6;
       topicScore += 6;
       reasons.push(`room contains "${term}"`);
     }
-    if (text.includes(term) && !title.includes(term) && !keywords.includes(term) && !abstract.includes(term)) {
+    if (
+      containsSearchTerm(text, term) &&
+      !containsSearchTerm(title, term) &&
+      !containsSearchTerm(keywords, term) &&
+      !containsSearchTerm(abstract, term)
+    ) {
       score += 2;
       topicScore += 2;
       reasons.push(`program text contains "${term}"`);
@@ -380,6 +385,18 @@ function scoreItem(item, terms, phrase, parsedQuery) {
   }
 
   return { score, hasPhraseMatch: phraseScore > 0, hasTopicMatch: topicScore > 0, reasons: uniqueReasons(reasons) };
+}
+
+function containsSearchTerm(text, term) {
+  if (!term) {
+    return false;
+  }
+
+  if (term.length <= 2) {
+    return new RegExp(`\\b${escapeRegExp(term)}\\b`).test(text);
+  }
+
+  return text.includes(term);
 }
 
 function matchesStructuredFilters(item, parsedQuery) {
@@ -530,6 +547,10 @@ function levenshteinDistance(a, b) {
   }
 
   return dp[a.length][b.length];
+}
+
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 function uniqueReasons(reasons) {

@@ -48,6 +48,14 @@ test("detects institution names with straight or curly apostrophes", () => {
   assert.equal(parseQuery("papers from Queens University").speaker, "Queens University");
 });
 
+test("detects institution names before date clauses", () => {
+  const parsed = parseQuery("Find talks of Singapore Management University on 6th July");
+
+  assert.equal(parsed.speaker, "Singapore Management University");
+  assert.equal(parsed.date, "2026-07-06");
+  assert.deepEqual(parsed.topicTerms, []);
+});
+
 test("detects keynote as an event type instead of a topic", () => {
   const parsed = parseQuery("AIware keynotes");
 
@@ -105,6 +113,13 @@ test("keeps useful topic terms", () => {
   const parsed = parseQuery("find me talks related to GitHub pull request");
 
   assert.deepEqual(parsed.topicTerms, ["github", "pull", "request"]);
+});
+
+test("drops connector words from topic terms", () => {
+  const parsed = parseQuery("Find talks about GitHub pull requests and agents on 9th july");
+
+  assert.equal(parsed.date, "2026-07-09");
+  assert.deepEqual(parsed.topicTerms, ["github", "pull", "requests", "agents"]);
 });
 
 test("expands synonyms from configured terms", () => {

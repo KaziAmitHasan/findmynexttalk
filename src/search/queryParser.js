@@ -60,6 +60,7 @@ const STOP_WORDS = new Set([
   "about",
   "after",
   "all",
+  "and",
   "am",
   "are",
   "around",
@@ -297,7 +298,17 @@ export function detectSpeaker(query) {
   const presentingMatch = value.match(/\b(?:when is|when does|is)\s+([A-Za-z][A-Za-z .'\-’]{1,80}?)\s+(?:presenting|speaking|talking)\b/i);
 
   const rawSpeaker = byMatch?.[1] || directByMatch?.[1] || presentingMatch?.[1] || "";
-  return rawSpeaker.replace(/[?.,!]+$/g, "").trim();
+  return cleanSpeakerCandidate(rawSpeaker);
+}
+
+function cleanSpeakerCandidate(value) {
+  return String(value ?? "")
+    .replace(/\s+\bon\b.*$/i, "")
+    .replace(/\s+\b(?:at|around|near)\s+(?:[0-9]{1,2}(?::[0-9]{2})?\s*(?:am|pm)?|[0-9]{1,2}:[0-9]{2})\b.*$/i, "")
+    .replace(/\s+\b(?:after|before)\s+(?:lunch|noon|morning|afternoon|evening)\b.*$/i, "")
+    .replace(/\s+\b(?:on|at|around|near|after|before)$/i, "")
+    .replace(/[?.,!]+$/g, "")
+    .trim();
 }
 
 export function detectTrack(normalizedQuery) {

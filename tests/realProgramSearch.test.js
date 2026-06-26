@@ -51,6 +51,15 @@ test("real data institution search matches author affiliations", () => {
   assert.ok(results.every((item) => /singapore management university/i.test(affiliations(item))));
 });
 
+test("real data institution search works with date clauses", () => {
+  const results = runSearch("Find talks of Singapore Management University on 6th July");
+
+  assert.ok(results.length >= 1);
+  assert.ok(results.every((item) => item.date === "2026-07-06"));
+  assert.ok(results.every((item) => /singapore management university/i.test(affiliations(item))));
+  assert.ok(results.some((item) => item.title === "Configuring Agentic AI Coding Tools: An Exploratory Study"));
+});
+
 test("real data institution search handles apostrophes in university names", () => {
   const results = runSearch("papers from Queen's University");
 
@@ -193,6 +202,22 @@ test("real data date and time-band query returns only matching slots", () => {
   assert.ok(results.length >= 10);
   assert.ok(results.every((item) => item.date === "2026-07-06"));
   assert.ok(results.every((item) => item.startTime < "12:00"));
+});
+
+test("real data date and time-band topic query handles PR abbreviation", () => {
+  const results = runSearch("what is happening monday morning about github pr");
+
+  assert.ok(results.length >= 3);
+  assert.ok(results.every((item) => item.date === "2026-07-06"));
+  assert.ok(results.every((item) => item.startTime < "12:00"));
+  assert.deepEqual(
+    results.slice(0, 3).map((item) => item.title),
+    [
+      "When Code Authors Are Agents: A Large-Scale Study of Human–Agent Collaboration in Pull Requests",
+      "Collaborator or Assistant? How AI Coding Agents Partition Work Across Pull Request Lifecycles",
+      "Towards Efficient and Secure Pull-Request-Based Software Development"
+    ]
+  );
 });
 
 test("real data exact time query returns events active at that time", () => {
