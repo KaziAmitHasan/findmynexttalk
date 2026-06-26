@@ -667,6 +667,10 @@ footer {
   max-width: 760px;
 }
 
+.footer-note {
+  font-style: italic;
+}
+
 @media (max-width: 760px) {
   .app-shell {
     padding: 16px;

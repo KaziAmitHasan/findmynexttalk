@@ -451,7 +451,7 @@ function AppFooter({ metadata }) {
 
   return (
     <div className="footer-content">
-      <p>
+      <p className="footer-note">
         All data are based on{" "}
         {sourceUrl ? (
           <a href={sourceUrl} target="_blank" rel="noreferrer">
@@ -463,7 +463,10 @@ function AppFooter({ metadata }) {
         .
       </p>
       <p>
-        Made with heart by Kazi Amit Hasan. Know more:{" "}
+        Made with ❤️ by Kazi Amit Hasan.
+      </p>
+      <p>
+        Know more:{" "}
         <a href="https://github.com/KaziAmitHasan/findmynexttalk" target="_blank" rel="noreferrer">
           Find My Next Talk
         </a>

@@ -1,83 +1,130 @@
 # Find My Next Talk
 
-A static, GitHub Pages-friendly search tool for Researchr conference programs.
+### Problem:
+Navigating through page-long schedules of talks, keynotes, and presentations in multi-day conferences is very exhausting and confusing (multiple sessions at a time). Although I always make a list of potential talks I want to attend, it's still hard to find talks/presentations related to my choice of research topic (e.g., CI/CD, GitHub Pull Requests, Testing), institution, or researchers.
 
-## Live App
+### Solution
 
-The app is deployed at:
+So, I solved this by developing an open-source tool, FindMyNextTalk. It's a static search tool for conference programs hosted on the
+[Researchr](https://conf.researchr.org/) platform.
+
+Visit the web app: https://kaziamithasan.github.io/findmynexttalk/
+
+#### Supported Conferences
+
+| Conference | Find My Next Talk URL | Status |
+| --- | --- | --- |
+| [FSE 2026](https://conf.researchr.org/program/fse-2026/program-fse-2026/) | https://kaziamithasan.github.io/findmynexttalk/fse2026 | Supported |
+
+#### How it works
+
+Visit https://kaziamithasan.github.io/findmynexttalk/ and select the conference. You can ask your query in natural language, and it will show you the talks! For example,
+
 
 ```text
-https://kaziamithasan.github.io/findmynexttalk/
+Find talks about GitHub pull requests
+Find talks from Queen's University
+Find talks by David Lo
+What is happening now?
+Show keynotes on July 7
+Find testing talks in Research Papers
+What is in MB 1.210?
 ```
 
-The root page lists available conferences. FSE 2026 is served at:
+Find My Next Talk converts the official Researchr program into structured static data and
+provides a fast browser-side search experience over that data.
+
+#### Features
+
+- Natural-language-like search for topics, titles, authors, speakers, and affiliations
+- Room, track, event type, date, time band, exact time, now, and next queries
+- Date-grouped results with compact cards for scanning schedules quickly
+- Current-session view for conferences that are in progress
+- Optional hiding of past events while a conference is running
+- Synonym support for common research and software-engineering terms
+- Links from each result back to the official Researchr source
+- Fully static deployment on GitHub Pages
+- No login, profile creation, backend server, database, or LLM API
+
+#### Data Inventory
+
+| Conference | Slug | Program Data | Metadata | Event Calendar | Audit Status |
+| --- | --- | --- | --- | --- | --- |
+| FSE 2026 | `fse2026` | `public/data/fse2026/program.json` | `public/data/fse2026/metadata.json` | `conferences/fse2026/event-calendar.ics` | 586 program items, 0 missing against iCal |
+
+The FSE 2026 dataset includes scheduled items, talks, sessions, rooms, tracks, speakers,
+authors, affiliations, abstracts, links, and metadata where available from the official
+Researchr program.
+
+### Repository Layout
 
 ```text
-https://kaziamithasan.github.io/findmynexttalk/fse2026
+public/data/conferences.json          Conference registry used by the app
+public/data/<conference>/program.json Normalized searchable program data
+public/data/<conference>/metadata.json Conference metadata and source information
+public/data/<conference>/synonyms.json Conference-specific search synonyms
+conferences/<conference>/             Manually downloaded event-calendar.ics files
+scripts/scrape_program.py             Researchr data miner
+scripts/validate_data.py              Data validation checks
+scripts/audit_data.py                 Program JSON versus iCal audit
+src/                                  React application
+tests/                                Query, ranking, routing, and data regression tests
 ```
 
-## Current Status
+## Local Development
 
-This repository currently includes:
+Clone the repository:
 
-- React + Vite scaffold
-- mined FSE 2026 data under `public/data/fse2026/`
-- deterministic query parsing for topics, authors, affiliations, rooms, tracks, event types, dates, time bands, exact clock times, now, and next
-- browser-side MiniSearch candidate discovery plus deterministic ranking/filtering
-- local data validation script
-- real-program regression tests for important attendee searches
+```bash
+git clone https://github.com/KaziAmitHasan/findmynexttalk.git
+cd findmynexttalk
+```
 
-This is intentionally a search tool only. It does not include bookmarks, login, user accounts, a backend, or an LLM API.
-
-## Commands
+Install Node.js dependencies:
 
 ```bash
 npm install
+```
+
+Start the local development server:
+
+```bash
 npm run dev
+```
+
+The app will be available at the local URL printed by Vite, usually:
+
+```text
+http://localhost:5173/findmynexttalk/
+```
+
+Run the full verification suite before opening a pull request:
+
+```bash
 npm run check
-npm run audit:data
+```
+
+Build the static site for production:
+
+```bash
 npm run build
 ```
 
-Data validation can run without installing Node dependencies:
-
-```bash
-python3 scripts/validate_data.py public/data/fse2026/program.json public/data/fse2026/metadata.json
-```
-
-Audit mined data against the Researchr event calendar:
-
-```bash
-python3 scripts/audit_data.py --program public/data/fse2026/program.json --ical conferences/fse2026/event-calendar.ics
-```
-
-Node unit tests can run without Vite dependencies:
-
-```bash
-node --test tests/*.test.js
-```
-
-## Data Updates
-
-`.github/workflows/update-data.yml` runs daily and can also be started manually.
-
-It refreshes the Researchr program data, validates `program.json`, audits the iCal coverage, runs Python tests, and commits changed data files back to the repository.
-It also builds and deploys the refreshed static site to GitHub Pages.
 
 ## Adding Another Researchr Conference
 
-Researchr program pages under `https://conf.researchr.org/program/` generally share the same HTML structure.
+Researchr program pages under `https://conf.researchr.org/program/` generally use the same
+program structure. To add a new conference:
 
-For a new conference:
-
-1. Add a new entry to `public/data/conferences.json`.
-2. Create a folder for the manually downloaded detailed event calendar:
+1. Add the conference to `public/data/conferences.json`.
+2. Create `conferences/<conference-slug>/`.
+3. Download the detailed Researchr event calendar and save it as:
 
 ```text
 conferences/<conference-slug>/event-calendar.ics
 ```
 
-3. Run the scraper with that slug and Researchr program URL:
+4. Run the scraper:
 
 ```bash
 python3 scripts/scrape_program.py \
@@ -89,32 +136,27 @@ python3 scripts/scrape_program.py \
   --url "https://conf.researchr.org/program/<conference>/<program-page>/"
 ```
 
-This writes:
+5. Validate the generated data:
+
+```bash
+npm run check
+```
+
+Generated files:
 
 ```text
 public/data/<conference-slug>/program.json
 public/data/<conference-slug>/metadata.json
 ```
 
-Copy or create `public/data/<conference-slug>/synonyms.json` as well.
+Add or customize `public/data/<conference-slug>/synonyms.json` when the conference needs
+domain-specific search terms.
 
-The app route will be:
-
-```text
-https://kaziamithasan.github.io/findmynexttalk/<conference-slug>
-```
-
-## Data Source
-
-Canonical program source:
-
-```text
-https://conf.researchr.org/program/fse-2026/program-fse-2026/
-```
 
 ## Developer and Contact
 
 Created and developed by Kazi Amit Hasan.
 
 - GitHub: [KaziAmitHasan](https://github.com/KaziAmitHasan)
-- Contact / issues: [findmynexttalk issues](https://github.com/KaziAmitHasan/findmynexttalk/issues)
+- Project: [Find My Next Talk](https://github.com/KaziAmitHasan/findmynexttalk)
+- Issues and feature requests: [open an issue](https://github.com/KaziAmitHasan/findmynexttalk/issues)
