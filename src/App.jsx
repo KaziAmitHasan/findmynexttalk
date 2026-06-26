@@ -217,8 +217,7 @@ export default function App() {
           </div>
 
           <footer>
-            <span>Static search tools for Researchr conference programs.</span>
-            <span>Developed by Kazi Amit Hasan</span>
+            <AppFooter />
           </footer>
         </section>
       </main>
@@ -397,8 +396,7 @@ export default function App() {
         ) : null}
 
         <footer>
-          <span>{metadata?.statusNote ?? "Program data loading."}</span>
-          <span>Developed by Kazi Amit Hasan</span>
+          <AppFooter metadata={metadata} />
         </footer>
       </section>
     </main>
@@ -407,20 +405,19 @@ export default function App() {
 
 function LiveScheduleView({ liveSchedule }) {
   const statusText = {
-    before: "Conference has not started yet",
+    before: "Conference has not started yet.",
     during: `Conference time: ${liveSchedule.current.date} ${liveSchedule.current.time}`,
-    after: "Conference has ended",
-    empty: "Program data loading"
+    after: "Conference has ended.",
+    empty: "Program data loading."
   }[liveSchedule.status];
 
   return (
     <section className="live-schedule" aria-label="Live schedule">
       <div className="live-header">
         <div>
-          <p className="eyebrow">Homepage</p>
           <h2>Happening now</h2>
+          <p>{statusText}</p>
         </div>
-        <span>{statusText}</span>
       </div>
 
       {liveSchedule.status === "after" ? (
@@ -443,6 +440,46 @@ function LiveScheduleView({ liveSchedule }) {
         <p className="live-empty">No item is currently in progress. The conference has not started yet.</p>
       ) : null}
     </section>
+  );
+}
+
+function AppFooter({ metadata }) {
+  const officialProgramText = metadata?.conference
+    ? `${metadata.conference} conference's official program`
+    : "each selected conference's official program";
+  const sourceUrl = metadata?.source;
+
+  return (
+    <div className="footer-content">
+      <p>
+        All data are based on{" "}
+        {sourceUrl ? (
+          <a href={sourceUrl} target="_blank" rel="noreferrer">
+            {officialProgramText}
+          </a>
+        ) : (
+          officialProgramText
+        )}
+        .
+      </p>
+      <p>
+        Made with heart by Kazi Amit Hasan. Know more:{" "}
+        <a href="https://github.com/KaziAmitHasan/findmynexttalk" target="_blank" rel="noreferrer">
+          Find My Next Talk
+        </a>
+      </p>
+      <p>
+        If you want to contribute, open a{" "}
+        <a href="https://github.com/KaziAmitHasan/findmynexttalk/pulls" target="_blank" rel="noreferrer">
+          PR
+        </a>{" "}
+        or{" "}
+        <a href="https://github.com/KaziAmitHasan/findmynexttalk/issues" target="_blank" rel="noreferrer">
+          issue
+        </a>
+        .
+      </p>
+    </div>
   );
 }
 

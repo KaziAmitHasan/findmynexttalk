@@ -438,7 +438,8 @@ h1 {
   line-height: 1.2;
 }
 
-.live-header span {
+.live-header p {
+  margin: 5px 0 0;
   color: #405159;
   font-size: 0.82rem;
   font-weight: 850;
@@ -649,13 +650,21 @@ h1 {
 }
 
 footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 12px;
   margin-top: 22px;
   color: #607078;
   font-size: 0.84rem;
+  text-align: center;
+}
+
+.footer-content {
+  display: grid;
+  justify-items: center;
+  gap: 5px;
+}
+
+.footer-content p {
+  margin: 0;
+  max-width: 760px;
 }
 
 @media (max-width: 760px) {
