@@ -48,9 +48,9 @@ provides a fast browser-side search experience over that data.
 
 #### Data Inventory
 
-| Conference | Slug | Program Data | Metadata | Event Calendar | Audit Status |
-| --- | --- | --- | --- | --- | --- |
-| FSE 2026 | `fse2026` | `public/data/fse2026/program.json` | `public/data/fse2026/metadata.json` | `conferences/fse2026/event-calendar.ics` | 586 program items, 0 missing against iCal |
+| Conference | Slug | Program Data | Metadata | Source of Truth |
+| --- | --- | --- | --- | --- |
+| FSE 2026 | `fse2026` | `public/data/fse2026/program.json` | `public/data/fse2026/metadata.json` | 593 mined Researchr program items |
 
 The FSE 2026 dataset includes scheduled items, talks, sessions, rooms, tracks, speakers,
 authors, affiliations, abstracts, links, and metadata where available from the official
@@ -63,10 +63,10 @@ public/data/conferences.json          Conference registry used by the app
 public/data/<conference>/program.json Normalized searchable program data
 public/data/<conference>/metadata.json Conference metadata and source information
 public/data/<conference>/synonyms.json Conference-specific search synonyms
-conferences/<conference>/             Manually downloaded event-calendar.ics files
+conferences/<conference>/             Optional local conference artifacts such as event-calendar.ics
 scripts/scrape_program.py             Researchr data miner
 scripts/validate_data.py              Data validation checks
-scripts/audit_data.py                 Program JSON versus iCal audit
+scripts/audit_data.py                 Optional Program JSON versus iCal diagnostic audit
 src/                                  React application
 tests/                                Query, ranking, routing, and data regression tests
 ```
@@ -117,14 +117,7 @@ Researchr program pages under `https://conf.researchr.org/program/` generally us
 program structure. To add a new conference:
 
 1. Add the conference to `public/data/conferences.json`.
-2. Create `conferences/<conference-slug>/`.
-3. Download the detailed Researchr event calendar and save it as:
-
-```text
-conferences/<conference-slug>/event-calendar.ics
-```
-
-4. Run the scraper:
+2. Run the scraper:
 
 ```bash
 python3 scripts/scrape_program.py \
@@ -136,7 +129,7 @@ python3 scripts/scrape_program.py \
   --url "https://conf.researchr.org/program/<conference>/<program-page>/"
 ```
 
-5. Validate the generated data:
+3. Validate the generated data:
 
 ```bash
 npm run check

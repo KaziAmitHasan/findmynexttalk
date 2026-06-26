@@ -30,13 +30,10 @@ jobs:
           python-version: "3.11"
 
       - name: Refresh Researchr program data
-        run: python3 scripts/scrape_program.py --conference fse2026 --refresh-ical
+        run: python3 scripts/scrape_program.py --conference fse2026
 
       - name: Validate data
         run: python3 scripts/validate_data.py public/data/fse2026/program.json public/data/fse2026/metadata.json
-
-      - name: Compare iCal coverage
-        run: python3 scripts/audit_data.py --program public/data/fse2026/program.json --ical conferences/fse2026/event-calendar.ics
 
       - name: Run Python tests
         run: python3 -m unittest discover -s tests -p '*_test.py'
@@ -45,7 +42,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/fse2026/program.json public/data/fse2026/metadata.json conferences/fse2026/event-calendar.ics
+          git add public/data/fse2026/program.json public/data/fse2026/metadata.json
           git diff --cached --quiet || git commit -m "Update FSE program data"
           git push
 

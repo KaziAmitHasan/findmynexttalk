@@ -31,7 +31,12 @@ def main() -> int:
     parser.add_argument(
         "--refresh-ical",
         action="store_true",
-        help="Try to refresh the local iCal file from the program page before merging.",
+        help="Try to refresh the local iCal file from the program page. This does not affect mined program data unless --merge-ical is also used.",
+    )
+    parser.add_argument(
+        "--merge-ical",
+        action="store_true",
+        help="Merge optional iCal data into mined HTML program items. HTML-only mining is the default.",
     )
     parser.add_argument("--data-out", type=Path, help="Output data directory. Defaults to public/data/<conference>")
     parser.add_argument("--program-out", type=Path)
@@ -48,9 +53,9 @@ def main() -> int:
         refresh_ical_file(html_text, args.url, ical_path)
 
     program = sort_program_items(parse_program_html(html_text, base_url=args.url, conference_slug=args.conference))
-    if ical_path.exists():
+    if args.merge_ical and ical_path.exists():
         program = sort_program_items(merge_ical_events(program, parse_ical_file(ical_path)))
-    else:
+    elif args.merge_ical:
         print(f"No iCal file found at {ical_path}; writing HTML-only program data.")
     metadata = build_metadata(
         source_url=args.url,

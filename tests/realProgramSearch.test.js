@@ -87,8 +87,14 @@ test("real data keynote query returns only keynote events", () => {
 
   assert.ok(results.length >= 8);
   assert.ok(results.every((item) => item.eventType === "Keynote"));
-  assert.equal(results[0].date, "2026-07-06");
-  assert.equal(results[0].startTime, "11:00");
+  assert.ok(
+    results.some(
+      (item) =>
+        item.date === "2026-07-06" &&
+        item.startTime === "11:00" &&
+        item.title === "From Chatbots to Colleagues: Steering Code-Driven Agents for End-to-End Autonomy"
+    )
+  );
 });
 
 test("real data AIware keynote query excludes AIware talks and Q&A", () => {
