@@ -2385,8 +2385,8 @@
     "eventType": "Research paper",
     "date": "2026-07-06",
     "startTime": "11:00",
-    "endTime": "11:18",
-    "durationMinutes": 18,
+    "endTime": "11:20",
+    "durationMinutes": 20,
     "room": "MB 2.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-499ba369-d495-4b51-b3ac-00cfe2428809",
     "presentationUrl": null,
@@ -2859,6 +2859,30 @@
     "searchText": "Awareness and Avoidance of Security Vulnerabilities in Software Tutorials Doctoral Symposium Talk MB 3.210 Talks (Session 2) Bhagya Chembakottu McGill University security"
   },
   {
+    "id": "fse2026-2026-07-06-challenge-overview-eee93bb6",
+    "sourceSlotId": "6fed4bab-cd05-4e47-bcf6-1cd6bc305b72",
+    "researchrEventId": "4b996c99-4fd4-4875-9796-6a083472715e",
+    "kind": "talk",
+    "title": "Challenge Overview",
+    "abstract": "",
+    "authors": [],
+    "speakerNames": [],
+    "track": "SSBSE Challenge",
+    "session": "SSBSE Challenge",
+    "eventType": "Talk",
+    "date": "2026-07-06",
+    "startTime": "14:00",
+    "endTime": "14:10",
+    "durationMinutes": 10,
+    "room": "MB 2.210",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-4b996c99-4fd4-4875-9796-6a083472715e",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "Challenge Overview SSBSE Challenge Talk MB 2.210 SSBSE Challenge"
+  },
+  {
     "id": "fse2026-2026-07-06-veritrans-fine-tuned-llm-assisted-nl-pl-translation-via-a-determ-9a838cca",
     "sourceSlotId": "84b9be25-c08a-4356-b372-25612a96b9bd",
     "researchrEventId": "d2f3f6dd-6d65-46e1-8695-a9e73ac6492e",
@@ -2950,6 +2974,47 @@
       "large language model"
     ],
     "searchText": "Kubernetes Misconfigurations in the Wild: Taxonomy, Evolution, and Automated Repair with Large Language Models AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems GHORAB Mostafa Anouar Ahmad Abdellatif Mohamed Aymen saied Université Laval, CA University of Calgary Laval University LLM large language model"
+  },
+  {
+    "id": "fse2026-2026-07-06-apkfuzz-search-based-fuzzing-for-android-apk-vulnerability-disco-f4c537d9",
+    "sourceSlotId": "59d6684b-0bf2-4b7f-9074-22ac01c3548a",
+    "researchrEventId": "edd8330e-d190-40ba-b041-07bd85fb57b5",
+    "kind": "event",
+    "title": "ApkFuzz: Search-Based Fuzzing for Android APK Vulnerability Discovery",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Karine Even-Mendoza",
+        "affiliation": "King’s College London"
+      },
+      {
+        "name": "Aidan Dakhama",
+        "affiliation": "The University of Edinburgh, UK"
+      },
+      {
+        "name": "Harel Berger",
+        "affiliation": "Ariel University"
+      }
+    ],
+    "speakerNames": [
+      "Karine Even-Mendoza",
+      "Aidan Dakhama",
+      "Harel Berger"
+    ],
+    "track": "SSBSE Challenge",
+    "session": "SSBSE Challenge",
+    "eventType": "Short-paper",
+    "date": "2026-07-06",
+    "startTime": "14:10",
+    "endTime": "14:25",
+    "durationMinutes": 15,
+    "room": "MB 2.210",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-edd8330e-d190-40ba-b041-07bd85fb57b5",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "ApkFuzz: Search-Based Fuzzing for Android APK Vulnerability Discovery SSBSE Challenge Short-paper MB 2.210 SSBSE Challenge Karine Even-Mendoza Aidan Dakhama Harel Berger King’s College London The University of Edinburgh, UK Ariel University"
   },
   {
     "id": "fse2026-2026-07-06-quality-and-security-signals-in-ai-generated-python-refactoring--c0e486c3",
@@ -3158,6 +3223,57 @@
     "searchText": "Executable but Unlearnable: Designing Code that Resists LLM-Based Learning AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Viraaji Mothukuri Reza M. Parizi Kennesaw State University Kennesaw State University LLM large language model code"
   },
   {
+    "id": "fse2026-2026-07-06-fuzz3-entropy-as-a-third-oracle-e996a875",
+    "sourceSlotId": "0fb5836b-81f7-4327-9a04-6050823c1feb",
+    "researchrEventId": "b98d28d0-af9b-43ff-8c61-660635d19c5f",
+    "kind": "event",
+    "title": "Fuzz3: Entropy as a Third Oracle",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Karine Even-Mendoza",
+        "affiliation": "King’s College London"
+      },
+      {
+        "name": "Janine Obiri",
+        "affiliation": "University College London (UCL)"
+      },
+      {
+        "name": "Aidan Dakhama",
+        "affiliation": "The University of Edinburgh, UK"
+      },
+      {
+        "name": "Phil McMinn",
+        "affiliation": "University of Sheffield"
+      },
+      {
+        "name": "William Langdon",
+        "affiliation": "University College London"
+      }
+    ],
+    "speakerNames": [
+      "Karine Even-Mendoza",
+      "Janine Obiri",
+      "Aidan Dakhama",
+      "Phil McMinn",
+      "William Langdon"
+    ],
+    "track": "SSBSE Challenge",
+    "session": "SSBSE Challenge",
+    "eventType": "Short-paper",
+    "date": "2026-07-06",
+    "startTime": "14:25",
+    "endTime": "14:40",
+    "durationMinutes": 15,
+    "room": "MB 2.210",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-b98d28d0-af9b-43ff-8c61-660635d19c5f",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "Fuzz3: Entropy as a Third Oracle SSBSE Challenge Short-paper MB 2.210 SSBSE Challenge Karine Even-Mendoza Janine Obiri Aidan Dakhama Phil McMinn William Langdon King’s College London University College London (UCL) The University of Edinburgh, UK University of Sheffield University College London"
+  },
+  {
     "id": "fse2026-2026-07-06-detecting-unsoundness-in-neural-network-verifiers-via-concrete-a-7639db44",
     "sourceSlotId": "a7bcb77a-c377-445a-a85f-dc0e9632b0f0",
     "researchrEventId": "aac345f8-3ebf-4456-ab8e-3b679d8f03fb",
@@ -3358,6 +3474,50 @@
     "searchText": "A Preliminary Study on Explaining Risk of Code Changes using LLM-based Prediction Models AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Yalin Liu Kosay Jabre Rui Abreu Zachariah J Carmichael Vijayaraghavan Murali Akshay Patel Jun Ge Weiyan Sun Cong Zhang Audris Mockus David Khavari Peter Rigby Nachiappan Nagappan Facebook, US Meta Platforms, Inc. Meta Facebook, US Rice University Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Southern Methodist University, Southern Methodist University, US The University of Tennessee, Knoxville / Vilnius University Concordia University; Meta Meta Platforms, Inc. LLM large language model code"
   },
   {
+    "id": "fse2026-2026-07-06-reducing-llms-by-searching-heterogeneous-quantizations-a27d24d9",
+    "sourceSlotId": "806e1f88-6cbb-4fbd-9948-b121fa83bd7b",
+    "researchrEventId": "e9045244-3150-4944-9559-b996ebaf94f8",
+    "kind": "event",
+    "title": "Reducing LLMs by Searching Heterogeneous Quantizations",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Enrique Alba",
+        "affiliation": "University of Malaga"
+      },
+      {
+        "name": "Yazhuo Cao",
+        "affiliation": "King's College London"
+      },
+      {
+        "name": "Hector Menendez",
+        "affiliation": "King’s College London"
+      }
+    ],
+    "speakerNames": [
+      "Enrique Alba",
+      "Yazhuo Cao",
+      "Hector Menendez"
+    ],
+    "track": "SSBSE Challenge",
+    "session": "SSBSE Challenge",
+    "eventType": "Short-paper",
+    "date": "2026-07-06",
+    "startTime": "14:40",
+    "endTime": "14:55",
+    "durationMinutes": 15,
+    "room": "MB 2.210",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-e9045244-3150-4944-9559-b996ebaf94f8",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": "https://kclpure.kcl.ac.uk/portal/en/publications/reducing-llms-by-searching-heterogeneous-quantizations/",
+    "keywords": [
+      "LLM",
+      "large language model"
+    ],
+    "searchText": "Reducing LLMs by Searching Heterogeneous Quantizations SSBSE Challenge Short-paper MB 2.210 SSBSE Challenge Enrique Alba Yazhuo Cao Hector Menendez University of Malaga King's College London King’s College London LLM large language model"
+  },
+  {
     "id": "fse2026-2026-07-06-towards-efficient-and-secure-pull-request-based-software-develop-db6fb3b0",
     "sourceSlotId": "2899e8e2-f3f3-4888-af87-329d0d5d6947",
     "researchrEventId": "6e113995-c0f3-4538-abc4-9bd2cbd2177a",
@@ -3532,6 +3692,65 @@
     "searchText": "Neural-Symbolic Multi-Objective Optimization for Performance-Aware ORM Database Design AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Sasan Azizian Ayoub Hazrati Artin Azizian Elham Rastegari Hamid Bagheri Juan Cui Bellevue University The Vanguard Group McGill University, School of Computer Science Creighton University University of Nebraska-Lincoln University of Nebraska, Lincoln, US"
   },
   {
+    "id": "fse2026-2026-07-06-safetune-search-based-harmfulness-minimisation-for-large-languag-1d9c41ac",
+    "sourceSlotId": "70077be9-36f2-4817-855e-6c44613f20d2",
+    "researchrEventId": "9cd87624-4a24-4eb7-84de-5ba171a9d129",
+    "kind": "event",
+    "title": "SafeTune: Search-based Harmfulness Minimisation for Large Language Models",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Giordano d'Aloisio",
+        "affiliation": "University of L'Aquila"
+      },
+      {
+        "name": "David Williams",
+        "affiliation": "University College London"
+      },
+      {
+        "name": "Giusy Annunziata",
+        "affiliation": "University of Salerno"
+      },
+      {
+        "name": "Zhiwei Fei",
+        "affiliation": "Nanjing University"
+      },
+      {
+        "name": "Antinisca Di Marco",
+        "affiliation": "University of L'Aquila"
+      },
+      {
+        "name": "Federica Sarro",
+        "affiliation": "University College London"
+      }
+    ],
+    "speakerNames": [
+      "Giordano d'Aloisio",
+      "David Williams",
+      "Giusy Annunziata",
+      "Zhiwei Fei",
+      "Antinisca Di Marco",
+      "Federica Sarro"
+    ],
+    "track": "SSBSE Challenge",
+    "session": "SSBSE Challenge",
+    "eventType": "Short-paper",
+    "date": "2026-07-06",
+    "startTime": "14:55",
+    "endTime": "15:10",
+    "durationMinutes": 15,
+    "room": "MB 2.210",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-9cd87624-4a24-4eb7-84de-5ba171a9d129",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": "https://arxiv.org/abs/2605.07709",
+    "keywords": [
+      "LLM",
+      "large language model"
+    ],
+    "searchText": "SafeTune: Search-based Harmfulness Minimisation for Large Language Models SSBSE Challenge Short-paper MB 2.210 SSBSE Challenge Giordano d'Aloisio David Williams Giusy Annunziata Zhiwei Fei Antinisca Di Marco Federica Sarro University of L'Aquila University College London University of Salerno Nanjing University University of L'Aquila University College London LLM large language model"
+  },
+  {
     "id": "fse2026-2026-07-06-triorm-workload-aware-neural-symbolic-multi-objective-optimizati-c1a4bf05",
     "sourceSlotId": "261bf536-abe7-4ee3-b1bb-e1334835862a",
     "researchrEventId": "3812adfa-0e7e-4215-914e-e2365ccb8cd5",
@@ -3640,6 +3859,57 @@
     "preprintUrl": null,
     "keywords": [],
     "searchText": "Artifact Readiness Gates with Saturation Stop Rules and Host-Parity Admissibility for FM Release Evaluation AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Yanick Kanyiki InvarLock Inc., CA"
+  },
+  {
+    "id": "fse2026-2026-07-06-survival-of-the-stealthiest-evolving-low-entropy-ransomware-via--8f99d531",
+    "sourceSlotId": "4fa2ed8a-a804-41f6-95bd-d3549715c98d",
+    "researchrEventId": "8400d671-ce18-4aca-890c-d73f9eab199e",
+    "kind": "event",
+    "title": "Survival of the Stealthiest: Evolving Low-Entropy Ransomware via Genetic Algorithms",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Efrat Levenberg",
+        "affiliation": "Jerusalem College of Technology"
+      },
+      {
+        "name": "Kristina Sviazhina",
+        "affiliation": "Université de Strasbourg"
+      },
+      {
+        "name": "Pierre Parrend",
+        "affiliation": "Holon Institute of Technology"
+      },
+      {
+        "name": "Ayelet Butman",
+        "affiliation": "Ariel University"
+      },
+      {
+        "name": "Harel Berger",
+        "affiliation": ""
+      }
+    ],
+    "speakerNames": [
+      "Efrat Levenberg",
+      "Kristina Sviazhina",
+      "Pierre Parrend",
+      "Ayelet Butman",
+      "Harel Berger"
+    ],
+    "track": "SSBSE Challenge",
+    "session": "SSBSE Challenge",
+    "eventType": "Short-paper",
+    "date": "2026-07-06",
+    "startTime": "15:10",
+    "endTime": "15:25",
+    "durationMinutes": 15,
+    "room": "MB 2.210",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-8400d671-ce18-4aca-890c-d73f9eab199e",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "Survival of the Stealthiest: Evolving Low-Entropy Ransomware via Genetic Algorithms SSBSE Challenge Short-paper MB 2.210 SSBSE Challenge Efrat Levenberg Kristina Sviazhina Pierre Parrend Ayelet Butman Harel Berger Jerusalem College of Technology Université de Strasbourg Holon Institute of Technology Ariel University"
   },
   {
     "id": "fse2026-2026-07-06-towards-migrating-neural-network-implementations-17438cde",
@@ -3800,6 +4070,47 @@
     "searchText": "Networking at a Conference Doctoral Symposium Talk MB 3.210 Closing Jie M. Zhang Mistral AI and King's College London"
   },
   {
+    "id": "fse2026-2026-07-06-vfl-searcher-optimizing-stealthy-adversarial-dominating-inputs-0037ff14",
+    "sourceSlotId": "53319d71-3962-4084-bda4-62c4ee9b3357",
+    "researchrEventId": "6e7dd886-6f21-4e52-a893-89de72b34e76",
+    "kind": "event",
+    "title": "VFL-Searcher: Optimizing Stealthy Adversarial Dominating Inputs",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Pichsereyvattana Chan",
+        "affiliation": "Georgetown University"
+      },
+      {
+        "name": "Karine Even-Mendoza",
+        "affiliation": "King’s College London"
+      },
+      {
+        "name": "Harel Berger",
+        "affiliation": "Ariel University"
+      }
+    ],
+    "speakerNames": [
+      "Pichsereyvattana Chan",
+      "Karine Even-Mendoza",
+      "Harel Berger"
+    ],
+    "track": "SSBSE Challenge",
+    "session": "SSBSE Challenge",
+    "eventType": "Short-paper",
+    "date": "2026-07-06",
+    "startTime": "16:00",
+    "endTime": "16:15",
+    "durationMinutes": 15,
+    "room": "MB 2.210",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-6e7dd886-6f21-4e52-a893-89de72b34e76",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "VFL-Searcher: Optimizing Stealthy Adversarial Dominating Inputs SSBSE Challenge Short-paper MB 2.210 SSBSE Challenge Pichsereyvattana Chan Karine Even-Mendoza Harel Berger Georgetown University King’s College London Ariel University"
+  },
+  {
     "id": "fse2026-2026-07-06-research-in-the-presence-of-ai-3c89c098",
     "sourceSlotId": "b92fff8f-9240-49e3-9e37-ef9f0c07e835",
     "researchrEventId": "aab5a4fe-b60a-4751-a4dc-9f7f003e3d0d",
@@ -3829,6 +4140,56 @@
     "preprintUrl": null,
     "keywords": [],
     "searchText": "Research in the Presence of AI Doctoral Symposium Talk MB 3.210 Closing Reyhaneh Jabbarvand University of Illinois at Urbana-Champaign"
+  },
+  {
+    "id": "fse2026-2026-07-06-what-do-ai-agents-actually-change-an-empirical-taxonomy-of-mutat-0cc5109e",
+    "sourceSlotId": "9940d9d2-391e-4a5c-9244-382957df11a1",
+    "researchrEventId": "d141a101-7e42-411f-884b-f7dadb8107b7",
+    "kind": "event",
+    "title": "What Do AI Agents Actually Change? An Empirical Taxonomy of Mutation Patterns in Performance-Improving Pull Requests",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "ilia Dovhoshliubnyi",
+        "affiliation": "Edinburgh Napier University"
+      },
+      {
+        "name": "Nima Soroush",
+        "affiliation": "Edinburgh Napier University"
+      },
+      {
+        "name": "Ashkan Sami",
+        "affiliation": "Edinburgh Napier University"
+      },
+      {
+        "name": "Alexander E.I. Brownlee",
+        "affiliation": "University of Stirling"
+      }
+    ],
+    "speakerNames": [
+      "ilia Dovhoshliubnyi",
+      "Nima Soroush",
+      "Ashkan Sami",
+      "Alexander E.I. Brownlee"
+    ],
+    "track": "SSBSE Challenge",
+    "session": "SSBSE Challenge",
+    "eventType": "Short-paper",
+    "date": "2026-07-06",
+    "startTime": "16:15",
+    "endTime": "16:30",
+    "durationMinutes": 15,
+    "room": "MB 2.210",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-d141a101-7e42-411f-884b-f7dadb8107b7",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [
+      "pull request",
+      "GitHub",
+      "agents"
+    ],
+    "searchText": "What Do AI Agents Actually Change? An Empirical Taxonomy of Mutation Patterns in Performance-Improving Pull Requests SSBSE Challenge Short-paper MB 2.210 SSBSE Challenge ilia Dovhoshliubnyi Nima Soroush Ashkan Sami Alexander E.I. Brownlee Edinburgh Napier University Edinburgh Napier University Edinburgh Napier University University of Stirling pull request GitHub agents"
   },
   {
     "id": "fse2026-2026-07-06-ask-me-anything-511ffbec",
@@ -3865,6 +4226,190 @@
     "preprintUrl": null,
     "keywords": [],
     "searchText": "Ask Me Anything Doctoral Symposium Live Q&A MB 3.210 Closing Cristian Cadar Gail Murphy Imperial College London University of British Columbia"
+  },
+  {
+    "id": "fse2026-2026-07-06-white-box-execution-refactoring-of-transformers-for-lower-energy-de26a5de",
+    "sourceSlotId": "48fa897e-f4c2-47f1-b4cd-fc3aeb23625d",
+    "researchrEventId": "a55e7b79-b21c-4e70-9de8-7dfc039a7649",
+    "kind": "event",
+    "title": "White-Box Execution Refactoring of Transformers for Lower Energy",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Enrique Alba",
+        "affiliation": "University of Malaga"
+      },
+      {
+        "name": "Hector Menendez",
+        "affiliation": "King’s College London"
+      }
+    ],
+    "speakerNames": [
+      "Enrique Alba",
+      "Hector Menendez"
+    ],
+    "track": "SSBSE Challenge",
+    "session": "SSBSE Challenge",
+    "eventType": "Short-paper",
+    "date": "2026-07-06",
+    "startTime": "16:30",
+    "endTime": "16:45",
+    "durationMinutes": 15,
+    "room": "MB 2.210",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-a55e7b79-b21c-4e70-9de8-7dfc039a7649",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "White-Box Execution Refactoring of Transformers for Lower Energy SSBSE Challenge Short-paper MB 2.210 SSBSE Challenge Enrique Alba Hector Menendez University of Malaga King’s College London"
+  },
+  {
+    "id": "fse2026-2026-07-06-mlstractor-llm-powered-search-based-monolith-to-microservice-dec-8a4d220e",
+    "sourceSlotId": "a516c04e-745e-4152-a58a-5ebb7e914499",
+    "researchrEventId": "6ea7a4d0-6bbc-4a65-b2c9-9ec43250f9f6",
+    "kind": "event",
+    "title": "MLStractor: LLM-Powered Search-Based Monolith-To-Microservice Decomposition",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Ilyes Kasdallah",
+        "affiliation": "Laval University"
+      },
+      {
+        "name": "GHORAB Mostafa Anouar",
+        "affiliation": "Université Laval, CA"
+      },
+      {
+        "name": "Oussama Jebbar",
+        "affiliation": "Gina Cody School of Engineering and Computer Science, Concordia University, Montreal"
+      },
+      {
+        "name": "Khaled Sellami",
+        "affiliation": "Laval University"
+      },
+      {
+        "name": "Mohammed Sayagh",
+        "affiliation": "ETS Montreal, University of Quebec"
+      },
+      {
+        "name": "Ali Ouni",
+        "affiliation": "Ecole de Technologie Superieure (ETS)"
+      },
+      {
+        "name": "Mohamed Aymen saied",
+        "affiliation": "Laval University"
+      }
+    ],
+    "speakerNames": [
+      "Ilyes Kasdallah",
+      "GHORAB Mostafa Anouar",
+      "Oussama Jebbar",
+      "Khaled Sellami",
+      "Mohammed Sayagh",
+      "Ali Ouni",
+      "Mohamed Aymen saied"
+    ],
+    "track": "SSBSE RENE/NIER",
+    "session": "SSBSE Challenge",
+    "eventType": "Research paper",
+    "date": "2026-07-06",
+    "startTime": "16:45",
+    "endTime": "17:00",
+    "durationMinutes": 15,
+    "room": "MB 2.210",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-6ea7a4d0-6bbc-4a65-b2c9-9ec43250f9f6",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [
+      "LLM",
+      "large language model"
+    ],
+    "searchText": "MLStractor: LLM-Powered Search-Based Monolith-To-Microservice Decomposition SSBSE RENE/NIER Research paper MB 2.210 SSBSE Challenge Ilyes Kasdallah GHORAB Mostafa Anouar Oussama Jebbar Khaled Sellami Mohammed Sayagh Ali Ouni Mohamed Aymen saied Laval University Université Laval, CA Gina Cody School of Engineering and Computer Science, Concordia University, Montreal Laval University ETS Montreal, University of Quebec Ecole de Technologie Superieure (ETS) Laval University LLM large language model"
+  },
+  {
+    "id": "fse2026-2026-07-06-zoom-don-t-wander-why-regional-search-outperforms-pareto-reasoni-450ce909",
+    "sourceSlotId": "37cb67af-bb45-489e-9ed4-480ce5051d6c",
+    "researchrEventId": "2ecb1220-fd4a-4996-a77d-c2662545ddb5",
+    "kind": "event",
+    "title": "Zoom, Don't Wander: Why Regional Search Outperforms Pareto Reasoning and Global Optimization in Budget-Constrained SBSE",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Kishan Kumar Ganguly",
+        "affiliation": "NC State"
+      },
+      {
+        "name": "Tim Menzies",
+        "affiliation": "North Carolina State University"
+      }
+    ],
+    "speakerNames": [
+      "Kishan Kumar Ganguly",
+      "Tim Menzies"
+    ],
+    "track": "SSBSE RENE/NIER",
+    "session": "SSBSE Challenge",
+    "eventType": "Research paper",
+    "date": "2026-07-06",
+    "startTime": "17:00",
+    "endTime": "17:15",
+    "durationMinutes": 15,
+    "room": "MB 2.210",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-2ecb1220-fd4a-4996-a77d-c2662545ddb5",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "Zoom, Don't Wander: Why Regional Search Outperforms Pareto Reasoning and Global Optimization in Budget-Constrained SBSE SSBSE RENE/NIER Research paper MB 2.210 SSBSE Challenge Kishan Kumar Ganguly Tim Menzies NC State North Carolina State University"
+  },
+  {
+    "id": "fse2026-2026-07-06-steering-committee-meeting-2195535b",
+    "sourceSlotId": "60266a41-fa80-4720-aff8-8f6e19e0b709",
+    "researchrEventId": "d5357d0f-fbaa-468a-bb63-82f439c02cb6",
+    "kind": "event",
+    "title": "Steering Committee Meeting",
+    "abstract": "",
+    "authors": [],
+    "speakerNames": [],
+    "track": "SSBSE Challenge",
+    "session": "SSBSE Challenge",
+    "eventType": "Meeting",
+    "date": "2026-07-06",
+    "startTime": "17:25",
+    "endTime": "17:50",
+    "durationMinutes": 25,
+    "room": "MB 2.210",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-d5357d0f-fbaa-468a-bb63-82f439c02cb6",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "Steering Committee Meeting SSBSE Challenge Meeting MB 2.210 SSBSE Challenge"
+  },
+  {
+    "id": "fse2026-2026-07-06-closing-remarks-4b066604",
+    "sourceSlotId": "e67276a6-8367-46af-9847-69e10ffed051",
+    "researchrEventId": "f30186bd-ccfc-49df-a666-c488e728818d",
+    "kind": "event",
+    "title": "Closing Remarks",
+    "abstract": "",
+    "authors": [],
+    "speakerNames": [],
+    "track": "SSBSE Challenge",
+    "session": "SSBSE Challenge",
+    "eventType": "Day closing",
+    "date": "2026-07-06",
+    "startTime": "17:50",
+    "endTime": "18:00",
+    "durationMinutes": 10,
+    "room": "MB 2.210",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-f30186bd-ccfc-49df-a666-c488e728818d",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "Closing Remarks SSBSE Challenge Day closing MB 2.210 SSBSE Challenge"
   },
   {
     "id": "fse2026-2026-07-07-welcome-0b0dc393",
@@ -5042,7 +5587,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-7cebc5ad-2855-4e61-8ae0-620357c616a8",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://prl.korea.ac.kr/papers/fse26-pig.pdf",
     "keywords": [
       "LLM",
       "large language model"
@@ -7076,7 +7621,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-585d4d48-79b5-4fc2-9a87-1782b5570c9f",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://shiyiyanqin.github.io/papers/VerilogASTBench__FSE2026_Preprint.pdf",
     "keywords": [],
     "searchText": "VerilogASTBench: Benchmark Construction of Verilog AST Dataset with Dual-Stage AST Semantic Enhancement Framework Research Papers Talk MB 9D Benchmarking luping zhang Chao Chen Dapeng Yan Hui Xu Mingsheng Cao Jingkuan Song Zhikuang Cai Yufeng Guo Nanjing University of Posts and Telecommunications Nanjing University of Posts and Telecommunications Nanjing University of Posts and Telecommunications Shenzhen Institute for Advanced Study, University of Electronic Science and Technology of China University of Electronic Science and Technology of China University of Electronic Science and Technology of China Nanjing University of Posts and Telecommunications Nanjing University of Posts and Telecommunications"
   },
@@ -19186,7 +19731,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-b1c2b71b-34e4-425d-9139-b9ee1bc9d51a",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://cosunshine.github.io/files/unveiling_AI-driven_security.pdf",
     "keywords": [],
     "searchText": "Unveiling AI-Driven Web Applications: Insights into Characteristics, Functionality, and Compliance Research Papers Talk MB 3.210 SE and AI 2 Liuhuo Wan Zicong Liu Chuan Yan Liujia Wan Naipeng Dong Zi Huang Guangdong Bai University of Queensland University of Queensland Northeastern University The University of Queensland, Australia University of Queensland City University of Hong Kong"
   },
@@ -20628,7 +21173,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-338463a9-d74d-4422-969d-d1467d3f88c2",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://arxiv.org/abs/2509.12159",
     "keywords": [
       "LLM",
       "large language model",
@@ -21513,7 +22058,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-fd90e987-e79a-4e2b-94ee-58fb6179aafd",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://arxiv.org/abs/2606.06821",
     "keywords": [
       "code"
     ],
@@ -26048,7 +26593,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-adc52707-b062-4a42-8f32-bcb35fd619d2",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://arxiv.org/abs/2605.01769",
     "keywords": [],
     "searchText": "VulKey: Automated Vulnerability Repair Guided by Domain-Specific Repair Patterns Research Papers Talk MB 3.445 Vulnerability 2 Jia Li Zhuangbin Chen Yuxin Su Michael Lyu The Chinese University of Hong Kong Sun Yat-sen University Sun Yat-sen University The Chinese University of Hong Kong"
   },
