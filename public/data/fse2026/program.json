@@ -9020,8 +9020,8 @@
     "room": "MB 2.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-5a459f22-efa4-4fe3-bd60-6870cd000e8f",
     "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3808136",
+    "preprintUrl": "https://seal.ics.uci.edu/publications/2026_FSE.pdf",
     "keywords": [],
     "searchText": "ReFLAIR: Detecting Responsive Layout Reflow Issues using Multimodal Generative AI Research Papers Talk MB 2.210 LLM for SE 2 Yirui He Ziyao He Syed Fatiul Huq Sam Malek University of California, Irvine University of California, Irvine University of California, Irvine University of California at Irvine"
   },
@@ -19665,7 +19665,7 @@
     "room": "MB 3.270",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-b02d0325-8d03-475f-934a-a9fee6653c1e",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3803437.3805590",
     "preprintUrl": null,
     "keywords": [
       "LLM",
@@ -25984,7 +25984,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-32f001e5-a1e9-4ff0-a4ec-98e0b72570e4",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3797150",
     "preprintUrl": null,
     "keywords": [
       "testing"
@@ -26218,7 +26218,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-ed43906b-bf49-4041-a71f-c450172b2ba1",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://arxiv.org/abs/2605.14503",
     "keywords": [],
     "searchText": "Not All RAGs Are Created Equal: A Component-Wise Empirical Study for Software Engineering Tasks Research Papers Talk MB 1.210 LLM for SE 7 Qiang Ke Yanjie Zhao Hongjin Leng Shengming Zhao Haoyu Wang Huazhong University of Science and Technology Huazhong University of Science and Technology Xiamen University Malaysia Fudan University Huazhong University of Science and Technology"
   },
