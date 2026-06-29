@@ -7962,11 +7962,11 @@
     "searchText": "Lunch Catering Lunch Lunch"
   },
   {
-    "id": "fse2026-2026-07-07-bio-aware-software-engineering-for-reproducible-research-pdf-134ed174",
+    "id": "fse2026-2026-07-07-bio-aware-software-engineering-for-reproducible-research-70824a9a",
     "sourceSlotId": "06f8ab49-9f75-4af4-9dd0-6e3dc8a16c8c",
     "researchrEventId": "4fcc0d35-1df3-4759-a2bc-61f97ce7ae07",
     "kind": "talk",
-    "title": "Bio-Aware Software Engineering for Reproducible Research.pdf",
+    "title": "Bio-Aware Software Engineering for Reproducible Research",
     "abstract": "",
     "authors": [
       {
@@ -7982,6 +7982,10 @@
         "affiliation": "University of Cincinnati"
       },
       {
+        "name": "Sandeep Kuttal",
+        "affiliation": "North Carolina State University"
+      },
+      {
         "name": "Jinze Liu",
         "affiliation": "Virginia Commonwealth University"
       },
@@ -7994,6 +7998,7 @@
       "Yiming Zeng",
       "Dingbang Wang",
       "Ryan Green",
+      "Sandeep Kuttal",
       "Jinze Liu",
       "Tingting Yu"
     ],
@@ -8010,7 +8015,7 @@
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "Bio-Aware Software Engineering for Reproducible Research.pdf Ideas, Visions and Reflections Talk MB 3.210 SE and AI 1 Yiming Zeng Dingbang Wang Ryan Green Jinze Liu Tingting Yu University of Connecticut University of Connecticut University of Cincinnati Virginia Commonwealth University University of Connecticut"
+    "searchText": "Bio-Aware Software Engineering for Reproducible Research Ideas, Visions and Reflections Talk MB 3.210 SE and AI 1 Yiming Zeng Dingbang Wang Ryan Green Sandeep Kuttal Jinze Liu Tingting Yu University of Connecticut University of Connecticut University of Cincinnati North Carolina State University Virginia Commonwealth University University of Connecticut"
   },
   {
     "id": "fse2026-2026-07-07-casting-a-spell-sentence-pairing-exploration-for-llm-limitation--cbc7b754",
@@ -8798,7 +8803,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-fb6769d0-cb83-4fe3-b403-b3bf403213e2",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://kartiknagar.github.io/publication/fse26/fse26.pdf",
     "keywords": [
       "security"
     ],
@@ -11862,7 +11867,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-cb7600e5-06d4-4d1f-9cf9-584085f2a06f",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://arxiv.org/pdf/2606.28058",
     "keywords": [],
     "searchText": "SBridge: Identifying Source-to-Binary Function Similarity via Cross-Domain Control Block Matching Research Papers Talk MB 3.435 Code similarity and search Heedong Yang Jeongwoo Lee Hajin Yun Seunghoon Woo Korea University Korea University Korea University Korea University"
   },
@@ -15191,8 +15196,8 @@
     "room": "MB 3.435",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-c5782d78-2c68-4755-9563-6fdb9257acb6",
     "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3808159",
+    "preprintUrl": "https://arxiv.org/pdf/2508.20962",
     "keywords": [],
     "searchText": "Characterizing Trust Boundary Vulnerabilities in TEE Container Systems: An Empirical Study Research Papers Talk MB 3.435 Security 2 Weijie Liu Hongbo Chen Shuo Huai Zhen Xu Wenhao Wang XiaoFeng Wang Danfeng Zhang Zhi Li Haixu Tang Zheli Liu Nankai University Indiana University Bloomington Nankai University Nanyang Technological University Institute of Information Engineering, CAS Nanyang Technological University Duke University Huazhong University of Science and Technology Indiana University Bloomington Nankai University"
   },
@@ -15747,7 +15752,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-d9230934-529a-4780-9fa5-6a7afaeae145",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://softsec.skku.edu/report/FSE_2026/ocppuzz_preprint.pdf",
     "keywords": [
       "LLM",
       "large language model"
@@ -17504,7 +17509,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-00efb516-c2f6-4735-bce6-7f8b521045c5",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": "https://arxiv.org/abs/2606.25588",
+    "preprintUrl": "https://arxiv.org/pdf/2606.25588",
     "keywords": [
       "testing",
       "agents"
@@ -17716,8 +17721,8 @@
     "room": "MB 3.270",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-137baab7-eb35-459f-93e5-aa96d1863b2f",
     "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3808115",
+    "preprintUrl": "https://doi.org/10.48550/arXiv.2604.16756",
     "keywords": [],
     "searchText": "Mitigating Prompt-Induced Cognitive Biases in General-Purpose AI for Software Engineering Research Papers Talk MB 3.270 Code and LLM 1 Francesco Sovrano Gabriele Dominici Alberto Bacchelli USI Lugano, Switzerland Università della Svizzera italiana (USI) IfI, University of Zurich"
   },
@@ -20923,7 +20928,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-c458b220-2452-4996-9864-50e4d3f2cdf1",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://arxiv.org/pdf/2409.16656",
     "keywords": [],
     "searchText": "GUIMigrator: Semantics-Preserving Transpilation from Android XML to Compose and SwiftUI Research Papers Talk MB 3.210 Mobile Apps 2 Yi Gao Xing Hu Xiaohu Yang Xin Xia Zhejiang University Zhejiang University Zhejiang University Zhejiang University"
   },
@@ -22424,7 +22429,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-9f833af4-0d1c-43a5-a0a2-33f9b8234a9e",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://arxiv.org/pdf/2606.22247",
     "keywords": [
       "code"
     ],
@@ -24560,7 +24565,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-4bf3b605-7ec9-4041-adc9-013e04b85981",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://arxiv.org/abs/2512.01396",
     "keywords": [],
     "searchText": "BackportBench: A Multilingual Benchmark for Automated Patch Backporting Research Papers Talk MB 3.435 Software Security Zhiqing Zhong Jiaming Huang Pinjia He The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen) The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen) Chinese University of Hong Kong, Shenzhen"
   },
