@@ -10790,8 +10790,8 @@
     "room": "MB 3.430",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-b02c781c-5127-4364-a0ef-ae2cec6c6f94",
     "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": "https://github.com/re2fanye/paper/blob/main/fse_26.pdf",
+    "doiUrl": "https://doi.org/10.1145/3797067",
+    "preprintUrl": "https://arxiv.org/pdf/2606.27747",
     "keywords": [
       "code"
     ],
@@ -12177,7 +12177,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-0cc6a17f-e519-4e23-a17d-c5825a09d4af",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://arxiv.org/abs/2606.28870",
     "keywords": [
       "code"
     ],
@@ -12341,7 +12341,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-c392238a-6170-459e-a568-a0225612c4e7",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://hocdot.github.io/assets/papers/duong2026verifying.pdf",
     "keywords": [],
     "searchText": "Verifying Structural Robustness of Deep Neural Network Research Papers Talk MB 3.445 Robustness Hai Duong Thanh Le Lam Nguyen ThanhVu Nguyen George Mason University National Institute of Information and Communications Technology (NICT) CMC Applied Technology Institute (CATI) George Mason University"
   },
@@ -23919,7 +23919,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-677bdcc7-ecb4-4080-ab67-a7998458de07",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://arxiv.org/pdf/2606.29785",
     "keywords": [
       "security"
     ],
@@ -25528,7 +25528,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-e1849ac8-5ab0-424d-b4d5-7d838cd271e5",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://arxiv.org/pdf/2512.13524",
     "keywords": [],
     "searchText": "How Low Can You Go? The Data-Light SE Challenge Research Papers Talk MB 3.445 Empirical 2 Kishan Kumar Ganguly Tim Menzies NC State North Carolina State University"
   },
@@ -27127,7 +27127,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-4b03d06c-ec0b-47ed-8140-253086bbac80",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://arxiv.org/abs/2509.13782",
     "keywords": [
       "agents"
     ],
