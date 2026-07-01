@@ -4740,7 +4740,7 @@
     "authors": [
       {
         "name": "Roham Koohestani",
-        "affiliation": "Delft University of Technology"
+        "affiliation": "JetBrains Research & Delft University of Technology"
       },
       {
         "name": "Philippe de Bekker",
@@ -4774,7 +4774,7 @@
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "Benchmarking AI Models in Software Engineering: A Review, Search Tool, and Unified Approach for Elevating Benchmark Quality Journal-First Paper Talk MB 9D Benchmarking Roham Koohestani Philippe de Bekker Begüm Koç Mali Izadi Delft University of Technology Delft University of Technology Delft University of Technology Google & TU Delft"
+    "searchText": "Benchmarking AI Models in Software Engineering: A Review, Search Tool, and Unified Approach for Elevating Benchmark Quality Journal-First Paper Talk MB 9D Benchmarking Roham Koohestani Philippe de Bekker Begüm Koç Mali Izadi JetBrains Research & Delft University of Technology Delft University of Technology Delft University of Technology Google & TU Delft"
   },
   {
     "id": "fse2026-2026-07-07-carbon-taxed-transformers-a-green-compression-pipeline-for-overg-3445e0a2",
@@ -5855,7 +5855,7 @@
     "authors": [
       {
         "name": "Roham Koohestani",
-        "affiliation": "Delft University of Technology"
+        "affiliation": "JetBrains Research & Delft University of Technology"
       },
       {
         "name": "Ali Al-Kaswan",
@@ -5891,7 +5891,7 @@
     "keywords": [
       "code"
     ],
-    "searchText": "AST-PAC: AST-guided Membership Inference for Code Ideas, Visions and Reflections Talk MB 3.445 Security 1 Roham Koohestani Ali Al-Kaswan Jonathan Katzy Mali Izadi Delft University of Technology Delft University of Technology, Netherlands Delft University of Technology Google & TU Delft code"
+    "searchText": "AST-PAC: AST-guided Membership Inference for Code Ideas, Visions and Reflections Talk MB 3.445 Security 1 Roham Koohestani Ali Al-Kaswan Jonathan Katzy Mali Izadi JetBrains Research & Delft University of Technology Delft University of Technology, Netherlands Delft University of Technology Google & TU Delft code"
   },
   {
     "id": "fse2026-2026-07-07-crypformbench-benchmarking-formal-analysis-capability-of-large-l-9c279421",
@@ -7822,7 +7822,7 @@
     "authors": [
       {
         "name": "Arpit Thool",
-        "affiliation": "Virginia Tech, USA"
+        "affiliation": "Adobe, Inc."
       },
       {
         "name": "Chris Brown",
@@ -7846,7 +7846,7 @@
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "Practitioner Perspectives of DAST Integration in Agile Development Workflows: An Experience Report Industry Papers Talk MB 3.445 Security 1 Arpit Thool Chris Brown Virginia Tech, USA Virginia Tech"
+    "searchText": "Practitioner Perspectives of DAST Integration in Agile Development Workflows: An Experience Report Industry Papers Talk MB 3.445 Security 1 Arpit Thool Chris Brown Adobe, Inc. Virginia Tech"
   },
   {
     "id": "fse2026-2026-07-07-the-impact-of-documentation-on-test-engagement-in-pull-requests--5aac5242",
@@ -9569,8 +9569,8 @@
     "room": "MB 3.270",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-b038d77b-df2a-4d71-bc79-978f06713376",
     "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": "https://arxiv.org/pdf/2510.21236",
+    "doiUrl": "https://doi.org/10.1145/3808103",
+    "preprintUrl": null,
     "keywords": [
       "agents"
     ],
@@ -11540,7 +11540,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-41c26308-95eb-449b-a46b-0e3032331fce",
     "presentationUrl": null,
     "doiUrl": "https://doi.org/10.1145/3808154",
-    "preprintUrl": "https://yoelkim99.github.io/assets/pdf/FSE_2026.pdf",
+    "preprintUrl": null,
     "keywords": [],
     "searchText": "Active Learning of Symbolic Automata for Reactive Programs via Dynamic Symbolic Mapper Research Papers Talk MB 2.430 Verification 1 Yoel Kim Yunja Choi Kyungpook National University Kyungpook National University"
   },
@@ -18236,7 +18236,7 @@
     "authors": [
       {
         "name": "Roham Koohestani",
-        "affiliation": "Delft University of Technology"
+        "affiliation": "JetBrains Research & Delft University of Technology"
       },
       {
         "name": "Agnia Sergeyuk",
@@ -18288,7 +18288,7 @@
       "LLM",
       "large language model"
     ],
-    "searchText": "Does In-IDE Calibration of Large Language Models work at Scale? Industry Papers Talk MB 3.270 Code and LLM 1 Roham Koohestani Agnia Sergeyuk David Gros Claudio Spiess Sergey Titov Prem Devanbu Mali Izadi Delft University of Technology JetBrains Research University of California, Davis University of California, Davis JetBrains Research University of California at Davis Google & TU Delft LLM large language model"
+    "searchText": "Does In-IDE Calibration of Large Language Models work at Scale? Industry Papers Talk MB 3.270 Code and LLM 1 Roham Koohestani Agnia Sergeyuk David Gros Claudio Spiess Sergey Titov Prem Devanbu Mali Izadi JetBrains Research & Delft University of Technology JetBrains Research University of California, Davis University of California, Davis JetBrains Research University of California at Davis Google & TU Delft LLM large language model"
   },
   {
     "id": "fse2026-2026-07-08-evaluating-risk-and-confidence-in-performance-bounds-of-configur-f800dea6",
