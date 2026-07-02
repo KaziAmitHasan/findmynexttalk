@@ -6681,8 +6681,8 @@
     "room": "MB 9D",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-80e1bc29-54fb-4531-a891-a1bc3d96989a",
     "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3797089",
+    "preprintUrl": "https://arxiv.org/abs/2509.15397",
     "keywords": [
       "code"
     ],
@@ -10225,8 +10225,8 @@
     "room": "MB 2.430",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-cd9b4cb8-53f8-489a-9b92-b5e938806de0",
     "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3797077",
+    "preprintUrl": "https://cseweb.ucsd.edu/~mcoblenz/assets/pdf/fse2026-debugging.pdf",
     "keywords": [],
     "searchText": "A Grounded Theory of Debugging in Professional Software Engineering Practice Research Papers Talk MB 2.430 Debugging Haolin Li Michael Coblenz University of California San Diego University of California, San Diego"
   },
@@ -11966,8 +11966,8 @@
     "room": "MB 5.215",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-089f8d15-3c93-475e-ac0e-1869dd3d32c7",
     "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3808129",
+    "preprintUrl": "https://arxiv.org/abs/2501.11086",
     "keywords": [
       "LLM",
       "large language model",
@@ -13106,14 +13106,31 @@
     "searchText": "Still Manual? Automated Linter Configuration via DSL-Based LLM Compilation of Coding Standards Research Papers Talk MB 2.210 LLM for SE 3 zejun zhang Yixin Gan Zhenchang Xing Tian Zhang Yi Li Qinghua Lu Xiwei (Sherry) Xu Liming Zhu Nanjing University Nanjing University CSIRO's Data61 Nanjing University Nanyang Technological University Data61, CSIRO Data61, CSIRO CSIRO’s Data61 LLM large language model"
   },
   {
-    "id": "fse2026-2026-07-08-sigsoft-impact-award-b9ae7ae0",
+    "id": "fse2026-2026-07-08-sigsoft-impact-award-talk-when-do-changes-induce-fixes-cc522658",
     "sourceSlotId": "9cbb9a45-2d2d-4b41-8be7-1e866f9dda06",
     "researchrEventId": "d1f97538-d546-4222-9964-e9cd3df9b132",
     "kind": "event",
-    "title": "SIGSOFT Impact Award",
+    "title": "SIGSOFT Impact Award Talk: When do changes induce fixes?",
     "abstract": "",
-    "authors": [],
-    "speakerNames": [],
+    "authors": [
+      {
+        "name": "Jacek Śliwerski",
+        "affiliation": "CISPA Helmholtz Center for Information Security"
+      },
+      {
+        "name": "Andreas Zeller",
+        "affiliation": "University of California, Irvine"
+      },
+      {
+        "name": "Thomas Zimmermann",
+        "affiliation": ""
+      }
+    ],
+    "speakerNames": [
+      "Jacek Śliwerski",
+      "Andreas Zeller",
+      "Thomas Zimmermann"
+    ],
     "track": "Plenary Events",
     "session": "Day 2 Opening",
     "eventType": "Awards",
@@ -13127,7 +13144,7 @@
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "SIGSOFT Impact Award Plenary Events Awards H110 Day 2 Opening"
+    "searchText": "SIGSOFT Impact Award Talk: When do changes induce fixes? Plenary Events Awards H110 Day 2 Opening Jacek Śliwerski Andreas Zeller Thomas Zimmermann CISPA Helmholtz Center for Information Security University of California, Irvine"
   },
   {
     "id": "fse2026-2026-07-08-fse-research-track-distinguished-paper-awards-7a1fd48c",
@@ -17457,8 +17474,8 @@
     "room": "MB 3.435",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-b0fce149-a716-4cfe-8cc7-90f26b6b0a6b",
     "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
+    "doiUrl": "https://doi.org/10.1007/s10664-025-10633-1",
+    "preprintUrl": "https://bihui-jin.github.io/assets/pdf/emse25_google_extension.pdf",
     "keywords": [],
     "searchText": "Impact of extensions on browser performance: An empirical study on google chrome Journal-First Paper Talk MB 3.435 Performance and energy Bihui Jin Heng Li Ying Zou University of Waterloo Polytechnique Montréal Queen's University, Kingston, Ontario"
   },
@@ -18417,7 +18434,7 @@
     "room": "MB 2.430",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-63ddc4ee-0292-4f1d-925c-47fb1487f0e9",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3797107",
     "preprintUrl": null,
     "keywords": [],
     "searchText": "Revealing Regressions: A Comparative Study of State-Capture Strategies in Validating Program Behavior Research Papers Talk MB 2.430 Software Tests Hang Du Vijay Krishna Palepu James Jones University of California at Irvine Microsoft University of California at Irvine"
@@ -21824,14 +21841,36 @@
     "searchText": "Characterizing Real-World Accessibility Issues Reported in Kotlin Mobile Apps Ideas, Visions and Reflections Talk MB 3.210 Mobile Apps 2 Benjamín Enrique González-Briones Juan Pablo Sandoval Alcocer Alison Fernandez-Blanco Leonel Merino Camilo Escobar-Velásquez Mario Linares-Vásquez Pontificia Universidad Católica de Chile Pontificia Universidad Católica de Chile Pontificia Universidad Católica de Chile Pontificia Universidad Católica de Chile Universidad de los Andes, Colombia Universidad de los Andes"
   },
   {
-    "id": "fse2026-2026-07-09-test-of-time-award-7b949829",
+    "id": "fse2026-2026-07-09-test-of-time-award-talk-on-deep-api-learning-992c463e",
     "sourceSlotId": "4fad236a-63c4-4e11-b5a6-cf1940d14bdf",
     "researchrEventId": "63db7ea2-ccd9-4b11-bcc3-c463505af7f2",
     "kind": "event",
-    "title": "Test of Time Award",
+    "title": "Test of Time Award Talk on \"Deep API Learning\"",
     "abstract": "",
-    "authors": [],
-    "speakerNames": [],
+    "authors": [
+      {
+        "name": "Xiaodong Gu",
+        "affiliation": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Dongmei Zhang",
+        "affiliation": "Microsoft"
+      },
+      {
+        "name": "Hongyu Zhang",
+        "affiliation": "Chongqing University"
+      },
+      {
+        "name": "Sunghun Kim",
+        "affiliation": "Hong Kong University of Science and Technology"
+      }
+    ],
+    "speakerNames": [
+      "Xiaodong Gu",
+      "Dongmei Zhang",
+      "Hongyu Zhang",
+      "Sunghun Kim"
+    ],
     "track": "Plenary Events",
     "session": "Day 3 Opening",
     "eventType": "Awards",
@@ -21847,7 +21886,7 @@
     "keywords": [
       "testing"
     ],
-    "searchText": "Test of Time Award Plenary Events Awards H110 Day 3 Opening testing"
+    "searchText": "Test of Time Award Talk on \"Deep API Learning\" Plenary Events Awards H110 Day 3 Opening Xiaodong Gu Dongmei Zhang Hongyu Zhang Sunghun Kim Shanghai Jiao Tong University Microsoft Chongqing University Hong Kong University of Science and Technology testing"
   },
   {
     "id": "fse2026-2026-07-09-fse-distinguished-artifact-industry-track-distinguished-paper-an-e8f24056",
@@ -23777,7 +23816,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-61a4772c-e6f9-44cc-82c5-8979b824d0cd",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://drive.google.com/file/d/1ZCezmqjSuQYkBl_ZQqIQ3WH9F3JsaNnL/view?usp=sharing",
     "keywords": [],
     "searchText": "Reducing Coverage-Equivalent Inputs in Grammar-based Fuzzing by Avoiding Recurrent Rule Sequences Research Papers Talk MB 3.430 Fuzzing 3 Jaehan Yoon Yunji Seo Hakjoo Oh Sooyoung Cha Korea University Korea University Sungkyunkwan University"
   },
@@ -24529,6 +24568,75 @@
     "searchText": "ToxiShield: Promoting Inclusive Developer Communication through Real-Time Toxicity Filtering Research Papers Research paper MB 2.210 Developers Md Awsaf Alam Anindya Showvik Biswas Anindya Iqbal Jaydeb Sarker Amiangshu Bosu Bangladesh University of Engineering and Technology Bangladesh University of Engineering and Technology Bangladesh University of Engineering and Technology Dhaka, Bangladesh University of Nebraska at Omaha Wayne State University"
   },
   {
+    "id": "fse2026-2026-07-09-astragame-effective-and-efficient-vlm-agent-serving-for-large-sc-93209dab",
+    "sourceSlotId": "5d5f8daa-2ec4-4a83-a5f3-1c6b00dbcd9e",
+    "researchrEventId": "cd6b41c2-62ab-47bc-bcbd-a6812b905066",
+    "kind": "talk",
+    "title": "AstraGame: Effective and Efficient VLM Agent Serving for Large-Scale Game Testing in an Industry Setting",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Yuzhe Guo",
+        "affiliation": "Peking University"
+      },
+      {
+        "name": "Haochuan Lu",
+        "affiliation": "Tencent"
+      },
+      {
+        "name": "Mengzhou Wu",
+        "affiliation": "Peking University"
+      },
+      {
+        "name": "Ting Xiong",
+        "affiliation": "Tencent Inc."
+      },
+      {
+        "name": "Yuetang Deng",
+        "affiliation": "Tencent"
+      },
+      {
+        "name": "Dezhi Ran",
+        "affiliation": "Peking University"
+      },
+      {
+        "name": "Wei Yang",
+        "affiliation": "UT Dallas"
+      },
+      {
+        "name": "Tao Xie",
+        "affiliation": "Peking University"
+      }
+    ],
+    "speakerNames": [
+      "Yuzhe Guo",
+      "Haochuan Lu",
+      "Mengzhou Wu",
+      "Ting Xiong",
+      "Yuetang Deng",
+      "Dezhi Ran",
+      "Wei Yang",
+      "Tao Xie"
+    ],
+    "track": "Industry Papers",
+    "session": "Testing 3",
+    "eventType": "Talk",
+    "date": "2026-07-09",
+    "startTime": "11:40",
+    "endTime": "12:00",
+    "durationMinutes": 20,
+    "room": "MB 1.210",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-cd6b41c2-62ab-47bc-bcbd-a6812b905066",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [
+      "testing",
+      "agents"
+    ],
+    "searchText": "AstraGame: Effective and Efficient VLM Agent Serving for Large-Scale Game Testing in an Industry Setting Industry Papers Talk MB 1.210 Testing 3 Yuzhe Guo Haochuan Lu Mengzhou Wu Ting Xiong Yuetang Deng Dezhi Ran Wei Yang Tao Xie Peking University Tencent Peking University Tencent Inc. Tencent Peking University UT Dallas Peking University testing agents"
+  },
+  {
     "id": "fse2026-2026-07-09-backportbench-a-multilingual-benchmark-for-automated-patch-backp-54ae33e0",
     "sourceSlotId": "b7b956cf-7163-4248-bb53-b16334352a7a",
     "researchrEventId": "4bf3b605-7ec9-4041-adc9-013e04b85981",
@@ -24568,69 +24676,6 @@
     "preprintUrl": "https://arxiv.org/abs/2512.01396",
     "keywords": [],
     "searchText": "BackportBench: A Multilingual Benchmark for Automated Patch Backporting Research Papers Talk MB 3.435 Software Security Zhiqing Zhong Jiaming Huang Pinjia He The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen) The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen) Chinese University of Hong Kong, Shenzhen"
-  },
-  {
-    "id": "fse2026-2026-07-09-odotest-an-automated-testing-approach-for-odometry-systems-5d129385",
-    "sourceSlotId": "e4362c40-07ff-4bb6-b0ef-46da53841184",
-    "researchrEventId": "524a6bd1-fe4c-475f-b444-d32fe50dcd9e",
-    "kind": "talk",
-    "title": "OdoTest: An Automated Testing Approach for Odometry Systems",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Jixiang Zhou",
-        "affiliation": "University of Science and Technology of China"
-      },
-      {
-        "name": "Mingfei Cheng",
-        "affiliation": "Singapore Management University"
-      },
-      {
-        "name": "Shuncheng Tang",
-        "affiliation": "Wuhan University of Technology"
-      },
-      {
-        "name": "An Guo",
-        "affiliation": "The Hong Kong Polytechnic Universituy"
-      },
-      {
-        "name": "Xiaofei Xie",
-        "affiliation": "Singapore Management University"
-      },
-      {
-        "name": "Yinxing Xue",
-        "affiliation": "Institute of AI for Industries, Chinese Academy of Sciences"
-      },
-      {
-        "name": "Lijun Zhang",
-        "affiliation": "Institute of Software, Chinese Academy of Sciences"
-      }
-    ],
-    "speakerNames": [
-      "Jixiang Zhou",
-      "Mingfei Cheng",
-      "Shuncheng Tang",
-      "An Guo",
-      "Xiaofei Xie",
-      "Yinxing Xue",
-      "Lijun Zhang"
-    ],
-    "track": "Research Papers",
-    "session": "Testing 3",
-    "eventType": "Talk",
-    "date": "2026-07-09",
-    "startTime": "11:40",
-    "endTime": "12:00",
-    "durationMinutes": 20,
-    "room": "MB 1.210",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-524a6bd1-fe4c-475f-b444-d32fe50dcd9e",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
-    "keywords": [
-      "testing"
-    ],
-    "searchText": "OdoTest: An Automated Testing Approach for Odometry Systems Research Papers Talk MB 1.210 Testing 3 Jixiang Zhou Mingfei Cheng Shuncheng Tang An Guo Xiaofei Xie Yinxing Xue Lijun Zhang University of Science and Technology of China Singapore Management University Wuhan University of Technology The Hong Kong Polytechnic Universituy Singapore Management University Institute of AI for Industries, Chinese Academy of Sciences Institute of Software, Chinese Academy of Sciences testing"
   },
   {
     "id": "fse2026-2026-07-09-sqlynx-towards-generic-mutation-based-fuzzing-for-dbmss-across-d-54280e29",
@@ -24978,8 +25023,8 @@
     "room": "MB 2.435",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-890e51c7-1bbd-4ec7-ad21-ac9df9a03d0d",
     "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": "https://arxiv.org/abs/2509.11787",
+    "doiUrl": "https://doi.org/10.1145/3808140",
+    "preprintUrl": null,
     "keywords": [
       "agents",
       "code"
@@ -25258,75 +25303,6 @@
     "searchText": "Views on Internal and External Validity in Empirical Software Engineering: 10 Years Later and Beyond Re-routed Presentations from Past Years Talk MB 3.445 Empirical 2 Alina Mailach Janet Siegmund Sven Apel Norbert Siegmund Leipzig University Chemnitz University of Technology Saarland University Leipzig University"
   },
   {
-    "id": "fse2026-2026-07-09-astragame-effective-and-efficient-vlm-agent-serving-for-large-sc-93209dab",
-    "sourceSlotId": "5d5f8daa-2ec4-4a83-a5f3-1c6b00dbcd9e",
-    "researchrEventId": "cd6b41c2-62ab-47bc-bcbd-a6812b905066",
-    "kind": "talk",
-    "title": "AstraGame: Effective and Efficient VLM Agent Serving for Large-Scale Game Testing in an Industry Setting",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Yuzhe Guo",
-        "affiliation": "Peking University"
-      },
-      {
-        "name": "Haochuan Lu",
-        "affiliation": "Tencent"
-      },
-      {
-        "name": "Mengzhou Wu",
-        "affiliation": "Peking University"
-      },
-      {
-        "name": "Ting Xiong",
-        "affiliation": "Tencent Inc."
-      },
-      {
-        "name": "Yuetang Deng",
-        "affiliation": "Tencent"
-      },
-      {
-        "name": "Dezhi Ran",
-        "affiliation": "Peking University"
-      },
-      {
-        "name": "Wei Yang",
-        "affiliation": "UT Dallas"
-      },
-      {
-        "name": "Tao Xie",
-        "affiliation": "Peking University"
-      }
-    ],
-    "speakerNames": [
-      "Yuzhe Guo",
-      "Haochuan Lu",
-      "Mengzhou Wu",
-      "Ting Xiong",
-      "Yuetang Deng",
-      "Dezhi Ran",
-      "Wei Yang",
-      "Tao Xie"
-    ],
-    "track": "Industry Papers",
-    "session": "Testing 3",
-    "eventType": "Talk",
-    "date": "2026-07-09",
-    "startTime": "12:00",
-    "endTime": "12:20",
-    "durationMinutes": 20,
-    "room": "MB 1.210",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-cd6b41c2-62ab-47bc-bcbd-a6812b905066",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
-    "keywords": [
-      "testing",
-      "agents"
-    ],
-    "searchText": "AstraGame: Effective and Efficient VLM Agent Serving for Large-Scale Game Testing in an Industry Setting Industry Papers Talk MB 1.210 Testing 3 Yuzhe Guo Haochuan Lu Mengzhou Wu Ting Xiong Yuetang Deng Dezhi Ran Wei Yang Tao Xie Peking University Tencent Peking University Tencent Inc. Tencent Peking University UT Dallas Peking University testing agents"
-  },
-  {
     "id": "fse2026-2026-07-09-backportcheck-an-open-source-tool-to-support-backport-decisions--bbaee52b",
     "sourceSlotId": "adb2373e-9378-46f1-abdc-ee8fa88539c8",
     "researchrEventId": "c37ad04a-961c-4d90-946c-3829558e3f52",
@@ -25381,6 +25357,69 @@
     "preprintUrl": null,
     "keywords": [],
     "searchText": "BackportCheck: An Open-Source Tool to Support Backport Decisions in Large Software Ecosystems Tool Demonstrations Talk MB 3.435 Software Security Salma Sghaier Mohamed Anas Daoud Marouene Chaieb Moataz Chouchen Mohammad Hamdaqa Mohamed Wiem Mkaouer ENSI, Mannouba University ENSI, Mannouba University National School of Computer Science Concordia University Polytechnique Montreal University of Michigan-Flint"
+  },
+  {
+    "id": "fse2026-2026-07-09-scalereval-automated-and-consistent-evaluation-testbed-for-auto--213e7409",
+    "sourceSlotId": "b209223d-76c2-4b2e-9957-318a009ce27f",
+    "researchrEventId": "6a9f4ca5-b2b3-4998-ada2-9a797cbd9ac6",
+    "kind": "talk",
+    "title": "ScalerEval: Automated and Consistent Evaluation Testbed for Auto-scalers in Microservices",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Shuaiyu Xie",
+        "affiliation": "School of Computer Science, Wuhan University, China"
+      },
+      {
+        "name": "Yang Luo",
+        "affiliation": "Wuhan University"
+      },
+      {
+        "name": "Yuzhen Tan",
+        "affiliation": "Wuhan University"
+      },
+      {
+        "name": "Yunqing Yong",
+        "affiliation": "Wuhan University"
+      },
+      {
+        "name": "Xiaosong Huang",
+        "affiliation": "Peking University"
+      },
+      {
+        "name": "Jian Wang",
+        "affiliation": "Wuhan University"
+      },
+      {
+        "name": "Bing Li",
+        "affiliation": "Wuhan University"
+      }
+    ],
+    "speakerNames": [
+      "Shuaiyu Xie",
+      "Yang Luo",
+      "Yuzhen Tan",
+      "Yunqing Yong",
+      "Xiaosong Huang",
+      "Jian Wang",
+      "Bing Li"
+    ],
+    "track": "Tool Demonstrations",
+    "session": "Testing 3",
+    "eventType": "Talk",
+    "date": "2026-07-09",
+    "startTime": "12:00",
+    "endTime": "12:10",
+    "durationMinutes": 10,
+    "room": "MB 1.210",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-6a9f4ca5-b2b3-4998-ada2-9a797cbd9ac6",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [
+      "testing"
+    ],
+    "searchText": "ScalerEval: Automated and Consistent Evaluation Testbed for Auto-scalers in Microservices Tool Demonstrations Talk MB 1.210 Testing 3 Shuaiyu Xie Yang Luo Yuzhen Tan Yunqing Yong Xiaosong Huang Jian Wang Bing Li School of Computer Science, Wuhan University, China Wuhan University Wuhan University Wuhan University Peking University Wuhan University Wuhan University testing"
   },
   {
     "id": "fse2026-2026-07-09-shark2pit-automated-test-template-generation-for-protocol-fuzzin-092de20f",
@@ -25674,7 +25713,7 @@
     "id": "fse2026-2026-07-09-playcoder-making-llm-generated-gui-code-playable-fd9e3c3f",
     "sourceSlotId": "a5cc394f-79a2-4997-8086-4a418706b8c6",
     "researchrEventId": "811daa74-b3f0-4928-9620-301d841c7de8",
-    "kind": "talk",
+    "kind": "event",
     "title": "PlayCoder: Making LLM-Generated GUI Code Playable",
     "abstract": "",
     "authors": [
@@ -25713,7 +25752,7 @@
     ],
     "track": "Research Papers",
     "session": "Code Generation 2",
-    "eventType": "Talk",
+    "eventType": "Awards",
     "date": "2026-07-09",
     "startTime": "12:10",
     "endTime": "12:30",
@@ -25728,7 +25767,7 @@
       "large language model",
       "code"
     ],
-    "searchText": "PlayCoder: Making LLM-Generated GUI Code Playable Research Papers Talk MB 3.210 Code Generation 2 Zhiyuan Peng Wei Tao Xin Yin Chenhao Ying Yuan Luo Yiwen Guo Shanghai Jiao Tong University LightSpeed Zhejiang University Shanghai Jiao Tong University Shanghai Jiao Tong University Unaffiliated LLM large language model code"
+    "searchText": "PlayCoder: Making LLM-Generated GUI Code Playable Research Papers Awards MB 3.210 Code Generation 2 Zhiyuan Peng Wei Tao Xin Yin Chenhao Ying Yuan Luo Yiwen Guo Shanghai Jiao Tong University LightSpeed Zhejiang University Shanghai Jiao Tong University Shanghai Jiao Tong University Unaffiliated LLM large language model code"
   },
   {
     "id": "fse2026-2026-07-09-swarmbox-a-plug-and-play-drone-swarm-framework-for-streamlined-d-c8bfcdb4",
@@ -25867,93 +25906,6 @@
     "searchText": "Towards Predicting Multi-Vulnerability Attack Chains in Software Supply Chains from Software Bill of Materials Graphs Ideas, Visions and Reflections Short-paper MB 3.435 Software Security Laura Baird Armin Moin University of Colorado Colorado Springs (UCCS) University of Colorado Colorado Springs"
   },
   {
-    "id": "fse2026-2026-07-09-scalereval-automated-and-consistent-evaluation-testbed-for-auto--213e7409",
-    "sourceSlotId": "b209223d-76c2-4b2e-9957-318a009ce27f",
-    "researchrEventId": "6a9f4ca5-b2b3-4998-ada2-9a797cbd9ac6",
-    "kind": "talk",
-    "title": "ScalerEval: Automated and Consistent Evaluation Testbed for Auto-scalers in Microservices",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Shuaiyu Xie",
-        "affiliation": "School of Computer Science, Wuhan University, China"
-      },
-      {
-        "name": "Yang Luo",
-        "affiliation": "Wuhan University"
-      },
-      {
-        "name": "Yuzhen Tan",
-        "affiliation": "Wuhan University"
-      },
-      {
-        "name": "Yunqing Yong",
-        "affiliation": "Wuhan University"
-      },
-      {
-        "name": "Xiaosong Huang",
-        "affiliation": "Peking University"
-      },
-      {
-        "name": "Jian Wang",
-        "affiliation": "Wuhan University"
-      },
-      {
-        "name": "Bing Li",
-        "affiliation": "Wuhan University"
-      }
-    ],
-    "speakerNames": [
-      "Shuaiyu Xie",
-      "Yang Luo",
-      "Yuzhen Tan",
-      "Yunqing Yong",
-      "Xiaosong Huang",
-      "Jian Wang",
-      "Bing Li"
-    ],
-    "track": "Tool Demonstrations",
-    "session": "Testing 3",
-    "eventType": "Talk",
-    "date": "2026-07-09",
-    "startTime": "12:20",
-    "endTime": "12:30",
-    "durationMinutes": 10,
-    "room": "MB 1.210",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-6a9f4ca5-b2b3-4998-ada2-9a797cbd9ac6",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
-    "keywords": [
-      "testing"
-    ],
-    "searchText": "ScalerEval: Automated and Consistent Evaluation Testbed for Auto-scalers in Microservices Tool Demonstrations Talk MB 1.210 Testing 3 Shuaiyu Xie Yang Luo Yuzhen Tan Yunqing Yong Xiaosong Huang Jian Wang Bing Li School of Computer Science, Wuhan University, China Wuhan University Wuhan University Wuhan University Peking University Wuhan University Wuhan University testing"
-  },
-  {
-    "id": "fse2026-2026-07-09-lunch-b5ddb7db",
-    "sourceSlotId": "54d5a5e2-01fb-4fe1-96f0-69db9a304125",
-    "researchrEventId": "73e83475-452b-4e06-9adc-8f3c17e0aae2",
-    "kind": "event",
-    "title": "Lunch",
-    "abstract": "",
-    "authors": [],
-    "speakerNames": [],
-    "track": "Catering",
-    "session": "Lunch",
-    "eventType": "Lunch",
-    "date": "2026-07-09",
-    "startTime": "12:30",
-    "endTime": "14:00",
-    "durationMinutes": 90,
-    "room": "",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-73e83475-452b-4e06-9adc-8f3c17e0aae2",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
-    "keywords": [],
-    "searchText": "Lunch Catering Lunch Lunch"
-  },
-  {
     "id": "fse2026-2026-07-09-walletruth-visual-oriented-software-testing-for-web3-wallet-brow-f107a96f",
     "sourceSlotId": "14d783a0-6eb5-4719-b9c9-00468584e375",
     "researchrEventId": "32f001e5-a1e9-4ff0-a4ec-98e0b72570e4",
@@ -25983,8 +25935,8 @@
     "session": "Testing 3",
     "eventType": "Talk",
     "date": "2026-07-09",
-    "startTime": "12:30",
-    "endTime": "12:50",
+    "startTime": "12:10",
+    "endTime": "12:30",
     "durationMinutes": 20,
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-32f001e5-a1e9-4ff0-a4ec-98e0b72570e4",
@@ -25995,6 +25947,30 @@
       "testing"
     ],
     "searchText": "WalleTruth: Visual-oriented Software Testing for Web3 Wallet Browser Extensions Research Papers Talk MB 1.210 Testing 3 Xiaohui Hu Ningyu He Haoyu Wang Huazhong University of Science and Technology Hong Kong Polytechnic University Huazhong University of Science and Technology testing"
+  },
+  {
+    "id": "fse2026-2026-07-09-lunch-b5ddb7db",
+    "sourceSlotId": "54d5a5e2-01fb-4fe1-96f0-69db9a304125",
+    "researchrEventId": "73e83475-452b-4e06-9adc-8f3c17e0aae2",
+    "kind": "event",
+    "title": "Lunch",
+    "abstract": "",
+    "authors": [],
+    "speakerNames": [],
+    "track": "Catering",
+    "session": "Lunch",
+    "eventType": "Lunch",
+    "date": "2026-07-09",
+    "startTime": "12:30",
+    "endTime": "14:00",
+    "durationMinutes": 90,
+    "room": "",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-73e83475-452b-4e06-9adc-8f3c17e0aae2",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "Lunch Catering Lunch Lunch"
   },
   {
     "id": "fse2026-2026-07-09-agentic-verification-of-software-systems-9e0eb094",
@@ -26882,8 +26858,8 @@
     "room": "MB 2.435",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-43d176ce-8933-40a4-9891-17ee3179d8bf",
     "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3808185",
+    "preprintUrl": "https://arxiv.org/pdf/2606.31372",
     "keywords": [
       "testing",
       "agents"
