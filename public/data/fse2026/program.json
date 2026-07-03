@@ -902,6 +902,42 @@
     "searchText": "Opening Doctoral Symposium Day opening MB 3.210 Opening and Lightning talks Cristian Cadar Gail Murphy Imperial College London University of British Columbia"
   },
   {
+    "id": "fse2026-2026-07-06-opening-155643d4",
+    "sourceSlotId": "18f5b5ee-6643-4df6-8cc1-1779f64a9c85",
+    "researchrEventId": "58375f5a-1af8-4ab9-8811-54a78b381db5",
+    "kind": "event",
+    "title": "Opening",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Robert Dyer",
+        "affiliation": "University of Nebraska-Lincoln"
+      },
+      {
+        "name": "Ying Zou",
+        "affiliation": "Queen's University, Kingston, Ontario"
+      }
+    ],
+    "speakerNames": [
+      "Robert Dyer",
+      "Ying Zou"
+    ],
+    "track": "New Faculty Symposium",
+    "session": "New Faculty Symposium",
+    "eventType": "Day opening",
+    "date": "2026-07-06",
+    "startTime": "09:00",
+    "endTime": "09:21",
+    "durationMinutes": 21,
+    "room": "MB 3.270",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-58375f5a-1af8-4ab9-8811-54a78b381db5",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "Opening New Faculty Symposium Day opening MB 3.270 New Faculty Symposium Robert Dyer Ying Zou University of Nebraska-Lincoln Queen's University, Kingston, Ontario"
+  },
+  {
     "id": "fse2026-2026-07-06-opening-remarks-e966d2cb",
     "sourceSlotId": "16226155-4295-4697-a564-23593b4d1dae",
     "researchrEventId": "421106f4-c6bf-4557-9a26-bdc7eb6faf94",
@@ -1136,7 +1172,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-e06819a4-2df4-4be1-8d3b-4ec686f253e1",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "http://timm.fyi/26less.pdf",
     "keywords": [],
     "searchText": "The Other Side of Complexity SSBSE Keynote Keynote MB 2.210 Keynote Tim Menzies North Carolina State University"
   },
@@ -1213,6 +1249,37 @@
       "agents"
     ],
     "searchText": "Developer Experience with AI Coding Agents: HTTP Behavioral Signatures in Documentation Portals AIware ArXiv Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Oleksii Borysenko Cisco DevNet agents"
+  },
+  {
+    "id": "fse2026-2026-07-06-mentoring-the-next-generation-and-establishing-your-research-pro-4ed02afd",
+    "sourceSlotId": "bfb4e8e4-8f14-42ae-857d-54d781d1ddb5",
+    "researchrEventId": "76e6e2b4-3c85-4091-8168-962131f34f3e",
+    "kind": "talk",
+    "title": "Mentoring the next generation, and establishing your research profile: Synergies",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Abhik Roychoudhury",
+        "affiliation": "National University of Singapore"
+      }
+    ],
+    "speakerNames": [
+      "Abhik Roychoudhury"
+    ],
+    "track": "New Faculty Symposium",
+    "session": "New Faculty Symposium",
+    "eventType": "Talk",
+    "date": "2026-07-06",
+    "startTime": "09:21",
+    "endTime": "09:44",
+    "durationMinutes": 23,
+    "room": "MB 3.270",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-76e6e2b4-3c85-4091-8168-962131f34f3e",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "Mentoring the next generation, and establishing your research profile: Synergies New Faculty Symposium Talk MB 3.270 New Faculty Symposium Abhik Roychoudhury National University of Singapore"
   },
   {
     "id": "fse2026-2026-07-06-visor-a-vision-language-model-based-test-oracle-for-testing-robo-43d7e0a4",
@@ -1530,6 +1597,37 @@
       "code"
     ],
     "searchText": "Examining LLMs Ability to Summarize Code Through Mutation-Analysis AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Lara Khatib Michael Pu Bogdan Vasilescu Mei Nagappan University of Waterloo University of Waterloo Carnegie Mellon University University of Waterloo LLM large language model code"
+  },
+  {
+    "id": "fse2026-2026-07-06-family-over-hierarchy-a-mentorship-model-for-building-a-sustaina-71890be5",
+    "sourceSlotId": "5ecee3a8-e427-4797-81a4-604e1610493d",
+    "researchrEventId": "ceea3ced-580c-48eb-a741-882aae9730c9",
+    "kind": "talk",
+    "title": "Family Over Hierarchy: A Mentorship Model for Building a Sustainable, Globally Connected Research Lab",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Chanchal K. Roy",
+        "affiliation": "University of Saskatchewan"
+      }
+    ],
+    "speakerNames": [
+      "Chanchal K. Roy"
+    ],
+    "track": "New Faculty Symposium",
+    "session": "New Faculty Symposium",
+    "eventType": "Talk",
+    "date": "2026-07-06",
+    "startTime": "09:44",
+    "endTime": "10:07",
+    "durationMinutes": 23,
+    "room": "MB 3.270",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-ceea3ced-580c-48eb-a741-882aae9730c9",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "Family Over Hierarchy: A Mentorship Model for Building a Sustainable, Globally Connected Research Lab New Faculty Symposium Talk MB 3.270 New Faculty Symposium Chanchal K. Roy University of Saskatchewan"
   },
   {
     "id": "fse2026-2026-07-06-testing-aiware-systems-a-software-engineering-survey-63a7d0ce",
@@ -1973,6 +2071,37 @@
     "searchText": "From Syntactic Mimicry to Semantic Correctness: Behavioral Understanding in LLM Code Generation Doctoral Symposium Talk MB 3.210 Opening and Lightning talks Ajmain Inqiad Alam University of Saskatchewan LLM large language model code"
   },
   {
+    "id": "fse2026-2026-07-06-how-to-fit-all-of-it-in-3211694c",
+    "sourceSlotId": "ab8bd84f-5969-433b-af66-006f584d25f8",
+    "researchrEventId": "82d598f5-e94d-4f60-afd9-265c400428f3",
+    "kind": "talk",
+    "title": "How to Fit All of It In",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Marsha Chechik",
+        "affiliation": "University of Toronto"
+      }
+    ],
+    "speakerNames": [
+      "Marsha Chechik"
+    ],
+    "track": "New Faculty Symposium",
+    "session": "New Faculty Symposium",
+    "eventType": "Talk",
+    "date": "2026-07-06",
+    "startTime": "10:07",
+    "endTime": "10:29",
+    "durationMinutes": 22,
+    "room": "MB 3.270",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-82d598f5-e94d-4f60-afd9-265c400428f3",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "How to Fit All of It In New Faculty Symposium Talk MB 3.270 New Faculty Symposium Marsha Chechik University of Toronto"
+  },
+  {
     "id": "fse2026-2026-07-06-when-testing-meets-refactoring-339c3dc2",
     "sourceSlotId": "cb809e7c-9bf9-4a2d-9cc5-a7d4eca4f105",
     "researchrEventId": "4eba288c-8707-4876-b222-6b90bff03be0",
@@ -2215,11 +2344,11 @@
     "searchText": "Automated Diagnosis and Testing of Game Compatibility Layers Doctoral Symposium Talk MB 3.210 Opening and Lightning talks Hanzheng Dai University of Alberta testing"
   },
   {
-    "id": "fse2026-2026-07-06-joint-q-a-and-discussion-2f239954",
+    "id": "fse2026-2026-07-06-joint-q-a-c7ab8c0f",
     "sourceSlotId": "8d484361-a504-4a2b-80f9-66a6c36e9982",
     "researchrEventId": "f05e1616-1cfc-454c-8e91-3289a22efd39",
     "kind": "event",
-    "title": "Joint Q&A and Discussion",
+    "title": "Joint Q&A",
     "abstract": "",
     "authors": [],
     "speakerNames": [],
@@ -2236,7 +2365,7 @@
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "Joint Q&A and Discussion AIware Main Track Live Q&A MB 1.210 Coding Agents, Software Testing, and Code Understanding"
+    "searchText": "Joint Q&A AIware Main Track Live Q&A MB 1.210 Coding Agents, Software Testing, and Code Understanding"
   },
   {
     "id": "fse2026-2026-07-06-reliable-and-developer-aligned-evaluation-of-agents-for-software-daa7b4fc",
@@ -2430,20 +2559,51 @@
     "searchText": "From Chatbots to Colleagues: Steering Code-Driven Agents for End-to-End Autonomy AIware Keynotes Keynote MB 1.210 AIware Keynotes Session 1 Qidi Xu MiniMax agents code"
   },
   {
-    "id": "fse2026-2026-07-06-toward-reliable-oracle-verification-of-quantum-programs-under-no-01359f11",
-    "sourceSlotId": "e0bd80b0-20ec-464f-9077-bbc7ed571bdf",
-    "researchrEventId": "095d4421-3480-4dca-a2b8-d39b0df159dd",
+    "id": "fse2026-2026-07-06-from-researcher-to-research-leader-mentoring-students-building-t-a444ebf1",
+    "sourceSlotId": "8411fdfa-0abc-4fd5-8c73-839fcf35a94d",
+    "researchrEventId": "49d67756-e7f8-4831-bb0a-5cfcafe7c579",
     "kind": "talk",
-    "title": "Toward Reliable Oracle Verification of Quantum Programs Under Noise and Resource Constraints",
+    "title": "From Researcher to Research Leader: Mentoring Students, Building Teams, and Growing Yourself",
     "abstract": "",
     "authors": [
       {
-        "name": "Ning Ma",
-        "affiliation": ""
+        "name": "Ali Ouni",
+        "affiliation": "Ecole de Technologie Superieure (ETS)"
       }
     ],
     "speakerNames": [
-      "Ning Ma"
+      "Ali Ouni"
+    ],
+    "track": "New Faculty Symposium",
+    "session": "New Faculty Symposium",
+    "eventType": "Talk",
+    "date": "2026-07-06",
+    "startTime": "11:00",
+    "endTime": "11:23",
+    "durationMinutes": 23,
+    "room": "MB 3.270",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-49d67756-e7f8-4831-bb0a-5cfcafe7c579",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "From Researcher to Research Leader: Mentoring Students, Building Teams, and Growing Yourself New Faculty Symposium Talk MB 3.270 New Faculty Symposium Ali Ouni Ecole de Technologie Superieure (ETS)"
+  },
+  {
+    "id": "fse2026-2026-07-06-awareness-and-avoidance-of-security-vulnerabilities-in-software--4684d913",
+    "sourceSlotId": "e0b13a55-202a-493c-b51e-e3516002c1dc",
+    "researchrEventId": "e3e7c60c-62aa-4c13-af83-777d44c6cf27",
+    "kind": "talk",
+    "title": "Awareness and Avoidance of Security Vulnerabilities in Software Tutorials",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Bhagya Chembakottu",
+        "affiliation": "McGill University"
+      }
+    ],
+    "speakerNames": [
+      "Bhagya Chembakottu"
     ],
     "track": "Doctoral Symposium",
     "session": "Talks (Session 1)",
@@ -2453,12 +2613,14 @@
     "endTime": "11:30",
     "durationMinutes": 15,
     "room": "MB 3.210",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-095d4421-3480-4dca-a2b8-d39b0df159dd",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-e3e7c60c-62aa-4c13-af83-777d44c6cf27",
     "presentationUrl": null,
     "doiUrl": null,
     "preprintUrl": null,
-    "keywords": [],
-    "searchText": "Toward Reliable Oracle Verification of Quantum Programs Under Noise and Resource Constraints Doctoral Symposium Talk MB 3.210 Talks (Session 1) Ning Ma"
+    "keywords": [
+      "security"
+    ],
+    "searchText": "Awareness and Avoidance of Security Vulnerabilities in Software Tutorials Doctoral Symposium Talk MB 3.210 Talks (Session 1) Bhagya Chembakottu McGill University security"
   },
   {
     "id": "fse2026-2026-07-06-genetic-programming-for-self-adaptive-auto-scaling-of-microservi-98ee8260",
@@ -2533,8 +2695,32 @@
     "searchText": "When Implementation Stops Being the Bottleneck: Design in AI-Native Software Engineering AIware Keynotes Keynote MB 1.210 AIware Keynotes Session 1 Thomas Cottenier Arm"
   },
   {
-    "id": "fse2026-2026-07-06-towards-ai-powered-localization-of-software-bugs-from-semantic-u-28b988df",
-    "sourceSlotId": "e0b13a55-202a-493c-b51e-e3516002c1dc",
+    "id": "fse2026-2026-07-06-panel-discussion-5c6c9d43",
+    "sourceSlotId": "ab2d4610-9514-4aac-bd25-494fc455d627",
+    "researchrEventId": "2b700ea3-3005-4edc-bb0d-95b164662d2b",
+    "kind": "event",
+    "title": "Panel Discussion",
+    "abstract": "",
+    "authors": [],
+    "speakerNames": [],
+    "track": "New Faculty Symposium",
+    "session": "New Faculty Symposium",
+    "eventType": "Panel",
+    "date": "2026-07-06",
+    "startTime": "11:23",
+    "endTime": "12:30",
+    "durationMinutes": 67,
+    "room": "MB 3.270",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-2b700ea3-3005-4edc-bb0d-95b164662d2b",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "Panel Discussion New Faculty Symposium Panel MB 3.270 New Faculty Symposium"
+  },
+  {
+    "id": "fse2026-2026-07-06-towards-ai-powered-localization-of-software-bugs-from-semantic-u-08408c39",
+    "sourceSlotId": "add61f12-6ab8-4bf6-b428-d8d4fdb1a075",
     "researchrEventId": "8826712d-1f98-4ffc-ab91-e3da7488341b",
     "kind": "talk",
     "title": "Towards AI-Powered Localization of Software Bugs: From Semantic Understanding to Agentic Cognition",
@@ -2642,8 +2828,8 @@
     "searchText": "Prompt Optimization for LLM Code Generation via Reinforcement Learning SSBSE Research Papers Research paper MB 2.210 Research Session 1 Ali Mohammadi Esfahani Nafiseh Kahani Samuel A. Ajila Carleton University Carleton University Department of Systems and Computer Engineering, Carleton University LLM large language model code"
   },
   {
-    "id": "fse2026-2026-07-06-towards-trustworthy-ai-enabled-systems-from-model-level-reliabil-3fc5dbec",
-    "sourceSlotId": "add61f12-6ab8-4bf6-b428-d8d4fdb1a075",
+    "id": "fse2026-2026-07-06-towards-trustworthy-ai-enabled-systems-from-model-level-reliabil-d2ceedcd",
+    "sourceSlotId": "3645c232-bd08-4eaa-a40c-7c2b5027a4d1",
     "researchrEventId": "7fcbcb6b-0b03-4c19-8ab4-c2b69fd595a6",
     "kind": "talk",
     "title": "Towards Trustworthy AI-Enabled Systems: From Model-Level Reliability to Systemic Assurance",
@@ -2673,11 +2859,11 @@
     "searchText": "Towards Trustworthy AI-Enabled Systems: From Model-Level Reliability to Systemic Assurance Doctoral Symposium Talk MB 3.210 Talks (Session 1) Yuheng Huang The University of Tokyo"
   },
   {
-    "id": "fse2026-2026-07-06-joint-q-a-and-discussion-905f2b1e",
+    "id": "fse2026-2026-07-06-joint-q-a-fa76c884",
     "sourceSlotId": "3ecb735f-5e76-49d8-b127-4cfaea88b234",
     "researchrEventId": "d469722d-c87f-48fd-a30f-48c37fc04603",
     "kind": "event",
-    "title": "Joint Q&A and Discussion",
+    "title": "Joint Q&A",
     "abstract": "",
     "authors": [],
     "speakerNames": [],
@@ -2694,11 +2880,11 @@
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "Joint Q&A and Discussion AIware Keynotes Live Q&A MB 1.210 AIware Keynotes Session 1"
+    "searchText": "Joint Q&A AIware Keynotes Live Q&A MB 1.210 AIware Keynotes Session 1"
   },
   {
-    "id": "fse2026-2026-07-06-malleable-interfaces-for-reviewing-software-documentation-46a38dfc",
-    "sourceSlotId": "3645c232-bd08-4eaa-a40c-7c2b5027a4d1",
+    "id": "fse2026-2026-07-06-malleable-interfaces-for-reviewing-software-documentation-1ae3fb7b",
+    "sourceSlotId": "1fd2c0c5-959e-4e4f-a85a-f4c7fb2d9966",
     "researchrEventId": "e2fc829a-7c47-4695-9b91-69bcf114d64c",
     "kind": "talk",
     "title": "Malleable Interfaces for Reviewing Software Documentation",
@@ -2769,8 +2955,8 @@
     "searchText": "Search-Based Generation of Complex Inputs with FANDANGO SSBSE Hot-off-the-Press Track Short-paper MB 2.210 Research Session 1 José Antonio Zamudio Amaya Marius Smytzek Andreas Zeller CISPA Helmholtz Center for Information Security CISPA Helmholtz Center for Information Security CISPA Helmholtz Center for Information Security"
   },
   {
-    "id": "fse2026-2026-07-06-testing-protocols-with-formal-languages-d11e4767",
-    "sourceSlotId": "1fd2c0c5-959e-4e4f-a85a-f4c7fb2d9966",
+    "id": "fse2026-2026-07-06-testing-protocols-with-formal-languages-4576874a",
+    "sourceSlotId": "987b99ce-f02a-41ed-8c23-eeb28bb850b7",
     "researchrEventId": "fa417912-ab9a-4cac-9fe4-3a2126a8c35e",
     "kind": "talk",
     "title": "Testing Protocols with Formal Languages",
@@ -2826,39 +3012,6 @@
     "searchText": "Lunch Catering Lunch Lunch"
   },
   {
-    "id": "fse2026-2026-07-06-awareness-and-avoidance-of-security-vulnerabilities-in-software--f91c5d3f",
-    "sourceSlotId": "28b47ef3-26c8-4a02-b209-ccd1d9ffb00e",
-    "researchrEventId": "e3e7c60c-62aa-4c13-af83-777d44c6cf27",
-    "kind": "talk",
-    "title": "Awareness and Avoidance of Security Vulnerabilities in Software Tutorials",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Bhagya Chembakottu",
-        "affiliation": "McGill University"
-      }
-    ],
-    "speakerNames": [
-      "Bhagya Chembakottu"
-    ],
-    "track": "Doctoral Symposium",
-    "session": "Talks (Session 2)",
-    "eventType": "Talk",
-    "date": "2026-07-06",
-    "startTime": "14:00",
-    "endTime": "14:15",
-    "durationMinutes": 15,
-    "room": "MB 3.210",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-e3e7c60c-62aa-4c13-af83-777d44c6cf27",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
-    "keywords": [
-      "security"
-    ],
-    "searchText": "Awareness and Avoidance of Security Vulnerabilities in Software Tutorials Doctoral Symposium Talk MB 3.210 Talks (Session 2) Bhagya Chembakottu McGill University security"
-  },
-  {
     "id": "fse2026-2026-07-06-challenge-overview-eee93bb6",
     "sourceSlotId": "6fed4bab-cd05-4e47-bcf6-1cd6bc305b72",
     "researchrEventId": "4b996c99-4fd4-4875-9796-6a083472715e",
@@ -2881,6 +3034,68 @@
     "preprintUrl": null,
     "keywords": [],
     "searchText": "Challenge Overview SSBSE Challenge Talk MB 2.210 SSBSE Challenge"
+  },
+  {
+    "id": "fse2026-2026-07-06-tbd-01199113",
+    "sourceSlotId": "1ebb00a4-1e18-4f65-a8ff-7de1a3086a91",
+    "researchrEventId": "33eb317f-f5a6-40be-b38f-05326043ec56",
+    "kind": "talk",
+    "title": "TBD",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Laurie Williams",
+        "affiliation": "North Carolina State University"
+      }
+    ],
+    "speakerNames": [
+      "Laurie Williams"
+    ],
+    "track": "New Faculty Symposium",
+    "session": "New Faculty Symposium",
+    "eventType": "Talk",
+    "date": "2026-07-06",
+    "startTime": "14:00",
+    "endTime": "14:22",
+    "durationMinutes": 22,
+    "room": "MB 3.270",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-33eb317f-f5a6-40be-b38f-05326043ec56",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "TBD New Faculty Symposium Talk MB 3.270 New Faculty Symposium Laurie Williams North Carolina State University"
+  },
+  {
+    "id": "fse2026-2026-07-06-toward-reliable-oracle-verification-of-quantum-programs-under-no-76374ae2",
+    "sourceSlotId": "ea9b4557-0846-4d57-964f-e04b80b3e475",
+    "researchrEventId": "095d4421-3480-4dca-a2b8-d39b0df159dd",
+    "kind": "talk",
+    "title": "Toward Reliable Oracle Verification of Quantum Programs Under Noise and Resource Constraints",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Ning Ma",
+        "affiliation": ""
+      }
+    ],
+    "speakerNames": [
+      "Ning Ma"
+    ],
+    "track": "Doctoral Symposium",
+    "session": "Talks (Session 2)",
+    "eventType": "Talk",
+    "date": "2026-07-06",
+    "startTime": "14:00",
+    "endTime": "14:15",
+    "durationMinutes": 15,
+    "room": "MB 3.210",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-095d4421-3480-4dca-a2b8-d39b0df159dd",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "Toward Reliable Oracle Verification of Quantum Programs Under Noise and Resource Constraints Doctoral Symposium Talk MB 3.210 Talks (Session 2) Ning Ma"
   },
   {
     "id": "fse2026-2026-07-06-veritrans-fine-tuned-llm-assisted-nl-pl-translation-via-a-determ-9a838cca",
@@ -3103,20 +3318,20 @@
     "searchText": "From Assistance to Agency: Rethinking Autonomy and Control in CI/CD Pipelines AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Marcus Barnes Taher A. Ghaleb Safwat Hassan University of Toronto Trent University University of Toronto"
   },
   {
-    "id": "fse2026-2026-07-06-from-syntactic-mimicry-to-semantic-correctness-behavioral-unders-1971dfd6",
-    "sourceSlotId": "ea9b4557-0846-4d57-964f-e04b80b3e475",
-    "researchrEventId": "89c3903a-5321-44b3-861e-1d8334ec77d1",
+    "id": "fse2026-2026-07-06-towards-efficient-and-secure-pull-request-based-software-develop-bc0fd372",
+    "sourceSlotId": "a500ef11-a98d-4ad2-a1b9-b9f18a891c43",
+    "researchrEventId": "6e113995-c0f3-4538-abc4-9bd2cbd2177a",
     "kind": "talk",
-    "title": "From Syntactic Mimicry to Semantic Correctness: Behavioral Understanding in LLM Code Generation",
+    "title": "Towards Efficient and Secure Pull-Request-Based Software Development",
     "abstract": "",
     "authors": [
       {
-        "name": "Ajmain Inqiad Alam",
-        "affiliation": "University of Saskatchewan"
+        "name": "Kazi Amit Hasan",
+        "affiliation": "Queen's University, Canada"
       }
     ],
     "speakerNames": [
-      "Ajmain Inqiad Alam"
+      "Kazi Amit Hasan"
     ],
     "track": "Doctoral Symposium",
     "session": "Talks (Session 2)",
@@ -3126,16 +3341,16 @@
     "endTime": "14:30",
     "durationMinutes": 15,
     "room": "MB 3.210",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-89c3903a-5321-44b3-861e-1d8334ec77d1",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-6e113995-c0f3-4538-abc4-9bd2cbd2177a",
     "presentationUrl": null,
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [
-      "LLM",
-      "large language model",
-      "code"
+      "pull request",
+      "GitHub",
+      "security"
     ],
-    "searchText": "From Syntactic Mimicry to Semantic Correctness: Behavioral Understanding in LLM Code Generation Doctoral Symposium Talk MB 3.210 Talks (Session 2) Ajmain Inqiad Alam University of Saskatchewan LLM large language model code"
+    "searchText": "Towards Efficient and Secure Pull-Request-Based Software Development Doctoral Symposium Talk MB 3.210 Talks (Session 2) Kazi Amit Hasan Queen's University, Canada pull request GitHub security"
   },
   {
     "id": "fse2026-2026-07-06-beyond-translation-accuracy-addressing-false-failures-in-llm-bas-771ddb2a",
@@ -3181,6 +3396,37 @@
       "code"
     ],
     "searchText": "Beyond Translation Accuracy: Addressing False Failures in LLM-Based Code Translation AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Fazle Rabbi Soumit Kanti Saha Jinqiu Yang Concordia University Concordia University, CA Concordia University LLM large language model code"
+  },
+  {
+    "id": "fse2026-2026-07-06-establishing-an-ethos-for-your-research-group-b44d90cc",
+    "sourceSlotId": "7f7fac38-79b1-49e2-8a2f-e43976a11248",
+    "researchrEventId": "538cd381-a32c-41a6-848b-5d15b1cf5496",
+    "kind": "talk",
+    "title": "Establishing an Ethos for Your Research Group",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Shane McIntosh",
+        "affiliation": "University of Waterloo"
+      }
+    ],
+    "speakerNames": [
+      "Shane McIntosh"
+    ],
+    "track": "New Faculty Symposium",
+    "session": "New Faculty Symposium",
+    "eventType": "Talk",
+    "date": "2026-07-06",
+    "startTime": "14:22",
+    "endTime": "14:44",
+    "durationMinutes": 22,
+    "room": "MB 3.270",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-538cd381-a32c-41a6-848b-5d15b1cf5496",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "Establishing an Ethos for Your Research Group New Faculty Symposium Talk MB 3.270 New Faculty Symposium Shane McIntosh University of Waterloo"
   },
   {
     "id": "fse2026-2026-07-06-executable-but-unlearnable-designing-code-that-resists-llm-based-94047e8b",
@@ -3310,20 +3556,20 @@
     "searchText": "Detecting Unsoundness in Neural Network Verifiers via Concrete–Abstract Consistency AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Kaijie Liu Yulei Sui University of New South Wales, Sydney University of New South Wales"
   },
   {
-    "id": "fse2026-2026-07-06-unsupervised-extraction-of-latent-structures-in-software-operati-070f7c8e",
-    "sourceSlotId": "a500ef11-a98d-4ad2-a1b9-b9f18a891c43",
-    "researchrEventId": "7224fa11-9b82-4314-8a17-12856c9583df",
+    "id": "fse2026-2026-07-06-from-syntactic-mimicry-to-semantic-correctness-behavioral-unders-ff390daf",
+    "sourceSlotId": "2899e8e2-f3f3-4888-af87-329d0d5d6947",
+    "researchrEventId": "89c3903a-5321-44b3-861e-1d8334ec77d1",
     "kind": "talk",
-    "title": "Unsupervised Extraction of Latent Structures in Software Operations Data",
+    "title": "From Syntactic Mimicry to Semantic Correctness: Behavioral Understanding in LLM Code Generation",
     "abstract": "",
     "authors": [
       {
-        "name": "Qiaolin Qin",
-        "affiliation": "Polytechnique Montréal"
+        "name": "Ajmain Inqiad Alam",
+        "affiliation": "University of Saskatchewan"
       }
     ],
     "speakerNames": [
-      "Qiaolin Qin"
+      "Ajmain Inqiad Alam"
     ],
     "track": "Doctoral Symposium",
     "session": "Talks (Session 2)",
@@ -3333,12 +3579,16 @@
     "endTime": "14:45",
     "durationMinutes": 15,
     "room": "MB 3.210",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-7224fa11-9b82-4314-8a17-12856c9583df",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-89c3903a-5321-44b3-861e-1d8334ec77d1",
     "presentationUrl": null,
     "doiUrl": null,
     "preprintUrl": null,
-    "keywords": [],
-    "searchText": "Unsupervised Extraction of Latent Structures in Software Operations Data Doctoral Symposium Talk MB 3.210 Talks (Session 2) Qiaolin Qin Polytechnique Montréal"
+    "keywords": [
+      "LLM",
+      "large language model",
+      "code"
+    ],
+    "searchText": "From Syntactic Mimicry to Semantic Correctness: Behavioral Understanding in LLM Code Generation Doctoral Symposium Talk MB 3.210 Talks (Session 2) Ajmain Inqiad Alam University of Saskatchewan LLM large language model code"
   },
   {
     "id": "fse2026-2026-07-06-from-correctness-to-consistency-redefining-reliability-for-the-a-c974f238",
@@ -3518,39 +3768,35 @@
     "searchText": "Reducing LLMs by Searching Heterogeneous Quantizations SSBSE Challenge Short-paper MB 2.210 SSBSE Challenge Enrique Alba Yazhuo Cao Hector Menendez University of Malaga King's College London King’s College London LLM large language model"
   },
   {
-    "id": "fse2026-2026-07-06-towards-efficient-and-secure-pull-request-based-software-develop-db6fb3b0",
-    "sourceSlotId": "2899e8e2-f3f3-4888-af87-329d0d5d6947",
-    "researchrEventId": "6e113995-c0f3-4538-abc4-9bd2cbd2177a",
+    "id": "fse2026-2026-07-06-tbd-2e69f3a7",
+    "sourceSlotId": "981df1cb-422d-4137-9207-11e0591187e4",
+    "researchrEventId": "c1749928-fa4a-403c-98f0-d6085a1b8236",
     "kind": "talk",
-    "title": "Towards Efficient and Secure Pull-Request-Based Software Development",
+    "title": "TBD",
     "abstract": "",
     "authors": [
       {
-        "name": "Kazi Amit Hasan",
-        "affiliation": "Queen's University, Canada"
+        "name": "Kathryn Stolee",
+        "affiliation": "North Carolina State University"
       }
     ],
     "speakerNames": [
-      "Kazi Amit Hasan"
+      "Kathryn Stolee"
     ],
-    "track": "Doctoral Symposium",
-    "session": "Talks (Session 2)",
+    "track": "New Faculty Symposium",
+    "session": "New Faculty Symposium",
     "eventType": "Talk",
     "date": "2026-07-06",
     "startTime": "14:45",
-    "endTime": "15:00",
-    "durationMinutes": 15,
-    "room": "MB 3.210",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-6e113995-c0f3-4538-abc4-9bd2cbd2177a",
+    "endTime": "15:07",
+    "durationMinutes": 22,
+    "room": "MB 3.270",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-c1749928-fa4a-403c-98f0-d6085a1b8236",
     "presentationUrl": null,
     "doiUrl": null,
     "preprintUrl": null,
-    "keywords": [
-      "pull request",
-      "GitHub",
-      "security"
-    ],
-    "searchText": "Towards Efficient and Secure Pull-Request-Based Software Development Doctoral Symposium Talk MB 3.210 Talks (Session 2) Kazi Amit Hasan Queen's University, Canada pull request GitHub security"
+    "keywords": [],
+    "searchText": "TBD New Faculty Symposium Talk MB 3.270 New Faculty Symposium Kathryn Stolee North Carolina State University"
   },
   {
     "id": "fse2026-2026-07-06-when-ai-coding-assistants-leak-training-data-study-memorization--c47d0a8a",
@@ -3601,6 +3847,39 @@
       "code"
     ],
     "searchText": "When AI Coding Assistants Leak Training Data: Study Memorization in Code LLMs AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Xiaoyu Cheng Kundi Yao Pengyu Nie Weiyi Shang Ontario Tech University University of Waterloo University of Waterloo LLM large language model code"
+  },
+  {
+    "id": "fse2026-2026-07-06-when-testing-meets-refactoring-0d457030",
+    "sourceSlotId": "eec3e2bc-bb53-4c3b-97f0-9bb89da58526",
+    "researchrEventId": "4eba288c-8707-4876-b222-6b90bff03be0",
+    "kind": "talk",
+    "title": "When Testing Meets Refactoring",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Victor Guerra Veloso",
+        "affiliation": "Concordia University"
+      }
+    ],
+    "speakerNames": [
+      "Victor Guerra Veloso"
+    ],
+    "track": "Doctoral Symposium",
+    "session": "Talks (Session 2)",
+    "eventType": "Talk",
+    "date": "2026-07-06",
+    "startTime": "14:45",
+    "endTime": "15:00",
+    "durationMinutes": 15,
+    "room": "MB 3.210",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-4eba288c-8707-4876-b222-6b90bff03be0",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [
+      "testing"
+    ],
+    "searchText": "When Testing Meets Refactoring Doctoral Symposium Talk MB 3.210 Talks (Session 2) Victor Guerra Veloso Concordia University testing"
   },
   {
     "id": "fse2026-2026-07-06-zombie-agents-detecting-semantic-livelock-in-long-horizon-autono-e8350a42",
@@ -3797,20 +4076,20 @@
     "searchText": "TriORM: Workload-Aware Neural--Symbolic Multi-Objective Optimization for ORM Mapping Design AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Sasan Azizian Ayoub Hazrati Artin Azizian Elham Rastegari Bellevue University The Vanguard Group McGill University, School of Computer Science Creighton University"
   },
   {
-    "id": "fse2026-2026-07-06-when-testing-meets-refactoring-0d457030",
-    "sourceSlotId": "eec3e2bc-bb53-4c3b-97f0-9bb89da58526",
-    "researchrEventId": "4eba288c-8707-4876-b222-6b90bff03be0",
+    "id": "fse2026-2026-07-06-unsupervised-extraction-of-latent-structures-in-software-operati-8f16f717",
+    "sourceSlotId": "e7ea985b-87c3-4587-afca-e118dc8dd80c",
+    "researchrEventId": "7224fa11-9b82-4314-8a17-12856c9583df",
     "kind": "talk",
-    "title": "When Testing Meets Refactoring",
+    "title": "Unsupervised Extraction of Latent Structures in Software Operations Data",
     "abstract": "",
     "authors": [
       {
-        "name": "Victor Guerra Veloso",
-        "affiliation": "Concordia University"
+        "name": "Qiaolin Qin",
+        "affiliation": "Polytechnique Montréal"
       }
     ],
     "speakerNames": [
-      "Victor Guerra Veloso"
+      "Qiaolin Qin"
     ],
     "track": "Doctoral Symposium",
     "session": "Talks (Session 2)",
@@ -3820,14 +4099,12 @@
     "endTime": "15:15",
     "durationMinutes": 15,
     "room": "MB 3.210",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-4eba288c-8707-4876-b222-6b90bff03be0",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-7224fa11-9b82-4314-8a17-12856c9583df",
     "presentationUrl": null,
     "doiUrl": null,
     "preprintUrl": null,
-    "keywords": [
-      "testing"
-    ],
-    "searchText": "When Testing Meets Refactoring Doctoral Symposium Talk MB 3.210 Talks (Session 2) Victor Guerra Veloso Concordia University testing"
+    "keywords": [],
+    "searchText": "Unsupervised Extraction of Latent Structures in Software Operations Data Doctoral Symposium Talk MB 3.210 Talks (Session 2) Qiaolin Qin Polytechnique Montréal"
   },
   {
     "id": "fse2026-2026-07-06-artifact-readiness-gates-with-saturation-stop-rules-and-host-par-5b4b427e",
@@ -3859,6 +4136,37 @@
     "preprintUrl": null,
     "keywords": [],
     "searchText": "Artifact Readiness Gates with Saturation Stop Rules and Host-Parity Admissibility for FM Release Evaluation AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Yanick Kanyiki InvarLock Inc., CA"
+  },
+  {
+    "id": "fse2026-2026-07-06-tbd-a301f8f2",
+    "sourceSlotId": "40933dcf-ef11-4242-adcc-6ea5ffb4982e",
+    "researchrEventId": "4cf9c1ae-46af-4e72-ba18-cdfc216135e3",
+    "kind": "talk",
+    "title": "TBD",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Emad Shihab",
+        "affiliation": "Concordia University"
+      }
+    ],
+    "speakerNames": [
+      "Emad Shihab"
+    ],
+    "track": "New Faculty Symposium",
+    "session": "New Faculty Symposium",
+    "eventType": "Talk",
+    "date": "2026-07-06",
+    "startTime": "15:07",
+    "endTime": "15:29",
+    "durationMinutes": 22,
+    "room": "MB 3.270",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-4cf9c1ae-46af-4e72-ba18-cdfc216135e3",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "TBD New Faculty Symposium Talk MB 3.270 New Faculty Symposium Emad Shihab Concordia University"
   },
   {
     "id": "fse2026-2026-07-06-survival-of-the-stealthiest-evolving-low-entropy-ransomware-via--8f99d531",
@@ -3991,11 +4299,11 @@
     "searchText": "From Code Review to Spec-Driven Contracts: A Vision for Auditable AIWare Systems AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Mohammad Hamdaqa Moataz Chouchen Polytechnique Montreal Concordia University code"
   },
   {
-    "id": "fse2026-2026-07-06-joint-q-a-and-discussion-343d4e43",
+    "id": "fse2026-2026-07-06-joint-q-a-b5bd0109",
     "sourceSlotId": "7b25bd09-35ce-4e93-aa84-0296c213052f",
     "researchrEventId": "fb1dc9dc-5f1d-4f3b-9266-7876a696617a",
     "kind": "event",
-    "title": "Joint Q&A and Discussion",
+    "title": "Joint Q&A",
     "abstract": "",
     "authors": [],
     "speakerNames": [],
@@ -4012,7 +4320,7 @@
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "Joint Q&A and Discussion AIware Main Track Live Q&A MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems"
+    "searchText": "Joint Q&A AIware Main Track Live Q&A MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems"
   },
   {
     "id": "fse2026-2026-07-06-break-710f6347",
@@ -4037,6 +4345,30 @@
     "preprintUrl": null,
     "keywords": [],
     "searchText": "Break Catering Coffee break Coffee Break"
+  },
+  {
+    "id": "fse2026-2026-07-06-breakout-session-7f7d6694",
+    "sourceSlotId": "06bb8e66-270d-4e8d-a8c2-c356bf65a8ce",
+    "researchrEventId": "fdc158bb-3f83-4e11-bb1a-2e1e4f527f01",
+    "kind": "event",
+    "title": "Breakout Session",
+    "abstract": "",
+    "authors": [],
+    "speakerNames": [],
+    "track": "New Faculty Symposium",
+    "session": "New Faculty Symposium",
+    "eventType": "Live Q&A",
+    "date": "2026-07-06",
+    "startTime": "16:00",
+    "endTime": "17:00",
+    "durationMinutes": 60,
+    "room": "MB 3.270",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-fdc158bb-3f83-4e11-bb1a-2e1e4f527f01",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "Breakout Session New Faculty Symposium Live Q&A MB 3.270 New Faculty Symposium"
   },
   {
     "id": "fse2026-2026-07-06-networking-at-a-conference-552736a2",
@@ -4111,20 +4443,20 @@
     "searchText": "VFL-Searcher: Optimizing Stealthy Adversarial Dominating Inputs SSBSE Challenge Short-paper MB 2.210 SSBSE Challenge Pichsereyvattana Chan Karine Even-Mendoza Harel Berger Georgetown University King’s College London Ariel University"
   },
   {
-    "id": "fse2026-2026-07-06-research-in-the-presence-of-ai-3c89c098",
+    "id": "fse2026-2026-07-06-lessons-learned-during-my-phd-57dbdffb",
     "sourceSlotId": "b92fff8f-9240-49e3-9e37-ef9f0c07e835",
     "researchrEventId": "aab5a4fe-b60a-4751-a4dc-9f7f003e3d0d",
     "kind": "talk",
-    "title": "Research in the Presence of AI",
+    "title": "Lessons Learned During my PhD",
     "abstract": "",
     "authors": [
       {
-        "name": "Reyhaneh Jabbarvand",
-        "affiliation": "University of Illinois at Urbana-Champaign"
+        "name": "Michael Pradel",
+        "affiliation": "CISPA Helmholtz Center for Information Security"
       }
     ],
     "speakerNames": [
-      "Reyhaneh Jabbarvand"
+      "Michael Pradel"
     ],
     "track": "Doctoral Symposium",
     "session": "Closing",
@@ -4139,7 +4471,7 @@
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "Research in the Presence of AI Doctoral Symposium Talk MB 3.210 Closing Reyhaneh Jabbarvand University of Illinois at Urbana-Champaign"
+    "searchText": "Lessons Learned During my PhD Doctoral Symposium Talk MB 3.210 Closing Michael Pradel CISPA Helmholtz Center for Information Security"
   },
   {
     "id": "fse2026-2026-07-06-what-do-ai-agents-actually-change-an-empirical-taxonomy-of-mutat-0cc5109e",
@@ -6491,11 +6823,11 @@
     "searchText": "How Far Can VLMs Go for Visual Bug Detection? Studying 19,738 Keyframes from 41 Hours of Gameplay Videos Industry Papers Talk MB 3.430 Bug Detection and Localization Wentao Lu Alexander Senchenko Alan Sayle Abram Hindle Cor-Paul Bezemer University of Alberta Electronic Arts Electronic Arts University of Alberta University of Alberta"
   },
   {
-    "id": "fse2026-2026-07-07-joint-q-a-and-discussion-ec70e1df",
+    "id": "fse2026-2026-07-07-joint-q-a-b8a3f73c",
     "sourceSlotId": "6fefc6d6-b3a6-42d4-9b21-bdf212d88f66",
     "researchrEventId": "f8a7b472-6207-4c86-b67d-59c63f14947a",
     "kind": "event",
-    "title": "Joint Q&A and Discussion",
+    "title": "Joint Q&A",
     "abstract": "",
     "authors": [],
     "speakerNames": [],
@@ -6512,7 +6844,7 @@
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "Joint Q&A and Discussion AIware Keynotes Live Q&A MB 1.210 AIware Keynotes Session 2"
+    "searchText": "Joint Q&A AIware Keynotes Live Q&A MB 1.210 AIware Keynotes Session 2"
   },
   {
     "id": "fse2026-2026-07-07-accessdroid-detecting-screen-reader-accessibility-issues-in-andr-1ba113eb",
@@ -10841,11 +11173,11 @@
     "searchText": "iCoRe: An Iterative Correlation-Aware Retriever for Bug Reproduction Test Generation Research Papers Talk MB 3.435 Test generation 1 JunyiWang Jialun Cao Zhongxin Liu Zhejiang University Hong Kong University of Science and Technology Zhejiang University testing"
   },
   {
-    "id": "fse2026-2026-07-07-joint-q-a-and-discussion-8cd15a5d",
+    "id": "fse2026-2026-07-07-joint-q-a-8341d480",
     "sourceSlotId": "edabd400-6b5e-4b77-a3c6-19f409b2540f",
     "researchrEventId": "bb39e9c1-ebe7-4865-980b-090f9cc9a0b7",
     "kind": "event",
-    "title": "Joint Q&A and Discussion",
+    "title": "Joint Q&A",
     "abstract": "",
     "authors": [],
     "speakerNames": [],
@@ -10862,7 +11194,7 @@
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "Joint Q&A and Discussion AIware Benchmark & Dataset Track Live Q&A MB 1.210 Human Factors, Responsible AIware, and Benchmarks & Datasets"
+    "searchText": "Joint Q&A AIware Benchmark & Dataset Track Live Q&A MB 1.210 Human Factors, Responsible AIware, and Benchmarks & Datasets"
   },
   {
     "id": "fse2026-2026-07-07-90-faster-100-code-free-mllm-driven-zero-code-3d-game-developmen-73f725ab",
@@ -12057,7 +12389,7 @@
     "room": "MB 2.435",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-466421ac-15d0-4f8a-9e35-19b79fd1ce3e",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3808203",
     "preprintUrl": "https://arxiv.org/abs/2506.17792",
     "keywords": [],
     "searchText": "Accelerating Policy Synthesis in Large-Scale MDPs via Hierarchical Adaptive Refinement Research Papers Talk MB 2.435 Synthesis Alexandros Evangelidis Gricel Vázquez Simos Gerasimou University of York, UK University of York, UK Cyprus University of Technology"
@@ -13147,11 +13479,11 @@
     "searchText": "SIGSOFT Impact Award Talk: When do changes induce fixes? Plenary Events Awards H110 Day 2 Opening Jacek Śliwerski Andreas Zeller Thomas Zimmermann CISPA Helmholtz Center for Information Security University of California, Irvine"
   },
   {
-    "id": "fse2026-2026-07-08-fse-research-track-distinguished-paper-awards-7a1fd48c",
+    "id": "fse2026-2026-07-08-fse-research-track-distinguished-paper-awards-ceremony-c1779792",
     "sourceSlotId": "422ddb19-8208-4459-8e7b-7a4297638617",
     "researchrEventId": "1ff97aed-105c-45b5-869d-fd7560166ddd",
     "kind": "event",
-    "title": "FSE Research Track Distinguished Paper Awards",
+    "title": "FSE Research Track Distinguished Paper Awards Ceremony",
     "abstract": "",
     "authors": [],
     "speakerNames": [],
@@ -13168,7 +13500,7 @@
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "FSE Research Track Distinguished Paper Awards Plenary Events Awards H110 Day 2 Opening"
+    "searchText": "FSE Research Track Distinguished Paper Awards Ceremony Plenary Events Awards H110 Day 2 Opening"
   },
   {
     "id": "fse2026-2026-07-08-keynote-3-sheila-mcilraith-towards-building-safer-ai-systems-65f7f1dd",
@@ -25982,7 +26314,7 @@
     "authors": [
       {
         "name": "Haoxin Tu",
-        "affiliation": "Singapore Management University, Singapore"
+        "affiliation": "National University of Singapore"
       },
       {
         "name": "Huan Zhao",
@@ -26028,7 +26360,7 @@
     "keywords": [
       "agents"
     ],
-    "searchText": "Agentic Verification of Software Systems Research Papers Talk MB 3.435 Verification 2 Haoxin Tu Huan Zhao Yahui Song Mehtab Zafar Ruijie Meng Abhik Roychoudhury Singapore Management University, Singapore National University of Singapore Standard Chartered Bank National University of Singapore CISPA Helmholtz Center for Information Security National University of Singapore agents"
+    "searchText": "Agentic Verification of Software Systems Research Papers Talk MB 3.435 Verification 2 Haoxin Tu Huan Zhao Yahui Song Mehtab Zafar Ruijie Meng Abhik Roychoudhury National University of Singapore National University of Singapore Standard Chartered Bank National University of Singapore CISPA Helmholtz Center for Information Security National University of Singapore agents"
   },
   {
     "id": "fse2026-2026-07-09-greclue-failure-indexing-with-graph-based-failure-representation-824bc458",
@@ -26245,62 +26577,6 @@
     "searchText": "Overcoming the Empirical Process Control Threshold Concept through Scrum Simulation Software Engineering Education Talk MB 9C SEET: Project-Based Learning, Teamwork, and Course Support Eduardo Miranda Torgeir Dingsøyr Pritam Chita Carnegie Mellon University Norwegian University of Science and Technology and SimulaMet Edinburgh Napier University"
   },
   {
-    "id": "fse2026-2026-07-09-phantom-rendering-detection-identifying-and-analyzing-unnecessar-b7ff556d",
-    "sourceSlotId": "c8fd4a8d-7f2e-44c6-9c7e-964249ba5a51",
-    "researchrEventId": "08653581-74aa-4b87-b3e2-a104fa8f6113",
-    "kind": "talk",
-    "title": "Phantom Rendering Detection: Identifying and Analyzing unnecessary UI computations",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Zhihao Lin",
-        "affiliation": "Beihang University"
-      },
-      {
-        "name": "Mingyi Zhou",
-        "affiliation": "Huawei"
-      },
-      {
-        "name": "Bo Sun",
-        "affiliation": "Huawei Hong Kong Research Center"
-      },
-      {
-        "name": "Han Hu",
-        "affiliation": "Huawei Hong Kong Research Centre"
-      },
-      {
-        "name": "Gang Fan",
-        "affiliation": "Beihang University"
-      },
-      {
-        "name": "Li Li",
-        "affiliation": ""
-      }
-    ],
-    "speakerNames": [
-      "Zhihao Lin",
-      "Mingyi Zhou",
-      "Bo Sun",
-      "Han Hu",
-      "Gang Fan",
-      "Li Li"
-    ],
-    "track": "Research Papers",
-    "session": "Demystifying bugs",
-    "eventType": "Talk",
-    "date": "2026-07-09",
-    "startTime": "14:00",
-    "endTime": "14:20",
-    "durationMinutes": 20,
-    "room": "MB 9A",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-08653581-74aa-4b87-b3e2-a104fa8f6113",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": "https://mathieu0905.github.io/papers/hapray_fse.pdf",
-    "keywords": [],
-    "searchText": "Phantom Rendering Detection: Identifying and Analyzing unnecessary UI computations Research Papers Talk MB 9A Demystifying bugs Zhihao Lin Mingyi Zhou Bo Sun Han Hu Gang Fan Li Li Beihang University Huawei Huawei Hong Kong Research Center Huawei Hong Kong Research Centre Beihang University"
-  },
-  {
     "id": "fse2026-2026-07-09-post-incorporating-code-structural-knowledge-into-pretrained-mod-04cd76a8",
     "sourceSlotId": "c779b305-4d57-4a25-b386-127526a3a324",
     "researchrEventId": "d0fe0c29-d1c5-49ef-9bf3-549ed0d4b0b4",
@@ -26483,6 +26759,67 @@
       "code"
     ],
     "searchText": "The Price of Precision: The Cost of Preprocessing for Automated Code Revision in Code Review Journal-First Paper Talk MB 2.210 Code review 2 Shirin Pirouzkhah Pooja Rani Francesco Sovrano Vincent Hellendoorn Alberto Bacchelli University of Zurich University of Zurich USI Lugano, Switzerland Google DeepMind, USA IfI, University of Zurich code"
+  },
+  {
+    "id": "fse2026-2026-07-09-understanding-performance-problems-in-cuda-programs-33213e3b",
+    "sourceSlotId": "c8fd4a8d-7f2e-44c6-9c7e-964249ba5a51",
+    "researchrEventId": "9edd8f42-7952-4bc7-b8e2-d98b390b2879",
+    "kind": "talk",
+    "title": "Understanding Performance Problems in CUDA Programs",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Yuyang Bi",
+        "affiliation": "Fudan University"
+      },
+      {
+        "name": "Junming Cao",
+        "affiliation": "Fudan University"
+      },
+      {
+        "name": "You Lu",
+        "affiliation": "Fudan University"
+      },
+      {
+        "name": "Bihuan Chen",
+        "affiliation": "Fudan University"
+      },
+      {
+        "name": "Tianwei Gan",
+        "affiliation": "Fudan University"
+      },
+      {
+        "name": "Dingji Wang",
+        "affiliation": "Fudan University"
+      },
+      {
+        "name": "Xin Peng",
+        "affiliation": ""
+      }
+    ],
+    "speakerNames": [
+      "Yuyang Bi",
+      "Junming Cao",
+      "You Lu",
+      "Bihuan Chen",
+      "Tianwei Gan",
+      "Dingji Wang",
+      "Xin Peng"
+    ],
+    "track": "Research Papers",
+    "session": "Demystifying bugs",
+    "eventType": "Talk",
+    "date": "2026-07-09",
+    "startTime": "14:00",
+    "endTime": "14:20",
+    "durationMinutes": 20,
+    "room": "MB 9A",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-9edd8f42-7952-4bc7-b8e2-d98b390b2879",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "Understanding Performance Problems in CUDA Programs Research Papers Talk MB 9A Demystifying bugs Yuyang Bi Junming Cao You Lu Bihuan Chen Tianwei Gan Dingji Wang Xin Peng Fudan University Fudan University Fudan University Fudan University Fudan University Fudan University"
   },
   {
     "id": "fse2026-2026-07-09-vlm-fuzz-vision-language-model-assisted-recursive-depth-first-se-c45b8e6c",
@@ -26770,6 +27107,47 @@
       "large language model"
     ],
     "searchText": "Bridging the Gap in Industrial Software Education: A LLM-Based Intelligent Assistant for GNU Radio Software Engineering Education Talk MB 9C SEET: Project-Based Learning, Teamwork, and Course Support Daiyang Zhang Yuanye Qiu Yu Duan Zhiping Jiang Yueshen Xu Gairui Bai Rui Li Di Cui Xidian University XIDIAN University Xidian University Xidian University Xidian University Xidian University School of Computer Science and Technology,Xidian University,Xi'an,China Xidian University LLM large language model"
+  },
+  {
+    "id": "fse2026-2026-07-09-crossfit-demystifying-vm-callback-bugs-in-interpreters-f550b599",
+    "sourceSlotId": "c9f93740-4128-4b11-8e83-980b45157d41",
+    "researchrEventId": "a7fdc551-6b17-4e3e-b560-1c7dc083f786",
+    "kind": "talk",
+    "title": "CrossFit: Demystifying VM Callback Bugs in Interpreters",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Chibin Zhang",
+        "affiliation": "EPFL"
+      },
+      {
+        "name": "Qiang Liu",
+        "affiliation": "EPFL"
+      },
+      {
+        "name": "Mathias Payer",
+        "affiliation": "EPFL"
+      }
+    ],
+    "speakerNames": [
+      "Chibin Zhang",
+      "Qiang Liu",
+      "Mathias Payer"
+    ],
+    "track": "Research Papers",
+    "session": "Demystifying bugs",
+    "eventType": "Talk",
+    "date": "2026-07-09",
+    "startTime": "14:20",
+    "endTime": "14:40",
+    "durationMinutes": 20,
+    "room": "MB 9A",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-a7fdc551-6b17-4e3e-b560-1c7dc083f786",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "CrossFit: Demystifying VM Callback Bugs in Interpreters Research Papers Talk MB 9A Demystifying bugs Chibin Zhang Qiang Liu Mathias Payer EPFL EPFL EPFL"
   },
   {
     "id": "fse2026-2026-07-09-diverfps-generating-diverse-solutions-for-floating-point-smt-for-2242707e",
@@ -27259,67 +27637,6 @@
     "searchText": "TransLibEval: Demystify Large Language Models’ Capability in Third-party Library-targeted Code Translation Research Papers Talk MB 3.270 Code translation and transformation 2 Pengyu Xue Kunwu Zheng Zhen Yang Yifei Pei Linhao Wu Jiahui Dong Xiapu Luo Yan Xiao Fei Liu Yuxuan Zhang Xiran Lyu Xianhang Li Xuanyu Zhu Chengyi Wang Shandong University Shandong University Shandong University Shandong University Shandong University Shandong University Hong Kong Polytechnic University Sun Yat-sen University Shandong University Shandong University Shandong University Shandong University Shandong University Shandong University LLM large language model code"
   },
   {
-    "id": "fse2026-2026-07-09-understanding-performance-problems-in-cuda-programs-bde00444",
-    "sourceSlotId": "c9f93740-4128-4b11-8e83-980b45157d41",
-    "researchrEventId": "9edd8f42-7952-4bc7-b8e2-d98b390b2879",
-    "kind": "talk",
-    "title": "Understanding Performance Problems in CUDA Programs",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Yuyang Bi",
-        "affiliation": "Fudan University"
-      },
-      {
-        "name": "Junming Cao",
-        "affiliation": "Fudan University"
-      },
-      {
-        "name": "You Lu",
-        "affiliation": "Fudan University"
-      },
-      {
-        "name": "Bihuan Chen",
-        "affiliation": "Fudan University"
-      },
-      {
-        "name": "Tianwei Gan",
-        "affiliation": "Fudan University"
-      },
-      {
-        "name": "Dingji Wang",
-        "affiliation": "Fudan University"
-      },
-      {
-        "name": "Xin Peng",
-        "affiliation": ""
-      }
-    ],
-    "speakerNames": [
-      "Yuyang Bi",
-      "Junming Cao",
-      "You Lu",
-      "Bihuan Chen",
-      "Tianwei Gan",
-      "Dingji Wang",
-      "Xin Peng"
-    ],
-    "track": "Research Papers",
-    "session": "Demystifying bugs",
-    "eventType": "Talk",
-    "date": "2026-07-09",
-    "startTime": "14:20",
-    "endTime": "14:40",
-    "durationMinutes": 20,
-    "room": "MB 9A",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-9edd8f42-7952-4bc7-b8e2-d98b390b2879",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
-    "keywords": [],
-    "searchText": "Understanding Performance Problems in CUDA Programs Research Papers Talk MB 9A Demystifying bugs Yuyang Bi Junming Cao You Lu Bihuan Chen Tianwei Gan Dingji Wang Xin Peng Fudan University Fudan University Fudan University Fudan University Fudan University Fudan University"
-  },
-  {
     "id": "fse2026-2026-07-09-characterizing-and-mitigating-false-positive-bug-reports-in-the--4b0a80f8",
     "sourceSlotId": "8c38f6a8-4e9e-4d70-80ee-0b03041c173a",
     "researchrEventId": "0d0c418b-5f02-4d96-aaa3-5b67c822f69c",
@@ -27424,47 +27741,6 @@
       "code"
     ],
     "searchText": "CodeUltraFeedback: An LLM-as-a-Judge Dataset for Aligning Large Language Models to Coding Preferences Journal-First Paper Talk MB 1.210 LLM for SE 7 Martin Weyssow Aton Kamanda Xin Zhou Houari Sahraoui DIRO, Université de Montréal DIRO, Université de Montréal Singapore Management University, Singapore DIRO, Université de Montréal LLM large language model code"
-  },
-  {
-    "id": "fse2026-2026-07-09-crossfit-demystifying-vm-callback-bugs-in-interpreters-e5afa6e4",
-    "sourceSlotId": "7e614866-2c5f-491e-b747-093918ffe2af",
-    "researchrEventId": "a7fdc551-6b17-4e3e-b560-1c7dc083f786",
-    "kind": "talk",
-    "title": "CrossFit: Demystifying VM Callback Bugs in Interpreters",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Chibin Zhang",
-        "affiliation": "EPFL"
-      },
-      {
-        "name": "Qiang Liu",
-        "affiliation": "EPFL"
-      },
-      {
-        "name": "Mathias Payer",
-        "affiliation": "EPFL"
-      }
-    ],
-    "speakerNames": [
-      "Chibin Zhang",
-      "Qiang Liu",
-      "Mathias Payer"
-    ],
-    "track": "Research Papers",
-    "session": "Demystifying bugs",
-    "eventType": "Talk",
-    "date": "2026-07-09",
-    "startTime": "14:40",
-    "endTime": "15:00",
-    "durationMinutes": 20,
-    "room": "MB 9A",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-a7fdc551-6b17-4e3e-b560-1c7dc083f786",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
-    "keywords": [],
-    "searchText": "CrossFit: Demystifying VM Callback Bugs in Interpreters Research Papers Talk MB 9A Demystifying bugs Chibin Zhang Qiang Liu Mathias Payer EPFL EPFL EPFL"
   },
   {
     "id": "fse2026-2026-07-09-how-do-students-perceive-their-teammates-a-qualitative-study-of--5bafa767",
@@ -27666,6 +27942,52 @@
       "code"
     ],
     "searchText": "Mitigating the Risk of Defects and Improving Knowledge Distribution with Code Reviewer Recommenders Research Papers Talk MB 2.210 Code review 2 Mohammadali Sefidi Esfahani Peter Rigby Concordia University Concordia University; Meta code"
+  },
+  {
+    "id": "fse2026-2026-07-09-psr-a-phase-based-semantic-reasoning-framework-for-atomicity-vio-8eeb1dd4",
+    "sourceSlotId": "844f908d-7c01-45a0-b6e0-8bf3a5e650b3",
+    "researchrEventId": "32b3c78c-abfc-47b6-add9-5d54c4f1c806",
+    "kind": "talk",
+    "title": "PSR²: A Phase-based Semantic Reasoning Framework for Atomicity Violation Detection via Contract Refinement",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Xiaoqi Li",
+        "affiliation": "Hainan University"
+      },
+      {
+        "name": "Xin Wang",
+        "affiliation": "Hainan University"
+      },
+      {
+        "name": "Wenkai Li",
+        "affiliation": "Hainan University"
+      },
+      {
+        "name": "Zongwei Li",
+        "affiliation": "Hainan University"
+      }
+    ],
+    "speakerNames": [
+      "Xiaoqi Li",
+      "Xin Wang",
+      "Wenkai Li",
+      "Zongwei Li"
+    ],
+    "track": "Ideas, Visions and Reflections",
+    "session": "Demystifying bugs",
+    "eventType": "Talk",
+    "date": "2026-07-09",
+    "startTime": "14:40",
+    "endTime": "14:50",
+    "durationMinutes": 10,
+    "room": "MB 9A",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-32b3c78c-abfc-47b6-add9-5d54c4f1c806",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "PSR²: A Phase-based Semantic Reasoning Framework for Atomicity Violation Detection via Contract Refinement Ideas, Visions and Reflections Talk MB 9A Demystifying bugs Xiaoqi Li Xin Wang Wenkai Li Zongwei Li Hainan University Hainan University Hainan University Hainan University"
   },
   {
     "id": "fse2026-2026-07-09-predicting-intermittent-job-failure-categories-for-diagnosis-usi-9eabb800",
@@ -28624,52 +28946,6 @@
     "searchText": "How Execution Features Relate to Failures: An Empirical Study and Diagnosis Approach Journal-First Paper Talk MB 2.435 Failures Marius Smytzek Martin Eberlein Lars Grunske Andreas Zeller CISPA Helmholtz Center for Information Security Humboldt-Universtität zu Berlin Humboldt-Universität zu Berlin CISPA Helmholtz Center for Information Security"
   },
   {
-    "id": "fse2026-2026-07-09-psr-a-phase-based-semantic-reasoning-framework-for-atomicity-vio-8eeb1dd4",
-    "sourceSlotId": "844f908d-7c01-45a0-b6e0-8bf3a5e650b3",
-    "researchrEventId": "32b3c78c-abfc-47b6-add9-5d54c4f1c806",
-    "kind": "talk",
-    "title": "PSR²: A Phase-based Semantic Reasoning Framework for Atomicity Violation Detection via Contract Refinement",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Xiaoqi Li",
-        "affiliation": "Hainan University"
-      },
-      {
-        "name": "Xin Wang",
-        "affiliation": "Hainan University"
-      },
-      {
-        "name": "Wenkai Li",
-        "affiliation": "Hainan University"
-      },
-      {
-        "name": "Zongwei Li",
-        "affiliation": "Hainan University"
-      }
-    ],
-    "speakerNames": [
-      "Xiaoqi Li",
-      "Xin Wang",
-      "Wenkai Li",
-      "Zongwei Li"
-    ],
-    "track": "Ideas, Visions and Reflections",
-    "session": "Demystifying bugs",
-    "eventType": "Talk",
-    "date": "2026-07-09",
-    "startTime": "15:00",
-    "endTime": "15:10",
-    "durationMinutes": 10,
-    "room": "MB 9A",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-32b3c78c-abfc-47b6-add9-5d54c4f1c806",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
-    "keywords": [],
-    "searchText": "PSR²: A Phase-based Semantic Reasoning Framework for Atomicity Violation Detection via Contract Refinement Ideas, Visions and Reflections Talk MB 9A Demystifying bugs Xiaoqi Li Xin Wang Wenkai Li Zongwei Li Hainan University Hainan University Hainan University Hainan University"
-  },
-  {
     "id": "fse2026-2026-07-09-pymop-a-runtime-verification-tool-for-python-79dc2b33",
     "sourceSlotId": "1578adb9-54bb-49b9-b53a-ee0190248add",
     "researchrEventId": "0cc9995e-78af-44c6-9468-bd60c42ef725",
@@ -28772,6 +29048,57 @@
       "code"
     ],
     "searchText": "The Interaction of Complexity and Provenance in Code Review Decisions: Evidence from a Controlled Experiment Research Papers Talk MB 2.210 Code review 2 Neha Singh Francesco Sovrano Vincent Hellendoorn Alberto Bacchelli University of Zurich USI Lugano, Switzerland Google DeepMind, USA IfI, University of Zurich code"
+  },
+  {
+    "id": "fse2026-2026-07-09-when-shared-worlds-break-demystifying-defects-in-multi-user-exte-15affa1b",
+    "sourceSlotId": "4582bb4a-6168-4b6d-ba47-abbf5b7b8551",
+    "researchrEventId": "f4a7bfec-704a-4bfb-ac48-81378a463d85",
+    "kind": "talk",
+    "title": "When Shared Worlds Break: Demystifying Defects in Multi-User Extended Reality Software Systems",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Shuqing Li",
+        "affiliation": "The Chinese University of Hong Kong"
+      },
+      {
+        "name": "Chenran Zhang",
+        "affiliation": "Harbin Institute of Technology"
+      },
+      {
+        "name": "Binchang Li",
+        "affiliation": "Harbin Institute of Technology"
+      },
+      {
+        "name": "Cuiyun Gao",
+        "affiliation": "Harbin Institute of Technology, Shenzhen"
+      },
+      {
+        "name": "Michael Lyu",
+        "affiliation": "The Chinese University of Hong Kong"
+      }
+    ],
+    "speakerNames": [
+      "Shuqing Li",
+      "Chenran Zhang",
+      "Binchang Li",
+      "Cuiyun Gao",
+      "Michael Lyu"
+    ],
+    "track": "Research Papers",
+    "session": "Demystifying bugs",
+    "eventType": "Talk",
+    "date": "2026-07-09",
+    "startTime": "15:00",
+    "endTime": "15:10",
+    "durationMinutes": 10,
+    "room": "MB 9A",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-f4a7bfec-704a-4bfb-ac48-81378a463d85",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "When Shared Worlds Break: Demystifying Defects in Multi-User Extended Reality Software Systems Research Papers Talk MB 9A Demystifying bugs Shuqing Li Chenran Zhang Binchang Li Cuiyun Gao Michael Lyu The Chinese University of Hong Kong Harbin Institute of Technology Harbin Institute of Technology Harbin Institute of Technology, Shenzhen The Chinese University of Hong Kong"
   },
   {
     "id": "fse2026-2026-07-09-c2saferrust-transforming-c-projects-into-safer-rust-with-neurosy-2856ccdf",
@@ -28971,57 +29298,6 @@
       "testing"
     ],
     "searchText": "TUSR: A Test Unit–Based Framework for Repairing Obsolete GUI Test Scripts Research Papers Talk MB 2.430 GUI Testing Shaoheng Cao Minxue Pan Xuandong Li Nanjing University Nanjing University Nanjing University testing"
-  },
-  {
-    "id": "fse2026-2026-07-09-when-shared-worlds-break-demystifying-defects-in-multi-user-exte-15affa1b",
-    "sourceSlotId": "4582bb4a-6168-4b6d-ba47-abbf5b7b8551",
-    "researchrEventId": "f4a7bfec-704a-4bfb-ac48-81378a463d85",
-    "kind": "talk",
-    "title": "When Shared Worlds Break: Demystifying Defects in Multi-User Extended Reality Software Systems",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Shuqing Li",
-        "affiliation": "The Chinese University of Hong Kong"
-      },
-      {
-        "name": "Chenran Zhang",
-        "affiliation": "Harbin Institute of Technology"
-      },
-      {
-        "name": "Binchang Li",
-        "affiliation": "Harbin Institute of Technology"
-      },
-      {
-        "name": "Cuiyun Gao",
-        "affiliation": "Harbin Institute of Technology, Shenzhen"
-      },
-      {
-        "name": "Michael Lyu",
-        "affiliation": "The Chinese University of Hong Kong"
-      }
-    ],
-    "speakerNames": [
-      "Shuqing Li",
-      "Chenran Zhang",
-      "Binchang Li",
-      "Cuiyun Gao",
-      "Michael Lyu"
-    ],
-    "track": "Research Papers",
-    "session": "Demystifying bugs",
-    "eventType": "Talk",
-    "date": "2026-07-09",
-    "startTime": "15:10",
-    "endTime": "15:30",
-    "durationMinutes": 20,
-    "room": "MB 9A",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-f4a7bfec-704a-4bfb-ac48-81378a463d85",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
-    "keywords": [],
-    "searchText": "When Shared Worlds Break: Demystifying Defects in Multi-User Extended Reality Software Systems Research Papers Talk MB 9A Demystifying bugs Shuqing Li Chenran Zhang Binchang Li Cuiyun Gao Michael Lyu The Chinese University of Hong Kong Harbin Institute of Technology Harbin Institute of Technology Harbin Institute of Technology, Shenzhen The Chinese University of Hong Kong"
   },
   {
     "id": "fse2026-2026-07-09-autochecklist-automated-checklist-refinement-for-llm-judges-d144a028",
