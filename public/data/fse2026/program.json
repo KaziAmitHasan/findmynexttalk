@@ -454,6 +454,90 @@
     "searchText": "Keynote 2 - Rethinking Reliability for Software Engineering Agents PROMISE Talk MB 3.430 Session 3: Keynote and Research Papers on Code Understanding and Reasoning Tse-Hsun (Peter) Chen Concordia University agents"
   },
   {
+    "id": "fse2026-2026-07-05-opening-and-introductions-66a19140",
+    "sourceSlotId": "f7cf43ff-88f7-4604-9e60-cc8f129b623f",
+    "researchrEventId": "bb278941-4af2-4333-be46-fd492eab025d",
+    "kind": "talk",
+    "title": "Opening and Introductions",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Sumon Biswas",
+        "affiliation": "Case Western Reserve University"
+      },
+      {
+        "name": "Shibbir Ahmed",
+        "affiliation": "Texas State University"
+      },
+      {
+        "name": "Hridesh Rajan",
+        "affiliation": "Tulane University"
+      },
+      {
+        "name": "Sayem Mohammad Imtiaz",
+        "affiliation": "Iowa State University"
+      }
+    ],
+    "speakerNames": [
+      "Sumon Biswas",
+      "Shibbir Ahmed",
+      "Hridesh Rajan",
+      "Sayem Mohammad Imtiaz"
+    ],
+    "track": "LLMTrust",
+    "session": "LLMTrust",
+    "eventType": "Talk",
+    "date": "2026-07-05",
+    "startTime": "14:00",
+    "endTime": "14:05",
+    "durationMinutes": 5,
+    "room": "MB 3.445",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-bb278941-4af2-4333-be46-fd492eab025d",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [
+      "LLM",
+      "large language model"
+    ],
+    "searchText": "Opening and Introductions LLMTrust Talk MB 3.445 LLMTrust Sumon Biswas Shibbir Ahmed Hridesh Rajan Sayem Mohammad Imtiaz Case Western Reserve University Texas State University Tulane University Iowa State University LLM large language model"
+  },
+  {
+    "id": "fse2026-2026-07-05-the-next-era-of-software-engineering-from-writing-code-to-engine-d75e80fa",
+    "sourceSlotId": "ce799ce7-f1fb-4716-84db-2842c0d2c0a8",
+    "researchrEventId": "e25de328-500d-4af3-a714-99de862a9a13",
+    "kind": "keynote",
+    "title": "The Next Era of Software Engineering: From Writing Code to Engineering Trust",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Baishakhi Ray",
+        "affiliation": "Columbia University"
+      }
+    ],
+    "speakerNames": [
+      "Baishakhi Ray"
+    ],
+    "track": "LLMTrust",
+    "session": "LLMTrust",
+    "eventType": "Keynote",
+    "date": "2026-07-05",
+    "startTime": "14:05",
+    "endTime": "14:55",
+    "durationMinutes": 50,
+    "room": "MB 3.445",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-e25de328-500d-4af3-a714-99de862a9a13",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [
+      "LLM",
+      "large language model",
+      "code"
+    ],
+    "searchText": "The Next Era of Software Engineering: From Writing Code to Engineering Trust LLMTrust Keynote MB 3.445 LLMTrust Baishakhi Ray Columbia University LLM large language model code"
+  },
+  {
     "id": "fse2026-2026-07-05-beyond-code-snippets-benchmarking-llms-on-repository-level-quest-d6512eda",
     "sourceSlotId": "dddabc5c-9359-4eeb-ae9b-14d5d3f5f78d",
     "researchrEventId": "7abd7712-ad45-4423-9efb-4dd37605bedb",
@@ -504,6 +588,100 @@
     "searchText": "Beyond Code Snippets: Benchmarking LLMs on Repository-Level Question Answering PROMISE Paper MB 3.430 Session 3: Keynote and Research Papers on Code Understanding and Reasoning Yoseph Berhanu Alebachew Hunter Leary Swanand Vaishampayan Chris Brown Virginia Tech Virginia Tech Virginia Tech Virginia Tech LLM large language model code"
   },
   {
+    "id": "fse2026-2026-07-05-fairness-in-multi-agent-systems-for-software-engineering-an-sdlc-8a16c22d",
+    "sourceSlotId": "c1ac5c29-ec7c-4e6e-8149-7bc5ec595fc9",
+    "researchrEventId": "a2599d07-1277-40fc-89d1-2b8fdf3fa7c1",
+    "kind": "talk",
+    "title": "Fairness in Multi-Agent Systems for Software Engineering: An SDLC-Oriented Rapid Review",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Corey Yang-Smith",
+        "affiliation": "University of Calgary"
+      },
+      {
+        "name": "Ronnie de Souza Santos",
+        "affiliation": "University of Calgary"
+      },
+      {
+        "name": "Ahmad Abdellatif",
+        "affiliation": "University of Calgary"
+      }
+    ],
+    "speakerNames": [
+      "Corey Yang-Smith",
+      "Ronnie de Souza Santos",
+      "Ahmad Abdellatif"
+    ],
+    "track": "LLMTrust",
+    "session": "LLMTrust",
+    "eventType": "Talk",
+    "date": "2026-07-05",
+    "startTime": "15:00",
+    "endTime": "15:10",
+    "durationMinutes": 10,
+    "room": "MB 3.445",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-a2599d07-1277-40fc-89d1-2b8fdf3fa7c1",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [
+      "LLM",
+      "large language model",
+      "agents"
+    ],
+    "searchText": "Fairness in Multi-Agent Systems for Software Engineering: An SDLC-Oriented Rapid Review LLMTrust Talk MB 3.445 LLMTrust Corey Yang-Smith Ronnie de Souza Santos Ahmad Abdellatif University of Calgary University of Calgary University of Calgary LLM large language model agents"
+  },
+  {
+    "id": "fse2026-2026-07-05-llm-based-grid-world-path-planning-with-probabilistic-model-chec-f6782ff7",
+    "sourceSlotId": "651ac956-b623-4f83-90e0-ae905c67ab23",
+    "researchrEventId": "baa0a623-046c-4c06-aaa7-8ce0fcb8756c",
+    "kind": "talk",
+    "title": "LLM-Based Grid-World Path Planning With Probabilistic Model Checking",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Asher Tempest Arya",
+        "affiliation": "University of Toronto"
+      },
+      {
+        "name": "Aren Babikian",
+        "affiliation": "University of Toronto"
+      },
+      {
+        "name": "Sophia Jit",
+        "affiliation": "University of Toronto"
+      },
+      {
+        "name": "Marsha Chechik",
+        "affiliation": "University of Toronto"
+      }
+    ],
+    "speakerNames": [
+      "Asher Tempest Arya",
+      "Aren Babikian",
+      "Sophia Jit",
+      "Marsha Chechik"
+    ],
+    "track": "LLMTrust",
+    "session": "LLMTrust",
+    "eventType": "Talk",
+    "date": "2026-07-05",
+    "startTime": "15:10",
+    "endTime": "15:20",
+    "durationMinutes": 10,
+    "room": "MB 3.445",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-baa0a623-046c-4c06-aaa7-8ce0fcb8756c",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [
+      "LLM",
+      "large language model"
+    ],
+    "searchText": "LLM-Based Grid-World Path Planning With Probabilistic Model Checking LLMTrust Talk MB 3.445 LLMTrust Asher Tempest Arya Aren Babikian Sophia Jit Marsha Chechik University of Toronto University of Toronto University of Toronto University of Toronto LLM large language model"
+  },
+  {
     "id": "fse2026-2026-07-05-do-llms-learn-structure-or-names-a-study-on-the-robustness-of-de-6cbdec5b",
     "sourceSlotId": "08fa959a-909a-4575-bc8e-6386bd3dc656",
     "researchrEventId": "b4004f0b-2628-4b20-9883-de30a25f8720",
@@ -543,6 +721,45 @@
     "searchText": "Do LLMs Learn Structure or Names? A Study on the Robustness of Design-Pattern Detection to Identifier Shifts PROMISE Talk MB 3.430 Session 3: Keynote and Research Papers on Code Understanding and Reasoning Ichsan Budiman Leandro Minku University of Birmingham University of Birmingham, UK LLM large language model"
   },
   {
+    "id": "fse2026-2026-07-05-tone-perturbations-as-trust-probes-evaluating-behavioral-stabili-e7b32339",
+    "sourceSlotId": "c8315fc8-be5e-4fff-aeb6-55cdded4152b",
+    "researchrEventId": "000ead8d-b468-4d5b-af13-b223c84f4b9d",
+    "kind": "talk",
+    "title": "Tone Perturbations as Trust Probes: Evaluating Behavioral Stability of LLMs in Software Engineering Tasks",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Mohamad Kassab",
+        "affiliation": "Boston University"
+      },
+      {
+        "name": "Youssab Ibrahim",
+        "affiliation": "New York University Abu Dhabi"
+      }
+    ],
+    "speakerNames": [
+      "Mohamad Kassab",
+      "Youssab Ibrahim"
+    ],
+    "track": "LLMTrust",
+    "session": "LLMTrust",
+    "eventType": "Talk",
+    "date": "2026-07-05",
+    "startTime": "15:20",
+    "endTime": "15:28",
+    "durationMinutes": 8,
+    "room": "MB 3.445",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-000ead8d-b468-4d5b-af13-b223c84f4b9d",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [
+      "LLM",
+      "large language model"
+    ],
+    "searchText": "Tone Perturbations as Trust Probes: Evaluating Behavioral Stability of LLMs in Software Engineering Tasks LLMTrust Talk MB 3.445 LLMTrust Mohamad Kassab Youssab Ibrahim Boston University New York University Abu Dhabi LLM large language model"
+  },
+  {
     "id": "fse2026-2026-07-05-break-ead76672",
     "sourceSlotId": "b450ca68-d3e0-4d1c-8b59-0fe61fa24088",
     "researchrEventId": "1c478424-37be-41e8-8054-0452ff2b2975",
@@ -565,6 +782,47 @@
     "preprintUrl": null,
     "keywords": [],
     "searchText": "Break Catering Coffee break Coffee Break"
+  },
+  {
+    "id": "fse2026-2026-07-05-latent-security-threats-in-modern-software-code-logs-0f42c4fc",
+    "sourceSlotId": "a0597741-556a-42dd-8484-392ee76b5174",
+    "researchrEventId": "f0d89194-6f5a-4308-99c1-6cf6fcfaa87a",
+    "kind": "talk",
+    "title": "Latent Security Threats in Modern Software Code Logs",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Rrezarta Krasniqi",
+        "affiliation": "University of North Carolina at Charlotte"
+      },
+      {
+        "name": "Abanti Chakraborty Shruti",
+        "affiliation": "University of North Carolina at Charlotte"
+      }
+    ],
+    "speakerNames": [
+      "Rrezarta Krasniqi",
+      "Abanti Chakraborty Shruti"
+    ],
+    "track": "LLMTrust",
+    "session": "LLMTrust",
+    "eventType": "Talk",
+    "date": "2026-07-05",
+    "startTime": "16:00",
+    "endTime": "16:10",
+    "durationMinutes": 10,
+    "room": "MB 3.445",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-f0d89194-6f5a-4308-99c1-6cf6fcfaa87a",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [
+      "LLM",
+      "large language model",
+      "security",
+      "code"
+    ],
+    "searchText": "Latent Security Threats in Modern Software Code Logs LLMTrust Talk MB 3.445 LLMTrust Rrezarta Krasniqi Abanti Chakraborty Shruti University of North Carolina at Charlotte University of North Carolina at Charlotte LLM large language model security code"
   },
   {
     "id": "fse2026-2026-07-05-model-driven-automation-of-cyber-physical-systems-via-aadl-and-l-3cad4c29",
@@ -606,6 +864,46 @@
     "searchText": "Model-Driven Automation of Cyber-Physical Systems via AADL and LLMs PROMISE Talk MB 3.430 Session 4: Security, Trust, and Verification of LLM-Generated Code Abdul Wahab Akramul Azim Ontario Tech University Ontario Tech University LLM large language model"
   },
   {
+    "id": "fse2026-2026-07-05-a-differential-fuzzing-based-evaluation-of-functional-equivalenc-0f7d32f9",
+    "sourceSlotId": "5014e930-628e-44a6-8cf6-511726d3b30b",
+    "researchrEventId": "bf3d2644-0d81-4417-8edf-3c15ffca19b8",
+    "kind": "talk",
+    "title": "A Differential Fuzzing-Based Evaluation of Functional Equivalence in LLM-Generated Code Refactorings",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Simantika Bhattacharjee Dristi",
+        "affiliation": "University of Virginia"
+      },
+      {
+        "name": "Matthew B Dwyer",
+        "affiliation": "University of Virginia"
+      }
+    ],
+    "speakerNames": [
+      "Simantika Bhattacharjee Dristi",
+      "Matthew B Dwyer"
+    ],
+    "track": "LLMTrust",
+    "session": "LLMTrust",
+    "eventType": "Talk",
+    "date": "2026-07-05",
+    "startTime": "16:10",
+    "endTime": "16:20",
+    "durationMinutes": 10,
+    "room": "MB 3.445",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-bf3d2644-0d81-4417-8edf-3c15ffca19b8",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [
+      "LLM",
+      "large language model",
+      "code"
+    ],
+    "searchText": "A Differential Fuzzing-Based Evaluation of Functional Equivalence in LLM-Generated Code Refactorings LLMTrust Talk MB 3.445 LLMTrust Simantika Bhattacharjee Dristi Matthew B Dwyer University of Virginia University of Virginia LLM large language model code"
+  },
+  {
     "id": "fse2026-2026-07-05-mas-sre-a-multi-agent-system-for-security-requirements-engineeri-e1c9900d",
     "sourceSlotId": "c936ed4b-57ab-483e-898f-7ca17582b864",
     "researchrEventId": "bc6ecc9c-95f7-4454-bdf5-aafa3aa5bd3e",
@@ -643,6 +941,55 @@
       "agents"
     ],
     "searchText": "MAS-SRE: A Multi-Agent System for Security Requirements Engineering PROMISE Talk MB 3.430 Session 4: Security, Trust, and Verification of LLM-Generated Code Savvas Mantzouranidis Ricardo Britto Blekinge Institute of Technology Ericsson / Blekinge Institute of Technology security agents"
+  },
+  {
+    "id": "fse2026-2026-07-05-llmsafeguard-a-training-free-framework-for-safeguarding-llm-deco-2239684f",
+    "sourceSlotId": "96eef141-6dbe-4a47-8169-95d205b146ba",
+    "researchrEventId": "accffd87-29bb-43f7-969a-eda8d7ba1eff",
+    "kind": "talk",
+    "title": "LLMSafeGuard: A Training-Free Framework for Safeguarding LLM Decoding via Context-Wise Similarity Validation",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Ximing Dong",
+        "affiliation": "Centre for Software Excellence at Huawei Canada"
+      },
+      {
+        "name": "Shaowei Wang",
+        "affiliation": "University of Manitoba"
+      },
+      {
+        "name": "Dayi Lin",
+        "affiliation": "Centre for Software Excellence, Huawei Canada"
+      },
+      {
+        "name": "Ahmed E. Hassan",
+        "affiliation": "Queen’s University"
+      }
+    ],
+    "speakerNames": [
+      "Ximing Dong",
+      "Shaowei Wang",
+      "Dayi Lin",
+      "Ahmed E. Hassan"
+    ],
+    "track": "LLMTrust",
+    "session": "LLMTrust",
+    "eventType": "Talk",
+    "date": "2026-07-05",
+    "startTime": "16:20",
+    "endTime": "16:28",
+    "durationMinutes": 8,
+    "room": "MB 3.445",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-accffd87-29bb-43f7-969a-eda8d7ba1eff",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [
+      "LLM",
+      "large language model"
+    ],
+    "searchText": "LLMSafeGuard: A Training-Free Framework for Safeguarding LLM Decoding via Context-Wise Similarity Validation LLMTrust Talk MB 3.445 LLMTrust Ximing Dong Shaowei Wang Dayi Lin Ahmed E. Hassan Centre for Software Excellence at Huawei Canada University of Manitoba Centre for Software Excellence, Huawei Canada Queen’s University LLM large language model"
   },
   {
     "id": "fse2026-2026-07-05-detecting-malicious-intents-in-smart-contracts-with-pre-trained--e7c90511",
@@ -699,6 +1046,55 @@
     "preprintUrl": null,
     "keywords": [],
     "searchText": "Detecting Malicious Intents in Smart Contracts with Pre-trained Programming Language Models PROMISE Talk MB 3.430 Session 4: Security, Trust, and Verification of LLM-Generated Code Youwei Huang Jianwen Li Sen Fang Yao Li Peng Yang Bin Hu Independent Researcher Carnegie Mellon University, Silicon Valley North Carolina State University Macau University of Science and Technology Institute of Intelligent Computing Technology, Suzhou, CAS Institute of Computing Technology, Chinese Academy of Sciences"
+  },
+  {
+    "id": "fse2026-2026-07-05-panel-and-breakout-discussion-4af480c8",
+    "sourceSlotId": "c5e8c51d-4a7d-459a-821b-046327ea0045",
+    "researchrEventId": "abd9c672-25ed-44f2-83d0-de78cc7838ab",
+    "kind": "event",
+    "title": "Panel and Breakout Discussion",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Abdelwahab Hamou-Lhadj",
+        "affiliation": "Concordia University, Montreal, Canada"
+      },
+      {
+        "name": "Jin L.C. Guo",
+        "affiliation": "McGill University"
+      },
+      {
+        "name": "Song Wang",
+        "affiliation": "York University"
+      },
+      {
+        "name": "Jinqiu Yang",
+        "affiliation": "Concordia University"
+      }
+    ],
+    "speakerNames": [
+      "Abdelwahab Hamou-Lhadj",
+      "Jin L.C. Guo",
+      "Song Wang",
+      "Jinqiu Yang"
+    ],
+    "track": "LLMTrust",
+    "session": "LLMTrust",
+    "eventType": "Panel",
+    "date": "2026-07-05",
+    "startTime": "16:35",
+    "endTime": "17:25",
+    "durationMinutes": 50,
+    "room": "MB 3.445",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-abd9c672-25ed-44f2-83d0-de78cc7838ab",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [
+      "LLM",
+      "large language model"
+    ],
+    "searchText": "Panel and Breakout Discussion LLMTrust Panel MB 3.445 LLMTrust Abdelwahab Hamou-Lhadj Jin L.C. Guo Song Wang Jinqiu Yang Concordia University, Montreal, Canada McGill University York University Concordia University LLM large language model"
   },
   {
     "id": "fse2026-2026-07-05-probabilistic-evidence-aggregation-for-source-code-authorship-ve-3e26bc62",
@@ -778,6 +1174,33 @@
     "preprintUrl": null,
     "keywords": [],
     "searchText": "Closing PROMISE Day closing MB 3.430 Session 4: Security, Trust, and Verification of LLM-Generated Code Lili Wei Xiaoyu Sun Csaba Nagy McGill University Australian National University, Australia"
+  },
+  {
+    "id": "fse2026-2026-07-05-closing-remarks-54d2e6f0",
+    "sourceSlotId": "81385209-0097-4c77-a17a-70d68f2d00c9",
+    "researchrEventId": "489309a5-4dec-4e9d-b9a6-8852b11682d3",
+    "kind": "event",
+    "title": "Closing Remarks",
+    "abstract": "",
+    "authors": [],
+    "speakerNames": [],
+    "track": "LLMTrust",
+    "session": "LLMTrust",
+    "eventType": "Day closing",
+    "date": "2026-07-05",
+    "startTime": "17:25",
+    "endTime": "17:35",
+    "durationMinutes": 10,
+    "room": "MB 3.445",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-489309a5-4dec-4e9d-b9a6-8852b11682d3",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [
+      "LLM",
+      "large language model"
+    ],
+    "searchText": "Closing Remarks LLMTrust Day closing MB 3.445 LLMTrust LLM large language model"
   },
   {
     "id": "fse2026-2026-07-06-collaborator-or-assistant-how-ai-coding-agents-partition-work-ac-78a3b9ad",
@@ -2708,8 +3131,8 @@
     "eventType": "Panel",
     "date": "2026-07-06",
     "startTime": "11:23",
-    "endTime": "12:30",
-    "durationMinutes": 67,
+    "endTime": "12:00",
+    "durationMinutes": 37,
     "room": "MB 3.270",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-2b700ea3-3005-4edc-bb0d-95b164662d2b",
     "presentationUrl": null,
@@ -2955,6 +3378,37 @@
     "searchText": "Search-Based Generation of Complex Inputs with FANDANGO SSBSE Hot-off-the-Press Track Short-paper MB 2.210 Research Session 1 José Antonio Zamudio Amaya Marius Smytzek Andreas Zeller CISPA Helmholtz Center for Information Security CISPA Helmholtz Center for Information Security CISPA Helmholtz Center for Information Security"
   },
   {
+    "id": "fse2026-2026-07-06-tbd-andrian-marcus-4099a301",
+    "sourceSlotId": "58bf10d1-1175-4cbc-8097-3855ed1b6b47",
+    "researchrEventId": "e7322dbc-5265-4123-8f3e-7d722d6b6c5a",
+    "kind": "talk",
+    "title": "TBD: Andrian Marcus",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Andrian Marcus",
+        "affiliation": "George Mason University"
+      }
+    ],
+    "speakerNames": [
+      "Andrian Marcus"
+    ],
+    "track": "New Faculty Symposium",
+    "session": "New Faculty Symposium",
+    "eventType": "Talk",
+    "date": "2026-07-06",
+    "startTime": "12:00",
+    "endTime": "12:30",
+    "durationMinutes": 30,
+    "room": "MB 3.270",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-e7322dbc-5265-4123-8f3e-7d722d6b6c5a",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "TBD: Andrian Marcus New Faculty Symposium Talk MB 3.270 New Faculty Symposium Andrian Marcus George Mason University"
+  },
+  {
     "id": "fse2026-2026-07-06-testing-protocols-with-formal-languages-4576874a",
     "sourceSlotId": "987b99ce-f02a-41ed-8c23-eeb28bb850b7",
     "researchrEventId": "fa417912-ab9a-4cac-9fe4-3a2126a8c35e",
@@ -3036,11 +3490,11 @@
     "searchText": "Challenge Overview SSBSE Challenge Talk MB 2.210 SSBSE Challenge"
   },
   {
-    "id": "fse2026-2026-07-06-tbd-01199113",
+    "id": "fse2026-2026-07-06-how-to-love-the-research-proposal-writing-process-9b1cc7e5",
     "sourceSlotId": "1ebb00a4-1e18-4f65-a8ff-7de1a3086a91",
     "researchrEventId": "33eb317f-f5a6-40be-b38f-05326043ec56",
     "kind": "talk",
-    "title": "TBD",
+    "title": "How to LOVE the research proposal writing process",
     "abstract": "",
     "authors": [
       {
@@ -3064,7 +3518,7 @@
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "TBD New Faculty Symposium Talk MB 3.270 New Faculty Symposium Laurie Williams North Carolina State University"
+    "searchText": "How to LOVE the research proposal writing process New Faculty Symposium Talk MB 3.270 New Faculty Symposium Laurie Williams North Carolina State University"
   },
   {
     "id": "fse2026-2026-07-06-toward-reliable-oracle-verification-of-quantum-programs-under-no-76374ae2",
@@ -4138,11 +4592,11 @@
     "searchText": "Artifact Readiness Gates with Saturation Stop Rules and Host-Parity Admissibility for FM Release Evaluation AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Yanick Kanyiki InvarLock Inc., CA"
   },
   {
-    "id": "fse2026-2026-07-06-tbd-a301f8f2",
+    "id": "fse2026-2026-07-06-promotion-and-growth-how-and-why-you-should-continue-growing-in--e592aff0",
     "sourceSlotId": "40933dcf-ef11-4242-adcc-6ea5ffb4982e",
     "researchrEventId": "4cf9c1ae-46af-4e72-ba18-cdfc216135e3",
     "kind": "talk",
-    "title": "TBD",
+    "title": "Promotion and Growth: How and Why You Should Continue Growing in Academia",
     "abstract": "",
     "authors": [
       {
@@ -4166,7 +4620,7 @@
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "TBD New Faculty Symposium Talk MB 3.270 New Faculty Symposium Emad Shihab Concordia University"
+    "searchText": "Promotion and Growth: How and Why You Should Continue Growing in Academia New Faculty Symposium Talk MB 3.270 New Faculty Symposium Emad Shihab Concordia University"
   },
   {
     "id": "fse2026-2026-07-06-survival-of-the-stealthiest-evolving-low-entropy-ransomware-via--8f99d531",
@@ -4696,15 +5150,15 @@
     "searchText": "Zoom, Don't Wander: Why Regional Search Outperforms Pareto Reasoning and Global Optimization in Budget-Constrained SBSE SSBSE RENE/NIER Research paper MB 2.210 SSBSE Challenge Kishan Kumar Ganguly Tim Menzies NC State North Carolina State University"
   },
   {
-    "id": "fse2026-2026-07-06-steering-committee-meeting-2195535b",
-    "sourceSlotId": "60266a41-fa80-4720-aff8-8f6e19e0b709",
-    "researchrEventId": "d5357d0f-fbaa-468a-bb63-82f439c02cb6",
+    "id": "fse2026-2026-07-06-steering-committee-meeting-96c91ff5",
+    "sourceSlotId": "15fbed34-b86b-4d0c-94ce-05eb99c005df",
+    "researchrEventId": "0f530f0d-94dc-40cd-86a5-03d08f6d1c23",
     "kind": "event",
     "title": "Steering Committee Meeting",
     "abstract": "",
     "authors": [],
     "speakerNames": [],
-    "track": "SSBSE Challenge",
+    "track": "SSBSE Steering Committee",
     "session": "SSBSE Challenge",
     "eventType": "Meeting",
     "date": "2026-07-06",
@@ -4712,23 +5166,23 @@
     "endTime": "17:50",
     "durationMinutes": 25,
     "room": "MB 2.210",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-d5357d0f-fbaa-468a-bb63-82f439c02cb6",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-0f530f0d-94dc-40cd-86a5-03d08f6d1c23",
     "presentationUrl": null,
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "Steering Committee Meeting SSBSE Challenge Meeting MB 2.210 SSBSE Challenge"
+    "searchText": "Steering Committee Meeting SSBSE Steering Committee Meeting MB 2.210 SSBSE Challenge"
   },
   {
-    "id": "fse2026-2026-07-06-closing-remarks-4b066604",
-    "sourceSlotId": "e67276a6-8367-46af-9847-69e10ffed051",
-    "researchrEventId": "f30186bd-ccfc-49df-a666-c488e728818d",
+    "id": "fse2026-2026-07-06-closing-remarks-5c6f47a4",
+    "sourceSlotId": "28a669fe-6658-43b0-8245-3bf501b8274a",
+    "researchrEventId": "b19a0d54-c377-4fbd-af1c-5127274f6fe3",
     "kind": "event",
     "title": "Closing Remarks",
     "abstract": "",
     "authors": [],
     "speakerNames": [],
-    "track": "SSBSE Challenge",
+    "track": "SSBSE Steering Committee",
     "session": "SSBSE Challenge",
     "eventType": "Day closing",
     "date": "2026-07-06",
@@ -4736,12 +5190,12 @@
     "endTime": "18:00",
     "durationMinutes": 10,
     "room": "MB 2.210",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-f30186bd-ccfc-49df-a666-c488e728818d",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-b19a0d54-c377-4fbd-af1c-5127274f6fe3",
     "presentationUrl": null,
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "Closing Remarks SSBSE Challenge Day closing MB 2.210 SSBSE Challenge"
+    "searchText": "Closing Remarks SSBSE Steering Committee Day closing MB 2.210 SSBSE Challenge"
   },
   {
     "id": "fse2026-2026-07-07-welcome-0b0dc393",
@@ -4833,7 +5287,7 @@
     "startTime": "09:40",
     "endTime": "10:30",
     "durationMinutes": 50,
-    "room": "MB 1.210",
+    "room": "H110",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-3439abb2-0342-4f55-89be-dd95b36b6480",
     "presentationUrl": null,
     "doiUrl": null,
@@ -4842,41 +5296,7 @@
       "agents",
       "code"
     ],
-    "searchText": "Harness Design for Increasingly Capable Models: How Newer Claude Code Features Shape Agent Trajectories AIware Keynotes Keynote MB 1.210 AIware / FSE Joint Keynote Dickson Tsai Anthropic agents code"
-  },
-  {
-    "id": "fse2026-2026-07-07-keynote-2-dickson-tsai-harness-design-for-increasingly-capable-m-b6122dab",
-    "sourceSlotId": "5ffc5336-dca3-4e98-9e13-40d253e3c2d2",
-    "researchrEventId": "11b88d60-5a2d-47d3-96c1-e7ff1a57177f",
-    "kind": "keynote",
-    "title": "Keynote 2: Dickson Tsai - Harness Design for Increasingly Capable Models: How Newer Claude Code Features Shape Agent Trajectories",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Dickson Tsai",
-        "affiliation": "Anthropic"
-      }
-    ],
-    "speakerNames": [
-      "Dickson Tsai"
-    ],
-    "track": "Plenary Events",
-    "session": "Day 1 Opening",
-    "eventType": "Keynote",
-    "date": "2026-07-07",
-    "startTime": "09:40",
-    "endTime": "10:20",
-    "durationMinutes": 40,
-    "room": "H110",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-11b88d60-5a2d-47d3-96c1-e7ff1a57177f",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
-    "keywords": [
-      "agents",
-      "code"
-    ],
-    "searchText": "Keynote 2: Dickson Tsai - Harness Design for Increasingly Capable Models: How Newer Claude Code Features Shape Agent Trajectories Plenary Events Keynote H110 Day 1 Opening Dickson Tsai Anthropic agents code"
+    "searchText": "Harness Design for Increasingly Capable Models: How Newer Claude Code Features Shape Agent Trajectories AIware Keynotes Keynote H110 AIware / FSE Joint Keynote Dickson Tsai Anthropic agents code"
   },
   {
     "id": "fse2026-2026-07-07-break-70803a95",
@@ -14631,7 +15051,7 @@
     "room": "MB 3.270",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-70b19293-1f5e-458b-87e3-8a47c845d466",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3808142",
     "preprintUrl": "https://arxiv.org/abs/2506.08980",
     "keywords": [
       "LLM",
@@ -17144,7 +17564,7 @@
     "room": "MB 2.435",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-9db1de58-29b6-4224-8da9-72a8f2646878",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3797087",
     "preprintUrl": "https://xjtu-netverify.github.io/papers/AccessRefinery/accessrefinery_final_version.pdf",
     "keywords": [],
     "searchText": "AccessRefinery: Fast Mining Concise Access Control Intents on Public Cloud Research Papers Talk MB 2.435 Cloud Ning Kang Peng Zhang Jianyuan Zhang Hao Li Dan Wang Zhenrong Gu Weibo Lin Shibiao Jiang Zhu He Xu Du Longfei Chen Jun Li Xiaohong Guan Xi'an Jiaotong University Xi'an Jiaotong University Xi'an Jiaotong University Xi'an Jiaotong University Xi'an Jiaotong University Xi'an Jiaotong University Huawei Cloud Huawei Cloud Huawei Cloud Huawei Cloud Huawei Cloud Huawei Xi'an Jiaotong University"
@@ -22221,11 +22641,11 @@
     "searchText": "Test of Time Award Talk on \"Deep API Learning\" Plenary Events Awards H110 Day 3 Opening Xiaodong Gu Dongmei Zhang Hongyu Zhang Sunghun Kim Shanghai Jiao Tong University Microsoft Chongqing University Hong Kong University of Science and Technology testing"
   },
   {
-    "id": "fse2026-2026-07-09-fse-distinguished-artifact-industry-track-distinguished-paper-an-e8f24056",
+    "id": "fse2026-2026-07-09-fse-distinguished-artifact-industry-track-distinguished-paper-so-5c67b246",
     "sourceSlotId": "26089574-3f9e-41b2-ae0a-3a7a4a932c72",
     "researchrEventId": "0b9c6a10-7be3-4d6f-a50e-255b7fdba17c",
     "kind": "event",
-    "title": "FSE Distinguished Artifact, Industry Track Distinguished Paper and Reviewer Awards",
+    "title": "FSE Distinguished Artifact, Industry Track Distinguished Paper, Software Engineering Education Distinguished Paper, and Reviewer Awards",
     "abstract": "",
     "authors": [],
     "speakerNames": [],
@@ -22242,7 +22662,7 @@
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "FSE Distinguished Artifact, Industry Track Distinguished Paper and Reviewer Awards Plenary Events Awards H110 Day 3 Opening"
+    "searchText": "FSE Distinguished Artifact, Industry Track Distinguished Paper, Software Engineering Education Distinguished Paper, and Reviewer Awards Plenary Events Awards H110 Day 3 Opening"
   },
   {
     "id": "fse2026-2026-07-09-keynote-4-mary-shaw-correctness-confidence-and-context-framing-s-03b6d6f5",
@@ -22350,7 +22770,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-b8900266-e426-4f94-b5b5-eea05c3063a0",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3797134",
     "preprintUrl": "https://yuanchengjiang.github.io/docs/acme.pdf",
     "keywords": [
       "testing"
@@ -25364,71 +25784,6 @@
     "searchText": "CodeCureAgent: Automatic Classification and Repair of Static Analysis Warnings Research Papers Talk MB 2.435 Service and Systems Pascal Joos Islem BOUZENIA Michael Pradel CISPA Helmholtz Center for Information Security CISPA Helmholtz Center for Information Security CISPA Helmholtz Center for Information Security agents code"
   },
   {
-    "id": "fse2026-2026-07-09-dualcodedetect-zero-shot-llm-generated-code-detection-via-dual-c-f45d891b",
-    "sourceSlotId": "76a9af73-0b07-4242-a902-d179b98279e9",
-    "researchrEventId": "445ca1b6-4210-468b-9df6-5f1077b11ee3",
-    "kind": "talk",
-    "title": "DualCodeDetect: Zero-Shot LLM-Generated Code Detection via Dual-Channel Perturbation",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Zhengdao Li",
-        "affiliation": "University of Science and Technology of China"
-      },
-      {
-        "name": "Xiuwei Shang",
-        "affiliation": "University of Science and Technology of China"
-      },
-      {
-        "name": "Zhenkan Fu",
-        "affiliation": "University of Science and Technology of China"
-      },
-      {
-        "name": "Shikai Guo",
-        "affiliation": "Dalian Maritime University"
-      },
-      {
-        "name": "Weiming Zhang",
-        "affiliation": "University of Science and Technology of China"
-      },
-      {
-        "name": "Nenghai Yu",
-        "affiliation": "School of Cyber Security, University of Science and Technology of China"
-      },
-      {
-        "name": "Kejiang Chen",
-        "affiliation": "University of Science and Technology of China"
-      }
-    ],
-    "speakerNames": [
-      "Zhengdao Li",
-      "Xiuwei Shang",
-      "Zhenkan Fu",
-      "Shikai Guo",
-      "Weiming Zhang",
-      "Nenghai Yu",
-      "Kejiang Chen"
-    ],
-    "track": "Research Papers",
-    "session": "LLM for SE 6",
-    "eventType": "Talk",
-    "date": "2026-07-09",
-    "startTime": "11:50",
-    "endTime": "12:10",
-    "durationMinutes": 20,
-    "room": "MB 5.215",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-445ca1b6-4210-468b-9df6-5f1077b11ee3",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
-    "keywords": [
-      "LLM",
-      "large language model",
-      "code"
-    ],
-    "searchText": "DualCodeDetect: Zero-Shot LLM-Generated Code Detection via Dual-Channel Perturbation Research Papers Talk MB 5.215 LLM for SE 6 Zhengdao Li Xiuwei Shang Zhenkan Fu Shikai Guo Weiming Zhang Nenghai Yu Kejiang Chen University of Science and Technology of China University of Science and Technology of China University of Science and Technology of China Dalian Maritime University University of Science and Technology of China School of Cyber Security, University of Science and Technology of China University of Science and Technology of China LLM large language model code"
-  },
-  {
     "id": "fse2026-2026-07-09-humanevalcomm-benchmarking-the-communication-competence-of-code--a8f5dbb9",
     "sourceSlotId": "399bf32c-6829-45fc-ac92-c3cf75f2e715",
     "researchrEventId": "5a31be57-a0c1-41e2-882c-8fd03a67b35f",
@@ -25587,6 +25942,65 @@
       "code"
     ],
     "searchText": "ReDef: Do Code Language Models Truly Understand Code Changes for Just-in-Time Software Defect Prediction? Research Papers Talk MB 3.270 Code and LLM 2 Doha Nam Taehyoun Kim Duksan Ryu Jongmoon Baik Korea Advanced Institute of Science and Technology Korea Advanced Institute of Science and Technology; Agency for Defense Development Jeonbuk National University Korea Advanced Institute of Science and Technology code"
+  },
+  {
+    "id": "fse2026-2026-07-09-topic-wise-summarization-of-support-ticket-dialogue-via-llm-5d627315",
+    "sourceSlotId": "38344b9d-205b-4939-97e7-a7694210ad54",
+    "researchrEventId": "0dbc5446-e4ea-41dd-88ec-13786657ba63",
+    "kind": "talk",
+    "title": "Topic-wise Summarization of Support Ticket Dialogue via LLM",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "XiaoLei Chen",
+        "affiliation": "Fudan University"
+      },
+      {
+        "name": "Fengrui Liu",
+        "affiliation": "ByteDance"
+      },
+      {
+        "name": "Xiao He",
+        "affiliation": "Bytedance"
+      },
+      {
+        "name": "Tieying Zhang",
+        "affiliation": "ByteDance"
+      },
+      {
+        "name": "Peng Wang",
+        "affiliation": "Fudan University"
+      },
+      {
+        "name": "Wei Wang",
+        "affiliation": "Fudan University"
+      }
+    ],
+    "speakerNames": [
+      "XiaoLei Chen",
+      "Fengrui Liu",
+      "Xiao He",
+      "Tieying Zhang",
+      "Peng Wang",
+      "Wei Wang"
+    ],
+    "track": "Industry Papers",
+    "session": "LLM for SE 6",
+    "eventType": "Talk",
+    "date": "2026-07-09",
+    "startTime": "11:50",
+    "endTime": "12:10",
+    "durationMinutes": 20,
+    "room": "MB 5.215",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-0dbc5446-e4ea-41dd-88ec-13786657ba63",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [
+      "LLM",
+      "large language model"
+    ],
+    "searchText": "Topic-wise Summarization of Support Ticket Dialogue via LLM Industry Papers Talk MB 5.215 LLM for SE 6 XiaoLei Chen Fengrui Liu Xiao He Tieying Zhang Peng Wang Wei Wang Fudan University ByteDance Bytedance ByteDance Fudan University Fudan University LLM large language model"
   },
   {
     "id": "fse2026-2026-07-09-views-on-internal-and-external-validity-in-empirical-software-en-6abda57d",
@@ -26141,65 +26555,6 @@
     "preprintUrl": "https://compsec.postech.ac.kr/assets/publications/lee:swarmbox.pdf",
     "keywords": [],
     "searchText": "SwarmBox: A Plug-and-Play Drone Swarm Framework for Streamlined Development and Comprehensive Analysis Research Papers Talk MB 2.435 Service and Systems Minki Lee Seojin Lee Seulbae Kim Pohang University of Science and Technology Daegu Gyeongbuk Institute of Science and Technology Pohang University of Science and Technology"
-  },
-  {
-    "id": "fse2026-2026-07-09-topic-wise-summarization-of-support-ticket-dialogue-via-llm-5d627315",
-    "sourceSlotId": "38344b9d-205b-4939-97e7-a7694210ad54",
-    "researchrEventId": "0dbc5446-e4ea-41dd-88ec-13786657ba63",
-    "kind": "talk",
-    "title": "Topic-wise Summarization of Support Ticket Dialogue via LLM",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "XiaoLei Chen",
-        "affiliation": "Fudan University"
-      },
-      {
-        "name": "Fengrui Liu",
-        "affiliation": "ByteDance"
-      },
-      {
-        "name": "Xiao He",
-        "affiliation": "Bytedance"
-      },
-      {
-        "name": "Tieying Zhang",
-        "affiliation": "ByteDance"
-      },
-      {
-        "name": "Peng Wang",
-        "affiliation": "Fudan University"
-      },
-      {
-        "name": "Wei Wang",
-        "affiliation": "Fudan University"
-      }
-    ],
-    "speakerNames": [
-      "XiaoLei Chen",
-      "Fengrui Liu",
-      "Xiao He",
-      "Tieying Zhang",
-      "Peng Wang",
-      "Wei Wang"
-    ],
-    "track": "Industry Papers",
-    "session": "LLM for SE 6",
-    "eventType": "Talk",
-    "date": "2026-07-09",
-    "startTime": "12:10",
-    "endTime": "12:30",
-    "durationMinutes": 20,
-    "room": "MB 5.215",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-0dbc5446-e4ea-41dd-88ec-13786657ba63",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
-    "keywords": [
-      "LLM",
-      "large language model"
-    ],
-    "searchText": "Topic-wise Summarization of Support Ticket Dialogue via LLM Industry Papers Talk MB 5.215 LLM for SE 6 XiaoLei Chen Fengrui Liu Xiao He Tieying Zhang Peng Wang Wei Wang Fudan University ByteDance Bytedance ByteDance Fudan University Fudan University LLM large language model"
   },
   {
     "id": "fse2026-2026-07-09-towards-predicting-multi-vulnerability-attack-chains-in-software-20f2ba13",
