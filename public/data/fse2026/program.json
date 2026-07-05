@@ -1600,11 +1600,11 @@
     "searchText": "The Other Side of Complexity SSBSE Keynote Keynote MB 2.210 Keynote Tim Menzies North Carolina State University"
   },
   {
-    "id": "fse2026-2026-07-06-execution-control-matters-deterministic-and-agentic-tool-orchest-d24bc3c6",
+    "id": "fse2026-2026-07-06-execution-control-matters-deterministic-and-agentic-tool-orchest-43dd2ecd",
     "sourceSlotId": "d7368433-e860-44fe-8a86-ea36798c0dc4",
     "researchrEventId": "7729606f-d824-4c31-bd08-fcc0d2305d0b",
     "kind": "talk",
-    "title": "Execution Control Matters: Deterministic and Agentic Tool Orchestration for LLM-Based Code Translation",
+    "title": "Execution Control Matters: Deterministic and Agentic Tool Orchestration for LLM-Based Code Translation AIware Honorable Mention Paper Award",
     "abstract": "",
     "authors": [
       {
@@ -1638,7 +1638,7 @@
       "agents",
       "code"
     ],
-    "searchText": "Execution Control Matters: Deterministic and Agentic Tool Orchestration for LLM-Based Code Translation AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Naing Oo Lwin Rajesh Kumar Bucknell University, US Bucknell University, US LLM large language model agents code"
+    "searchText": "Execution Control Matters: Deterministic and Agentic Tool Orchestration for LLM-Based Code Translation AIware Honorable Mention Paper Award AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Naing Oo Lwin Rajesh Kumar Bucknell University, US Bucknell University, US LLM large language model agents code"
   },
   {
     "id": "fse2026-2026-07-06-developer-experience-with-ai-coding-agents-http-behavioral-signa-2f8f485b",
@@ -1758,11 +1758,11 @@
     "searchText": "VISOR: A Vision-Language Model-based Test Oracle for Testing Robots AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Prasun Saurabh Pablo Valle Aitor Arrieta Shaukat Ali Paolo Arcaini Simula Research Laboratory, NO Mondragon University Mondragon University Simula Research Laboratory and Oslo Metropolitan University National Institute of Informatics testing"
   },
   {
-    "id": "fse2026-2026-07-06-fixpad-automated-bug-fix-verification-using-llm-agents-c4f0e7bf",
+    "id": "fse2026-2026-07-06-fixpad-automated-bug-fix-verification-using-llm-agents-aiware-ho-2bd37dd8",
     "sourceSlotId": "37fc50c2-163e-40e9-a440-3cec2e2a6d30",
     "researchrEventId": "6569c6ae-3044-40a1-9418-17109d7abbfa",
     "kind": "talk",
-    "title": "Fixpad++: Automated Bug Fix Verification Using LLM Agents",
+    "title": "Fixpad++: Automated Bug Fix Verification Using LLM Agents AIware Honorable Mention Paper Award",
     "abstract": "",
     "authors": [
       {
@@ -1805,7 +1805,7 @@
       "large language model",
       "agents"
     ],
-    "searchText": "Fixpad++: Automated Bug Fix Verification Using LLM Agents AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Mustafa Özkan İr Mehmet Dedeler Anil Koyuncu Eray Tüzün Bilkent University, Bilkent University, TR Bilkent University, Bilkent University, TR Bilkent University Bilkent University LLM large language model agents"
+    "searchText": "Fixpad++: Automated Bug Fix Verification Using LLM Agents AIware Honorable Mention Paper Award AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Mustafa Özkan İr Mehmet Dedeler Anil Koyuncu Eray Tüzün Bilkent University, Bilkent University, TR Bilkent University, Bilkent University, TR Bilkent University Bilkent University LLM large language model agents"
   },
   {
     "id": "fse2026-2026-07-06-unsupervised-extraction-of-latent-structures-in-software-operati-690debd7",
@@ -2053,11 +2053,11 @@
     "searchText": "Family Over Hierarchy: A Mentorship Model for Building a Sustainable, Globally Connected Research Lab New Faculty Symposium Talk MB 3.270 New Faculty Symposium Chanchal K. Roy University of Saskatchewan"
   },
   {
-    "id": "fse2026-2026-07-06-testing-aiware-systems-a-software-engineering-survey-63a7d0ce",
+    "id": "fse2026-2026-07-06-testing-aiware-systems-a-software-engineering-survey-aiware-hono-56ad0cd7",
     "sourceSlotId": "73f72a2c-d007-4456-a0da-973f999745f5",
     "researchrEventId": "d339c73c-8cc7-4886-b82c-906850700f56",
     "kind": "talk",
-    "title": "Testing AIware Systems: A Software Engineering Survey",
+    "title": "Testing AIware Systems: A Software Engineering Survey AIware Honorable Mention Paper Award",
     "abstract": "",
     "authors": [
       {
@@ -2088,7 +2088,7 @@
     "keywords": [
       "testing"
     ],
-    "searchText": "Testing AIware Systems: A Software Engineering Survey AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Karla Gonzalez Mariam El Mezouar Royal Military College of Canada Royal Military College testing"
+    "searchText": "Testing AIware Systems: A Software Engineering Survey AIware Honorable Mention Paper Award AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Karla Gonzalez Mariam El Mezouar Royal Military College of Canada Royal Military College testing"
   },
   {
     "id": "fse2026-2026-07-06-towards-trustworthy-ai-enabled-systems-from-model-level-reliabil-ce1376fa",
@@ -2336,11 +2336,11 @@
     "searchText": "Toward Reliable Oracle Verification of Quantum Programs Under Noise and Resource Constraints Doctoral Symposium Talk MB 3.210 Opening and Lightning talks Ning Ma"
   },
   {
-    "id": "fse2026-2026-07-06-an-empirical-study-of-reasoning-steps-in-thinking-code-llms-7951348c",
+    "id": "fse2026-2026-07-06-an-empirical-study-of-reasoning-steps-in-thinking-code-llms-aiwa-dea727ed",
     "sourceSlotId": "a818946e-474f-4f1d-9ca7-d3b70ba17b9d",
     "researchrEventId": "9df69cf7-633a-4001-9918-87f99414c71a",
     "kind": "talk",
-    "title": "An Empirical Study of Reasoning Steps in Thinking Code LLMs",
+    "title": "An Empirical Study of Reasoning Steps in Thinking Code LLMs AIware Honorable Mention Paper Award",
     "abstract": "",
     "authors": [
       {
@@ -2378,7 +2378,7 @@
       "large language model",
       "code"
     ],
-    "searchText": "An Empirical Study of Reasoning Steps in Thinking Code LLMs AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Haoran Xue Gias Uddin Song Wang York University, CA York University, Canada York University LLM large language model code"
+    "searchText": "An Empirical Study of Reasoning Steps in Thinking Code LLMs AIware Honorable Mention Paper Award AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Haoran Xue Gias Uddin Song Wang York University, CA York University, Canada York University LLM large language model code"
   },
   {
     "id": "fse2026-2026-07-06-from-deterministic-pipelines-to-layered-automation-the-evolution-6c0e4be4",
@@ -3387,7 +3387,7 @@
     "authors": [
       {
         "name": "Andrian Marcus",
-        "affiliation": "George Mason University"
+        "affiliation": "National Science Foundation/George Mason University"
       }
     ],
     "speakerNames": [
@@ -3406,7 +3406,7 @@
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "TBD: Andrian Marcus New Faculty Symposium Talk MB 3.270 New Faculty Symposium Andrian Marcus George Mason University"
+    "searchText": "TBD: Andrian Marcus New Faculty Symposium Talk MB 3.270 New Faculty Symposium Andrian Marcus National Science Foundation/George Mason University"
   },
   {
     "id": "fse2026-2026-07-06-testing-protocols-with-formal-languages-4576874a",
@@ -3686,11 +3686,11 @@
     "searchText": "ApkFuzz: Search-Based Fuzzing for Android APK Vulnerability Discovery SSBSE Challenge Short-paper MB 2.210 SSBSE Challenge Karine Even-Mendoza Aidan Dakhama Harel Berger King’s College London The University of Edinburgh, UK Ariel University"
   },
   {
-    "id": "fse2026-2026-07-06-quality-and-security-signals-in-ai-generated-python-refactoring--c0e486c3",
+    "id": "fse2026-2026-07-06-quality-and-security-signals-in-ai-generated-python-refactoring--bf6ee54d",
     "sourceSlotId": "d0d52ae3-d923-4867-9cd4-0c64633191eb",
     "researchrEventId": "fbdc398e-0b8c-41c8-af27-e712eb4e2a0f",
     "kind": "talk",
-    "title": "Quality and Security Signals in AI-Generated Python Refactoring Pull Requests",
+    "title": "Quality and Security Signals in AI-Generated Python Refactoring Pull Requests AIware Honorable Mention Paper Award",
     "abstract": "",
     "authors": [
       {
@@ -3728,7 +3728,7 @@
       "GitHub",
       "security"
     ],
-    "searchText": "Quality and Security Signals in AI-Generated Python Refactoring Pull Requests AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Mohamed Almukhtar Anwar Ghammam Hua Ming University of Michigan-Flint University of Michigan - Dearborn pull request GitHub security"
+    "searchText": "Quality and Security Signals in AI-Generated Python Refactoring Pull Requests AIware Honorable Mention Paper Award AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Mohamed Almukhtar Anwar Ghammam Hua Ming University of Michigan-Flint University of Michigan - Dearborn pull request GitHub security"
   },
   {
     "id": "fse2026-2026-07-06-from-assistance-to-agency-rethinking-autonomy-and-control-in-ci--26775268",
@@ -4253,11 +4253,11 @@
     "searchText": "TBD New Faculty Symposium Talk MB 3.270 New Faculty Symposium Kathryn Stolee North Carolina State University"
   },
   {
-    "id": "fse2026-2026-07-06-when-ai-coding-assistants-leak-training-data-study-memorization--c47d0a8a",
+    "id": "fse2026-2026-07-06-when-ai-coding-assistants-leak-training-data-study-memorization--6e8d4ec0",
     "sourceSlotId": "615a0123-06c4-4bcf-a3f1-429954214f81",
     "researchrEventId": "a1baaef6-3b0f-4600-bfcd-2ae7aaf22147",
     "kind": "talk",
-    "title": "When AI Coding Assistants Leak Training Data: Study Memorization in Code LLMs",
+    "title": "When AI Coding Assistants Leak Training Data: Study Memorization in Code LLMs AIware Honorable Mention Paper Award",
     "abstract": "",
     "authors": [
       {
@@ -4300,7 +4300,7 @@
       "large language model",
       "code"
     ],
-    "searchText": "When AI Coding Assistants Leak Training Data: Study Memorization in Code LLMs AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Xiaoyu Cheng Kundi Yao Pengyu Nie Weiyi Shang Ontario Tech University University of Waterloo University of Waterloo LLM large language model code"
+    "searchText": "When AI Coding Assistants Leak Training Data: Study Memorization in Code LLMs AIware Honorable Mention Paper Award AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Xiaoyu Cheng Kundi Yao Pengyu Nie Weiyi Shang Ontario Tech University University of Waterloo University of Waterloo LLM large language model code"
   },
   {
     "id": "fse2026-2026-07-06-when-testing-meets-refactoring-0d457030",
@@ -4674,11 +4674,11 @@
     "searchText": "Survival of the Stealthiest: Evolving Low-Entropy Ransomware via Genetic Algorithms SSBSE Challenge Short-paper MB 2.210 SSBSE Challenge Efrat Levenberg Kristina Sviazhina Pierre Parrend Ayelet Butman Harel Berger Jerusalem College of Technology Université de Strasbourg Holon Institute of Technology Ariel University"
   },
   {
-    "id": "fse2026-2026-07-06-towards-migrating-neural-network-implementations-17438cde",
+    "id": "fse2026-2026-07-06-towards-migrating-neural-network-implementations-aiware-honorabl-2f733119",
     "sourceSlotId": "56bb26f5-c9e1-4514-9c81-c8055ee21350",
     "researchrEventId": "025ec95b-94b7-4922-94f3-8e27d2194940",
     "kind": "talk",
-    "title": "Towards Migrating Neural Network Implementations",
+    "title": "Towards Migrating Neural Network Implementations AIware Honorable Mention Paper Award",
     "abstract": "",
     "authors": [
       {
@@ -4712,7 +4712,7 @@
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "Towards Migrating Neural Network Implementations AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Nadia Daoudi Iván Alfonso Jordi Cabot Luxembourg Institute of Science and Technology Luxembourg Institute of Science and Technology Luxembourg Institute of Science and Technology"
+    "searchText": "Towards Migrating Neural Network Implementations AIware Honorable Mention Paper Award AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Nadia Daoudi Iván Alfonso Jordi Cabot Luxembourg Institute of Science and Technology Luxembourg Institute of Science and Technology Luxembourg Institute of Science and Technology"
   },
   {
     "id": "fse2026-2026-07-06-from-code-review-to-spec-driven-contracts-a-vision-for-auditable-b073debf",
@@ -10033,11 +10033,11 @@
     "searchText": "Human-AI experience in integrated development environments: a systematic literature review Journal-First Paper Talk MB 3.210 SE and AI 1 Agnia Sergeyuk Ilya Zakharov Ekaterina Koshchenko Mali Izadi JetBrains Research JetBrains Research JetBrains Research Google & TU Delft"
   },
   {
-    "id": "fse2026-2026-07-07-secvuleval-context-aware-benchmarking-of-llms-for-vulnerability--78ce10b4",
+    "id": "fse2026-2026-07-07-secvuleval-context-aware-benchmarking-of-llms-for-vulnerability--dd84c124",
     "sourceSlotId": "86a61e81-400b-4eaf-a284-ecee5ce74b3d",
     "researchrEventId": "e2a1cb99-674e-440d-925e-412269eb3a4e",
     "kind": "talk",
-    "title": "SecVulEval: Context-Aware Benchmarking of LLMs for Vulnerability Detection",
+    "title": "SecVulEval: Context-Aware Benchmarking of LLMs for Vulnerability Detection AIware Best Benchmark/Dataset Paper Award",
     "abstract": "",
     "authors": [
       {
@@ -10084,7 +10084,7 @@
       "LLM",
       "large language model"
     ],
-    "searchText": "SecVulEval: Context-Aware Benchmarking of LLMs for Vulnerability Detection AIware Benchmark & Dataset Track Talk MB 1.210 Human Factors, Responsible AIware, and Benchmarks & Datasets Md Basim Uddin Ahmed Nima Shiri Harzevili Jiho Shin Hung Viet Pham Song Wang York University, CA York University York University York University York University LLM large language model"
+    "searchText": "SecVulEval: Context-Aware Benchmarking of LLMs for Vulnerability Detection AIware Best Benchmark/Dataset Paper Award AIware Benchmark & Dataset Track Talk MB 1.210 Human Factors, Responsible AIware, and Benchmarks & Datasets Md Basim Uddin Ahmed Nima Shiri Harzevili Jiho Shin Hung Viet Pham Song Wang York University, CA York University York University York University York University LLM large language model"
   },
   {
     "id": "fse2026-2026-07-07-smartcoder-r1-towards-secure-and-explainable-smart-contract-gene-978f9381",
@@ -15454,7 +15454,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-6aa5124d-bc34-4ab1-aebd-cbd229b6c59d",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://wasowski.dukla.ch/papers/2026-fse-cern-montreal.pdf",
     "keywords": [],
     "searchText": "How to Value Open Source Contributions? An Institutional Perspective from CERN Industry Papers Talk MB 3.445 Empirical 1 Julie Skoven Hinge Micha Moskovic Axel Naumann Noemi Calace Andrzej Wąsowski IT University of Copenhagen CERN CERN CERN IT University of Copenhagen, Denmark"
   },
@@ -25314,8 +25314,8 @@
     "room": "MB 2.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-6f33d2f9-b418-4be1-97e4-141e8cd70612",
     "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": "https://arxiv.org/pdf/2604.14408",
+    "doiUrl": "https://doi.org/10.1145/3808130",
+    "preprintUrl": "https://dl.acm.org/doi/pdf/10.1145/3808130",
     "keywords": [],
     "searchText": "ToxiShield: Promoting Inclusive Developer Communication through Real-Time Toxicity Filtering Research Papers Research paper MB 2.210 Developers Md Awsaf Alam Anindya Showvik Biswas Anindya Iqbal Jaydeb Sarker Amiangshu Bosu Bangladesh University of Engineering and Technology Bangladesh University of Engineering and Technology Bangladesh University of Engineering and Technology Dhaka, Bangladesh University of Nebraska at Omaha Wayne State University"
   },
@@ -26570,7 +26570,7 @@
       },
       {
         "name": "Armin Moin",
-        "affiliation": "University of Colorado Colorado Springs"
+        "affiliation": "Purdue University"
       }
     ],
     "speakerNames": [
@@ -26590,7 +26590,7 @@
     "doiUrl": "https://doi.org/10.1145/3803437.3805583",
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "Towards Predicting Multi-Vulnerability Attack Chains in Software Supply Chains from Software Bill of Materials Graphs Ideas, Visions and Reflections Short-paper MB 3.435 Software Security Laura Baird Armin Moin University of Colorado Colorado Springs (UCCS) University of Colorado Colorado Springs"
+    "searchText": "Towards Predicting Multi-Vulnerability Attack Chains in Software Supply Chains from Software Bill of Materials Graphs Ideas, Visions and Reflections Short-paper MB 3.435 Software Security Laura Baird Armin Moin University of Colorado Colorado Springs (UCCS) Purdue University"
   },
   {
     "id": "fse2026-2026-07-09-walletruth-visual-oriented-software-testing-for-web3-wallet-brow-f107a96f",
@@ -28943,7 +28943,7 @@
       },
       {
         "name": "Paulo Anselmo da Mota Silveira Neto",
-        "affiliation": "Federal Rural University of Pernambuco, Recife, Pernambuco, Brazil"
+        "affiliation": "Federal Rural University of Pernambuco, Recife, Pernambuco"
       },
       {
         "name": "Daniel Sadoc Menasche",
@@ -28977,7 +28977,7 @@
     "keywords": [
       "security"
     ],
-    "searchText": "Automated Detection of Configuration-Specific Security Vulnerabilities via Patch Analysis Research Papers Talk MB 3.445 Vulnerability 2 Felipe Paixão Eduardo Almeida Joanna C. S. Santos Paulo Anselmo da Mota Silveira Neto Daniel Sadoc Menasche Gustavo B. Figueiredo Federal University of Bahia (UFBA) Federal University of Bahia (UFBA) University of Notre Dame Federal Rural University of Pernambuco, Recife, Pernambuco, Brazil Federal University of Rio de Janeiro Federal University of Bahia (UFBA) security"
+    "searchText": "Automated Detection of Configuration-Specific Security Vulnerabilities via Patch Analysis Research Papers Talk MB 3.445 Vulnerability 2 Felipe Paixão Eduardo Almeida Joanna C. S. Santos Paulo Anselmo da Mota Silveira Neto Daniel Sadoc Menasche Gustavo B. Figueiredo Federal University of Bahia (UFBA) Federal University of Bahia (UFBA) University of Notre Dame Federal Rural University of Pernambuco, Recife, Pernambuco Federal University of Rio de Janeiro Federal University of Bahia (UFBA) security"
   },
   {
     "id": "fse2026-2026-07-09-corenameagent-a-human-in-the-loop-multi-agent-tool-for-coordinat-feb849d2",
