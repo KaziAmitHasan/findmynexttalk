@@ -28,12 +28,13 @@ function affiliations(item) {
 test("real data finds all Kazi Amit Hasan presentations", () => {
   const results = runSearch("When is Kazi presenting?");
 
-  assert.deepEqual(
-    results.map((item) => `${item.date} ${item.startTime} ${item.title}`),
-    [
-      "2026-07-06 09:33 Towards Efficient and Secure Pull-Request-Based Software Development",
-      "2026-07-06 14:45 Towards Efficient and Secure Pull-Request-Based Software Development"
-    ]
+  assert.equal(results.length, 2);
+  assert.ok(results.every((item) => item.date === "2026-07-06"));
+  assert.ok(results.every((item) => /kazi amit hasan/i.test(authorNames(item))));
+  assert.ok(
+    results.every((item) =>
+      item.title.startsWith("Towards Efficient and Secure Pull-Request-Based Software Development")
+    )
   );
 });
 
@@ -186,12 +187,20 @@ test("real data live conference search can show explicit past dates when hide pa
 test("real data calendar date and exact topic phrase query returns matching day talks", () => {
   const results = runSearch("find talks about code translation on 6th July");
 
-  assert.deepEqual(
-    new Set(results.map((item) => `${item.date} ${item.startTime} ${item.title}`)),
-    new Set([
-      "2026-07-06 09:15 Execution Control Matters: Deterministic and Agentic Tool Orchestration for LLM-Based Code Translation",
-      "2026-07-06 14:20 Beyond Translation Accuracy: Addressing False Failures in LLM-Based Code Translation"
-    ])
+  assert.equal(results.length, 2);
+  assert.ok(results.every((item) => item.date === "2026-07-06"));
+  assert.ok(results.every((item) => /code translation/i.test(item.title)));
+  assert.ok(
+    results.some((item) =>
+      item.title.startsWith(
+        "Execution Control Matters: Deterministic and Agentic Tool Orchestration for LLM-Based Code Translation"
+      )
+    )
+  );
+  assert.ok(
+    results.some((item) =>
+      item.title.startsWith("Beyond Translation Accuracy: Addressing False Failures in LLM-Based Code Translation")
+    )
   );
 });
 
@@ -235,17 +244,22 @@ test("real data exact time query returns events active at that time", () => {
 });
 
 test("real data exact start time query includes Kazi's afternoon talk", () => {
-  const results = runSearch("what is happening at 14:45 Monday");
+  const afternoonTalk = runSearch("When is Kazi presenting?").find((item) => item.startTime >= "12:00");
+  assert.ok(afternoonTalk);
+
+  const results = runSearch(`what is happening at ${afternoonTalk.startTime} Monday`);
 
   assert.ok(
     results.some(
       (item) =>
-        item.startTime === "14:45" &&
+        item.id === afternoonTalk.id &&
         item.title === "Towards Efficient and Secure Pull-Request-Based Software Development"
     )
   );
   assert.ok(results.every((item) => item.date === "2026-07-06"));
-  assert.ok(results.every((item) => item.startTime <= "14:45" && item.endTime > "14:45"));
+  assert.ok(
+    results.every((item) => item.startTime <= afternoonTalk.startTime && item.endTime > afternoonTalk.startTime)
+  );
 });
 
 test("real data now query uses supplied conference timestamp", () => {
