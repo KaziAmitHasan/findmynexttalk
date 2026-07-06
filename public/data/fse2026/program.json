@@ -1203,11 +1203,11 @@
     "searchText": "Closing Remarks LLMTrust Day closing MB 3.445 LLMTrust LLM large language model"
   },
   {
-    "id": "fse2026-2026-07-06-collaborator-or-assistant-how-ai-coding-agents-partition-work-ac-78a3b9ad",
+    "id": "fse2026-2026-07-06-collaborator-or-assistant-how-ai-coding-agents-partition-work-ac-03db8fce",
     "sourceSlotId": "e0c92995-6e94-4d6b-94e1-4c7955fbc5f9",
     "researchrEventId": "a90ef18a-9176-4c4b-979d-6da2f75127d3",
     "kind": "talk",
-    "title": "Collaborator or Assistant? How AI Coding Agents Partition Work Across Pull Request Lifecycles",
+    "title": "Collaborator or Assistant? How AI Coding Agents Partition Work across Pull Request Lifecycles",
     "abstract": "",
     "authors": [
       {
@@ -1233,14 +1233,14 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-a90ef18a-9176-4c4b-979d-6da2f75127d3",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814893",
     "preprintUrl": null,
     "keywords": [
       "pull request",
       "GitHub",
       "agents"
     ],
-    "searchText": "Collaborator or Assistant? How AI Coding Agents Partition Work Across Pull Request Lifecycles AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Young Jo Chung Safwat Hassan University of Toronto pull request GitHub agents"
+    "searchText": "Collaborator or Assistant? How AI Coding Agents Partition Work across Pull Request Lifecycles AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Young Jo Chung Safwat Hassan University of Toronto pull request GitHub agents"
   },
   {
     "id": "fse2026-2026-07-06-when-code-authors-are-agents-a-large-scale-study-of-human-agent--32335dbe",
@@ -1278,7 +1278,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-73fb11e7-220d-4f64-9476-da7985926b27",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814909",
     "preprintUrl": null,
     "keywords": [
       "pull request",
@@ -1385,11 +1385,11 @@
     "searchText": "Opening Remarks SSBSE Keynote Talk MB 2.210 Keynote"
   },
   {
-    "id": "fse2026-2026-07-06-understanding-conversational-patterns-in-multi-agent-programming-3da969a7",
+    "id": "fse2026-2026-07-06-understanding-conversational-patterns-in-multi-agent-programming-8ed7c39e",
     "sourceSlotId": "d5d2026a-6482-4530-b3bc-3f5a8ec53b6e",
     "researchrEventId": "c6f9600c-031c-422a-8614-25015fef3201",
     "kind": "talk",
-    "title": "Understanding Conversational Patterns in Multi-Agent Programming: A Case Study On Fibonacci Game Development",
+    "title": "Understanding Conversational Patterns in Multi-agent Programming: A Case Study on Fibonacci Game Development",
     "abstract": "",
     "authors": [
       {
@@ -1445,19 +1445,43 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-c6f9600c-031c-422a-8614-25015fef3201",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814914",
     "preprintUrl": null,
     "keywords": [
       "agents"
     ],
-    "searchText": "Understanding Conversational Patterns in Multi-Agent Programming: A Case Study On Fibonacci Game Development AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Srijita Basu Viktor Kjellberg Simin Sun Bengt Haraldsson Md Abu Ahammed Babu Wilhelm Meding Farnaz Fotrousi Miroslaw Staron Chalmers University of Technology and University of Gothenburg Göteborg University, SE Chalmers University of Technology and University of Gothenburg, Scania CV AB Volvo Cars AB Ericsson Chalmers University of Technology and University of Gothenburg Chalmers University of Technology and University of Gothenburg agents"
+    "searchText": "Understanding Conversational Patterns in Multi-agent Programming: A Case Study on Fibonacci Game Development AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Srijita Basu Viktor Kjellberg Simin Sun Bengt Haraldsson Md Abu Ahammed Babu Wilhelm Meding Farnaz Fotrousi Miroslaw Staron Chalmers University of Technology and University of Gothenburg Göteborg University, SE Chalmers University of Technology and University of Gothenburg, Scania CV AB Volvo Cars AB Ericsson Chalmers University of Technology and University of Gothenburg Chalmers University of Technology and University of Gothenburg agents"
   },
   {
-    "id": "fse2026-2026-07-06-recovering-from-misbehaviors-in-coding-agents-ced033c5",
+    "id": "fse2026-2026-07-06-welcome-opening-remarks-513ec3bd",
+    "sourceSlotId": "93f1adb0-f9ae-4898-a112-db24f63dce9c",
+    "researchrEventId": "244ddba0-723a-44e2-bfa0-0482d5c9f5f3",
+    "kind": "event",
+    "title": "Welcome & Opening Remarks",
+    "abstract": "",
+    "authors": [],
+    "speakerNames": [],
+    "track": "FaSE4Games",
+    "session": "[FaSE4Games] Level 1",
+    "eventType": "Day opening",
+    "date": "2026-07-06",
+    "startTime": "09:00",
+    "endTime": "09:10",
+    "durationMinutes": 10,
+    "room": "MB 3.445",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-244ddba0-723a-44e2-bfa0-0482d5c9f5f3",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "Welcome & Opening Remarks FaSE4Games Day opening MB 3.445 [FaSE4Games] Level 1"
+  },
+  {
+    "id": "fse2026-2026-07-06-wink-recovering-from-misbehaviors-in-coding-agents-9a8ecb1e",
     "sourceSlotId": "825689fa-c665-4cf5-b38d-40559bc4b314",
     "researchrEventId": "c7a99d21-2588-441d-960b-23922f5b7bb0",
     "kind": "talk",
-    "title": "Recovering from Misbehaviors in Coding Agents",
+    "title": "Wink: Recovering from Misbehaviors in Coding Agents",
     "abstract": "",
     "authors": [
       {
@@ -1503,12 +1527,12 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-c7a99d21-2588-441d-960b-23922f5b7bb0",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814911",
     "preprintUrl": null,
     "keywords": [
       "agents"
     ],
-    "searchText": "Recovering from Misbehaviors in Coding Agents AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Rahul Nanda Chandra Maddila Smriti Jha Euna Mehnaz Khan Satish Chandra Matteo Paltenghi Facebook, US Meta Platforms, Inc. Facebook, US Meta Platforms, Inc. University of Stuttgart agents"
+    "searchText": "Wink: Recovering from Misbehaviors in Coding Agents AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Rahul Nanda Chandra Maddila Smriti Jha Euna Mehnaz Khan Satish Chandra Matteo Paltenghi Facebook, US Meta Platforms, Inc. Facebook, US Meta Platforms, Inc. University of Stuttgart agents"
   },
   {
     "id": "fse2026-2026-07-06-configuring-agentic-ai-coding-tools-an-exploratory-study-09bd8e8c",
@@ -1561,12 +1585,43 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-5944d0e4-215a-4cd7-b5af-a36e22609fb1",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814887",
     "preprintUrl": "https://arxiv.org/abs/2602.14690",
     "keywords": [
       "agents"
     ],
     "searchText": "Configuring Agentic AI Coding Tools: An Exploratory Study AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Matthias Galster Seyedmoein Mohsenimofidi Jai Lal Lulla Muhammad Auwal Abubakar Christoph Treude Sebastian Baltes University of Canterbury Heidelberg University Singapore Management University Otto-Friedrich Universität Bamberg, DE Singapore Management University Heidelberg University agents"
+  },
+  {
+    "id": "fse2026-2026-07-06-keynote-opportunities-for-esoteric-software-engineering-practice-bbf7d68b",
+    "sourceSlotId": "027e88c6-b349-40e8-91c3-5c4d86a1084c",
+    "researchrEventId": "76ad01ea-e034-4213-88e3-f000287ff139",
+    "kind": "keynote",
+    "title": "KEYNOTE: Opportunities for Esoteric Software Engineering Practices for Managing Uncertainty in Games Erik Fredericks",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Erik Fredericks",
+        "affiliation": "Grand Valley State University"
+      }
+    ],
+    "speakerNames": [
+      "Erik Fredericks"
+    ],
+    "track": "FaSE4Games",
+    "session": "[FaSE4Games] Level 1",
+    "eventType": "Keynote",
+    "date": "2026-07-06",
+    "startTime": "09:10",
+    "endTime": "10:05",
+    "durationMinutes": 55,
+    "room": "MB 3.445",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-76ad01ea-e034-4213-88e3-f000287ff139",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "KEYNOTE: Opportunities for Esoteric Software Engineering Practices for Managing Uncertainty in Games Erik Fredericks FaSE4Games Keynote MB 3.445 [FaSE4Games] Level 1 Erik Fredericks Grand Valley State University"
   },
   {
     "id": "fse2026-2026-07-06-the-other-side-of-complexity-754b3da2",
@@ -1705,11 +1760,11 @@
     "searchText": "Mentoring the next generation, and establishing your research profile: Synergies New Faculty Symposium Talk MB 3.270 New Faculty Symposium Abhik Roychoudhury National University of Singapore"
   },
   {
-    "id": "fse2026-2026-07-06-visor-a-vision-language-model-based-test-oracle-for-testing-robo-43d7e0a4",
+    "id": "fse2026-2026-07-06-visor-a-vision-language-model-based-test-oracle-for-testing-robo-c2996256",
     "sourceSlotId": "ff733f87-4d9c-4dc7-a4ba-27abed6715a0",
     "researchrEventId": "ede85ae6-5d73-4323-b164-3a1baea5cb21",
     "kind": "talk",
-    "title": "VISOR: A Vision-Language Model-based Test Oracle for Testing Robots",
+    "title": "VISOR: A Vision-Language Model-Based Test Oracle for Testing Robots",
     "abstract": "",
     "authors": [
       {
@@ -1750,19 +1805,19 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-ede85ae6-5d73-4323-b164-3a1baea5cb21",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814910",
     "preprintUrl": null,
     "keywords": [
       "testing"
     ],
-    "searchText": "VISOR: A Vision-Language Model-based Test Oracle for Testing Robots AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Prasun Saurabh Pablo Valle Aitor Arrieta Shaukat Ali Paolo Arcaini Simula Research Laboratory, NO Mondragon University Mondragon University Simula Research Laboratory and Oslo Metropolitan University National Institute of Informatics testing"
+    "searchText": "VISOR: A Vision-Language Model-Based Test Oracle for Testing Robots AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Prasun Saurabh Pablo Valle Aitor Arrieta Shaukat Ali Paolo Arcaini Simula Research Laboratory, NO Mondragon University Mondragon University Simula Research Laboratory and Oslo Metropolitan University National Institute of Informatics testing"
   },
   {
-    "id": "fse2026-2026-07-06-fixpad-automated-bug-fix-verification-using-llm-agents-aiware-ho-2bd37dd8",
+    "id": "fse2026-2026-07-06-fixpad-automated-bug-fix-verification-using-llm-agents-aiware-ho-722b7b5d",
     "sourceSlotId": "37fc50c2-163e-40e9-a440-3cec2e2a6d30",
     "researchrEventId": "6569c6ae-3044-40a1-9418-17109d7abbfa",
     "kind": "talk",
-    "title": "Fixpad++: Automated Bug Fix Verification Using LLM Agents AIware Honorable Mention Paper Award",
+    "title": "Fixpad++: Automated Bug Fix Verification using LLM Agents AIware Honorable Mention Paper Award",
     "abstract": "",
     "authors": [
       {
@@ -1771,7 +1826,7 @@
       },
       {
         "name": "Mehmet Dedeler",
-        "affiliation": "Bilkent University, Bilkent University, TR"
+        "affiliation": "Bilkent University"
       },
       {
         "name": "Anil Koyuncu",
@@ -1798,14 +1853,14 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-6569c6ae-3044-40a1-9418-17109d7abbfa",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814915",
     "preprintUrl": null,
     "keywords": [
       "LLM",
       "large language model",
       "agents"
     ],
-    "searchText": "Fixpad++: Automated Bug Fix Verification Using LLM Agents AIware Honorable Mention Paper Award AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Mustafa Özkan İr Mehmet Dedeler Anil Koyuncu Eray Tüzün Bilkent University, Bilkent University, TR Bilkent University, Bilkent University, TR Bilkent University Bilkent University LLM large language model agents"
+    "searchText": "Fixpad++: Automated Bug Fix Verification using LLM Agents AIware Honorable Mention Paper Award AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Mustafa Özkan İr Mehmet Dedeler Anil Koyuncu Eray Tüzün Bilkent University, Bilkent University, TR Bilkent University Bilkent University Bilkent University LLM large language model agents"
   },
   {
     "id": "fse2026-2026-07-06-unsupervised-extraction-of-latent-structures-in-software-operati-690debd7",
@@ -1874,11 +1929,11 @@
     "searchText": "Towards Efficient and Secure Pull-Request-Based Software Development Doctoral Symposium Talk MB 3.210 Opening and Lightning talks Kazi Amit Hasan Queen's University, Canada pull request GitHub security"
   },
   {
-    "id": "fse2026-2026-07-06-co-located-tests-better-ai-code-how-test-syntax-structure-affect-3546190b",
+    "id": "fse2026-2026-07-06-co-located-tests-better-ai-code-how-test-syntax-structure-affect-1d0397ff",
     "sourceSlotId": "42d23693-3b22-407c-82f1-a32c41f4527e",
     "researchrEventId": "bf3c130e-38f4-4ae3-98a8-fe14cade3f3a",
     "kind": "talk",
-    "title": "Co-Located Tests, Better AI Code: How Test Syntax Structure Affects Foundation Model Code Generation",
+    "title": "Co-located Tests, Better AI Code: How Test Syntax Structure Affects Foundation Model Code Generation",
     "abstract": "",
     "authors": [
       {
@@ -1899,13 +1954,13 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-bf3c130e-38f4-4ae3-98a8-fe14cade3f3a",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814912",
     "preprintUrl": null,
     "keywords": [
       "testing",
       "code"
     ],
-    "searchText": "Co-Located Tests, Better AI Code: How Test Syntax Structure Affects Foundation Model Code Generation AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Éric Jacopin Cosmic AI, FR testing code"
+    "searchText": "Co-located Tests, Better AI Code: How Test Syntax Structure Affects Foundation Model Code Generation AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Éric Jacopin Cosmic AI, FR testing code"
   },
   {
     "id": "fse2026-2026-07-06-malleable-interfaces-for-reviewing-software-documentation-a6c6d6dd",
@@ -2083,7 +2138,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-d339c73c-8cc7-4886-b82c-906850700f56",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814894",
     "preprintUrl": null,
     "keywords": [
       "testing"
@@ -2371,7 +2426,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-9df69cf7-633a-4001-9918-87f99414c71a",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814905",
     "preprintUrl": null,
     "keywords": [
       "LLM",
@@ -2414,11 +2469,42 @@
     "searchText": "From Deterministic Pipelines to Layered Automation: The Evolution of GitHub Actions in CI/CD Doctoral Symposium Talk MB 3.210 Opening and Lightning talks Elmira Onagh York University GitHub"
   },
   {
-    "id": "fse2026-2026-07-06-can-llms-really-reason-about-code-studying-how-well-llms-underst-a783b0ed",
+    "id": "fse2026-2026-07-06-beyond-single-pr-issues-understanding-multi-pr-issue-resolution--31654f61",
+    "sourceSlotId": "d859750e-116d-4d88-ba22-67811ff0a8ec",
+    "researchrEventId": "6d7cd58e-279a-4b99-9280-9aed05adfe87",
+    "kind": "event",
+    "title": "Beyond Single-PR Issues: Understanding Multi-PR Issue Resolution in Game Development",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Nimmi Weeraddana",
+        "affiliation": "University of Calgary"
+      }
+    ],
+    "speakerNames": [
+      "Nimmi Weeraddana"
+    ],
+    "track": "FaSE4Games",
+    "session": "[FaSE4Games] Level 1",
+    "eventType": "Paper",
+    "date": "2026-07-06",
+    "startTime": "10:05",
+    "endTime": "10:30",
+    "durationMinutes": 25,
+    "room": "MB 3.445",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-6d7cd58e-279a-4b99-9280-9aed05adfe87",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "Beyond Single-PR Issues: Understanding Multi-PR Issue Resolution in Game Development FaSE4Games Paper MB 3.445 [FaSE4Games] Level 1 Nimmi Weeraddana University of Calgary"
+  },
+  {
+    "id": "fse2026-2026-07-06-can-llms-really-reason-about-code-studying-how-well-llms-underst-43ecac6d",
     "sourceSlotId": "8679da98-795e-49c8-96d0-978add07dd06",
     "researchrEventId": "da3a18c2-fc48-4c0d-bb66-034f02dacbc3",
     "kind": "talk",
-    "title": "Can LLMs really reason about Code? Studying how well LLMs understand the relation between Input, Code, and Output",
+    "title": "Can LLMs Really Reason about Code? Studying How Well LLMs Understand the Relation between Input, Code, and Output",
     "abstract": "",
     "authors": [
       {
@@ -2449,14 +2535,14 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-da3a18c2-fc48-4c0d-bb66-034f02dacbc3",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814888",
     "preprintUrl": null,
     "keywords": [
       "LLM",
       "large language model",
       "code"
     ],
-    "searchText": "Can LLMs really reason about Code? Studying how well LLMs understand the relation between Input, Code, and Output AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Norman Becker Tural Mammadov Andreas Zeller CISPA Helmholtz Center for Information Security, DE CISPA Helmholtz Center for Information Security CISPA Helmholtz Center for Information Security LLM large language model code"
+    "searchText": "Can LLMs Really Reason about Code? Studying How Well LLMs Understand the Relation between Input, Code, and Output AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Norman Becker Tural Mammadov Andreas Zeller CISPA Helmholtz Center for Information Security, DE CISPA Helmholtz Center for Information Security CISPA Helmholtz Center for Information Security LLM large language model code"
   },
   {
     "id": "fse2026-2026-07-06-from-syntactic-mimicry-to-semantic-correctness-behavioral-unders-f5516441",
@@ -2599,11 +2685,11 @@
     "searchText": "Adaptive Software Energy Feedback for Long-Term User Engagement SSBSE Research Papers Research paper MB 2.210 Keynote Thomas Zaragoza Adel Noureddine Ernesto Exposito Université de Pau et des Pays de l’Adour University Paris Nanterre Universite de Pau et des Pays de l’Adour, E2S UPPA, LIUPPA"
   },
   {
-    "id": "fse2026-2026-07-06-how-robustly-do-llms-understand-execution-semantics-cc84c493",
+    "id": "fse2026-2026-07-06-how-robustly-do-llms-understand-execution-semantics-dcfb46e9",
     "sourceSlotId": "9088fbb5-6078-4ee4-932e-edd985bc25c1",
     "researchrEventId": "cd56c50e-f06d-4d5f-9ded-925cd88171b4",
     "kind": "talk",
-    "title": "How Robustly do LLMs Understand Execution Semantics?",
+    "title": "How Robustly Do LLMs Understand Execution Semantics?",
     "abstract": "",
     "authors": [
       {
@@ -2634,13 +2720,13 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-cd56c50e-f06d-4d5f-9ded-925cd88171b4",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814919",
     "preprintUrl": null,
     "keywords": [
       "LLM",
       "large language model"
     ],
-    "searchText": "How Robustly do LLMs Understand Execution Semantics? AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Claudio Spiess Premkumar Devanbu Earl T. Barr University of California, Davis UC Davis University College London LLM large language model"
+    "searchText": "How Robustly Do LLMs Understand Execution Semantics? AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Claudio Spiess Premkumar Devanbu Earl T. Barr University of California, Davis UC Davis University College London LLM large language model"
   },
   {
     "id": "fse2026-2026-07-06-from-helpful-to-trustworthy-llm-agents-for-pair-programming-37f0e09d",
@@ -2729,7 +2815,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-6a60a3b5-9d60-41ac-941b-70606ee8e248",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://arxiv.org/abs/2607.02512",
     "keywords": [],
     "searchText": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions AIware ArXiv Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Wentao Zhang Liliana Hotsko Woojeong Kim Pengyu Nie Stuart Shieber Yuntian Deng University of Waterloo University of Waterloo Cornell University University of Waterloo Harvard University University of Waterloo"
   },
@@ -3013,6 +3099,65 @@
     "searchText": "From Researcher to Research Leader: Mentoring Students, Building Teams, and Growing Yourself New Faculty Symposium Talk MB 3.270 New Faculty Symposium Ali Ouni Ecole de Technologie Superieure (ETS)"
   },
   {
+    "id": "fse2026-2026-07-06-large-language-models-in-game-development-implications-for-gamep-3541cecf",
+    "sourceSlotId": "a03e872a-80b7-4cb7-9dca-ebe399c0f859",
+    "researchrEventId": "06a76c6d-c8fa-48c8-8b9c-7a2fa2ab0b85",
+    "kind": "event",
+    "title": "Large Language Models in Game Development: Implications for Gameplay, Playability, and Player Experience",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Keeryn Johnson",
+        "affiliation": "University of Calgary"
+      },
+      {
+        "name": "Muhammad Ahmed",
+        "affiliation": "University of Calgary"
+      },
+      {
+        "name": "Charlie Lang",
+        "affiliation": ""
+      },
+      {
+        "name": "Sahib Thethi",
+        "affiliation": ""
+      },
+      {
+        "name": "Wilson Zheng",
+        "affiliation": ""
+      },
+      {
+        "name": "Ronnie de Souza Santos",
+        "affiliation": ""
+      }
+    ],
+    "speakerNames": [
+      "Keeryn Johnson",
+      "Muhammad Ahmed",
+      "Charlie Lang",
+      "Sahib Thethi",
+      "Wilson Zheng",
+      "Ronnie de Souza Santos"
+    ],
+    "track": "FaSE4Games",
+    "session": "[FaSE4Games] Level 2",
+    "eventType": "Paper",
+    "date": "2026-07-06",
+    "startTime": "11:00",
+    "endTime": "11:25",
+    "durationMinutes": 25,
+    "room": "MB 3.445",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-06a76c6d-c8fa-48c8-8b9c-7a2fa2ab0b85",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [
+      "LLM",
+      "large language model"
+    ],
+    "searchText": "Large Language Models in Game Development: Implications for Gameplay, Playability, and Player Experience FaSE4Games Paper MB 3.445 [FaSE4Games] Level 2 Keeryn Johnson Muhammad Ahmed Charlie Lang Sahib Thethi Wilson Zheng Ronnie de Souza Santos University of Calgary University of Calgary LLM large language model"
+  },
+  {
     "id": "fse2026-2026-07-06-awareness-and-avoidance-of-security-vulnerabilities-in-software--4684d913",
     "sourceSlotId": "e0b13a55-202a-493c-b51e-e3516002c1dc",
     "researchrEventId": "e3e7c60c-62aa-4c13-af83-777d44c6cf27",
@@ -3082,7 +3227,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-96c136d1-5996-4d29-bb32-290f675294ef",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://arxiv.org/abs/2605.01533",
     "keywords": [],
     "searchText": "Genetic Programming for Self-Adaptive Auto-Scaling of Microservices SSBSE Research Papers Research paper MB 2.210 Research Session 1 Jia Li Mehrdad Sabetzadeh Shiva Nejati University of Ottawa University of Ottawa University of Ottawa"
   },
@@ -3118,28 +3263,81 @@
     "searchText": "When Implementation Stops Being the Bottleneck: Design in AI-Native Software Engineering AIware Keynotes Keynote MB 1.210 AIware Keynotes Session 1 Thomas Cottenier Arm"
   },
   {
-    "id": "fse2026-2026-07-06-panel-discussion-5c6c9d43",
-    "sourceSlotId": "ab2d4610-9514-4aac-bd25-494fc455d627",
-    "researchrEventId": "2b700ea3-3005-4edc-bb0d-95b164662d2b",
-    "kind": "event",
-    "title": "Panel Discussion",
+    "id": "fse2026-2026-07-06-nsf-funding-facts-and-fiction-3fa8f8f4",
+    "sourceSlotId": "58bf10d1-1175-4cbc-8097-3855ed1b6b47",
+    "researchrEventId": "e7322dbc-5265-4123-8f3e-7d722d6b6c5a",
+    "kind": "talk",
+    "title": "NSF Funding - facts and fiction",
     "abstract": "",
-    "authors": [],
-    "speakerNames": [],
+    "authors": [
+      {
+        "name": "Andrian Marcus",
+        "affiliation": "National Science Foundation/George Mason University"
+      }
+    ],
+    "speakerNames": [
+      "Andrian Marcus"
+    ],
     "track": "New Faculty Symposium",
     "session": "New Faculty Symposium",
-    "eventType": "Panel",
+    "eventType": "Talk",
     "date": "2026-07-06",
     "startTime": "11:23",
-    "endTime": "12:00",
-    "durationMinutes": 37,
+    "endTime": "11:46",
+    "durationMinutes": 23,
     "room": "MB 3.270",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-2b700ea3-3005-4edc-bb0d-95b164662d2b",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-e7322dbc-5265-4123-8f3e-7d722d6b6c5a",
     "presentationUrl": null,
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "Panel Discussion New Faculty Symposium Panel MB 3.270 New Faculty Symposium"
+    "searchText": "NSF Funding - facts and fiction New Faculty Symposium Talk MB 3.270 New Faculty Symposium Andrian Marcus National Science Foundation/George Mason University"
+  },
+  {
+    "id": "fse2026-2026-07-06-agile-manifesto-at-play-lessons-learned-from-student-game-design-bb6df4c0",
+    "sourceSlotId": "3774d71c-97c7-4a38-9872-6f7abd3c2166",
+    "researchrEventId": "fedbcd62-6367-4f1d-8f52-b326adebf04f",
+    "kind": "event",
+    "title": "Agile Manifesto at Play: Lessons Learned from Student Game Design Teams",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "William Tallarico",
+        "affiliation": "University of Chicago"
+      },
+      {
+        "name": "Max White",
+        "affiliation": "Rochester Institute of Technology"
+      },
+      {
+        "name": "Nicolas LaLone",
+        "affiliation": ""
+      },
+      {
+        "name": "Erika Mesh",
+        "affiliation": ""
+      }
+    ],
+    "speakerNames": [
+      "William Tallarico",
+      "Max White",
+      "Nicolas LaLone",
+      "Erika Mesh"
+    ],
+    "track": "FaSE4Games",
+    "session": "[FaSE4Games] Level 2",
+    "eventType": "Paper",
+    "date": "2026-07-06",
+    "startTime": "11:25",
+    "endTime": "11:50",
+    "durationMinutes": 25,
+    "room": "MB 3.445",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-fedbcd62-6367-4f1d-8f52-b326adebf04f",
+    "presentationUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3803437.3806369",
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "Agile Manifesto at Play: Lessons Learned from Student Game Design Teams FaSE4Games Paper MB 3.445 [FaSE4Games] Level 2 William Tallarico Max White Nicolas LaLone Erika Mesh University of Chicago Rochester Institute of Technology"
   },
   {
     "id": "fse2026-2026-07-06-towards-ai-powered-localization-of-software-bugs-from-semantic-u-08408c39",
@@ -3282,6 +3480,69 @@
     "searchText": "Towards Trustworthy AI-Enabled Systems: From Model-Level Reliability to Systemic Assurance Doctoral Symposium Talk MB 3.210 Talks (Session 1) Yuheng Huang The University of Tokyo"
   },
   {
+    "id": "fse2026-2026-07-06-panel-discussion-5c6c9d43",
+    "sourceSlotId": "ab2d4610-9514-4aac-bd25-494fc455d627",
+    "researchrEventId": "2b700ea3-3005-4edc-bb0d-95b164662d2b",
+    "kind": "event",
+    "title": "Panel Discussion",
+    "abstract": "",
+    "authors": [],
+    "speakerNames": [],
+    "track": "New Faculty Symposium",
+    "session": "New Faculty Symposium",
+    "eventType": "Panel",
+    "date": "2026-07-06",
+    "startTime": "11:46",
+    "endTime": "12:30",
+    "durationMinutes": 44,
+    "room": "MB 3.270",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-2b700ea3-3005-4edc-bb0d-95b164662d2b",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "Panel Discussion New Faculty Symposium Panel MB 3.270 New Faculty Symposium"
+  },
+  {
+    "id": "fse2026-2026-07-06-decision-aware-information-sharing-in-multi-agent-reinforcement--e33e4f12",
+    "sourceSlotId": "85ecf107-7c76-402c-b0bb-38ce8fdc4a8c",
+    "researchrEventId": "afd5efbf-354b-4104-9a9e-4518cd43bd85",
+    "kind": "event",
+    "title": "Decision-Aware Information Sharing in Multi-Agent Reinforcement Learning for Game Testing",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Rishabh Agarwal",
+        "affiliation": "University of Calgary"
+      },
+      {
+        "name": "Richard Zhao",
+        "affiliation": ""
+      }
+    ],
+    "speakerNames": [
+      "Rishabh Agarwal",
+      "Richard Zhao"
+    ],
+    "track": "FaSE4Games",
+    "session": "[FaSE4Games] Level 2",
+    "eventType": "Paper",
+    "date": "2026-07-06",
+    "startTime": "11:50",
+    "endTime": "12:15",
+    "durationMinutes": 25,
+    "room": "MB 3.445",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-afd5efbf-354b-4104-9a9e-4518cd43bd85",
+    "presentationUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3803437.3806370",
+    "preprintUrl": "https://cspages.ucalgary.ca/~richard.zhao1/publications/2026FSE_passive_active_RL.pdf",
+    "keywords": [
+      "testing",
+      "agents"
+    ],
+    "searchText": "Decision-Aware Information Sharing in Multi-Agent Reinforcement Learning for Game Testing FaSE4Games Paper MB 3.445 [FaSE4Games] Level 2 Rishabh Agarwal Richard Zhao University of Calgary testing agents"
+  },
+  {
     "id": "fse2026-2026-07-06-joint-q-a-fa76c884",
     "sourceSlotId": "3ecb735f-5e76-49d8-b127-4cfaea88b234",
     "researchrEventId": "d469722d-c87f-48fd-a30f-48c37fc04603",
@@ -3372,41 +3633,34 @@
     "room": "MB 2.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-0bc2856e-4695-47d1-81d4-10b2e8037d45",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3728915",
     "preprintUrl": null,
     "keywords": [],
     "searchText": "Search-Based Generation of Complex Inputs with FANDANGO SSBSE Hot-off-the-Press Track Short-paper MB 2.210 Research Session 1 José Antonio Zamudio Amaya Marius Smytzek Andreas Zeller CISPA Helmholtz Center for Information Security CISPA Helmholtz Center for Information Security CISPA Helmholtz Center for Information Security"
   },
   {
-    "id": "fse2026-2026-07-06-tbd-andrian-marcus-4099a301",
-    "sourceSlotId": "58bf10d1-1175-4cbc-8097-3855ed1b6b47",
-    "researchrEventId": "e7322dbc-5265-4123-8f3e-7d722d6b6c5a",
-    "kind": "talk",
-    "title": "TBD: Andrian Marcus",
+    "id": "fse2026-2026-07-06-closing-remarks-883bd22d",
+    "sourceSlotId": "65ee0f0e-336c-4f49-9bd3-c2f366949def",
+    "researchrEventId": "002dc7e1-9201-49f1-9efd-4771d209d7b3",
+    "kind": "event",
+    "title": "Closing Remarks",
     "abstract": "",
-    "authors": [
-      {
-        "name": "Andrian Marcus",
-        "affiliation": "National Science Foundation/George Mason University"
-      }
-    ],
-    "speakerNames": [
-      "Andrian Marcus"
-    ],
-    "track": "New Faculty Symposium",
-    "session": "New Faculty Symposium",
-    "eventType": "Talk",
+    "authors": [],
+    "speakerNames": [],
+    "track": "FaSE4Games",
+    "session": "[FaSE4Games] Level 2",
+    "eventType": "Day closing",
     "date": "2026-07-06",
-    "startTime": "12:00",
+    "startTime": "12:15",
     "endTime": "12:30",
-    "durationMinutes": 30,
-    "room": "MB 3.270",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-e7322dbc-5265-4123-8f3e-7d722d6b6c5a",
+    "durationMinutes": 15,
+    "room": "MB 3.445",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-002dc7e1-9201-49f1-9efd-4771d209d7b3",
     "presentationUrl": null,
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "TBD: Andrian Marcus New Faculty Symposium Talk MB 3.270 New Faculty Symposium Andrian Marcus National Science Foundation/George Mason University"
+    "searchText": "Closing Remarks FaSE4Games Day closing MB 3.445 [FaSE4Games] Level 2"
   },
   {
     "id": "fse2026-2026-07-06-testing-protocols-with-formal-languages-4576874a",
@@ -3466,6 +3720,37 @@
     "searchText": "Lunch Catering Lunch Lunch"
   },
   {
+    "id": "fse2026-2026-07-06-being-in-academia-in-the-age-of-ai-a3001588",
+    "sourceSlotId": "1ebb00a4-1e18-4f65-a8ff-7de1a3086a91",
+    "researchrEventId": "33eb317f-f5a6-40be-b38f-05326043ec56",
+    "kind": "talk",
+    "title": "Being in Academia in the Age of AI",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Ahmed E. Hassan",
+        "affiliation": "Queen’s University"
+      }
+    ],
+    "speakerNames": [
+      "Ahmed E. Hassan"
+    ],
+    "track": "New Faculty Symposium",
+    "session": "New Faculty Symposium",
+    "eventType": "Talk",
+    "date": "2026-07-06",
+    "startTime": "14:00",
+    "endTime": "14:22",
+    "durationMinutes": 22,
+    "room": "MB 3.270",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-33eb317f-f5a6-40be-b38f-05326043ec56",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "Being in Academia in the Age of AI New Faculty Symposium Talk MB 3.270 New Faculty Symposium Ahmed E. Hassan Queen’s University"
+  },
+  {
     "id": "fse2026-2026-07-06-challenge-overview-eee93bb6",
     "sourceSlotId": "6fed4bab-cd05-4e47-bcf6-1cd6bc305b72",
     "researchrEventId": "4b996c99-4fd4-4875-9796-6a083472715e",
@@ -3488,37 +3773,6 @@
     "preprintUrl": null,
     "keywords": [],
     "searchText": "Challenge Overview SSBSE Challenge Talk MB 2.210 SSBSE Challenge"
-  },
-  {
-    "id": "fse2026-2026-07-06-how-to-love-the-research-proposal-writing-process-9b1cc7e5",
-    "sourceSlotId": "1ebb00a4-1e18-4f65-a8ff-7de1a3086a91",
-    "researchrEventId": "33eb317f-f5a6-40be-b38f-05326043ec56",
-    "kind": "talk",
-    "title": "How to LOVE the research proposal writing process",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Laurie Williams",
-        "affiliation": "North Carolina State University"
-      }
-    ],
-    "speakerNames": [
-      "Laurie Williams"
-    ],
-    "track": "New Faculty Symposium",
-    "session": "New Faculty Symposium",
-    "eventType": "Talk",
-    "date": "2026-07-06",
-    "startTime": "14:00",
-    "endTime": "14:22",
-    "durationMinutes": 22,
-    "room": "MB 3.270",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-33eb317f-f5a6-40be-b38f-05326043ec56",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
-    "keywords": [],
-    "searchText": "How to LOVE the research proposal writing process New Faculty Symposium Talk MB 3.270 New Faculty Symposium Laurie Williams North Carolina State University"
   },
   {
     "id": "fse2026-2026-07-06-toward-reliable-oracle-verification-of-quantum-programs-under-no-76374ae2",
@@ -3552,11 +3806,11 @@
     "searchText": "Toward Reliable Oracle Verification of Quantum Programs Under Noise and Resource Constraints Doctoral Symposium Talk MB 3.210 Talks (Session 2) Ning Ma"
   },
   {
-    "id": "fse2026-2026-07-06-veritrans-fine-tuned-llm-assisted-nl-pl-translation-via-a-determ-9a838cca",
+    "id": "fse2026-2026-07-06-veritrans-fine-tuned-llm-assisted-nl-pl-translation-via-a-determ-30425d61",
     "sourceSlotId": "84b9be25-c08a-4356-b372-25612a96b9bd",
     "researchrEventId": "d2f3f6dd-6d65-46e1-8695-a9e73ac6492e",
     "kind": "talk",
-    "title": "VeriTrans: Fine-Tuned LLM-Assisted NL→PL Translation via a Deterministic Neuro-Symbolic Pipeline",
+    "title": "VeriTrans: Fine-Tuned LLM-Assisted NL→PL Translation via a Deterministic Neuro-symbolic Pipeline",
     "abstract": "",
     "authors": [
       {
@@ -3592,13 +3846,13 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-d2f3f6dd-6d65-46e1-8695-a9e73ac6492e",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814906",
     "preprintUrl": null,
     "keywords": [
       "LLM",
       "large language model"
     ],
-    "searchText": "VeriTrans: Fine-Tuned LLM-Assisted NL→PL Translation via a Deterministic Neuro-Symbolic Pipeline AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Xuan Liu Dheeraj Kodakandla Kushagra Srivastva Mahfuza Farooque Pennsylvania State University, US Pennsylvania State University, US Pennsylvania State University, US LLM large language model"
+    "searchText": "VeriTrans: Fine-Tuned LLM-Assisted NL→PL Translation via a Deterministic Neuro-symbolic Pipeline AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Xuan Liu Dheeraj Kodakandla Kushagra Srivastva Mahfuza Farooque Pennsylvania State University, US Pennsylvania State University, US Pennsylvania State University, US LLM large language model"
   },
   {
     "id": "fse2026-2026-07-06-kubernetes-misconfigurations-in-the-wild-taxonomy-evolution-and--3733ad37",
@@ -3636,7 +3890,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-294dbeb1-90f9-41d5-8ce5-b4c87b60eab7",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814908",
     "preprintUrl": null,
     "keywords": [
       "LLM",
@@ -3721,7 +3975,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-fbdc398e-0b8c-41c8-af27-e712eb4e2a0f",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814886",
     "preprintUrl": "https://arxiv.org/abs/2605.21453",
     "keywords": [
       "pull request",
@@ -3766,7 +4020,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-ffde57d5-5ef5-4329-a55f-c5b2e90f7bd1",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814897",
     "preprintUrl": "https://arxiv.org/abs/2605.07062",
     "keywords": [],
     "searchText": "From Assistance to Agency: Rethinking Autonomy and Control in CI/CD Pipelines AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Marcus Barnes Taher A. Ghaleb Safwat Hassan University of Toronto Trent University University of Toronto"
@@ -3842,7 +4096,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-e1618174-6a54-42f0-9e03-f64880ebf0e5",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814890",
     "preprintUrl": null,
     "keywords": [
       "LLM",
@@ -3883,11 +4137,11 @@
     "searchText": "Establishing an Ethos for Your Research Group New Faculty Symposium Talk MB 3.270 New Faculty Symposium Shane McIntosh University of Waterloo"
   },
   {
-    "id": "fse2026-2026-07-06-executable-but-unlearnable-designing-code-that-resists-llm-based-94047e8b",
+    "id": "fse2026-2026-07-06-executable-but-unlearnable-designing-code-that-resists-llm-based-b60da32c",
     "sourceSlotId": "e1ac130a-95ca-4a3d-9951-e1d7ac3689cc",
     "researchrEventId": "b523d457-6630-4bd6-be42-54d986eb683e",
     "kind": "talk",
-    "title": "Executable but Unlearnable: Designing Code that Resists LLM-Based Learning",
+    "title": "Executable but Unlearnable: Designing Code That Resists LLM-Based Learning",
     "abstract": "",
     "authors": [
       {
@@ -3913,14 +4167,14 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-b523d457-6630-4bd6-be42-54d986eb683e",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814896",
     "preprintUrl": null,
     "keywords": [
       "LLM",
       "large language model",
       "code"
     ],
-    "searchText": "Executable but Unlearnable: Designing Code that Resists LLM-Based Learning AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Viraaji Mothukuri Reza M. Parizi Kennesaw State University Kennesaw State University LLM large language model code"
+    "searchText": "Executable but Unlearnable: Designing Code That Resists LLM-Based Learning AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Viraaji Mothukuri Reza M. Parizi Kennesaw State University Kennesaw State University LLM large language model code"
   },
   {
     "id": "fse2026-2026-07-06-fuzz3-entropy-as-a-third-oracle-e996a875",
@@ -4004,7 +4258,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-aac345f8-3ebf-4456-ab8e-3b679d8f03fb",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814900",
     "preprintUrl": "https://openreview.net/forum?id=6vjnMGdx5i",
     "keywords": [],
     "searchText": "Detecting Unsoundness in Neural Network Verifiers via Concrete–Abstract Consistency AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Kaijie Liu Yulei Sui University of New South Wales, Sydney University of New South Wales"
@@ -4075,7 +4329,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-c78014f1-8380-482a-a94d-cb07898eb5f7",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814904",
     "preprintUrl": null,
     "keywords": [
       "agents"
@@ -4083,11 +4337,11 @@
     "searchText": "From Correctness to Consistency: Redefining Reliability for the Agentware Era AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Xue Qin Mauricio Gouvea Gruppi Villanova University agents"
   },
   {
-    "id": "fse2026-2026-07-06-a-preliminary-study-on-explaining-risk-of-code-changes-using-llm-38e63542",
+    "id": "fse2026-2026-07-06-a-preliminary-study-on-explaining-risk-of-code-changes-using-llm-f00f1583",
     "sourceSlotId": "08158065-3511-4814-a451-8829f20cb02c",
     "researchrEventId": "a44e91b4-eab1-43bd-89a1-e99dc6d91506",
     "kind": "talk",
-    "title": "A Preliminary Study on Explaining Risk of Code Changes using LLM-based Prediction Models",
+    "title": "A Preliminary Study on Explaining Risk of Code Changes using LLM-Based Prediction Models",
     "abstract": "",
     "authors": [
       {
@@ -4168,14 +4422,14 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-a44e91b4-eab1-43bd-89a1-e99dc6d91506",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814916",
     "preprintUrl": null,
     "keywords": [
       "LLM",
       "large language model",
       "code"
     ],
-    "searchText": "A Preliminary Study on Explaining Risk of Code Changes using LLM-based Prediction Models AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Yalin Liu Kosay Jabre Rui Abreu Zachariah J Carmichael Vijayaraghavan Murali Akshay Patel Jun Ge Weiyan Sun Cong Zhang Audris Mockus David Khavari Peter Rigby Nachiappan Nagappan Facebook, US Meta Platforms, Inc. Meta Facebook, US Rice University Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Southern Methodist University, Southern Methodist University, US The University of Tennessee, Knoxville / Vilnius University Concordia University; Meta Meta Platforms, Inc. LLM large language model code"
+    "searchText": "A Preliminary Study on Explaining Risk of Code Changes using LLM-Based Prediction Models AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Yalin Liu Kosay Jabre Rui Abreu Zachariah J Carmichael Vijayaraghavan Murali Akshay Patel Jun Ge Weiyan Sun Cong Zhang Audris Mockus David Khavari Peter Rigby Nachiappan Nagappan Facebook, US Meta Platforms, Inc. Meta Facebook, US Rice University Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Southern Methodist University, Southern Methodist University, US The University of Tennessee, Knoxville / Vilnius University Concordia University; Meta Meta Platforms, Inc. LLM large language model code"
   },
   {
     "id": "fse2026-2026-07-06-reducing-llms-by-searching-heterogeneous-quantizations-a27d24d9",
@@ -4222,11 +4476,11 @@
     "searchText": "Reducing LLMs by Searching Heterogeneous Quantizations SSBSE Challenge Short-paper MB 2.210 SSBSE Challenge Enrique Alba Yazhuo Cao Hector Menendez University of Malaga King's College London King’s College London LLM large language model"
   },
   {
-    "id": "fse2026-2026-07-06-tbd-2e69f3a7",
+    "id": "fse2026-2026-07-06-flexibility-and-broader-perspectives-for-new-faculty-life-7b930db0",
     "sourceSlotId": "981df1cb-422d-4137-9207-11e0591187e4",
     "researchrEventId": "c1749928-fa4a-403c-98f0-d6085a1b8236",
     "kind": "talk",
-    "title": "TBD",
+    "title": "Flexibility and Broader Perspectives for New Faculty Life",
     "abstract": "",
     "authors": [
       {
@@ -4250,14 +4504,14 @@
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "TBD New Faculty Symposium Talk MB 3.270 New Faculty Symposium Kathryn Stolee North Carolina State University"
+    "searchText": "Flexibility and Broader Perspectives for New Faculty Life New Faculty Symposium Talk MB 3.270 New Faculty Symposium Kathryn Stolee North Carolina State University"
   },
   {
-    "id": "fse2026-2026-07-06-when-ai-coding-assistants-leak-training-data-study-memorization--6e8d4ec0",
+    "id": "fse2026-2026-07-06-when-ai-coding-assistants-leak-training-data-a-study-of-llm-memo-e5185540",
     "sourceSlotId": "615a0123-06c4-4bcf-a3f1-429954214f81",
     "researchrEventId": "a1baaef6-3b0f-4600-bfcd-2ae7aaf22147",
     "kind": "talk",
-    "title": "When AI Coding Assistants Leak Training Data: Study Memorization in Code LLMs AIware Honorable Mention Paper Award",
+    "title": "When AI Coding Assistants Leak Training Data: A Study of LLM Memorization in Code Generation AIware Honorable Mention Paper Award",
     "abstract": "",
     "authors": [
       {
@@ -4293,14 +4547,14 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-a1baaef6-3b0f-4600-bfcd-2ae7aaf22147",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814902",
     "preprintUrl": null,
     "keywords": [
       "LLM",
       "large language model",
       "code"
     ],
-    "searchText": "When AI Coding Assistants Leak Training Data: Study Memorization in Code LLMs AIware Honorable Mention Paper Award AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Xiaoyu Cheng Kundi Yao Pengyu Nie Weiyi Shang Ontario Tech University University of Waterloo University of Waterloo LLM large language model code"
+    "searchText": "When AI Coding Assistants Leak Training Data: A Study of LLM Memorization in Code Generation AIware Honorable Mention Paper Award AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Xiaoyu Cheng Kundi Yao Pengyu Nie Weiyi Shang Ontario Tech University University of Waterloo University of Waterloo LLM large language model code"
   },
   {
     "id": "fse2026-2026-07-06-when-testing-meets-refactoring-0d457030",
@@ -4361,7 +4615,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-616f45e0-6461-42c7-bba8-6c6fdd5ba5ed",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814895",
     "preprintUrl": null,
     "keywords": [
       "agents"
@@ -4369,11 +4623,11 @@
     "searchText": "Zombie Agents: Detecting Semantic Livelock in Long-Horizon Autonomous Software AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Simarjot Khanna agents"
   },
   {
-    "id": "fse2026-2026-07-06-neural-symbolic-multi-objective-optimization-for-performance-awa-e14377ca",
+    "id": "fse2026-2026-07-06-neural-symbolic-multi-objective-optimization-for-performance-awa-957b8d65",
     "sourceSlotId": "46953771-dd86-49c2-bc3a-76220525f3bf",
     "researchrEventId": "cd09485a-36f1-4074-83e5-7c9103ff9ab7",
     "kind": "talk",
-    "title": "Neural-Symbolic Multi-Objective Optimization for Performance-Aware ORM Database Design",
+    "title": "Neural-Symbolic Multi-objective Optimization for Performance-Aware ORM Database Design",
     "abstract": "",
     "authors": [
       {
@@ -4419,10 +4673,10 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-cd09485a-36f1-4074-83e5-7c9103ff9ab7",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814921",
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "Neural-Symbolic Multi-Objective Optimization for Performance-Aware ORM Database Design AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Sasan Azizian Ayoub Hazrati Artin Azizian Elham Rastegari Hamid Bagheri Juan Cui Bellevue University The Vanguard Group McGill University, School of Computer Science Creighton University University of Nebraska-Lincoln University of Nebraska, Lincoln, US"
+    "searchText": "Neural-Symbolic Multi-objective Optimization for Performance-Aware ORM Database Design AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Sasan Azizian Ayoub Hazrati Artin Azizian Elham Rastegari Hamid Bagheri Juan Cui Bellevue University The Vanguard Group McGill University, School of Computer Science Creighton University University of Nebraska-Lincoln University of Nebraska, Lincoln, US"
   },
   {
     "id": "fse2026-2026-07-06-safetune-search-based-harmfulness-minimisation-for-large-languag-1d9c41ac",
@@ -4484,11 +4738,11 @@
     "searchText": "SafeTune: Search-based Harmfulness Minimisation for Large Language Models SSBSE Challenge Short-paper MB 2.210 SSBSE Challenge Giordano d'Aloisio David Williams Giusy Annunziata Zhiwei Fei Antinisca Di Marco Federica Sarro University of L'Aquila University College London University of Salerno Nanjing University University of L'Aquila University College London LLM large language model"
   },
   {
-    "id": "fse2026-2026-07-06-triorm-workload-aware-neural-symbolic-multi-objective-optimizati-c1a4bf05",
+    "id": "fse2026-2026-07-06-triorm-workload-aware-neural-symbolic-multi-objective-optimizati-68b7ea52",
     "sourceSlotId": "261bf536-abe7-4ee3-b1bb-e1334835862a",
     "researchrEventId": "3812adfa-0e7e-4215-914e-e2365ccb8cd5",
     "kind": "talk",
-    "title": "TriORM: Workload-Aware Neural--Symbolic Multi-Objective Optimization for ORM Mapping Design",
+    "title": "TriORM: Workload-Aware Neural-Symbolic Multi-objective Optimization for ORM Mapping Design",
     "abstract": "",
     "authors": [
       {
@@ -4524,10 +4778,10 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-3812adfa-0e7e-4215-914e-e2365ccb8cd5",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814920",
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "TriORM: Workload-Aware Neural--Symbolic Multi-Objective Optimization for ORM Mapping Design AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Sasan Azizian Ayoub Hazrati Artin Azizian Elham Rastegari Bellevue University The Vanguard Group McGill University, School of Computer Science Creighton University"
+    "searchText": "TriORM: Workload-Aware Neural-Symbolic Multi-objective Optimization for ORM Mapping Design AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Sasan Azizian Ayoub Hazrati Artin Azizian Elham Rastegari Bellevue University The Vanguard Group McGill University, School of Computer Science Creighton University"
   },
   {
     "id": "fse2026-2026-07-06-unsupervised-extraction-of-latent-structures-in-software-operati-8f16f717",
@@ -4586,7 +4840,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-3bfc3254-2603-4d95-86f7-71cdc62663d5",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814901",
     "preprintUrl": null,
     "keywords": [],
     "searchText": "Artifact Readiness Gates with Saturation Stop Rules and Host-Parity Admissibility for FM Release Evaluation AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Yanick Kanyiki InvarLock Inc., CA"
@@ -4709,7 +4963,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-025ec95b-94b7-4922-94f3-8e27d2194940",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814917",
     "preprintUrl": null,
     "keywords": [],
     "searchText": "Towards Migrating Neural Network Implementations AIware Honorable Mention Paper Award AIware Main Track Talk MB 1.210 Trustworthy Code Generation, Reliability, and Engineering of AIware Systems Nadia Daoudi Iván Alfonso Jordi Cabot Luxembourg Institute of Science and Technology Luxembourg Institute of Science and Technology Luxembourg Institute of Science and Technology"
@@ -4745,7 +4999,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-1ea657ad-dbcf-4498-b035-9e9c4e73794d",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814898",
     "preprintUrl": null,
     "keywords": [
       "code"
@@ -5718,7 +5972,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-9d18bc82-5ed6-4438-b2db-a34bc79ac7cb",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://neuzhangy.github.io/assets/ChatGPT_Test_TSE-ChRiQmJ1.pdf",
     "keywords": [
       "testing",
       "security"
@@ -7547,7 +7801,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-b50c18de-3b57-4177-b618-303839895e89",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814925",
     "preprintUrl": null,
     "keywords": [
       "code"
@@ -7954,7 +8208,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-b999b672-9b6e-417d-9f9f-8fa11592e8e8",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814924",
     "preprintUrl": null,
     "keywords": [
       "LLM",
@@ -8070,11 +8324,11 @@
     "searchText": "Behind Defective Mobile AR Apps: Studying Reviews and Bugs of Android AR Software with Comparison to Prior Bug Studies Research Papers Talk MB 2.435 Mobile Apps 1 Tahmid Rafi Xueling Zhang Jianwei Niu Xiaoyin Wang University of Texas at San Antonio Rochester Institute of Technology University of Texas at San Antonio University of Texas at San Antonio"
   },
   {
-    "id": "fse2026-2026-07-07-do-agents-dream-of-root-shells-partial-credit-evaluation-of-llm--210ac175",
+    "id": "fse2026-2026-07-07-do-agents-dream-of-root-shells-partial-credit-evaluation-of-llm--eeefa374",
     "sourceSlotId": "38f27eb8-b66f-4da8-b2db-504d834a6a64",
     "researchrEventId": "01284c6b-315f-4b76-b20e-063a2f83ea7e",
     "kind": "talk",
-    "title": "Do Agents Dream of Root Shells? Partial-Credit Evaluation of LLM Agents in Capture The Flag Challenges",
+    "title": "Do Agents Dream of Root Shells? Partial-Credit Evaluation of LLM Agents in Capture the Flag Challenges",
     "abstract": "",
     "authors": [
       {
@@ -8120,14 +8374,14 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-01284c6b-315f-4b76-b20e-063a2f83ea7e",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814926",
     "preprintUrl": null,
     "keywords": [
       "LLM",
       "large language model",
       "agents"
     ],
-    "searchText": "Do Agents Dream of Root Shells? Partial-Credit Evaluation of LLM Agents in Capture The Flag Challenges AIware Benchmark & Dataset Track Talk MB 1.210 Benchmarks, Datasets, and Evaluation of AIware Ali Al-Kaswan Maksim Plotnikov Maxim Hájek Roland Vízner Arie van Deursen Mali Izadi Delft University of Technology, Netherlands Delft University of Technology, NL Delft University of Technology, NL Delft University of Technology, NL TU Delft Google & TU Delft LLM large language model agents"
+    "searchText": "Do Agents Dream of Root Shells? Partial-Credit Evaluation of LLM Agents in Capture the Flag Challenges AIware Benchmark & Dataset Track Talk MB 1.210 Benchmarks, Datasets, and Evaluation of AIware Ali Al-Kaswan Maksim Plotnikov Maxim Hájek Roland Vízner Arie van Deursen Mali Izadi Delft University of Technology, Netherlands Delft University of Technology, NL Delft University of Technology, NL Delft University of Technology, NL TU Delft Google & TU Delft LLM large language model agents"
   },
   {
     "id": "fse2026-2026-07-07-fairness-testing-of-large-language-models-in-role-playing-35a09779",
@@ -8433,7 +8687,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-8bc44975-fdb8-4a1c-beb7-670b5a553ce1",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814922",
     "preprintUrl": null,
     "keywords": [
       "agents"
@@ -8682,7 +8936,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-dbc9708f-e8bb-4bad-ae0e-3cb792f78b7f",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://arxiv.org/abs/2607.02512",
     "keywords": [
       "testing",
       "code"
@@ -8887,11 +9141,11 @@
     "searchText": "Empowering Autonomous Debugging Agents with Efficient Dynamic Analysis Research Papers Talk MB 2.430 Debugging Jiahong Xiang Xiaoyang Xu Xiaopan Chu Hongliang Tian Yuqun Zhang Southern University of Science and Technology Southern University of Science and Technology Southern University of Science and Technology Ant Group Southern University of Science and Technology agents"
   },
   {
-    "id": "fse2026-2026-07-07-is-artificial-intelligence-an-elixir-to-the-software-engineering-b436b2b8",
+    "id": "fse2026-2026-07-07-is-artificial-intelligence-an-elixir-to-the-software-engineering-5a051e82",
     "sourceSlotId": "e7087ba2-3f76-49a0-8b75-e3aa4e54fb15",
     "researchrEventId": "152b7f3d-24ec-44a2-a643-890722a291b5",
     "kind": "talk",
-    "title": "Is Artificial Intelligence an Elixir to the Software Engineering Community? An Empirical Study Among Managers",
+    "title": "Is Artificial Intelligence an Elixir to the Software Engineering Community? An Empirical Study among Managers",
     "abstract": "",
     "authors": [
       {
@@ -8922,10 +9176,10 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-152b7f3d-24ec-44a2-a643-890722a291b5",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814907",
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "Is Artificial Intelligence an Elixir to the Software Engineering Community? An Empirical Study Among Managers AIware Main Track Talk MB 1.210 Human Factors, Responsible AIware, and Benchmarks & Datasets Xin Zhao Brian Vu Sitesh Pattanaik Seattle University Seattle University, US Donald Bren School of Information and Computer Sciences, University of California, Irvine, US"
+    "searchText": "Is Artificial Intelligence an Elixir to the Software Engineering Community? An Empirical Study among Managers AIware Main Track Talk MB 1.210 Human Factors, Responsible AIware, and Benchmarks & Datasets Xin Zhao Brian Vu Sitesh Pattanaik Seattle University Seattle University, US Donald Bren School of Information and Computer Sciences, University of California, Irvine, US"
   },
   {
     "id": "fse2026-2026-07-07-mining-long-tail-bugs-identifying-rare-and-overlooked-issues-in--7a8ddfc6",
@@ -9295,7 +9549,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-523372cf-ea65-444b-b65b-8dd97903523e",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814913",
     "preprintUrl": "https://storage.googleapis.com/gweb-research2023-media/pubtools/1038077.pdf",
     "keywords": [
       "agents"
@@ -9328,7 +9582,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-6cf882d0-b479-4ce1-b08e-16ef0f918731",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814918",
     "preprintUrl": null,
     "keywords": [],
     "searchText": "Auditing Who Appears to Belong: A Large-Scale Empirical Study of Bias in Deployed Text-to-Image Systems for Software Engineering AIware Main Track Talk MB 1.210 Human Factors, Responsible AIware, and Benchmarks & Datasets Mohamad Kassab Boston University"
@@ -9597,7 +9851,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-6f86edc6-5194-48f8-9b06-afbfd41fb3c5",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814899",
     "preprintUrl": "https://arxiv.org/abs/2605.05584",
     "keywords": [
       "agents",
@@ -9631,7 +9885,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-01209e33-ebbd-4cd5-9917-21aa4411322a",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814889",
     "preprintUrl": "https://arxiv.org/abs/2605.04532",
     "keywords": [
       "agents"
@@ -9910,7 +10164,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-6e42db1b-8d2e-4e30-924a-d56beda8cb66",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814903",
     "preprintUrl": null,
     "keywords": [
       "security",
@@ -10078,7 +10332,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-e2a1cb99-674e-440d-925e-412269eb3a4e",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814932",
     "preprintUrl": null,
     "keywords": [
       "LLM",
@@ -10270,7 +10524,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-2fa79227-fc3d-45f9-8f2a-8ed55c74773d",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814933",
     "preprintUrl": null,
     "keywords": [
       "LLM",
@@ -10380,11 +10634,11 @@
     "searchText": "Automated Identification of Sexual Orientation and Gender Identity Discriminatory Texts from Issue Comments Journal-First Paper Talk MB 3.430 MSR 1 Sayma Sultana Jaydeb Sarker Farzana Israt Rajshakhar Paul Amiangshu Bosu Tulane University, USA University of Nebraska at Omaha Wayne State University Wayne State University Wayne State University"
   },
   {
-    "id": "fse2026-2026-07-07-crosscommitvuln-bench-a-dataset-of-multi-commit-python-vulnerabi-cc67e090",
+    "id": "fse2026-2026-07-07-crosscommitvuln-bench-a-dataset-of-multi-commit-python-vulnerabi-5bb92c0a",
     "sourceSlotId": "5f871333-1cb8-42bd-a36b-6bd686284dce",
     "researchrEventId": "d53b89b9-c001-4395-87b9-da543d79c13a",
     "kind": "talk",
-    "title": "CrossCommitVuln-Bench: A Dataset of Multi-Commit Python Vulnerabilities Invisible to Per-Commit Static Analysis",
+    "title": "CrossCommitVuln-Bench: A Dataset of Multi-commit Python Vulnerabilities Invisible to Per-Commit Static Analysis",
     "abstract": "",
     "authors": [
       {
@@ -10405,10 +10659,10 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-d53b89b9-c001-4395-87b9-da543d79c13a",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814928",
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "CrossCommitVuln-Bench: A Dataset of Multi-Commit Python Vulnerabilities Invisible to Per-Commit Static Analysis AIware Benchmark & Dataset Track Talk MB 1.210 Human Factors, Responsible AIware, and Benchmarks & Datasets Arunabh Majumdar Independent Researcher, IN"
+    "searchText": "CrossCommitVuln-Bench: A Dataset of Multi-commit Python Vulnerabilities Invisible to Per-Commit Static Analysis AIware Benchmark & Dataset Track Talk MB 1.210 Human Factors, Responsible AIware, and Benchmarks & Datasets Arunabh Majumdar Independent Researcher, IN"
   },
   {
     "id": "fse2026-2026-07-07-debugging-engine-enhanced-by-prior-knowledge-can-we-teach-llm-ho-4bed8a8f",
@@ -10679,7 +10933,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-a775d148-15e7-40b5-aaa3-87e1acdb987d",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814935",
     "preprintUrl": null,
     "keywords": [
       "LLM",
@@ -10787,11 +11041,11 @@
     "searchText": "Directed Grammar-Based Test Generation Journal-First Paper Talk MB 3.435 Test generation 1 Lukas Kirschner Ezekiel Soremekun Saarland University Singapore University of Technology and Design testing"
   },
   {
-    "id": "fse2026-2026-07-07-rustbuildeq-a-benchmark-for-binary-equivalence-under-build-varia-29c3dc17",
+    "id": "fse2026-2026-07-07-rustbuildeq-a-benchmark-for-binary-equivalence-under-build-varia-d71cfde9",
     "sourceSlotId": "7ea9eace-518a-47fd-8452-a28f13aa865c",
     "researchrEventId": "86092cdd-eb8c-4764-a7bf-096b5d9b63af",
     "kind": "talk",
-    "title": "RustBuildEq: A Benchmark for Binary Equivalence Under Build Variability",
+    "title": "RustBuildEq: A Benchmark for Binary Equivalence under Build Variability",
     "abstract": "",
     "authors": [
       {
@@ -10827,10 +11081,10 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-86092cdd-eb8c-4764-a7bf-096b5d9b63af",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814930",
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "RustBuildEq: A Benchmark for Binary Equivalence Under Build Variability AIware Benchmark & Dataset Track Talk MB 1.210 Human Factors, Responsible AIware, and Benchmarks & Datasets Elliott Wen Chenye Ni Valerio Terragni Jens Dietrich The University of Auckland University of Auckland Victoria University of Wellington"
+    "searchText": "RustBuildEq: A Benchmark for Binary Equivalence under Build Variability AIware Benchmark & Dataset Track Talk MB 1.210 Human Factors, Responsible AIware, and Benchmarks & Datasets Elliott Wen Chenye Ni Valerio Terragni Jens Dietrich The University of Auckland University of Auckland Victoria University of Wellington"
   },
   {
     "id": "fse2026-2026-07-07-v2e-validating-smart-contract-vulnerabilities-through-profit-dri-51c3402d",
@@ -10904,11 +11158,11 @@
     "searchText": "V2E: Validating Smart Contract Vulnerabilities through Profit-driven Exploit Generation and Execution Research Papers Talk MB 2.435 Smart contract security Jingwen Zhang Yuhong Nan Kaiwen Ning Mingxi Ye Wei Li Yuming Xiao Yuming Feng Weizhe Zhang Zibin Zheng School of Software Engineering, Sun Yat sen University Sun Yat-sen University Sun Yat-sen University Sun Yat-sen University School of Software Engineering, Sun Yat sen University School of Software Engineering, Sun Yat sen University Peng Cheng Laboratory Harbin Institute of Technology Sun Yat-sen University"
   },
   {
-    "id": "fse2026-2026-07-07-togbench-a-developer-written-multi-variant-dataset-and-benchmark-a62dfaac",
+    "id": "fse2026-2026-07-07-togbench-a-developer-written-multi-variant-dataset-and-benchmark-c4e5cc75",
     "sourceSlotId": "785c9445-d047-4ef1-b92b-027dc7d7a8cb",
     "researchrEventId": "defb34bc-0fc7-4a6f-b1b9-e20e938166f2",
     "kind": "talk",
-    "title": "TOGBench: A Developer-Written Multi-Variant Dataset and Benchmark Suite for Test Oracle Generation",
+    "title": "TOGBench: A Developer-Written Multi-variant Dataset and Benchmark Suite for Test Oracle Generation",
     "abstract": "",
     "authors": [
       {
@@ -10939,12 +11193,12 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-defb34bc-0fc7-4a6f-b1b9-e20e938166f2",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814927",
     "preprintUrl": null,
     "keywords": [
       "testing"
     ],
-    "searchText": "TOGBench: A Developer-Written Multi-Variant Dataset and Benchmark Suite for Test Oracle Generation AIware Benchmark & Dataset Track Talk MB 1.210 Human Factors, Responsible AIware, and Benchmarks & Datasets Tasfia Tasnim Matthew B Dwyer Soneya Binta Hossain University of Texas at Dallas, US University of Virginia University of Texas at Dallas testing"
+    "searchText": "TOGBench: A Developer-Written Multi-variant Dataset and Benchmark Suite for Test Oracle Generation AIware Benchmark & Dataset Track Talk MB 1.210 Human Factors, Responsible AIware, and Benchmarks & Datasets Tasfia Tasnim Matthew B Dwyer Soneya Binta Hossain University of Texas at Dallas, US University of Virginia University of Texas at Dallas testing"
   },
   {
     "id": "fse2026-2026-07-07-a-grounded-theory-of-debugging-in-professional-software-engineer-01ce65ec",
@@ -11049,11 +11303,11 @@
     "searchText": "AIMS: A Content-Aware Resource Management Approach for AI Assistant Systems Ideas, Visions and Reflections Talk MB 3.270 Agents Chiming Duan Tong Jia Minghua He Pei Xiao Lingzhe Zhang Zhewei Zhong Xin Zhang Ying Li Peking University Institute for Artificial Intelligence, Peking University, Beijing, China Peking University Peking University Peking University, China Bytedance Bytedance School of Software and Microelectronics, Peking University, Beijing, China"
   },
   {
-    "id": "fse2026-2026-07-07-hej-robust-a-robustness-benchmark-for-llm-based-automated-progra-98376173",
+    "id": "fse2026-2026-07-07-hej-robust-a-robustness-benchmark-for-llm-based-automated-progra-cd3bd5b2",
     "sourceSlotId": "c6bb5aae-9e7a-4d4c-816d-2974ea3a63b0",
     "researchrEventId": "494d804a-6bd0-4b0c-b65f-f8d0638d5b33",
     "kind": "talk",
-    "title": "HEJ-Robust: A Robustness Benchmark for LLM-based Automated Program Repair",
+    "title": "HEJ-Robust: A Robustness Benchmark for LLM-Based Automated Program Repair",
     "abstract": "",
     "authors": [
       {
@@ -11079,13 +11333,13 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-494d804a-6bd0-4b0c-b65f-f8d0638d5b33",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814929",
     "preprintUrl": null,
     "keywords": [
       "LLM",
       "large language model"
     ],
-    "searchText": "HEJ-Robust: A Robustness Benchmark for LLM-based Automated Program Repair AIware Benchmark & Dataset Track Talk MB 1.210 Human Factors, Responsible AIware, and Benchmarks & Datasets Fazle Rabbi Jinqiu Yang Concordia University Concordia University LLM large language model"
+    "searchText": "HEJ-Robust: A Robustness Benchmark for LLM-Based Automated Program Repair AIware Benchmark & Dataset Track Talk MB 1.210 Human Factors, Responsible AIware, and Benchmarks & Datasets Fazle Rabbi Jinqiu Yang Concordia University Concordia University LLM large language model"
   },
   {
     "id": "fse2026-2026-07-07-lpb-gen-systematic-large-log-parsing-benchmarks-generation-9a45131c",
@@ -11325,7 +11579,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-43dd03df-7b6f-4ae7-9478-48a91bd16492",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814934",
     "preprintUrl": "https://arxiv.org/abs/2510.18013",
     "keywords": [],
     "searchText": "JunoBench: A Benchmark Dataset of Crashes in Python Machine Learning Jupyter Notebooks AIware Benchmark & Dataset Track Paper MB 1.210 Human Factors, Responsible AIware, and Benchmarks & Datasets Yiran Wang José Antonio Hernández López Ulf Nilsson Daniel Varro Linköping University Department of Computer Science and Systems, University of Murcia Linköping University Linköping University / McGill University"
@@ -11437,7 +11691,7 @@
     "room": "MB 1.210",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-bdae0154-488e-4c90-a4aa-5d7b827c7ccc",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814931",
     "preprintUrl": null,
     "keywords": [
       "LLM",
@@ -15097,7 +15351,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-8119470a-8f31-48c0-8e95-dc9784b8cd55",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://arxiv.org/abs/2501.14683",
     "keywords": [
       "LLM",
       "large language model"
@@ -17177,46 +17431,6 @@
     "searchText": "ReGA: Model-based Safeguard for LLMs via Representation-Guided Abstraction Research Papers Talk MB 3.435 Security 2 Zeming Wei Chengcan Wu Meng Sun Peking University Peking University Peking University LLM large language model"
   },
   {
-    "id": "fse2026-2026-07-08-reward-free-code-alignment-from-pretrained-or-fine-tuned-llm-unp-0c10ae7b",
-    "sourceSlotId": "0e0e4d32-a46d-43aa-96e4-7eb17f6d7e9f",
-    "researchrEventId": "c8eeb71b-3924-4734-b3bb-c3c8ae6d4436",
-    "kind": "talk",
-    "title": "Reward-Free Code Alignment from Pretrained or Fine-Tuned LLM: Unpacking the Trade-offs for Code Generation",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Sanjeepan Sivapiran",
-        "affiliation": "York University"
-      },
-      {
-        "name": "Gias Uddin",
-        "affiliation": "York University, Canada"
-      }
-    ],
-    "speakerNames": [
-      "Sanjeepan Sivapiran",
-      "Gias Uddin"
-    ],
-    "track": "Research Papers",
-    "session": "Code Generation 1",
-    "eventType": "Talk",
-    "date": "2026-07-08",
-    "startTime": "11:50",
-    "endTime": "12:10",
-    "durationMinutes": 20,
-    "room": "MB 3.270",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-c8eeb71b-3924-4734-b3bb-c3c8ae6d4436",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
-    "keywords": [
-      "LLM",
-      "large language model",
-      "code"
-    ],
-    "searchText": "Reward-Free Code Alignment from Pretrained or Fine-Tuned LLM: Unpacking the Trade-offs for Code Generation Research Papers Talk MB 3.270 Code Generation 1 Sanjeepan Sivapiran Gias Uddin York University York University, Canada LLM large language model code"
-  },
-  {
     "id": "fse2026-2026-07-08-specweaver-end-to-end-http-api-specification-inference-across-mu-0c715e86",
     "sourceSlotId": "89af8153-0173-44b0-ad2f-68ddf89c6882",
     "researchrEventId": "e20e64c1-9d7e-4e27-af3b-723c4785d5ff",
@@ -17328,8 +17542,8 @@
     "room": "MB 5.215",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-f25c314d-b706-44b7-b423-609327bd018f",
     "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3803437.3806402",
+    "preprintUrl": "https://arxiv.org/abs/2604.15963",
     "keywords": [],
     "searchText": "Supporting the Comprehension of Data Analysis Scripts Tool Demonstrations Talk MB 5.215 Comprehension and Maintenance Florian Sihler Oliver Gerstl Lars Pfrenger Julian Schubert Matthias Tichy Ulm University Ulm University Ulm University Ulm University Ulm University"
   },
@@ -19151,30 +19365,35 @@
     "searchText": "MIMIC-Py: An Extensible Tool for Personality-Driven Automated Game Testing with Large Language Models Tool Demonstrations Talk MB 2.210 LLM for SE 5 Yifei Chen Sarra Habchi Lili Wei McGill University Cohere, Canada McGill University LLM large language model testing"
   },
   {
-    "id": "fse2026-2026-07-08-revealing-regressions-a-comparative-study-of-state-capture-strat-61b7759b",
-    "sourceSlotId": "3820848f-d92f-4742-a06f-23ee86655e0e",
-    "researchrEventId": "63ddc4ee-0292-4f1d-925c-47fb1487f0e9",
+    "id": "fse2026-2026-07-08-testtailor-generating-high-coverage-tests-via-path-proximal-test-cc064413",
+    "sourceSlotId": "ad88df1e-9389-477c-98b3-8460690c2056",
+    "researchrEventId": "1f4847a1-f322-455b-af66-3b873e7783d8",
     "kind": "talk",
-    "title": "Revealing Regressions: A Comparative Study of State-Capture Strategies in Validating Program Behavior",
+    "title": "TestTailor: Generating High-Coverage Tests via Path-Proximal Tests with LLMs",
     "abstract": "",
     "authors": [
       {
-        "name": "Hang Du",
-        "affiliation": "University of California at Irvine"
+        "name": "Xiaoxuan Zhou",
+        "affiliation": "Northeastern University"
       },
       {
-        "name": "Vijay Krishna Palepu",
-        "affiliation": "Microsoft"
+        "name": "Yiling Lou",
+        "affiliation": "University of Illinois at Urbana-Champaign"
       },
       {
-        "name": "James Jones",
-        "affiliation": "University of California at Irvine"
+        "name": "Jinhao Dong",
+        "affiliation": "Peking University"
+      },
+      {
+        "name": "Dan Hao",
+        "affiliation": "Peking University"
       }
     ],
     "speakerNames": [
-      "Hang Du",
-      "Vijay Krishna Palepu",
-      "James Jones"
+      "Xiaoxuan Zhou",
+      "Yiling Lou",
+      "Jinhao Dong",
+      "Dan Hao"
     ],
     "track": "Research Papers",
     "session": "Software Tests",
@@ -19184,12 +19403,16 @@
     "endTime": "14:40",
     "durationMinutes": 20,
     "room": "MB 2.430",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-63ddc4ee-0292-4f1d-925c-47fb1487f0e9",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-1f4847a1-f322-455b-af66-3b873e7783d8",
     "presentationUrl": null,
-    "doiUrl": "https://doi.org/10.1145/3797107",
+    "doiUrl": null,
     "preprintUrl": null,
-    "keywords": [],
-    "searchText": "Revealing Regressions: A Comparative Study of State-Capture Strategies in Validating Program Behavior Research Papers Talk MB 2.430 Software Tests Hang Du Vijay Krishna Palepu James Jones University of California at Irvine Microsoft University of California at Irvine"
+    "keywords": [
+      "LLM",
+      "large language model",
+      "testing"
+    ],
+    "searchText": "TestTailor: Generating High-Coverage Tests via Path-Proximal Tests with LLMs Research Papers Talk MB 2.430 Software Tests Xiaoxuan Zhou Yiling Lou Jinhao Dong Dan Hao Northeastern University University of Illinois at Urbana-Champaign Peking University Peking University LLM large language model testing"
   },
   {
     "id": "fse2026-2026-07-08-unfulfilled-promises-llm-based-detection-of-os-compatibility-iss-37b71d28",
@@ -19548,7 +19771,7 @@
       },
       {
         "name": "Rongxin Wu",
-        "affiliation": ""
+        "affiliation": "Xiamen University"
       }
     ],
     "speakerNames": [
@@ -19574,7 +19797,7 @@
       "LLM",
       "large language model"
     ],
-    "searchText": "TypePro: Boosting LLM-Based Type Inference via Inter-Procedural Slicing Research Papers Talk MB 3.430 Program analysis 2 linTeyu Minghao Fan Huaxun Huang Zhirong Shen Rongxin Wu Xiamen University Xiamen University Xiamen University Xiamen University LLM large language model"
+    "searchText": "TypePro: Boosting LLM-Based Type Inference via Inter-Procedural Slicing Research Papers Talk MB 3.430 Program analysis 2 linTeyu Minghao Fan Huaxun Huang Zhirong Shen Rongxin Wu Xiamen University Xiamen University Xiamen University Xiamen University Xiamen University LLM large language model"
   },
   {
     "id": "fse2026-2026-07-08-declarative-test-native-software-fault-injection-62956e21",
@@ -19797,6 +20020,75 @@
     "searchText": "Does the Agent Matter? Predicting Merge Outcomes of AI-Authored Pull Requests Student Research Competition Talk MB 9A Student Research Competition Niruthiha Selvanayagam Ecole de Technologie Supérieure pull request GitHub agents"
   },
   {
+    "id": "fse2026-2026-07-08-dynamic-cogeneration-of-bug-reproduction-test-in-agentic-program-d9a803c4",
+    "sourceSlotId": "895ebac0-6b25-4af0-bdde-97083b5d4bd4",
+    "researchrEventId": "ea835564-0334-487c-b192-3a318eae3108",
+    "kind": "talk",
+    "title": "Dynamic Cogeneration of Bug Reproduction Test in Agentic Program Repair",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Sam Cheng",
+        "affiliation": "Google"
+      },
+      {
+        "name": "Michele Tufano",
+        "affiliation": "Google"
+      },
+      {
+        "name": "José Pablo Cambronero",
+        "affiliation": "Google, USA"
+      },
+      {
+        "name": "Renyao Wei",
+        "affiliation": "Google"
+      },
+      {
+        "name": "Sherry Shi",
+        "affiliation": "Google"
+      },
+      {
+        "name": "Grant Uy",
+        "affiliation": "Google"
+      },
+      {
+        "name": "Patrick Rondon",
+        "affiliation": "Google"
+      },
+      {
+        "name": "Franjo Ivančić",
+        "affiliation": "Google"
+      }
+    ],
+    "speakerNames": [
+      "Sam Cheng",
+      "Michele Tufano",
+      "José Pablo Cambronero",
+      "Renyao Wei",
+      "Sherry Shi",
+      "Grant Uy",
+      "Patrick Rondon",
+      "Franjo Ivančić"
+    ],
+    "track": "Industry Papers",
+    "session": "Software Tests",
+    "eventType": "Talk",
+    "date": "2026-07-08",
+    "startTime": "14:40",
+    "endTime": "15:00",
+    "durationMinutes": 20,
+    "room": "MB 2.430",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-ea835564-0334-487c-b192-3a318eae3108",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [
+      "testing",
+      "agents"
+    ],
+    "searchText": "Dynamic Cogeneration of Bug Reproduction Test in Agentic Program Repair Industry Papers Talk MB 2.430 Software Tests Sam Cheng Michele Tufano José Pablo Cambronero Renyao Wei Sherry Shi Grant Uy Patrick Rondon Franjo Ivančić Google Google Google, USA Google Google Google Google Google testing agents"
+  },
+  {
     "id": "fse2026-2026-07-08-from-load-tests-to-live-streams-graph-embedding-based-anomaly-de-c88cf99d",
     "sourceSlotId": "69caa4ee-c334-4944-af3d-277c0bc360f0",
     "researchrEventId": "0b500978-432b-40f9-9a63-60e68ac8b796",
@@ -19987,56 +20279,6 @@
       "large language model"
     ],
     "searchText": "Projectional Decoding: Towards Semantic-Aware LLM Generation Ideas, Visions and Reflections Talk MB 3.270 Code and LLM 1 Boqi Chen José Antonio Hernández López Aren Babikian University of Ottawa Department of Computer Science and Systems, University of Murcia University of Toronto LLM large language model"
-  },
-  {
-    "id": "fse2026-2026-07-08-testtailor-generating-high-coverage-tests-via-path-proximal-test-cc064413",
-    "sourceSlotId": "ad88df1e-9389-477c-98b3-8460690c2056",
-    "researchrEventId": "1f4847a1-f322-455b-af66-3b873e7783d8",
-    "kind": "talk",
-    "title": "TestTailor: Generating High-Coverage Tests via Path-Proximal Tests with LLMs",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Xiaoxuan Zhou",
-        "affiliation": "Northeastern University"
-      },
-      {
-        "name": "Yiling Lou",
-        "affiliation": "University of Illinois at Urbana-Champaign"
-      },
-      {
-        "name": "Jinhao Dong",
-        "affiliation": "Peking University"
-      },
-      {
-        "name": "Dan Hao",
-        "affiliation": "Peking University"
-      }
-    ],
-    "speakerNames": [
-      "Xiaoxuan Zhou",
-      "Yiling Lou",
-      "Jinhao Dong",
-      "Dan Hao"
-    ],
-    "track": "Research Papers",
-    "session": "Software Tests",
-    "eventType": "Talk",
-    "date": "2026-07-08",
-    "startTime": "14:40",
-    "endTime": "15:00",
-    "durationMinutes": 20,
-    "room": "MB 2.430",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-1f4847a1-f322-455b-af66-3b873e7783d8",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
-    "keywords": [
-      "LLM",
-      "large language model",
-      "testing"
-    ],
-    "searchText": "TestTailor: Generating High-Coverage Tests via Path-Proximal Tests with LLMs Research Papers Talk MB 2.430 Software Tests Xiaoxuan Zhou Yiling Lou Jinhao Dong Dan Hao Northeastern University University of Illinois at Urbana-Champaign Peking University Peking University LLM large language model testing"
   },
   {
     "id": "fse2026-2026-07-08-unleashing-hpc-application-performance-through-software-deployme-f795f29b",
@@ -20627,73 +20869,42 @@
     "searchText": "Deliverables Are Not Understanding in the AI Era: Reforming Full-Stack Development Education with Continuous Interactive Learning Software Engineering Education Talk MB 9C SEET: LLMs in the SE Classroom Haolin Jin Jiawen Wen Zhaoge Bi Linghan Hua Huaming Chen The University of Sydney The University of Sydney The University of Sydney The University of Sydney The University of Sydney"
   },
   {
-    "id": "fse2026-2026-07-08-dynamic-cogeneration-of-bug-reproduction-test-in-agentic-program-d9a803c4",
-    "sourceSlotId": "895ebac0-6b25-4af0-bdde-97083b5d4bd4",
-    "researchrEventId": "ea835564-0334-487c-b192-3a318eae3108",
+    "id": "fse2026-2026-07-08-energy-aware-test-prioritization-for-high-performance-computing--0b17735a",
+    "sourceSlotId": "53a34be6-9320-46d8-8097-0b7ca033f1d2",
+    "researchrEventId": "a1794744-72a0-46db-8dbc-352f739e360f",
     "kind": "talk",
-    "title": "Dynamic Cogeneration of Bug Reproduction Test in Agentic Program Repair",
+    "title": "Energy-Aware Test Prioritization for High-Performance Computing: A Multi-Objective Approach",
     "abstract": "",
     "authors": [
       {
-        "name": "Sam Cheng",
-        "affiliation": "Google"
+        "name": "Ninad Anklesaria",
+        "affiliation": "Oregon State University"
       },
       {
-        "name": "Michele Tufano",
-        "affiliation": "Google"
-      },
-      {
-        "name": "José Pablo Cambronero",
-        "affiliation": "Google, USA"
-      },
-      {
-        "name": "Renyao Wei",
-        "affiliation": "Google"
-      },
-      {
-        "name": "Sherry Shi",
-        "affiliation": "Google"
-      },
-      {
-        "name": "Grant Uy",
-        "affiliation": "Google"
-      },
-      {
-        "name": "Patrick Rondon",
-        "affiliation": "Google"
-      },
-      {
-        "name": "Franjo Ivančić",
-        "affiliation": "Google"
+        "name": "Manish Motwani",
+        "affiliation": "Oregon State University"
       }
     ],
     "speakerNames": [
-      "Sam Cheng",
-      "Michele Tufano",
-      "José Pablo Cambronero",
-      "Renyao Wei",
-      "Sherry Shi",
-      "Grant Uy",
-      "Patrick Rondon",
-      "Franjo Ivančić"
+      "Ninad Anklesaria",
+      "Manish Motwani"
     ],
-    "track": "Industry Papers",
+    "track": "Ideas, Visions and Reflections",
     "session": "Software Tests",
     "eventType": "Talk",
     "date": "2026-07-08",
     "startTime": "15:00",
-    "endTime": "15:20",
-    "durationMinutes": 20,
+    "endTime": "15:10",
+    "durationMinutes": 10,
     "room": "MB 2.430",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-ea835564-0334-487c-b192-3a318eae3108",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-a1794744-72a0-46db-8dbc-352f739e360f",
     "presentationUrl": null,
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [
-      "testing",
-      "agents"
+      "testing"
     ],
-    "searchText": "Dynamic Cogeneration of Bug Reproduction Test in Agentic Program Repair Industry Papers Talk MB 2.430 Software Tests Sam Cheng Michele Tufano José Pablo Cambronero Renyao Wei Sherry Shi Grant Uy Patrick Rondon Franjo Ivančić Google Google Google, USA Google Google Google Google Google testing agents"
+    "searchText": "Energy-Aware Test Prioritization for High-Performance Computing: A Multi-Objective Approach Ideas, Visions and Reflections Talk MB 2.430 Software Tests Ninad Anklesaria Manish Motwani Oregon State University Oregon State University testing"
   },
   {
     "id": "fse2026-2026-07-08-llm-assisted-input-requirement-aware-differential-testing-of-arr-454d1c5d",
@@ -21405,44 +21616,6 @@
       "code"
     ],
     "searchText": "CodeGreen: Towards Improving Precision and Portability in Software Energy Measurement Tool Demonstrations Talk MB 3.435 Performance and energy Saurabhsingh Rajput Tushar Sharma Dalhousie University Dalhousie University code"
-  },
-  {
-    "id": "fse2026-2026-07-08-energy-aware-test-prioritization-for-high-performance-computing--0b17735a",
-    "sourceSlotId": "53a34be6-9320-46d8-8097-0b7ca033f1d2",
-    "researchrEventId": "a1794744-72a0-46db-8dbc-352f739e360f",
-    "kind": "talk",
-    "title": "Energy-Aware Test Prioritization for High-Performance Computing: A Multi-Objective Approach",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Ninad Anklesaria",
-        "affiliation": "Oregon State University"
-      },
-      {
-        "name": "Manish Motwani",
-        "affiliation": "Oregon State University"
-      }
-    ],
-    "speakerNames": [
-      "Ninad Anklesaria",
-      "Manish Motwani"
-    ],
-    "track": "Ideas, Visions and Reflections",
-    "session": "Software Tests",
-    "eventType": "Talk",
-    "date": "2026-07-08",
-    "startTime": "15:20",
-    "endTime": "15:30",
-    "durationMinutes": 10,
-    "room": "MB 2.430",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-a1794744-72a0-46db-8dbc-352f739e360f",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
-    "keywords": [
-      "testing"
-    ],
-    "searchText": "Energy-Aware Test Prioritization for High-Performance Computing: A Multi-Objective Approach Ideas, Visions and Reflections Talk MB 2.430 Software Tests Ninad Anklesaria Manish Motwani Oregon State University Oregon State University testing"
   },
   {
     "id": "fse2026-2026-07-08-an-empirical-study-of-public-generative-art-repositories-a76a2469",
@@ -22778,89 +22951,6 @@
     "searchText": "ACME: Automated Clause Mapping Engine for Testing Emerging Database Systems Research Papers Talk MB 1.210 Testing 3 Yuancheng Jiang Jianing Wang Chuqi Zhang Roland H. C. Yap Zhenkai Liang Manuel Rigger National University of Singapore Shandong University National University of Singapore National University of Singapore National University of Singapore National University of Singapore testing"
   },
   {
-    "id": "fse2026-2026-07-09-chiseling-out-efficiency-structured-skeleton-supervision-for-eff-0ec75322",
-    "sourceSlotId": "1cfe5be5-d2d7-4a53-88c4-bd9ff7a476f5",
-    "researchrEventId": "fd90e987-e79a-4e2b-94ee-58fb6179aafd",
-    "kind": "talk",
-    "title": "Chiseling Out Efficiency: Structured Skeleton Supervision for Efficient Code Generation",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Yu Yu",
-        "affiliation": "Shandong Normal University"
-      },
-      {
-        "name": "Zhihong Sun",
-        "affiliation": "Nanjing University"
-      },
-      {
-        "name": "Jia Li",
-        "affiliation": "Tsinghua University"
-      },
-      {
-        "name": "Yao Wan",
-        "affiliation": "Huazhong University of Science and Technology"
-      },
-      {
-        "name": "Chuanyi Li",
-        "affiliation": "Nanjing University"
-      },
-      {
-        "name": "Hongyu Zhang",
-        "affiliation": "Chongqing University"
-      },
-      {
-        "name": "Ruyun Wang",
-        "affiliation": "Institute of Information Engineering, Chinese Academy of Sciences"
-      },
-      {
-        "name": "Tao Huang",
-        "affiliation": "Shandong Normal University"
-      },
-      {
-        "name": "Zhi Jin",
-        "affiliation": "Peking University, Wuhan University"
-      },
-      {
-        "name": "Ge Li",
-        "affiliation": "Peking University"
-      },
-      {
-        "name": "Chen Lyu",
-        "affiliation": "Shandong Normal University"
-      }
-    ],
-    "speakerNames": [
-      "Yu Yu",
-      "Zhihong Sun",
-      "Jia Li",
-      "Yao Wan",
-      "Chuanyi Li",
-      "Hongyu Zhang",
-      "Ruyun Wang",
-      "Tao Huang",
-      "Zhi Jin",
-      "Ge Li",
-      "Chen Lyu"
-    ],
-    "track": "Research Papers",
-    "session": "Code Generation 2",
-    "eventType": "Talk",
-    "date": "2026-07-09",
-    "startTime": "10:30",
-    "endTime": "10:50",
-    "durationMinutes": 20,
-    "room": "MB 3.210",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-fd90e987-e79a-4e2b-94ee-58fb6179aafd",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": "https://arxiv.org/abs/2606.06821",
-    "keywords": [
-      "code"
-    ],
-    "searchText": "Chiseling Out Efficiency: Structured Skeleton Supervision for Efficient Code Generation Research Papers Talk MB 3.210 Code Generation 2 Yu Yu Zhihong Sun Jia Li Yao Wan Chuanyi Li Hongyu Zhang Ruyun Wang Tao Huang Zhi Jin Ge Li Chen Lyu Shandong Normal University Nanjing University Tsinghua University Huazhong University of Science and Technology Nanjing University Chongqing University Institute of Information Engineering, Chinese Academy of Sciences Shandong Normal University Peking University, Wuhan University Peking University Shandong Normal University code"
-  },
-  {
     "id": "fse2026-2026-07-09-cufuzz-an-api-knowledge-graph-coverage-driven-fuzzing-framework--68c93d41",
     "sourceSlotId": "ffddfe9b-4cd7-47c9-ae05-20bde1959974",
     "researchrEventId": "06111f38-5cd8-44d9-bc55-24658e19d4ec",
@@ -23366,6 +23456,54 @@
     "searchText": "Rethinking the Evaluation of Microservice RCA with a Fault Propagation-Aware Benchmark Research Papers Talk MB 2.430 Root Cause Analysis Aoyang Fang Songhan Zhang Yifan Yang Haotong Wu Junjielong Xu Xuyang Wang Rui Wang Manyi Wang Qisheng Lu Pinjia He Chinese University of Hong Kong, Shenzhen The Chinese University of Hong Kong, Shenzhen The Chinese University of Hong Kong, Shenzhen The Chinese University of Hong Kong, Shenzhen The Chinese University of Hong Kong, Shenzhen The Chinese University of Hong Kong, Shenzhen The Chinese University of Hong Kong, Shenzhen The Chinese University of Hong Kong, Shenzhen Chinese University of Hong Kong, Shenzhen"
   },
   {
+    "id": "fse2026-2026-07-09-the-impact-of-prompt-programming-on-function-level-code-generati-f91550f5",
+    "sourceSlotId": "cae8871b-a467-46b9-ac27-ce3556b30019",
+    "researchrEventId": "81b02d04-e511-4d3a-9f65-fa9bd49b21ef",
+    "kind": "talk",
+    "title": "The Impact of Prompt Programming on Function-Level Code Generation",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Ranim Khojah",
+        "affiliation": "Chalmers University of Technology and University of Gothenburg"
+      },
+      {
+        "name": "Francisco Gomes de Oliveira Neto",
+        "affiliation": "Chalmers | University of Gothenburg"
+      },
+      {
+        "name": "Mazen Mohamad",
+        "affiliation": "Chalmers | RISE - Research Institutes of Sweden"
+      },
+      {
+        "name": "Philipp Leitner",
+        "affiliation": "Chalmers | University of Gothenburg"
+      }
+    ],
+    "speakerNames": [
+      "Ranim Khojah",
+      "Francisco Gomes de Oliveira Neto",
+      "Mazen Mohamad",
+      "Philipp Leitner"
+    ],
+    "track": "Journal-First Paper",
+    "session": "Code Generation 2",
+    "eventType": "Talk",
+    "date": "2026-07-09",
+    "startTime": "10:30",
+    "endTime": "10:50",
+    "durationMinutes": 20,
+    "room": "MB 3.210",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-81b02d04-e511-4d3a-9f65-fa9bd49b21ef",
+    "presentationUrl": null,
+    "doiUrl": "https://doi.org/10.1109/TSE.2025.3587794",
+    "preprintUrl": null,
+    "keywords": [
+      "code"
+    ],
+    "searchText": "The Impact of Prompt Programming on Function-Level Code Generation Journal-First Paper Talk MB 3.210 Code Generation 2 Ranim Khojah Francisco Gomes de Oliveira Neto Mazen Mohamad Philipp Leitner Chalmers University of Technology and University of Gothenburg Chalmers | University of Gothenburg Chalmers | RISE - Research Institutes of Sweden Chalmers | University of Gothenburg code"
+  },
+  {
     "id": "fse2026-2026-07-09-towards-semantic-versioning-of-open-pre-trained-language-model-r-d852dfd2",
     "sourceSlotId": "a25d74b8-3e09-4e83-85f7-b5959040188b",
     "researchrEventId": "61509253-c1b3-4fcd-90cd-ec10f1718b5a",
@@ -23752,6 +23890,52 @@
     "searchText": "Causes and Canonicalization of Unreproducible Builds in Java Journal-First Paper Talk MB 9A Release Engineering Aman Sharma Benoit Baudry Martin Monperrus KTH Royal Institute of Technology Université de Montréal KTH Royal Institute of Technology"
   },
   {
+    "id": "fse2026-2026-07-09-graphqlify-automated-and-type-safety-preserving-graphql-api-adop-02e4b11e",
+    "sourceSlotId": "2118e0cd-f6d9-49a4-b53c-e34f8e3c9097",
+    "researchrEventId": "050add49-4d6a-4978-a3b2-653cafa508e1",
+    "kind": "talk",
+    "title": "GraphQLify: Automated and Type Safety-Preserving GraphQL API Adoption",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Saleh Amareen",
+        "affiliation": "Wayne State University"
+      },
+      {
+        "name": "Arif Rahman",
+        "affiliation": "Wayne State University"
+      },
+      {
+        "name": "Sazzadur Rahaman",
+        "affiliation": "University of Arizona, Tucson, Arizona, USA"
+      },
+      {
+        "name": "Amiangshu Bosu",
+        "affiliation": "Wayne State University"
+      }
+    ],
+    "speakerNames": [
+      "Saleh Amareen",
+      "Arif Rahman",
+      "Sazzadur Rahaman",
+      "Amiangshu Bosu"
+    ],
+    "track": "Research Papers",
+    "session": "Code Generation 2",
+    "eventType": "Talk",
+    "date": "2026-07-09",
+    "startTime": "10:50",
+    "endTime": "11:10",
+    "durationMinutes": 20,
+    "room": "MB 3.210",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-050add49-4d6a-4978-a3b2-653cafa508e1",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": "https://arxiv.org/pdf/2604.15465",
+    "keywords": [],
+    "searchText": "GraphQLify: Automated and Type Safety-Preserving GraphQL API Adoption Research Papers Talk MB 3.210 Code Generation 2 Saleh Amareen Arif Rahman Sazzadur Rahaman Amiangshu Bosu Wayne State University Wayne State University University of Arizona, Tucson, Arizona, USA Wayne State University"
+  },
+  {
     "id": "fse2026-2026-07-09-industrial-deployment-of-an-ai-multi-agent-system-for-requiremen-a73dee35",
     "sourceSlotId": "1183df1b-a162-4250-87fe-0f65d0088784",
     "researchrEventId": "a69557ef-afd5-4f2d-8c53-e979b9c00a28",
@@ -23990,54 +24174,6 @@
     "preprintUrl": null,
     "keywords": [],
     "searchText": "SQLiFuzz: Uncovering SQL Injection in Any Web Applications Research Papers Talk MB 3.430 Fuzzing 3 I Putu Arya Dharmaadi Thuan Pham Fadi Mohsen Fatih Turkmen University of Groningen University of Melbourne University of Groningen University of Groningen"
-  },
-  {
-    "id": "fse2026-2026-07-09-the-impact-of-prompt-programming-on-function-level-code-generati-f91550f5",
-    "sourceSlotId": "cae8871b-a467-46b9-ac27-ce3556b30019",
-    "researchrEventId": "81b02d04-e511-4d3a-9f65-fa9bd49b21ef",
-    "kind": "talk",
-    "title": "The Impact of Prompt Programming on Function-Level Code Generation",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Ranim Khojah",
-        "affiliation": "Chalmers University of Technology and University of Gothenburg"
-      },
-      {
-        "name": "Francisco Gomes de Oliveira Neto",
-        "affiliation": "Chalmers | University of Gothenburg"
-      },
-      {
-        "name": "Mazen Mohamad",
-        "affiliation": "Chalmers | RISE - Research Institutes of Sweden"
-      },
-      {
-        "name": "Philipp Leitner",
-        "affiliation": "Chalmers | University of Gothenburg"
-      }
-    ],
-    "speakerNames": [
-      "Ranim Khojah",
-      "Francisco Gomes de Oliveira Neto",
-      "Mazen Mohamad",
-      "Philipp Leitner"
-    ],
-    "track": "Journal-First Paper",
-    "session": "Code Generation 2",
-    "eventType": "Talk",
-    "date": "2026-07-09",
-    "startTime": "10:50",
-    "endTime": "11:10",
-    "durationMinutes": 20,
-    "room": "MB 3.210",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-81b02d04-e511-4d3a-9f65-fa9bd49b21ef",
-    "presentationUrl": null,
-    "doiUrl": "https://doi.org/10.1109/TSE.2025.3587794",
-    "preprintUrl": null,
-    "keywords": [
-      "code"
-    ],
-    "searchText": "The Impact of Prompt Programming on Function-Level Code Generation Journal-First Paper Talk MB 3.210 Code Generation 2 Ranim Khojah Francisco Gomes de Oliveira Neto Mazen Mohamad Philipp Leitner Chalmers University of Technology and University of Gothenburg Chalmers | University of Gothenburg Chalmers | RISE - Research Institutes of Sweden Chalmers | University of Gothenburg code"
   },
   {
     "id": "fse2026-2026-07-09-an-empirical-evaluation-of-generative-ai-in-security-requirement-e4875fd2",
@@ -24293,35 +24429,50 @@
     "searchText": "From Specifications to Implementation in the Gen-AI Era: Lessons from a Project-based Software Engineering Course Research Papers Talk MB 3.270 Code and LLM 2 Yingying Wang Masih Beigi Rizi Fatemeh Khashei Julia Rubin University of British Columbia University of British Columbia University of British Columbia The University of British Columbia"
   },
   {
-    "id": "fse2026-2026-07-09-graphqlify-automated-and-type-safety-preserving-graphql-api-adop-02e4b11e",
-    "sourceSlotId": "2118e0cd-f6d9-49a4-b53c-e34f8e3c9097",
-    "researchrEventId": "050add49-4d6a-4978-a3b2-653cafa508e1",
+    "id": "fse2026-2026-07-09-influence-aware-bayesian-inspired-token-reweighting-for-improved-4784bcd0",
+    "sourceSlotId": "ac1d201b-5868-4974-ab78-a3e7b86c65ab",
+    "researchrEventId": "70ad6c6a-3975-4b9d-bb93-4220779a22b8",
     "kind": "talk",
-    "title": "GraphQLify: Automated and Type Safety-Preserving GraphQL API Adoption",
+    "title": "Influence-Aware Bayesian-Inspired Token Reweighting for Improved Code Generation",
     "abstract": "",
     "authors": [
       {
-        "name": "Saleh Amareen",
-        "affiliation": "Wayne State University"
+        "name": "YUQI ZHU",
+        "affiliation": "Academy of Military Sciences"
       },
       {
-        "name": "Arif Rahman",
-        "affiliation": "Wayne State University"
+        "name": "Ge Li",
+        "affiliation": "Peking University"
       },
       {
-        "name": "Sazzadur Rahaman",
-        "affiliation": "University of Arizona, Tucson, Arizona, USA"
+        "name": "Hong Mei",
+        "affiliation": "Peking University"
       },
       {
-        "name": "Amiangshu Bosu",
-        "affiliation": "Wayne State University"
+        "name": "Zhi Jin",
+        "affiliation": "Peking University, Wuhan University"
+      },
+      {
+        "name": "Jia Li",
+        "affiliation": "Wuhan University"
+      },
+      {
+        "name": "Qibin Zheng",
+        "affiliation": "Advanced Institute of Big Data, Beijing"
+      },
+      {
+        "name": "Jieyuan Zhang",
+        "affiliation": "Academy of Military Sciences"
       }
     ],
     "speakerNames": [
-      "Saleh Amareen",
-      "Arif Rahman",
-      "Sazzadur Rahaman",
-      "Amiangshu Bosu"
+      "YUQI ZHU",
+      "Ge Li",
+      "Hong Mei",
+      "Zhi Jin",
+      "Jia Li",
+      "Qibin Zheng",
+      "Jieyuan Zhang"
     ],
     "track": "Research Papers",
     "session": "Code Generation 2",
@@ -24331,12 +24482,14 @@
     "endTime": "11:30",
     "durationMinutes": 20,
     "room": "MB 3.210",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-050add49-4d6a-4978-a3b2-653cafa508e1",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-70ad6c6a-3975-4b9d-bb93-4220779a22b8",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": "https://arxiv.org/pdf/2604.15465",
-    "keywords": [],
-    "searchText": "GraphQLify: Automated and Type Safety-Preserving GraphQL API Adoption Research Papers Talk MB 3.210 Code Generation 2 Saleh Amareen Arif Rahman Sazzadur Rahaman Amiangshu Bosu Wayne State University Wayne State University University of Arizona, Tucson, Arizona, USA Wayne State University"
+    "preprintUrl": null,
+    "keywords": [
+      "code"
+    ],
+    "searchText": "Influence-Aware Bayesian-Inspired Token Reweighting for Improved Code Generation Research Papers Talk MB 3.210 Code Generation 2 YUQI ZHU Ge Li Hong Mei Zhi Jin Jia Li Qibin Zheng Jieyuan Zhang Academy of Military Sciences Peking University Peking University Peking University, Wuhan University Wuhan University Advanced Institute of Big Data, Beijing Academy of Military Sciences code"
   },
   {
     "id": "fse2026-2026-07-09-leveraging-llms-for-alert-summarization-and-mitigation-plan-gene-202221c4",
@@ -25036,52 +25189,27 @@
     "searchText": "How Analysts Use AI in High-Stakes Crime Linkage: An Industrial Study Industry Papers Talk MB 3.445 Empirical 2 Jessica Woodhams Amy Burrell Wanyin Li Fahim Ahmed Matthew Tonkin Jan Lemeire Arkady Konovalov Steven Frisson Mark Webb Sarah Galambos Vesna Nowack Dalal Alrajeh University of Birmingham University of Birmingham University of Reading Imperial College London University of Leicester Vrije Universiteit University of Birmingham University of Birmingham National Crime Agency National Crime Agency Imperial College London Imperial College London"
   },
   {
-    "id": "fse2026-2026-07-09-influence-aware-bayesian-inspired-token-reweighting-for-improved-4784bcd0",
-    "sourceSlotId": "ac1d201b-5868-4974-ab78-a3e7b86c65ab",
-    "researchrEventId": "70ad6c6a-3975-4b9d-bb93-4220779a22b8",
+    "id": "fse2026-2026-07-09-humanevalcomm-benchmarking-the-communication-competence-of-code--a8f5dbb9",
+    "sourceSlotId": "399bf32c-6829-45fc-ac92-c3cf75f2e715",
+    "researchrEventId": "5a31be57-a0c1-41e2-882c-8fd03a67b35f",
     "kind": "talk",
-    "title": "Influence-Aware Bayesian-Inspired Token Reweighting for Improved Code Generation",
+    "title": "HumanEvalComm: Benchmarking the Communication Competence of Code Generation for LLMs and LLM Agent",
     "abstract": "",
     "authors": [
       {
-        "name": "YUQI ZHU",
-        "affiliation": "Academy of Military Sciences"
+        "name": "Jie JW Wu",
+        "affiliation": "Michigan Technological University, USA"
       },
       {
-        "name": "Ge Li",
-        "affiliation": "Peking University"
-      },
-      {
-        "name": "Hong Mei",
-        "affiliation": "Peking University"
-      },
-      {
-        "name": "Zhi Jin",
-        "affiliation": "Peking University, Wuhan University"
-      },
-      {
-        "name": "Jia Li",
-        "affiliation": "Wuhan University"
-      },
-      {
-        "name": "Qibin Zheng",
-        "affiliation": "Advanced Institute of Big Data, Beijing"
-      },
-      {
-        "name": "Jieyuan Zhang",
-        "affiliation": "Academy of Military Sciences"
+        "name": "Fatemeh Hendijani Fard",
+        "affiliation": "University of British Columbia, Okanagan"
       }
     ],
     "speakerNames": [
-      "YUQI ZHU",
-      "Ge Li",
-      "Hong Mei",
-      "Zhi Jin",
-      "Jia Li",
-      "Qibin Zheng",
-      "Jieyuan Zhang"
+      "Jie JW Wu",
+      "Fatemeh Hendijani Fard"
     ],
-    "track": "Research Papers",
+    "track": "Journal-First Paper",
     "session": "Code Generation 2",
     "eventType": "Talk",
     "date": "2026-07-09",
@@ -25089,14 +25217,17 @@
     "endTime": "11:50",
     "durationMinutes": 20,
     "room": "MB 3.210",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-70ad6c6a-3975-4b9d-bb93-4220779a22b8",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-5a31be57-a0c1-41e2-882c-8fd03a67b35f",
     "presentationUrl": null,
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [
+      "LLM",
+      "large language model",
+      "agents",
       "code"
     ],
-    "searchText": "Influence-Aware Bayesian-Inspired Token Reweighting for Improved Code Generation Research Papers Talk MB 3.210 Code Generation 2 YUQI ZHU Ge Li Hong Mei Zhi Jin Jia Li Qibin Zheng Jieyuan Zhang Academy of Military Sciences Peking University Peking University Peking University, Wuhan University Wuhan University Advanced Institute of Big Data, Beijing Academy of Military Sciences code"
+    "searchText": "HumanEvalComm: Benchmarking the Communication Competence of Code Generation for LLMs and LLM Agent Journal-First Paper Talk MB 3.210 Code Generation 2 Jie JW Wu Fatemeh Hendijani Fard Michigan Technological University, USA University of British Columbia, Okanagan LLM large language model agents code"
   },
   {
     "id": "fse2026-2026-07-09-smartdispatch-dynamic-substitution-of-numpy-style-apis-on-hetero-e27038f8",
@@ -25784,47 +25915,6 @@
     "searchText": "CodeCureAgent: Automatic Classification and Repair of Static Analysis Warnings Research Papers Talk MB 2.435 Service and Systems Pascal Joos Islem BOUZENIA Michael Pradel CISPA Helmholtz Center for Information Security CISPA Helmholtz Center for Information Security CISPA Helmholtz Center for Information Security agents code"
   },
   {
-    "id": "fse2026-2026-07-09-humanevalcomm-benchmarking-the-communication-competence-of-code--a8f5dbb9",
-    "sourceSlotId": "399bf32c-6829-45fc-ac92-c3cf75f2e715",
-    "researchrEventId": "5a31be57-a0c1-41e2-882c-8fd03a67b35f",
-    "kind": "talk",
-    "title": "HumanEvalComm: Benchmarking the Communication Competence of Code Generation for LLMs and LLM Agent",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Jie JW Wu",
-        "affiliation": "Michigan Technological University, USA"
-      },
-      {
-        "name": "Fatemeh Hendijani Fard",
-        "affiliation": "University of British Columbia, Okanagan"
-      }
-    ],
-    "speakerNames": [
-      "Jie JW Wu",
-      "Fatemeh Hendijani Fard"
-    ],
-    "track": "Journal-First Paper",
-    "session": "Code Generation 2",
-    "eventType": "Talk",
-    "date": "2026-07-09",
-    "startTime": "11:50",
-    "endTime": "12:10",
-    "durationMinutes": 20,
-    "room": "MB 3.210",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-5a31be57-a0c1-41e2-882c-8fd03a67b35f",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
-    "keywords": [
-      "LLM",
-      "large language model",
-      "agents",
-      "code"
-    ],
-    "searchText": "HumanEvalComm: Benchmarking the Communication Competence of Code Generation for LLMs and LLM Agent Journal-First Paper Talk MB 3.210 Code Generation 2 Jie JW Wu Fatemeh Hendijani Fard Michigan Technological University, USA University of British Columbia, Okanagan LLM large language model agents code"
-  },
-  {
     "id": "fse2026-2026-07-09-metarca-a-generalizable-root-cause-analysis-framework-for-cloud--0021ac74",
     "sourceSlotId": "cd6b2b62-6532-4756-94fb-4352738a2884",
     "researchrEventId": "9f733e3d-48fa-41c7-b3d5-767ffb24828d",
@@ -25894,6 +25984,66 @@
     "preprintUrl": "https://arxiv.org/abs/2603.02032",
     "keywords": [],
     "searchText": "MetaRCA: A Generalizable Root Cause Analysis Framework for Cloud-Native Systems Powered by Meta Causal Knowledge Research Papers Research paper MB 2.430 Root Cause Analysis Shuai Liang Pengfei Chen Bozhe Tian Gou Tan Maohong Xu Youjun Qu Yahui Zhao Yiduo Shang Chongkang Tan Sun Yat-sen University; China Unicom Software Research Institute: Beijing, CN Sun Yat-sen University China Unicom Software Research Institute: Beijing, CN School of Systems Science and Engineering, Sun Yat-sen University, Guangzhou, China China Unicom Software Research Institute: Beijing, CN China Unicom Software Research Institute: Beijing, CN China Unicom Software Research Institute: Beijing, CN China Unicom Software Research Institute: Beijing, CN Individual Researcher"
+  },
+  {
+    "id": "fse2026-2026-07-09-playcoder-making-llm-generated-gui-code-playable-fd9e3c3f",
+    "sourceSlotId": "a5cc394f-79a2-4997-8086-4a418706b8c6",
+    "researchrEventId": "811daa74-b3f0-4928-9620-301d841c7de8",
+    "kind": "event",
+    "title": "PlayCoder: Making LLM-Generated GUI Code Playable",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Zhiyuan Peng",
+        "affiliation": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Wei Tao",
+        "affiliation": "LightSpeed"
+      },
+      {
+        "name": "Xin Yin",
+        "affiliation": "Zhejiang University"
+      },
+      {
+        "name": "Chenhao Ying",
+        "affiliation": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Yuan Luo",
+        "affiliation": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Yiwen Guo",
+        "affiliation": "Unaffiliated"
+      }
+    ],
+    "speakerNames": [
+      "Zhiyuan Peng",
+      "Wei Tao",
+      "Xin Yin",
+      "Chenhao Ying",
+      "Yuan Luo",
+      "Yiwen Guo"
+    ],
+    "track": "Research Papers",
+    "session": "Code Generation 2",
+    "eventType": "Awards",
+    "date": "2026-07-09",
+    "startTime": "11:50",
+    "endTime": "12:10",
+    "durationMinutes": 20,
+    "room": "MB 3.210",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-811daa74-b3f0-4928-9620-301d841c7de8",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": "https://arxiv.org/pdf/2604.19742",
+    "keywords": [
+      "LLM",
+      "large language model",
+      "code"
+    ],
+    "searchText": "PlayCoder: Making LLM-Generated GUI Code Playable Research Papers Awards MB 3.210 Code Generation 2 Zhiyuan Peng Wei Tao Xin Yin Chenhao Ying Yuan Luo Yiwen Guo Shanghai Jiao Tong University LightSpeed Zhejiang University Shanghai Jiao Tong University Shanghai Jiao Tong University Unaffiliated LLM large language model code"
   },
   {
     "id": "fse2026-2026-07-09-redef-do-code-language-models-truly-understand-code-changes-for--7260f5d0",
@@ -26454,66 +26604,6 @@
       "code"
     ],
     "searchText": "Leveraging Risk Models to Improve Productivity for Effective Code Un-Freeze at Scale Journal-First Paper Talk MB 2.210 Developers Audris Mockus Rui Abreu Peter C Rigby David Amsallem Parveen Bansal Kaavya Chinniah Brian Ellis Peng Fan Jun Ge Wenlei He Kelly Hirano Sahil Kumar Ajay Lingapuram W. Andrew Loe III Megh Mehta Venus Montes Maher Saba Gursharan Singh Matt Steiner Weiyan Sun Siri Uppalapati Nachiappan Nagappan University of Tennessee Faculty of Engineering of the University of Porto, Portugal Meta / Concordia University Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. code"
-  },
-  {
-    "id": "fse2026-2026-07-09-playcoder-making-llm-generated-gui-code-playable-fd9e3c3f",
-    "sourceSlotId": "a5cc394f-79a2-4997-8086-4a418706b8c6",
-    "researchrEventId": "811daa74-b3f0-4928-9620-301d841c7de8",
-    "kind": "event",
-    "title": "PlayCoder: Making LLM-Generated GUI Code Playable",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Zhiyuan Peng",
-        "affiliation": "Shanghai Jiao Tong University"
-      },
-      {
-        "name": "Wei Tao",
-        "affiliation": "LightSpeed"
-      },
-      {
-        "name": "Xin Yin",
-        "affiliation": "Zhejiang University"
-      },
-      {
-        "name": "Chenhao Ying",
-        "affiliation": "Shanghai Jiao Tong University"
-      },
-      {
-        "name": "Yuan Luo",
-        "affiliation": "Shanghai Jiao Tong University"
-      },
-      {
-        "name": "Yiwen Guo",
-        "affiliation": "Unaffiliated"
-      }
-    ],
-    "speakerNames": [
-      "Zhiyuan Peng",
-      "Wei Tao",
-      "Xin Yin",
-      "Chenhao Ying",
-      "Yuan Luo",
-      "Yiwen Guo"
-    ],
-    "track": "Research Papers",
-    "session": "Code Generation 2",
-    "eventType": "Awards",
-    "date": "2026-07-09",
-    "startTime": "12:10",
-    "endTime": "12:30",
-    "durationMinutes": 20,
-    "room": "MB 3.210",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-811daa74-b3f0-4928-9620-301d841c7de8",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": "https://arxiv.org/pdf/2604.19742",
-    "keywords": [
-      "LLM",
-      "large language model",
-      "code"
-    ],
-    "searchText": "PlayCoder: Making LLM-Generated GUI Code Playable Research Papers Awards MB 3.210 Code Generation 2 Zhiyuan Peng Wei Tao Xin Yin Chenhao Ying Yuan Luo Yiwen Guo Shanghai Jiao Tong University LightSpeed Zhejiang University Shanghai Jiao Tong University Shanghai Jiao Tong University Unaffiliated LLM large language model code"
   },
   {
     "id": "fse2026-2026-07-09-swarmbox-a-plug-and-play-drone-swarm-framework-for-streamlined-d-c8bfcdb4",
