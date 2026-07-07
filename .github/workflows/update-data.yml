@@ -38,14 +38,6 @@ jobs:
       - name: Run Python tests
         run: python3 -m unittest discover -s tests -p '*_test.py'
 
-      - name: Commit updated data
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/fse2026/program.json public/data/fse2026/metadata.json
-          git diff --cached --quiet || git commit -m "Update FSE program data"
-          git push
-
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
@@ -60,6 +52,14 @@ jobs:
 
       - name: Build static site
         run: npm run build
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/fse2026/program.json public/data/fse2026/metadata.json
+          git diff --cached --quiet || git commit -m "Update FSE program data"
+          git push
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
