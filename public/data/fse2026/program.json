@@ -17,7 +17,7 @@
       },
       {
         "name": "Csaba Nagy",
-        "affiliation": ""
+        "affiliation": "PONTUM Software GmbH"
       }
     ],
     "speakerNames": [
@@ -38,7 +38,7 @@
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "Opening PROMISE Day opening MB 3.430 Session 1: Keynote and Research Papers on LLM Code Generation Foundations Lili Wei Xiaoyu Sun Csaba Nagy McGill University Australian National University, Australia"
+    "searchText": "Opening PROMISE Day opening MB 3.430 Session 1: Keynote and Research Papers on LLM Code Generation Foundations Lili Wei Xiaoyu Sun Csaba Nagy McGill University Australian National University, Australia PONTUM Software GmbH"
   },
   {
     "id": "fse2026-2026-07-05-keynote-1-the-limits-of-cute-ci-cd-pipelines-42462ed6",
@@ -1152,7 +1152,7 @@
       },
       {
         "name": "Csaba Nagy",
-        "affiliation": ""
+        "affiliation": "PONTUM Software GmbH"
       }
     ],
     "speakerNames": [
@@ -1173,7 +1173,7 @@
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [],
-    "searchText": "Closing PROMISE Day closing MB 3.430 Session 4: Security, Trust, and Verification of LLM-Generated Code Lili Wei Xiaoyu Sun Csaba Nagy McGill University Australian National University, Australia"
+    "searchText": "Closing PROMISE Day closing MB 3.430 Session 4: Security, Trust, and Verification of LLM-Generated Code Lili Wei Xiaoyu Sun Csaba Nagy McGill University Australian National University, Australia PONTUM Software GmbH"
   },
   {
     "id": "fse2026-2026-07-05-closing-remarks-54d2e6f0",
@@ -1655,11 +1655,11 @@
     "searchText": "The Other Side of Complexity SSBSE Keynote Keynote MB 2.210 Keynote Tim Menzies North Carolina State University"
   },
   {
-    "id": "fse2026-2026-07-06-execution-control-matters-deterministic-and-agentic-tool-orchest-43dd2ecd",
-    "sourceSlotId": "d7368433-e860-44fe-8a86-ea36798c0dc4",
-    "researchrEventId": "7729606f-d824-4c31-bd08-fcc0d2305d0b",
+    "id": "fse2026-2026-07-06-deterministic-vs-llm-controlled-orchestration-for-cobol-to-pytho-d7ad93e3",
+    "sourceSlotId": "bd19922c-c1ed-4772-bda8-59183b6555f0",
+    "researchrEventId": "07d7f335-1543-4069-8aa1-35adec83b6fe",
     "kind": "talk",
-    "title": "Execution Control Matters: Deterministic and Agentic Tool Orchestration for LLM-Based Code Translation AIware Honorable Mention Paper Award",
+    "title": "Deterministic vs. LLM-Controlled Orchestration for COBOL-to-Python Modernization AIware Honorable Mention Paper Award",
     "abstract": "",
     "authors": [
       {
@@ -1683,17 +1683,15 @@
     "endTime": "09:20",
     "durationMinutes": 5,
     "room": "MB 1.210",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-7729606f-d824-4c31-bd08-fcc0d2305d0b",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-07d7f335-1543-4069-8aa1-35adec83b6fe",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814891",
     "preprintUrl": null,
     "keywords": [
       "LLM",
-      "large language model",
-      "agents",
-      "code"
+      "large language model"
     ],
-    "searchText": "Execution Control Matters: Deterministic and Agentic Tool Orchestration for LLM-Based Code Translation AIware Honorable Mention Paper Award AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Naing Oo Lwin Rajesh Kumar Bucknell University, US Bucknell University, US LLM large language model agents code"
+    "searchText": "Deterministic vs. LLM-Controlled Orchestration for COBOL-to-Python Modernization AIware Honorable Mention Paper Award AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Naing Oo Lwin Rajesh Kumar Bucknell University, US Bucknell University, US LLM large language model"
   },
   {
     "id": "fse2026-2026-07-06-developer-experience-with-ai-coding-agents-http-behavioral-signa-2f8f485b",
@@ -2027,11 +2025,11 @@
     "searchText": "Testing Protocols with Formal Languages Doctoral Symposium Talk MB 3.210 Opening and Lightning talks Alexander Liggesmeyer CISPA Helmholtz Center for Information Security testing"
   },
   {
-    "id": "fse2026-2026-07-06-examining-llms-ability-to-summarize-code-through-mutation-analys-6c8be9bb",
-    "sourceSlotId": "6b9092c4-64c3-4d55-bad4-038328b1f27f",
-    "researchrEventId": "f25cd936-cb01-41eb-a399-5ad467409471",
+    "id": "fse2026-2026-07-06-using-mutation-analysis-to-examine-an-llm-s-ability-to-summarize-b19ed5e1",
+    "sourceSlotId": "d79a90ba-ec24-4ba4-a5fd-c90166111ca9",
+    "researchrEventId": "beb8f89d-d9fb-466c-84ee-21f33c1f6b74",
     "kind": "talk",
-    "title": "Examining LLMs Ability to Summarize Code Through Mutation-Analysis",
+    "title": "Using Mutation-Analysis to Examine an LLM’s Ability to Summarize Code",
     "abstract": "",
     "authors": [
       {
@@ -2065,16 +2063,16 @@
     "endTime": "09:45",
     "durationMinutes": 5,
     "room": "MB 1.210",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-f25cd936-cb01-41eb-a399-5ad467409471",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-beb8f89d-d9fb-466c-84ee-21f33c1f6b74",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3805760.3814892",
     "preprintUrl": null,
     "keywords": [
       "LLM",
       "large language model",
       "code"
     ],
-    "searchText": "Examining LLMs Ability to Summarize Code Through Mutation-Analysis AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Lara Khatib Michael Pu Bogdan Vasilescu Mei Nagappan University of Waterloo University of Waterloo Carnegie Mellon University University of Waterloo LLM large language model code"
+    "searchText": "Using Mutation-Analysis to Examine an LLM’s Ability to Summarize Code AIware Main Track Talk MB 1.210 Coding Agents, Software Testing, and Code Understanding Lara Khatib Michael Pu Bogdan Vasilescu Mei Nagappan University of Waterloo University of Waterloo Carnegie Mellon University University of Waterloo LLM large language model code"
   },
   {
     "id": "fse2026-2026-07-06-family-over-hierarchy-a-mentorship-model-for-building-a-sustaina-71890be5",
@@ -3935,7 +3933,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-edd8330e-d190-40ba-b041-07bd85fb57b5",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://kclpure.kcl.ac.uk/ws/portalfiles/portal/373075664/APKFuzz_5_.pdf",
     "keywords": [],
     "searchText": "ApkFuzz: Search-Based Fuzzing for Android APK Vulnerability Discovery SSBSE Challenge Short-paper MB 2.210 SSBSE Challenge Karine Even-Mendoza Aidan Dakhama Harel Berger King’s College London The University of Edinburgh, UK Ariel University"
   },
@@ -4223,7 +4221,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-b98d28d0-af9b-43ff-8c61-660635d19c5f",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "https://solar.cs.ucl.ac.uk/pdf/Even-Mendoza_2026_SSBSE.pdf",
     "keywords": [],
     "searchText": "Fuzz3: Entropy as a Third Oracle SSBSE Challenge Short-paper MB 2.210 SSBSE Challenge Karine Even-Mendoza Janine Obiri Aidan Dakhama Phil McMinn William Langdon King’s College London University College London (UCL) The University of Edinburgh, UK University of Sheffield University College London"
   },
@@ -7244,7 +7242,7 @@
     "room": "MB 2.430",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-4be4c7c7-c435-4294-8dde-48ff853a6e16",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3808182",
     "preprintUrl": "https://arxiv.org/abs/2606.21919",
     "keywords": [],
     "searchText": "Bringing Managed Language Support to WebAssembly with External Library Linking Research Papers Talk MB 2.430 Library and Product Line Shuyao Jiang Ruiying Zeng Yangfan Zhou Michael Lyu The Chinese University of Hong Kong Fudan University Fudan University The Chinese University of Hong Kong"
@@ -10096,42 +10094,6 @@
       "code"
     ],
     "searchText": "Towards Secure Logging: Characterizing and Benchmarking Logging Code Security Issues with LLMs Research Papers Talk MB 3.445 Logging He Yang Yuan Xin Wang Kundi Yao An Ran Chen Zishuo Ding Zhenhao Li York University The Hong Kong University of Science and Technology (Guangzhou) Ontario Tech University University of Alberta The Hong Kong University of Science and Technology (Guangzhou) York University LLM large language model security code"
-  },
-  {
-    "id": "fse2026-2026-07-07-two-level-adaptation-for-budget-constrained-continuous-dynamic-d-db26d1c5",
-    "sourceSlotId": "b3809774-53af-4a04-875e-3d85da6d76ad",
-    "researchrEventId": "69bf90ec-bf0a-4730-8cec-7b451b062309",
-    "kind": "talk",
-    "title": "Two-Level Adaptation for Budget-Constrained Continuous Dynamic Dependence Analysis",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Xiaoqin Fu",
-        "affiliation": "Washington State University"
-      },
-      {
-        "name": "Haipeng Cai",
-        "affiliation": "University at Buffalo, SUNY"
-      }
-    ],
-    "speakerNames": [
-      "Xiaoqin Fu",
-      "Haipeng Cai"
-    ],
-    "track": "Research Papers",
-    "session": "Debugging",
-    "eventType": "Talk",
-    "date": "2026-07-07",
-    "startTime": "14:20",
-    "endTime": "14:40",
-    "durationMinutes": 20,
-    "room": "MB 2.430",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-69bf90ec-bf0a-4730-8cec-7b451b062309",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": "http://chapering.github.io/pubs/fse26.pdf",
-    "keywords": [],
-    "searchText": "Two-Level Adaptation for Budget-Constrained Continuous Dynamic Dependence Analysis Research Papers Talk MB 2.430 Debugging Xiaoqin Fu Haipeng Cai Washington State University University at Buffalo, SUNY"
   },
   {
     "id": "fse2026-2026-07-07-sosecure-the-wisdom-of-the-crowd-for-safer-ai-generated-code-5896441b",
@@ -18091,6 +18053,42 @@
     "searchText": "Refactoria: A Game-Based Tool for Learning Code Refactoring Software Engineering Education Talk MB 9C SEET: Keynote + AI Orientation Eman Abdullah AlOmar David Van Hise Stephen Pachucki Nerissa Lundquist Christopher Engelbart Stevens Institute of Technology, USA Stevens Institute of Technology Stevens Institute of Technology code"
   },
   {
+    "id": "fse2026-2026-07-08-two-level-adaptation-for-budget-constrained-continuous-dynamic-d-238972fe",
+    "sourceSlotId": "205bb7c4-66b3-4699-bceb-431e949160d9",
+    "researchrEventId": "69bf90ec-bf0a-4730-8cec-7b451b062309",
+    "kind": "talk",
+    "title": "Two-Level Adaptation for Budget-Constrained Continuous Dynamic Dependence Analysis",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Xiaoqin Fu",
+        "affiliation": "Washington State University"
+      },
+      {
+        "name": "Haipeng Cai",
+        "affiliation": "University at Buffalo, SUNY"
+      }
+    ],
+    "speakerNames": [
+      "Xiaoqin Fu",
+      "Haipeng Cai"
+    ],
+    "track": "Research Papers",
+    "session": "Security 2",
+    "eventType": "Talk",
+    "date": "2026-07-08",
+    "startTime": "12:10",
+    "endTime": "12:30",
+    "durationMinutes": 20,
+    "room": "MB 3.435",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-69bf90ec-bf0a-4730-8cec-7b451b062309",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": "http://chapering.github.io/pubs/fse26.pdf",
+    "keywords": [],
+    "searchText": "Two-Level Adaptation for Budget-Constrained Continuous Dynamic Dependence Analysis Research Papers Talk MB 3.435 Security 2 Xiaoqin Fu Haipeng Cai Washington State University University at Buffalo, SUNY"
+  },
+  {
     "id": "fse2026-2026-07-08-extended-abstract-of-enabling-emotion-aware-collaboration-in-cap-f3943f3c",
     "sourceSlotId": "ff454c16-b009-4e00-8eb6-fb865e333b63",
     "researchrEventId": "e1323197-c093-4ddb-8f16-f33281e28303",
@@ -24596,8 +24594,8 @@
     "room": "MB 2.435",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-036e8ff8-69fd-4fc9-8191-0cff0cc6d8ec",
     "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3731450",
+    "preprintUrl": "https://people.cs.vt.edu/nm8247/publications/anik-tosem-2025.pdf",
     "keywords": [],
     "searchText": "Programming of Automation Configuration in Smart Home Systems: Challenges and Opportunities Journal-First Paper Talk MB 2.435 Service and Systems Sheik Murad Hassan Anik Xinghua Gao Hao Zhong Xiaoyin Wang Na Meng Virginia Tech Virginia Tech Shanghai Jiao Tong University University of Texas at San Antonio Virginia Tech"
   },
@@ -24689,7 +24687,7 @@
     "authors": [
       {
         "name": "Jaehan Yoon",
-        "affiliation": "Korea University"
+        "affiliation": "Sungkyunkwan University"
       },
       {
         "name": "Yunji Seo",
@@ -24697,11 +24695,11 @@
       },
       {
         "name": "Hakjoo Oh",
-        "affiliation": "Sungkyunkwan University"
+        "affiliation": "Korea University"
       },
       {
         "name": "Sooyoung Cha",
-        "affiliation": ""
+        "affiliation": "Sungkyunkwan University"
       }
     ],
     "speakerNames": [
@@ -24723,14 +24721,14 @@
     "doiUrl": null,
     "preprintUrl": "https://drive.google.com/file/d/1ZCezmqjSuQYkBl_ZQqIQ3WH9F3JsaNnL/view?usp=sharing",
     "keywords": [],
-    "searchText": "Reducing Coverage-Equivalent Inputs in Grammar-based Fuzzing by Avoiding Recurrent Rule Sequences Research Papers Talk MB 3.430 Fuzzing 3 Jaehan Yoon Yunji Seo Hakjoo Oh Sooyoung Cha Korea University Korea University Sungkyunkwan University"
+    "searchText": "Reducing Coverage-Equivalent Inputs in Grammar-based Fuzzing by Avoiding Recurrent Rule Sequences Research Papers Talk MB 3.430 Fuzzing 3 Jaehan Yoon Yunji Seo Hakjoo Oh Sooyoung Cha Sungkyunkwan University Korea University Korea University Sungkyunkwan University"
   },
   {
-    "id": "fse2026-2026-07-09-torai-multi-source-root-cause-analysis-for-textit-blind-spots-in-10792f55",
+    "id": "fse2026-2026-07-09-torai-multi-source-root-cause-analysis-for-blind-spots-in-micros-7b8b1f65",
     "sourceSlotId": "928590fd-799b-43ca-ab19-facb33b45998",
     "researchrEventId": "f47b4490-b3b2-495f-9f27-9f780256d621",
     "kind": "talk",
-    "title": "TORAI: Multi-Source Root Cause Analysis for \\textit{Blind Spots} in Microservice Service Call Graph",
+    "title": "TORAI: Multi-Source Root Cause Analysis for Blind Spots in Microservice Service Call Graph",
     "abstract": "",
     "authors": [
       {
@@ -24769,7 +24767,7 @@
     "doiUrl": null,
     "preprintUrl": "https://arxiv.org/pdf/2604.13522",
     "keywords": [],
-    "searchText": "TORAI: Multi-Source Root Cause Analysis for \\textit{Blind Spots} in Microservice Service Call Graph Research Papers Talk MB 2.430 Root Cause Analysis Luan Pham Huong Ha Xiuzhen Zhang Hongyu Zhang University of New South Wales, Australia RMIT University RMIT University Chongqing University"
+    "searchText": "TORAI: Multi-Source Root Cause Analysis for Blind Spots in Microservice Service Call Graph Research Papers Talk MB 2.430 Root Cause Analysis Luan Pham Huong Ha Xiuzhen Zhang Hongyu Zhang University of New South Wales, Australia RMIT University RMIT University Chongqing University"
   },
   {
     "id": "fse2026-2026-07-09-deployability-centric-infrastructure-as-code-generation-fail-lea-e985cbb9",
@@ -25093,7 +25091,7 @@
     "room": "MB 3.270",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-191ff634-d951-4dc7-a744-7b662afe400c",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3808139",
     "preprintUrl": null,
     "keywords": [
       "LLM",
