@@ -9410,6 +9410,52 @@
     "searchText": "SCAR: Mining and Structuring Smart Contract Security Audit Reports Tool Demonstrations Talk MB 2.435 Smart contract security Ilham Qasse Po-Yu Tseng Mohammad Hamdaqa Gísli Hjálmtýsson Reykjavik University National Taiwan University Polytechnique Montreal Reykjavik University security"
   },
   {
+    "id": "fse2026-2026-07-07-sigsoft-at-50-people-stories-and-turning-points-548bb7fd",
+    "sourceSlotId": "71b5c266-ad54-44eb-9b99-2ba4507bdd8c",
+    "researchrEventId": "d63c197d-c257-4391-bc47-a67a64edd484",
+    "kind": "event",
+    "title": "SIGSOFT at 50: People, Stories, and Turning Points",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Mary Shaw",
+        "affiliation": "Carnegie Mellon University"
+      },
+      {
+        "name": "Anthony I. (Tony) Wasserman",
+        "affiliation": "Software Methods and Tools"
+      },
+      {
+        "name": "Alexander Wolf",
+        "affiliation": "University of California, Irvine"
+      },
+      {
+        "name": "Thomas Zimmermann",
+        "affiliation": ""
+      }
+    ],
+    "speakerNames": [
+      "Mary Shaw",
+      "Anthony I. (Tony) Wasserman",
+      "Alexander Wolf",
+      "Thomas Zimmermann"
+    ],
+    "track": "SIGSOFT 50",
+    "session": "SIGSOFT 50",
+    "eventType": "Panel",
+    "date": "2026-07-07",
+    "startTime": "14:00",
+    "endTime": "15:30",
+    "durationMinutes": 90,
+    "room": "MB 9A",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-d63c197d-c257-4391-bc47-a67a64edd484",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "SIGSOFT at 50: People, Stories, and Turning Points SIGSOFT 50 Panel MB 9A SIGSOFT 50 Mary Shaw Anthony I. (Tony) Wasserman Alexander Wolf Thomas Zimmermann Carnegie Mellon University Software Methods and Tools University of California, Irvine"
+  },
+  {
     "id": "fse2026-2026-07-07-small-is-beautiful-a-practical-and-efficient-log-parsing-framewo-6a55184a",
     "sourceSlotId": "378290cf-c14e-4f8a-82a8-5c5fddcbf4e8",
     "researchrEventId": "000e4c35-9ac4-488b-9972-b535c6201b44",
@@ -12414,6 +12460,52 @@
     "searchText": "PuzzleMark: Implicit Jigsaw Learning for Robust Code Dataset Watermarking in Neural Code Completion Models Research Papers Talk MB 3.445 Robustness Haocheng Huang Yuchen Chen Weisong Sun Peizhuo Lv Yuan Xiao Chunrong Fang Yang Liu Xiaofang Zhang Soochow University Nanjing University Nanyang Technological University Nanyang Technological University Nanjing University Nanjing University Nanyang Technological University Soochow University code"
   },
   {
+    "id": "fse2026-2026-07-07-sigsoft-futures-play-debate-and-design-cbdf0fcb",
+    "sourceSlotId": "c0efe2cb-f3ee-46cb-91ed-83eb193fdb42",
+    "researchrEventId": "81668499-bc5a-47c5-a4aa-d8ffecdedbc8",
+    "kind": "event",
+    "title": "SIGSOFT Futures: Play, Debate, and Design",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Jie M. Zhang",
+        "affiliation": "Mistral AI and King's College London"
+      },
+      {
+        "name": "Xin Xia",
+        "affiliation": "Zhejiang University"
+      },
+      {
+        "name": "Miryung Kim",
+        "affiliation": "UCLA and Amazon Web Services"
+      },
+      {
+        "name": "Foutse Khomh",
+        "affiliation": "Polytechnique Montréal"
+      }
+    ],
+    "speakerNames": [
+      "Jie M. Zhang",
+      "Xin Xia",
+      "Miryung Kim",
+      "Foutse Khomh"
+    ],
+    "track": "SIGSOFT 50",
+    "session": "SIGSOFT 50",
+    "eventType": "Panel",
+    "date": "2026-07-07",
+    "startTime": "16:00",
+    "endTime": "17:30",
+    "durationMinutes": 90,
+    "room": "MB 9A",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-81668499-bc5a-47c5-a4aa-d8ffecdedbc8",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [],
+    "searchText": "SIGSOFT Futures: Play, Debate, and Design SIGSOFT 50 Panel MB 9A SIGSOFT 50 Jie M. Zhang Xin Xia Miryung Kim Foutse Khomh Mistral AI and King's College London Zhejiang University UCLA and Amazon Web Services Polytechnique Montréal"
+  },
+  {
     "id": "fse2026-2026-07-07-understanding-code-similarity-across-instruction-set-architectur-1ea5179e",
     "sourceSlotId": "d33e7108-879d-4a9a-850e-646ac4d421d5",
     "researchrEventId": "c90d5530-8cca-4f56-a95f-d1b874c4ccd8",
@@ -14669,8 +14761,8 @@
     "room": "MB 3.430",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-ddb80d8f-9a7f-49ec-9d04-1301b77d2971",
     "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
+    "doiUrl": "https://doi.org/10.1007/s10664-025-10700-7",
+    "preprintUrl": "https://hdl.handle.net/10993/66936",
     "keywords": [
       "testing"
     ],
@@ -16736,7 +16828,7 @@
     "room": "MB 3.430",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-d9230934-529a-4780-9fa5-6a7afaeae145",
     "presentationUrl": null,
-    "doiUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3797091",
     "preprintUrl": "https://softsec.skku.edu/report/FSE_2026/ocppuzz_preprint.pdf",
     "keywords": [
       "LLM",
@@ -22862,7 +22954,7 @@
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-ddae7ba7-47cb-452f-9643-54d711103ec2",
     "presentationUrl": null,
     "doiUrl": null,
-    "preprintUrl": null,
+    "preprintUrl": "http://arxiv.org/abs/2607.04667",
     "keywords": [],
     "searchText": "Keynote 4: Mary Shaw - Correctness, confidence, and context: Framing software assurance in the AI age Plenary Events Keynote H110 Day 3 Opening Mary Shaw Carnegie Mellon University"
   },
@@ -23096,8 +23188,8 @@
     "room": "MB 3.435",
     "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-aef1f087-1022-4745-a009-918efe3feeba",
     "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3803437.3806399",
+    "preprintUrl": "https://orbilu.uni.lu/handle/10993/68710",
     "keywords": [
       "testing",
       "security"
