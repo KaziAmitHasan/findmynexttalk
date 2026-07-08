@@ -3,6 +3,8 @@
   "conference": "FSE 2026",
   "location": "Montreal, Canada",
   "dates": "Sun 5 - Thu 9 July 2026",
+  "startDate": "2026-07-05",
+  "endDate": "2026-07-09",
   "timezone": "America/Toronto",
   "source": "https://conf.researchr.org/program/fse-2026/program-fse-2026/",
   "lastUpdated": "2026-07-08T11:10:00+00:00",

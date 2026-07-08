@@ -462,6 +462,8 @@ def build_metadata(
     conference_name: str = "FSE 2026",
     location: str = "Montreal, Canada",
     dates: str = "Sun 5 - Thu 9 July 2026",
+    start_date: str = "2026-07-05",
+    end_date: str = "2026-07-09",
     timezone: str = "America/Toronto",
 ) -> dict:
     return {
@@ -469,6 +471,8 @@ def build_metadata(
         "conference": conference_name,
         "location": location,
         "dates": dates,
+        "startDate": start_date,
+        "endDate": end_date,
         "timezone": timezone,
         "source": source_url,
         "lastUpdated": datetime.now().astimezone().isoformat(timespec="seconds"),

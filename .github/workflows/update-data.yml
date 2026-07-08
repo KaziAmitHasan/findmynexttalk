@@ -19,6 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
+    env:
+      CONFERENCE_SLUG: fse2026
 
     steps:
       - name: Check out repository
@@ -29,46 +31,61 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Check conference update window
+        id: update_window
+        run: python3 scripts/should_update_conference.py --conference "$CONFERENCE_SLUG"
+
       - name: Refresh Researchr program data
-        run: python3 scripts/scrape_program.py --conference fse2026
+        if: steps.update_window.outputs.should_update == 'true'
+        run: python3 scripts/scrape_program.py --conference "$CONFERENCE_SLUG"
 
       - name: Validate data
-        run: python3 scripts/validate_data.py public/data/fse2026/program.json public/data/fse2026/metadata.json
+        if: steps.update_window.outputs.should_update == 'true'
+        run: python3 scripts/validate_data.py "public/data/${CONFERENCE_SLUG}/program.json" "public/data/${CONFERENCE_SLUG}/metadata.json"
 
       - name: Run Python tests
+        if: steps.update_window.outputs.should_update == 'true'
         run: python3 -m unittest discover -s tests -p '*_test.py'
 
       - name: Set up Node
+        if: steps.update_window.outputs.should_update == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: 24
           cache: npm
 
       - name: Install dependencies
+        if: steps.update_window.outputs.should_update == 'true'
         run: npm ci
 
       - name: Run JavaScript tests
+        if: steps.update_window.outputs.should_update == 'true'
         run: npm run test
 
       - name: Build static site
+        if: steps.update_window.outputs.should_update == 'true'
         run: npm run build
 
       - name: Commit updated data
+        if: steps.update_window.outputs.should_update == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/fse2026/program.json public/data/fse2026/metadata.json
-          git diff --cached --quiet || git commit -m "Update FSE program data"
+          git add "public/data/${CONFERENCE_SLUG}/program.json" "public/data/${CONFERENCE_SLUG}/metadata.json"
+          git diff --cached --quiet || git commit -m "Update ${CONFERENCE_SLUG} program data"
           git push
 
       - name: Configure Pages
+        if: steps.update_window.outputs.should_update == 'true'
         uses: actions/configure-pages@v5
 
       - name: Upload Pages artifact
+        if: steps.update_window.outputs.should_update == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
 
       - name: Deploy refreshed site
+        if: steps.update_window.outputs.should_update == 'true'
         id: deployment
         uses: actions/deploy-pages@v4

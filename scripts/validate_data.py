@@ -88,10 +88,13 @@ def validate_program(program: list[dict], errors: list[str]) -> None:
 
 
 def validate_metadata(metadata: dict, errors: list[str]) -> None:
-    for field in ["conference", "location", "dates", "timezone", "source", "lastUpdated", "statusNote"]:
+    for field in ["conference", "location", "dates", "startDate", "endDate", "timezone", "source", "lastUpdated", "statusNote"]:
         if not metadata.get(field):
             errors.append(f"metadata: missing required field '{field}'")
 
+    validate_date("metadata.startDate", metadata.get("startDate"), errors)
+    validate_date("metadata.endDate", metadata.get("endDate"), errors)
+    validate_metadata_date_range(metadata, errors)
     validate_url("metadata", metadata.get("source"), errors)
 
 
@@ -129,6 +132,21 @@ def validate_url(label: str, value: str | None, errors: list[str]) -> None:
 def validate_duration(label: str, value, errors: list[str]) -> None:
     if not isinstance(value, int) or value <= 0:
         errors.append(f"{label}: durationMinutes must be a positive integer")
+
+
+def validate_metadata_date_range(metadata: dict, errors: list[str]) -> None:
+    start_date = metadata.get("startDate")
+    end_date = metadata.get("endDate")
+    if not start_date or not end_date:
+        return
+
+    try:
+        from datetime import date
+
+        if date.fromisoformat(start_date) > date.fromisoformat(end_date):
+            errors.append("metadata: startDate must be on or before endDate")
+    except ValueError:
+        return
 
 
 def print_summary(program) -> None:

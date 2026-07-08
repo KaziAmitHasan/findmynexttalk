@@ -57,12 +57,15 @@ def main() -> int:
         program = sort_program_items(merge_ical_events(program, parse_ical_file(ical_path)))
     elif args.merge_ical:
         print(f"No iCal file found at {ical_path}; writing HTML-only program data.")
+    start_date, end_date = infer_date_range(program)
     metadata = build_metadata(
         source_url=args.url,
         conference_slug=args.conference,
         conference_name=args.conference_name,
         location=args.location,
         dates=args.dates,
+        start_date=start_date,
+        end_date=end_date,
         timezone=args.timezone,
     )
 
@@ -104,6 +107,14 @@ def discover_event_calendar_url(html_text: str, base_url: str) -> str:
         return urljoin(base_url, match.group(1).replace("&amp;", "&"))
 
     return ""
+
+
+def infer_date_range(program: list[dict]) -> tuple[str, str]:
+    dates = sorted({item.get("date", "") for item in program if item.get("date")})
+    if not dates:
+        return "", ""
+
+    return dates[0], dates[-1]
 
 
 if __name__ == "__main__":

@@ -76,6 +76,46 @@ class ValidateDataTest(unittest.TestCase):
 
         self.assertTrue(any("invalid URL" in error for error in errors))
 
+    def test_accepts_valid_metadata_dates(self):
+        errors = []
+
+        validate_data.validate_metadata(
+            {
+                "conference": "ExampleConf 2026",
+                "location": "Toronto, Canada",
+                "dates": "Mon 1 - Tue 2 June 2026",
+                "startDate": "2026-06-01",
+                "endDate": "2026-06-02",
+                "timezone": "America/Toronto",
+                "source": "https://conf.researchr.org/program/example/example/",
+                "lastUpdated": "2026-01-01T00:00:00+00:00",
+                "statusNote": "Tentative.",
+            },
+            errors,
+        )
+
+        self.assertEqual(errors, [])
+
+    def test_rejects_invalid_metadata_date_range(self):
+        errors = []
+
+        validate_data.validate_metadata(
+            {
+                "conference": "ExampleConf 2026",
+                "location": "Toronto, Canada",
+                "dates": "Mon 1 - Tue 2 June 2026",
+                "startDate": "2026-06-03",
+                "endDate": "2026-06-02",
+                "timezone": "America/Toronto",
+                "source": "https://conf.researchr.org/program/example/example/",
+                "lastUpdated": "2026-01-01T00:00:00+00:00",
+                "statusNote": "Tentative.",
+            },
+            errors,
+        )
+
+        self.assertTrue(any("startDate must be on or before endDate" in error for error in errors))
+
 
 if __name__ == "__main__":
     unittest.main()
