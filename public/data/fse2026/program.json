@@ -18444,6 +18444,70 @@
     "searchText": "Detecting Code-Comment Inconsistencies in Smart Contracts by Combining LLM and Program Analysis Research Papers Talk MB 1.210 LLM for SE 4 Jiashuo Zhang Jiachi Chen Ting Zhang Yue Li Daoyuan Wu Yanlin Wang Jianbo Gao Ting Chen Zhong Chen Peking University, China Zhejiang University Peking University Peking University Lingnan University Sun Yat-sen University Peking University University of Electronic Science and Technology of China LLM large language model code"
   },
   {
+    "id": "fse2026-2026-07-08-does-in-ide-calibration-of-large-language-models-work-at-scale-c2f2f67f",
+    "sourceSlotId": "9bc22559-f336-40a3-9f2f-64b004734af5",
+    "researchrEventId": "b9203836-3c12-4eed-9fe1-12b4fb3fd748",
+    "kind": "talk",
+    "title": "Does In-IDE Calibration of Large Language Models work at Scale?",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Roham Koohestani",
+        "affiliation": "JetBrains Research & Delft University of Technology"
+      },
+      {
+        "name": "Agnia Sergeyuk",
+        "affiliation": "JetBrains Research"
+      },
+      {
+        "name": "David Gros",
+        "affiliation": "University of California, Davis"
+      },
+      {
+        "name": "Claudio Spiess",
+        "affiliation": "University of California, Davis"
+      },
+      {
+        "name": "Sergey Titov",
+        "affiliation": "JetBrains Research"
+      },
+      {
+        "name": "Prem Devanbu",
+        "affiliation": "University of California at Davis"
+      },
+      {
+        "name": "Mali Izadi",
+        "affiliation": "Google & TU Delft"
+      }
+    ],
+    "speakerNames": [
+      "Roham Koohestani",
+      "Agnia Sergeyuk",
+      "David Gros",
+      "Claudio Spiess",
+      "Sergey Titov",
+      "Prem Devanbu",
+      "Mali Izadi"
+    ],
+    "track": "Industry Papers",
+    "session": "Code and LLM 1",
+    "eventType": "Talk",
+    "date": "2026-07-08",
+    "startTime": "14:00",
+    "endTime": "14:20",
+    "durationMinutes": 20,
+    "room": "MB 3.270",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-b9203836-3c12-4eed-9fe1-12b4fb3fd748",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [
+      "LLM",
+      "large language model"
+    ],
+    "searchText": "Does In-IDE Calibration of Large Language Models work at Scale? Industry Papers Talk MB 3.270 Code and LLM 1 Roham Koohestani Agnia Sergeyuk David Gros Claudio Spiess Sergey Titov Prem Devanbu Mali Izadi JetBrains Research & Delft University of Technology JetBrains Research University of California, Davis University of California, Davis JetBrains Research University of California at Davis Google & TU Delft LLM large language model"
+  },
+  {
     "id": "fse2026-2026-07-08-eventadl-open-box-anomaly-detection-and-localization-framework-f-6692b6fb",
     "sourceSlotId": "f6395a33-1c22-48c2-b580-c22bb0bb2f4a",
     "researchrEventId": "017e85a4-0005-494b-bc8f-c978fa121a83",
@@ -18757,47 +18821,6 @@
     "preprintUrl": null,
     "keywords": [],
     "searchText": "Lessons from Mitigating False Positives in Google's OSS-Fuzz-Gen Industry Papers Talk MB 2.435 Fuzzing 2 Paschal Amusuo Dongge Liu Ricardo Andres Calvo Mendez Jonathan Metzman Oliver Chang James C. Davis Purdue University Purdue University Google Google Purdue University"
-  },
-  {
-    "id": "fse2026-2026-07-08-mitigating-prompt-induced-cognitive-biases-in-general-purpose-ai-b82e295c",
-    "sourceSlotId": "e152f3d9-0655-4547-b1d9-74ba78ad1b9e",
-    "researchrEventId": "137baab7-eb35-459f-93e5-aa96d1863b2f",
-    "kind": "talk",
-    "title": "Mitigating Prompt-Induced Cognitive Biases in General-Purpose AI for Software Engineering",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Francesco Sovrano",
-        "affiliation": "USI Lugano, Switzerland"
-      },
-      {
-        "name": "Gabriele Dominici",
-        "affiliation": "Università della Svizzera italiana (USI)"
-      },
-      {
-        "name": "Alberto Bacchelli",
-        "affiliation": "IfI, University of Zurich"
-      }
-    ],
-    "speakerNames": [
-      "Francesco Sovrano",
-      "Gabriele Dominici",
-      "Alberto Bacchelli"
-    ],
-    "track": "Research Papers",
-    "session": "Code and LLM 1",
-    "eventType": "Talk",
-    "date": "2026-07-08",
-    "startTime": "14:00",
-    "endTime": "14:20",
-    "durationMinutes": 20,
-    "room": "MB 3.270",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-137baab7-eb35-459f-93e5-aa96d1863b2f",
-    "presentationUrl": null,
-    "doiUrl": "https://doi.org/10.1145/3808115",
-    "preprintUrl": "https://doi.org/10.48550/arXiv.2604.16756",
-    "keywords": [],
-    "searchText": "Mitigating Prompt-Induced Cognitive Biases in General-Purpose AI for Software Engineering Research Papers Talk MB 3.270 Code and LLM 1 Francesco Sovrano Gabriele Dominici Alberto Bacchelli USI Lugano, Switzerland Università della Svizzera italiana (USI) IfI, University of Zurich"
   },
   {
     "id": "fse2026-2026-07-08-red-teaming-llms-via-linguistic-aware-fuzzing-93122ad1",
@@ -19300,70 +19323,6 @@
     "searchText": "An Analysis of Student Perceptions and Learning Impact of Large Language Models in Requirements Engineering Education Software Engineering Education Talk MB 9C SEET: LLMs in the SE Classroom Mohammed Ammar Karimi Saurabh Tiwari Santosh Singh Rathore Dhirubhai Ambani University, formerly DA-IICT Gandhinagar, India Dhirubhai Ambani University, formerly DA-IICT Gandhinagar, India ABV-Indian Institute of Information Technology and Management Gwalior LLM large language model"
   },
   {
-    "id": "fse2026-2026-07-08-does-in-ide-calibration-of-large-language-models-work-at-scale-c2f2f67f",
-    "sourceSlotId": "9bc22559-f336-40a3-9f2f-64b004734af5",
-    "researchrEventId": "b9203836-3c12-4eed-9fe1-12b4fb3fd748",
-    "kind": "talk",
-    "title": "Does In-IDE Calibration of Large Language Models work at Scale?",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Roham Koohestani",
-        "affiliation": "JetBrains Research & Delft University of Technology"
-      },
-      {
-        "name": "Agnia Sergeyuk",
-        "affiliation": "JetBrains Research"
-      },
-      {
-        "name": "David Gros",
-        "affiliation": "University of California, Davis"
-      },
-      {
-        "name": "Claudio Spiess",
-        "affiliation": "University of California, Davis"
-      },
-      {
-        "name": "Sergey Titov",
-        "affiliation": "JetBrains Research"
-      },
-      {
-        "name": "Prem Devanbu",
-        "affiliation": "University of California at Davis"
-      },
-      {
-        "name": "Mali Izadi",
-        "affiliation": "Google & TU Delft"
-      }
-    ],
-    "speakerNames": [
-      "Roham Koohestani",
-      "Agnia Sergeyuk",
-      "David Gros",
-      "Claudio Spiess",
-      "Sergey Titov",
-      "Prem Devanbu",
-      "Mali Izadi"
-    ],
-    "track": "Industry Papers",
-    "session": "Code and LLM 1",
-    "eventType": "Talk",
-    "date": "2026-07-08",
-    "startTime": "14:20",
-    "endTime": "14:40",
-    "durationMinutes": 20,
-    "room": "MB 3.270",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-b9203836-3c12-4eed-9fe1-12b4fb3fd748",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
-    "keywords": [
-      "LLM",
-      "large language model"
-    ],
-    "searchText": "Does In-IDE Calibration of Large Language Models work at Scale? Industry Papers Talk MB 3.270 Code and LLM 1 Roham Koohestani Agnia Sergeyuk David Gros Claudio Spiess Sergey Titov Prem Devanbu Mali Izadi JetBrains Research & Delft University of Technology JetBrains Research University of California, Davis University of California, Davis JetBrains Research University of California at Davis Google & TU Delft LLM large language model"
-  },
-  {
     "id": "fse2026-2026-07-08-evaluating-risk-and-confidence-in-performance-bounds-of-configur-f800dea6",
     "sourceSlotId": "6a2bdcef-7d2c-42b2-b6a0-a4191b87c603",
     "researchrEventId": "b0350d9c-201a-4545-97ba-d23ba9c6492c",
@@ -19453,6 +19412,50 @@
       "testing"
     ],
     "searchText": "MIMIC-Py: An Extensible Tool for Personality-Driven Automated Game Testing with Large Language Models Tool Demonstrations Talk MB 2.210 LLM for SE 5 Yifei Chen Sarra Habchi Lili Wei McGill University Cohere, Canada McGill University LLM large language model testing"
+  },
+  {
+    "id": "fse2026-2026-07-08-projectional-decoding-towards-semantic-aware-llm-generation-64a20103",
+    "sourceSlotId": "f08f2359-5824-47f9-bd10-bdf908c1278f",
+    "researchrEventId": "ead710b7-5c2c-4778-8eb2-21bdc07cd3d2",
+    "kind": "talk",
+    "title": "Projectional Decoding: Towards Semantic-Aware LLM Generation",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Boqi Chen",
+        "affiliation": "University of Ottawa"
+      },
+      {
+        "name": "José Antonio Hernández López",
+        "affiliation": "Department of Computer Science and Systems, University of Murcia"
+      },
+      {
+        "name": "Aren Babikian",
+        "affiliation": "University of Toronto"
+      }
+    ],
+    "speakerNames": [
+      "Boqi Chen",
+      "José Antonio Hernández López",
+      "Aren Babikian"
+    ],
+    "track": "Ideas, Visions and Reflections",
+    "session": "Code and LLM 1",
+    "eventType": "Talk",
+    "date": "2026-07-08",
+    "startTime": "14:20",
+    "endTime": "14:30",
+    "durationMinutes": 10,
+    "room": "MB 3.270",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-ead710b7-5c2c-4778-8eb2-21bdc07cd3d2",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [
+      "LLM",
+      "large language model"
+    ],
+    "searchText": "Projectional Decoding: Towards Semantic-Aware LLM Generation Ideas, Visions and Reflections Talk MB 3.270 Code and LLM 1 Boqi Chen José Antonio Hernández López Aren Babikian University of Ottawa Department of Computer Science and Systems, University of Murcia University of Toronto LLM large language model"
   },
   {
     "id": "fse2026-2026-07-08-testtailor-generating-high-coverage-tests-via-path-proximal-test-cc064413",
@@ -19784,6 +19787,51 @@
     "preprintUrl": "https://ku-formal.github.io/assets/pdf/fse26-smartrim.pdf",
     "keywords": [],
     "searchText": "SmarTrim: Symbolic Execution for Smart Contracts Powered by Redundant Transaction-Sequence Pruning Research Papers Talk MB 3.445 Smart contracts Hyegeun Song Jiseong Han Sunbeom So Korea University Korea University Korea University"
+  },
+  {
+    "id": "fse2026-2026-07-08-the-stylistic-blind-spot-uncovering-the-hidden-implicit-bias-of--9a1ecff3",
+    "sourceSlotId": "373c827e-5e17-4f0e-afb7-9453a96ca4ae",
+    "researchrEventId": "b02d0325-8d03-475f-934a-a9fee6653c1e",
+    "kind": "talk",
+    "title": "The Stylistic Blind Spot: Uncovering the Hidden Implicit Bias of Coding Style on LLM Code Evaluation",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Zhiyuan Liu",
+        "affiliation": "Nanjing University"
+      },
+      {
+        "name": "Yingying Jiang",
+        "affiliation": "Nanjing University"
+      },
+      {
+        "name": "Huiyan Wang",
+        "affiliation": "Nanjing University"
+      }
+    ],
+    "speakerNames": [
+      "Zhiyuan Liu",
+      "Yingying Jiang",
+      "Huiyan Wang"
+    ],
+    "track": "Ideas, Visions and Reflections",
+    "session": "Code and LLM 1",
+    "eventType": "Talk",
+    "date": "2026-07-08",
+    "startTime": "14:30",
+    "endTime": "14:40",
+    "durationMinutes": 10,
+    "room": "MB 3.270",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-b02d0325-8d03-475f-934a-a9fee6653c1e",
+    "presentationUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3803437.3805590",
+    "preprintUrl": null,
+    "keywords": [
+      "LLM",
+      "large language model",
+      "code"
+    ],
+    "searchText": "The Stylistic Blind Spot: Uncovering the Hidden Implicit Bias of Coding Style on LLM Code Evaluation Ideas, Visions and Reflections Talk MB 3.270 Code and LLM 1 Zhiyuan Liu Yingying Jiang Huiyan Wang Nanjing University Nanjing University Nanjing University LLM large language model code"
   },
   {
     "id": "fse2026-2026-07-08-towards-automated-test-adaptation-in-fork-ecosystems-via-large-l-de9dc3e3",
@@ -20327,32 +20375,27 @@
     "searchText": "LLM Use, Cheating, and Academic Integrity in Software Engineering Education Software Engineering Education Talk MB 9C SEET: LLMs in the SE Classroom Ronnie de Souza Santos Italo Santos Mariana Pinheiro Bento Giuseppe Destefanis Cleyton Magalhaes Mairieli Wessel University of Calgary University of Hawai‘i at Mānoa University of Calgary University College London (UCL) Universidade Federal Rural de Pernambuco Radboud University LLM large language model"
   },
   {
-    "id": "fse2026-2026-07-08-projectional-decoding-towards-semantic-aware-llm-generation-64a20103",
-    "sourceSlotId": "f08f2359-5824-47f9-bd10-bdf908c1278f",
-    "researchrEventId": "ead710b7-5c2c-4778-8eb2-21bdc07cd3d2",
+    "id": "fse2026-2026-07-08-tokenscope-token-level-explainability-and-interpretability-for-c-6b15b49d",
+    "sourceSlotId": "4a09b198-6067-4ba1-8c12-b4349f77cfc7",
+    "researchrEventId": "659ee77a-8281-43be-9b6b-3bb198665469",
     "kind": "talk",
-    "title": "Projectional Decoding: Towards Semantic-Aware LLM Generation",
+    "title": "TokenScope: Token-Level Explainability and Interpretability for Code-Oriented Tasks in Large Language Models",
     "abstract": "",
     "authors": [
       {
-        "name": "Boqi Chen",
-        "affiliation": "University of Ottawa"
+        "name": "Amirreza Esmaeili",
+        "affiliation": "University of British Columbia"
       },
       {
-        "name": "José Antonio Hernández López",
-        "affiliation": "Department of Computer Science and Systems, University of Murcia"
-      },
-      {
-        "name": "Aren Babikian",
-        "affiliation": "University of Toronto"
+        "name": "Fatemeh Hendijani Fard",
+        "affiliation": "University of British Columbia, Okanagan"
       }
     ],
     "speakerNames": [
-      "Boqi Chen",
-      "José Antonio Hernández López",
-      "Aren Babikian"
+      "Amirreza Esmaeili",
+      "Fatemeh Hendijani Fard"
     ],
-    "track": "Ideas, Visions and Reflections",
+    "track": "Tool Demonstrations",
     "session": "Code and LLM 1",
     "eventType": "Talk",
     "date": "2026-07-08",
@@ -20360,15 +20403,16 @@
     "endTime": "14:50",
     "durationMinutes": 10,
     "room": "MB 3.270",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-ead710b7-5c2c-4778-8eb2-21bdc07cd3d2",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-659ee77a-8281-43be-9b6b-3bb198665469",
     "presentationUrl": null,
     "doiUrl": null,
     "preprintUrl": null,
     "keywords": [
       "LLM",
-      "large language model"
+      "large language model",
+      "code"
     ],
-    "searchText": "Projectional Decoding: Towards Semantic-Aware LLM Generation Ideas, Visions and Reflections Talk MB 3.270 Code and LLM 1 Boqi Chen José Antonio Hernández López Aren Babikian University of Ottawa Department of Computer Science and Systems, University of Murcia University of Toronto LLM large language model"
+    "searchText": "TokenScope: Token-Level Explainability and Interpretability for Code-Oriented Tasks in Large Language Models Tool Demonstrations Talk MB 3.270 Code and LLM 1 Amirreza Esmaeili Fatemeh Hendijani Fard University of British Columbia University of British Columbia, Okanagan LLM large language model code"
   },
   {
     "id": "fse2026-2026-07-08-unleashing-hpc-application-performance-through-software-deployme-f795f29b",
@@ -20589,6 +20633,76 @@
     "searchText": "An Empirical Study of Fuzz Harness Degradation Research Papers Talk MB 2.435 Fuzzing 2 Philipp Görz Joschua Schilling Nicolai Bissantz Thorsten Holz Ruhr-University Bochum CISPA Helmholtz Center for Information Security Ruhr-University Bochum Max Planck Institute for Security and Privacy"
   },
   {
+    "id": "fse2026-2026-07-08-bash-commenter-leveraging-syntax-aware-preference-optimization-t-98272f0b",
+    "sourceSlotId": "1d170b6f-ff57-4652-ae7b-05c4098fd7b0",
+    "researchrEventId": "b3ce1b06-bc8c-46c9-9829-050ccd4bea5e",
+    "kind": "talk",
+    "title": "Bash-Commenter: Leveraging Syntax-Aware Preference Optimization to Reinforce Large Language Model for Bash Code Comment Generation",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Lei Yu",
+        "affiliation": "Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences, China"
+      },
+      {
+        "name": "Jingyuan Zhang",
+        "affiliation": "Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences, China"
+      },
+      {
+        "name": "Xin Wang",
+        "affiliation": "Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences"
+      },
+      {
+        "name": "Li Yang",
+        "affiliation": "Institute of Software, Chinese Academy of Sciences"
+      },
+      {
+        "name": "Fengjun Zhang",
+        "affiliation": "Institute of Software, Chinese Academy of Sciences, China"
+      },
+      {
+        "name": "Peng Wang",
+        "affiliation": "Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences"
+      },
+      {
+        "name": "Jia Xu",
+        "affiliation": "Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences"
+      },
+      {
+        "name": "Jiajia Ma",
+        "affiliation": "Institute of Software, Chinese Academy of Sciences, China"
+      }
+    ],
+    "speakerNames": [
+      "Lei Yu",
+      "Jingyuan Zhang",
+      "Xin Wang",
+      "Li Yang",
+      "Fengjun Zhang",
+      "Peng Wang",
+      "Jia Xu",
+      "Jiajia Ma"
+    ],
+    "track": "Research Papers",
+    "session": "Code and LLM 1",
+    "eventType": "Talk",
+    "date": "2026-07-08",
+    "startTime": "14:50",
+    "endTime": "15:10",
+    "durationMinutes": 20,
+    "room": "MB 3.270",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-b3ce1b06-bc8c-46c9-9829-050ccd4bea5e",
+    "presentationUrl": null,
+    "doiUrl": null,
+    "preprintUrl": null,
+    "keywords": [
+      "LLM",
+      "large language model",
+      "code"
+    ],
+    "searchText": "Bash-Commenter: Leveraging Syntax-Aware Preference Optimization to Reinforce Large Language Model for Bash Code Comment Generation Research Papers Talk MB 3.270 Code and LLM 1 Lei Yu Jingyuan Zhang Xin Wang Li Yang Fengjun Zhang Peng Wang Jia Xu Jiajia Ma Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences, China Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences, China Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences Institute of Software, Chinese Academy of Sciences Institute of Software, Chinese Academy of Sciences, China Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences Institute of Software, Chinese Academy of Sciences, China LLM large language model code"
+  },
+  {
     "id": "fse2026-2026-07-08-holmes-multimodal-agentic-diagnosis-for-mixed-language-mobile-cr-77eecde4",
     "sourceSlotId": "7178fb82-b29c-429c-bbb5-dde515f4cb4f",
     "researchrEventId": "7daadee7-d823-4f87-8172-b33c22019edb",
@@ -20734,51 +20848,6 @@
     "preprintUrl": "https://github.com/negarfathi/Athena/blob/master/Paper.pdf",
     "keywords": [],
     "searchText": "Sound Termination and Non-Termination Analysis of C Programs with Bit-Precise Bounded Semantics and Advanced Constructs Research Papers Talk MB 3.430 Program analysis 2 Negar Fathi Hiroshi Unno Tachio Terauchi Rahul Purandare University of Nebraska–Lincoln Tohoku University Waseda University University of Nebraska-Lincoln"
-  },
-  {
-    "id": "fse2026-2026-07-08-the-stylistic-blind-spot-uncovering-the-hidden-implicit-bias-of--9a1ecff3",
-    "sourceSlotId": "373c827e-5e17-4f0e-afb7-9453a96ca4ae",
-    "researchrEventId": "b02d0325-8d03-475f-934a-a9fee6653c1e",
-    "kind": "talk",
-    "title": "The Stylistic Blind Spot: Uncovering the Hidden Implicit Bias of Coding Style on LLM Code Evaluation",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Zhiyuan Liu",
-        "affiliation": "Nanjing University"
-      },
-      {
-        "name": "Yingying Jiang",
-        "affiliation": "Nanjing University"
-      },
-      {
-        "name": "Huiyan Wang",
-        "affiliation": "Nanjing University"
-      }
-    ],
-    "speakerNames": [
-      "Zhiyuan Liu",
-      "Yingying Jiang",
-      "Huiyan Wang"
-    ],
-    "track": "Ideas, Visions and Reflections",
-    "session": "Code and LLM 1",
-    "eventType": "Talk",
-    "date": "2026-07-08",
-    "startTime": "14:50",
-    "endTime": "15:00",
-    "durationMinutes": 10,
-    "room": "MB 3.270",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-b02d0325-8d03-475f-934a-a9fee6653c1e",
-    "presentationUrl": null,
-    "doiUrl": "https://doi.org/10.1145/3803437.3805590",
-    "preprintUrl": null,
-    "keywords": [
-      "LLM",
-      "large language model",
-      "code"
-    ],
-    "searchText": "The Stylistic Blind Spot: Uncovering the Hidden Implicit Bias of Coding Style on LLM Code Evaluation Ideas, Visions and Reflections Talk MB 3.270 Code and LLM 1 Zhiyuan Liu Yingying Jiang Huiyan Wang Nanjing University Nanjing University Nanjing University LLM large language model code"
   },
   {
     "id": "fse2026-2026-07-08-unveiling-ai-driven-web-applications-insights-into-characteristi-4c275d67",
@@ -21078,46 +21147,6 @@
     "searchText": "Rethinking Performance Debugging: From Optimization to Collaborative Reasoning Ideas, Visions and Reflections Talk MB 3.435 Performance and energy Mahsa Panahandeh Naser Ezzati-Jivan Abdelwahab Hamou-Lhadj Postdoctoral Fellow, School of Electrical Engineering and Computer Science, University of Ottawa Brock University Concordia University, Montreal, Canada"
   },
   {
-    "id": "fse2026-2026-07-08-tokenscope-token-level-explainability-and-interpretability-for-c-6b15b49d",
-    "sourceSlotId": "4a09b198-6067-4ba1-8c12-b4349f77cfc7",
-    "researchrEventId": "659ee77a-8281-43be-9b6b-3bb198665469",
-    "kind": "talk",
-    "title": "TokenScope: Token-Level Explainability and Interpretability for Code-Oriented Tasks in Large Language Models",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Amirreza Esmaeili",
-        "affiliation": "University of British Columbia"
-      },
-      {
-        "name": "Fatemeh Hendijani Fard",
-        "affiliation": "University of British Columbia, Okanagan"
-      }
-    ],
-    "speakerNames": [
-      "Amirreza Esmaeili",
-      "Fatemeh Hendijani Fard"
-    ],
-    "track": "Tool Demonstrations",
-    "session": "Code and LLM 1",
-    "eventType": "Talk",
-    "date": "2026-07-08",
-    "startTime": "15:00",
-    "endTime": "15:10",
-    "durationMinutes": 10,
-    "room": "MB 3.270",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-659ee77a-8281-43be-9b6b-3bb198665469",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
-    "keywords": [
-      "LLM",
-      "large language model",
-      "code"
-    ],
-    "searchText": "TokenScope: Token-Level Explainability and Interpretability for Code-Oriented Tasks in Large Language Models Tool Demonstrations Talk MB 3.270 Code and LLM 1 Amirreza Esmaeili Fatemeh Hendijani Fard University of British Columbia University of British Columbia, Okanagan LLM large language model code"
-  },
-  {
     "id": "fse2026-2026-07-08-does-the-agent-matter-predicting-merge-outcomes-of-ai-authored-p-76017d33",
     "sourceSlotId": "3c23dce5-4b81-4327-a4be-b0d77472e2b2",
     "researchrEventId": "2e6a4529-4d96-4cd3-aabc-94ece3e3f390",
@@ -21182,76 +21211,6 @@
     "preprintUrl": null,
     "keywords": [],
     "searchText": "It’s Not Just Timestamps: A Study on Docker Reproducibility Student Research Competition Talk MB 9A Student Research Competition Oreofe Solarin Case Western Reserve University"
-  },
-  {
-    "id": "fse2026-2026-07-08-bash-commenter-leveraging-syntax-aware-preference-optimization-t-98272f0b",
-    "sourceSlotId": "1d170b6f-ff57-4652-ae7b-05c4098fd7b0",
-    "researchrEventId": "b3ce1b06-bc8c-46c9-9829-050ccd4bea5e",
-    "kind": "talk",
-    "title": "Bash-Commenter: Leveraging Syntax-Aware Preference Optimization to Reinforce Large Language Model for Bash Code Comment Generation",
-    "abstract": "",
-    "authors": [
-      {
-        "name": "Lei Yu",
-        "affiliation": "Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences, China"
-      },
-      {
-        "name": "Jingyuan Zhang",
-        "affiliation": "Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences, China"
-      },
-      {
-        "name": "Xin Wang",
-        "affiliation": "Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences"
-      },
-      {
-        "name": "Li Yang",
-        "affiliation": "Institute of Software, Chinese Academy of Sciences"
-      },
-      {
-        "name": "Fengjun Zhang",
-        "affiliation": "Institute of Software, Chinese Academy of Sciences, China"
-      },
-      {
-        "name": "Peng Wang",
-        "affiliation": "Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences"
-      },
-      {
-        "name": "Jia Xu",
-        "affiliation": "Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences"
-      },
-      {
-        "name": "Jiajia Ma",
-        "affiliation": "Institute of Software, Chinese Academy of Sciences, China"
-      }
-    ],
-    "speakerNames": [
-      "Lei Yu",
-      "Jingyuan Zhang",
-      "Xin Wang",
-      "Li Yang",
-      "Fengjun Zhang",
-      "Peng Wang",
-      "Jia Xu",
-      "Jiajia Ma"
-    ],
-    "track": "Research Papers",
-    "session": "Code and LLM 1",
-    "eventType": "Talk",
-    "date": "2026-07-08",
-    "startTime": "15:10",
-    "endTime": "15:30",
-    "durationMinutes": 20,
-    "room": "MB 3.270",
-    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-b3ce1b06-bc8c-46c9-9829-050ccd4bea5e",
-    "presentationUrl": null,
-    "doiUrl": null,
-    "preprintUrl": null,
-    "keywords": [
-      "LLM",
-      "large language model",
-      "code"
-    ],
-    "searchText": "Bash-Commenter: Leveraging Syntax-Aware Preference Optimization to Reinforce Large Language Model for Bash Code Comment Generation Research Papers Talk MB 3.270 Code and LLM 1 Lei Yu Jingyuan Zhang Xin Wang Li Yang Fengjun Zhang Peng Wang Jia Xu Jiajia Ma Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences, China Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences, China Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences Institute of Software, Chinese Academy of Sciences Institute of Software, Chinese Academy of Sciences, China Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences Institute of Software, Chinese Academy of Sciences, China LLM large language model code"
   },
   {
     "id": "fse2026-2026-07-08-e2e-reme-towards-end-to-end-microservices-auto-remediation-via-e-4dead0d2",
@@ -26694,6 +26653,47 @@
       "code"
     ],
     "searchText": "Leveraging Risk Models to Improve Productivity for Effective Code Un-Freeze at Scale Journal-First Paper Talk MB 2.210 Developers Audris Mockus Rui Abreu Peter C Rigby David Amsallem Parveen Bansal Kaavya Chinniah Brian Ellis Peng Fan Jun Ge Wenlei He Kelly Hirano Sahil Kumar Ajay Lingapuram W. Andrew Loe III Megh Mehta Venus Montes Maher Saba Gursharan Singh Matt Steiner Weiyan Sun Siri Uppalapati Nachiappan Nagappan University of Tennessee Faculty of Engineering of the University of Porto, Portugal Meta / Concordia University Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. Meta Platforms, Inc. code"
+  },
+  {
+    "id": "fse2026-2026-07-09-mitigating-prompt-induced-cognitive-biases-in-general-purpose-ai-6ff791d3",
+    "sourceSlotId": "2096490a-f7dc-481a-8aa0-ab4a1ec5853b",
+    "researchrEventId": "137baab7-eb35-459f-93e5-aa96d1863b2f",
+    "kind": "talk",
+    "title": "Mitigating Prompt-Induced Cognitive Biases in General-Purpose AI for Software Engineering",
+    "abstract": "",
+    "authors": [
+      {
+        "name": "Francesco Sovrano",
+        "affiliation": "USI Lugano, Switzerland"
+      },
+      {
+        "name": "Gabriele Dominici",
+        "affiliation": "Università della Svizzera italiana (USI)"
+      },
+      {
+        "name": "Alberto Bacchelli",
+        "affiliation": "IfI, University of Zurich"
+      }
+    ],
+    "speakerNames": [
+      "Francesco Sovrano",
+      "Gabriele Dominici",
+      "Alberto Bacchelli"
+    ],
+    "track": "Research Papers",
+    "session": "Code and LLM 2",
+    "eventType": "Talk",
+    "date": "2026-07-09",
+    "startTime": "12:10",
+    "endTime": "12:30",
+    "durationMinutes": 20,
+    "room": "MB 3.270",
+    "sourceUrl": "https://conf.researchr.org/program/fse-2026/program-fse-2026/#event-137baab7-eb35-459f-93e5-aa96d1863b2f",
+    "presentationUrl": null,
+    "doiUrl": "https://doi.org/10.1145/3808115",
+    "preprintUrl": "https://doi.org/10.48550/arXiv.2604.16756",
+    "keywords": [],
+    "searchText": "Mitigating Prompt-Induced Cognitive Biases in General-Purpose AI for Software Engineering Research Papers Talk MB 3.270 Code and LLM 2 Francesco Sovrano Gabriele Dominici Alberto Bacchelli USI Lugano, Switzerland Università della Svizzera italiana (USI) IfI, University of Zurich"
   },
   {
     "id": "fse2026-2026-07-09-swarmbox-a-plug-and-play-drone-swarm-framework-for-streamlined-d-c8bfcdb4",
